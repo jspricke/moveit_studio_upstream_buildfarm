@@ -17,7 +17,11 @@ repositories:
   generate_parameter_library:
     type: git
     url: https://github.com/PickNikRobotics/generate_parameter_library.git
-    version: 0.2.8
+    version: 1571931483c081a6f50d8cc3aef1dbedb9caddbe
+  rsl:
+    type: git
+    url: https://github.com/PickNikRobotics/RSL.git
+    version: 45a0b0982513bfc49045825dfc1a6a3d8ffeb66f
   cpp_polyfills:
     type: git
     url: https://github.com/PickNikRobotics/cpp_polyfills
