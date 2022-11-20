@@ -1,0 +1,100 @@
+repositories:
+  behaviortree_cpp:
+    type: git
+    url: https://github.com/JafarAbdi/BehaviorTree.CPP
+    # HEAD of pr-cmake_fix at time of writing
+    version: 27035fe
+  # Start dependencies for admittance control
+  # TODO(scastro): Remove once we have new PickNik packages released
+  moveit2:
+    type: git
+    url: https://github.com/ros-planning/moveit2.git
+    version: 2.5.4
+  moveit_msgs:
+    type: git
+    url: https://github.com/ros-planning/moveit_msgs.git
+    version: 2.2.1
+  generate_parameter_library:
+    type: git
+    url: https://github.com/PickNikRobotics/generate_parameter_library.git
+    version: 0.2.8
+  cpp_polyfills:
+    type: git
+    url: https://github.com/PickNikRobotics/cpp_polyfills
+    version: 1.0.2
+  # TODO(scastro/JafarAbdi): Remove this and the remaining source dependencies
+  # for admittance control when the following PR is merged.
+  # https://github.com/ros-controls/ros2_controllers/pull/423
+  ros2_controllers:
+    type: git
+    url: https://github.com/JafarAbdi/ros2_controllers
+    # HEAD of pr-admittance-controller-segfault at time of writing
+    version: 1fab5a5
+  control_msgs:
+    type: git
+    url: https://github.com/ros-controls/control_msgs.git
+    version: 4.1.0
+  control_toolbox:
+    type: git
+    url: https://github.com/ros-controls/control_toolbox.git
+    version: 2.1.1
+  kinematics_interface:
+    type: git
+    url: https://github.com/ros-controls/kinematics_interface.git
+    version: 0.0.2
+  # End dependencies for admittance control
+  fp:
+    type: git
+    url: https://github.com/tylerjw/fp
+    version: 02d3fa7 # Convert to not be an interface library
+  moveit_task_constructor:
+    type: git
+    url: https://github.com/JafarAbdi/moveit_task_constructor
+    # HEAD of pr-ms_humble at time of writing
+    version: fb9fae2
+  # TODO: Remove once realsense-ros packages are released for Humble.
+  realsense-ros:
+    type: git
+    url: https://github.com/JafarAbdi/realsense-ros
+    # HEAD of pr-ms_integration at time of writing
+    version: 401ae2a
+  # Closed source :(
+  # ros2_kortex:
+  #   type: git
+  #   url: git@github.com:PickNikRobotics/ros2_kortex.git
+  #   # HEAD of pr-gen3_lite_support at time of writing
+  #   version: 1e95906
+  # Needs a tagged release for the base of the version number
+  # ros2_robotiq_gripper:
+  #   type: git
+  #   url: https://github.com/PickNikRobotics/ros2_robotiq_gripper.git
+  #   version: a16508e
+  # TODO(JafarAbdi): Create new release
+  rosparam_shortcuts:
+    type: git
+    url: https://github.com/JafarAbdi/rosparam_shortcuts
+    # HEAD of pr-fixes at time of writing
+    version: 666f527
+  serial:
+    type: git
+    url: https://github.com/tylerjw/serial.git
+    version: d8d1606
+  universal_robots_ros2_driver:
+    type: git
+    url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
+    version: 2.2.4
+  ur_client_library:
+    type: git
+    url: https://github.com/UniversalRobots/Universal_Robots_Client_Library
+    version: 1.1.0
+  # Required for arm64 support of Gazebo Classic due to missing upstream packages.
+  # TODO: remove if Gazebo Classic publishes this to the upstream, or when we move to Ignition and no longer require it.
+  gazebo_ros_pkgs:
+    type: git
+    url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
+    version: 3.6.0
+  robot_calibration:
+    type: git
+    url: https://github.com/MarqRazz/robot_calibration.git
+    # HEAD of pr-extrinstic_camera_cal at time of writing
+    version: d7d9cf7
