@@ -29,11 +29,12 @@ repositories:
   # TODO(scastro/JafarAbdi): Remove this and the remaining source dependencies
   # for admittance control when the following PR is merged.
   # https://github.com/ros-controls/ros2_controllers/pull/423
-  ros2_controllers:
-    type: git
-    url: https://github.com/JafarAbdi/ros2_controllers
-    # HEAD of pr-admittance-controller-segfault at time of writing
-    version: 1fab5a5
+  # TODO: Investigate Build failure (dpkg-buildpackage died)
+  # ros2_controllers:
+  #   type: git
+  #   url: https://github.com/JafarAbdi/ros2_controllers
+  #   # HEAD of pr-admittance-controller-segfault at time of writing
+  #   version: 1fab5a5
   control_msgs:
     type: git
     url: https://github.com/ros-controls/control_msgs.git
