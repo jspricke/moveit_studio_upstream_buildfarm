@@ -35,18 +35,18 @@ repositories:
   #   url: https://github.com/JafarAbdi/ros2_controllers
   #   # HEAD of pr-admittance-controller-segfault at time of writing
   #   version: 1fab5a5
-  control_msgs:
-    type: git
-    url: https://github.com/ros-controls/control_msgs.git
-    version: 4.1.0
-  control_toolbox:
-    type: git
-    url: https://github.com/ros-controls/control_toolbox.git
-    version: 2.1.1
-  kinematics_interface:
-    type: git
-    url: https://github.com/ros-controls/kinematics_interface.git
-    version: 0.0.2
+  # control_msgs:
+  #   type: git
+  #   url: https://github.com/ros-controls/control_msgs.git
+  #   version: 4.1.0
+  # control_toolbox:
+  #   type: git
+  #   url: https://github.com/ros-controls/control_toolbox.git
+  #   version: 2.1.1
+  # kinematics_interface:
+  #   type: git
+  #   url: https://github.com/ros-controls/kinematics_interface.git
+  #   version: 0.0.2
   # End dependencies for admittance control
   fp:
     type: git
