@@ -34,9 +34,6 @@ jobs:
             | sudo tee /etc/apt/sources.list.d/ros2.list
           sudo apt update
           sudo apt install -y debian-archive-keyring python3-colcon-common-extensions python3-bloom python3-rosdep python3-vcstool ccache
-          
-          sudo rosdep init
-          rosdep update
 
           # use newest versions of mmdebstrap and sbuild
           echo "deb [signed-by=/usr/share/keyrings/debian-archive-keyring.gpg] http://deb.debian.org/debian unstable main" \
@@ -64,25 +61,36 @@ jobs:
 
           # make output directory
           mkdir /home/runner/apt_repo
-          
+
       - name: Checkout workspace
         run: |
           mkdir src
           vcs import src < upstream.repos
-      
+
+      - name: Add unreleased packages to rosdep
+        run: |
+          echo "{distributions: {${{ matrix.ros_distro }}: {distribution: [https://raw.githubusercontent.com/ros/rosdistro/master/${{ matrix.ros_distro }}/distribution.yaml, local.yaml]}}, type: index, version: 4}" > index-v4.yaml
+          echo -e "release_platforms: {ubuntu: [${{ env.ubuntu_distro }}]}\ntype: distribution\nversion: 2\nrepositories:" > local.yaml
+          for PKG in $(colcon list -n); do
+            echo "  $PKG: {release: {tags: {release: None}, url: None}}" >> local.yaml
+          done
+
+          sudo rosdep init
+          ROSDISTRO_INDEX_URL="file://$(pwd)/index-v4.yaml" rosdep update
+
       - name: Run sbuild
         run: |
           # Don't build tests
           export DEB_BUILD_OPTIONS=nocheck
 
-          TOTAL="$(colcon list -tp | wc -l)"
+          TOTAL="$(colcon list | wc -l)"
           COUNT=1
-          
+
           for PKG_PATH in $(colcon list -tp); do
             [ $TOTAL -ne 1 ] && echo "::group::Building $COUNT/$TOTAL: $PKG_PATH"
             (
             cd "$PKG_PATH"
-            bloom-generate rosdebian --os-version=${{ env.ubuntu_distro }} --ros-distro=${{ matrix.ros_distro }}
+            bloom-generate rosdebian --os-name=ubuntu --os-version=${{ env.ubuntu_distro }} --ros-distro=${{ matrix.ros_distro }}
 
             # Set the version
             sed -i "1 s/([^)]*)/($(git describe --tag)-$(date +%Y.%m.%d.%H.%M))/" debian/changelog
@@ -106,7 +114,7 @@ jobs:
 
       - name: Display ccache stats
         run: ccache -sv
-      
+
       - name: Create apt repository
         run: |
           vcs export src --exact-with-tags > /home/runner/apt_repo/upstream.repos
