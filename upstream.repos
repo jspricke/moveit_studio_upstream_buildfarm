@@ -29,7 +29,6 @@ repositories:
   # TODO(scastro/JafarAbdi): Remove this and the remaining source dependencies
   # for admittance control when the following PR is merged.
   # https://github.com/ros-controls/ros2_controllers/pull/423
-  # TODO: Investigate Build failure (dpkg-buildpackage died)
   ros2_controllers:
     type: git
     url: https://github.com/JafarAbdi/ros2_controllers
@@ -80,26 +79,26 @@ repositories:
     url: https://github.com/JafarAbdi/rosparam_shortcuts
     # HEAD of pr-fixes at time of writing
     version: 666f527
-  # serial:
-  #   type: git
-  #   url: https://github.com/tylerjw/serial.git
-  #   version: d8d1606
-  # universal_robots_ros2_driver:
-  #   type: git
-  #   url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-  #   version: 2.2.4
-  # ur_client_library:
-  #   type: git
-  #   url: https://github.com/UniversalRobots/Universal_Robots_Client_Library
-  #   version: 1.1.0
+  serial:
+    type: git
+    url: https://github.com/tylerjw/serial.git
+    version: d8d1606
+  universal_robots_ros2_driver:
+    type: git
+    url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
+    version: 2.2.4
+  ur_client_library:
+    type: git
+    url: https://github.com/UniversalRobots/Universal_Robots_Client_Library
+    version: 1.1.0
   # Required for arm64 support of Gazebo Classic due to missing upstream packages.
   # TODO: remove if Gazebo Classic publishes this to the upstream, or when we move to Ignition and no longer require it.
-  # gazebo_ros_pkgs:
-  #   type: git
-  #   url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
-  #   version: 3.6.0
-  # robot_calibration:
-  #   type: git
-  #   url: https://github.com/MarqRazz/robot_calibration.git
-  #   # HEAD of pr-extrinstic_camera_cal at time of writing
-  #   version: d7d9cf7
+  gazebo_ros_pkgs:
+    type: git
+    url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
+    version: 3.6.0
+  robot_calibration:
+    type: git
+    url: https://github.com/MarqRazz/robot_calibration.git
+    # HEAD of pr-extrinstic_camera_cal at time of writing
+    version: d7d9cf7
