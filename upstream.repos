@@ -30,23 +30,23 @@ repositories:
   # for admittance control when the following PR is merged.
   # https://github.com/ros-controls/ros2_controllers/pull/423
   # TODO: Investigate Build failure (dpkg-buildpackage died)
-  # ros2_controllers:
-  #   type: git
-  #   url: https://github.com/JafarAbdi/ros2_controllers
-  #   # HEAD of pr-admittance-controller-segfault at time of writing
-  #   version: 1fab5a5
-  # control_msgs:
-  #   type: git
-  #   url: https://github.com/ros-controls/control_msgs.git
-  #   version: 4.1.0
-  # control_toolbox:
-  #   type: git
-  #   url: https://github.com/ros-controls/control_toolbox.git
-  #   version: 2.1.1
-  # kinematics_interface:
-  #   type: git
-  #   url: https://github.com/ros-controls/kinematics_interface.git
-  #   version: 0.0.2
+  ros2_controllers:
+    type: git
+    url: https://github.com/JafarAbdi/ros2_controllers
+    # HEAD of pr-admittance-controller-segfault at time of writing
+    version: 1fab5a5
+  control_msgs:
+    type: git
+    url: https://github.com/ros-controls/control_msgs.git
+    version: 4.1.0
+  control_toolbox:
+    type: git
+    url: https://github.com/ros-controls/control_toolbox.git
+    version: 2.1.1
+  kinematics_interface:
+    type: git
+    url: https://github.com/ros-controls/kinematics_interface.git
+    version: 0.0.2
   # End dependencies for admittance control
   fp:
     type: git
@@ -75,11 +75,11 @@ repositories:
   #   url: https://github.com/PickNikRobotics/ros2_robotiq_gripper.git
   #   version: a16508e
   # TODO(JafarAbdi): Create new release
-  # rosparam_shortcuts:
-  #   type: git
-  #   url: https://github.com/JafarAbdi/rosparam_shortcuts
-  #   # HEAD of pr-fixes at time of writing
-  #   version: 666f527
+  rosparam_shortcuts:
+    type: git
+    url: https://github.com/JafarAbdi/rosparam_shortcuts
+    # HEAD of pr-fixes at time of writing
+    version: 666f527
   # serial:
   #   type: git
   #   url: https://github.com/tylerjw/serial.git
