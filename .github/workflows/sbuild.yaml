@@ -33,7 +33,7 @@ jobs:
           echo "deb [signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo "$UBUNTU_CODENAME") main" \
             | sudo tee /etc/apt/sources.list.d/ros2.list
           sudo apt update
-          sudo apt install -y debian-archive-keyring python3-colcon-common-extensions python3-bloom python3-rosdep python3-vcstool ccache
+          sudo apt install -y debian-archive-keyring python3-colcon-common-extensions python3-bloom python3-rosdep python3-vcstool ccache qemu-user-static
 
           # use newest versions of mmdebstrap and sbuild
           echo "deb [signed-by=/usr/share/keyrings/debian-archive-keyring.gpg] http://deb.debian.org/debian unstable main" \
@@ -47,7 +47,7 @@ jobs:
       - name: Setup build environment
         run: |
           mkdir -p ~/.cache/sbuild
-          mmdebstrap --variant=buildd --include=apt,ccache --components=main,universe ${{ env.ubuntu_distro }} ~/.cache/sbuild/${{ env.ubuntu_distro }}-amd64.tar
+          mmdebstrap --variant=buildd --arch=arm64 --include=apt,ccache --components=main,universe ${{ env.ubuntu_distro }} ~/.cache/sbuild/${{ env.ubuntu_distro }}-arm64.tar
 
           ccache --zero-stats --max-size=10.0G
           chmod a+rwX ~
@@ -100,7 +100,7 @@ jobs:
 
             # dpkg-source-opts: no need for upstream.tar.gz
             sbuild --chroot-mode=unshare --no-clean-source --no-run-lintian \
-              --dpkg-source-opts="-Zgzip -z1 --format=1.0 -sn" \
+              --arch=arm64 --dpkg-source-opts="-Zgzip -z1 --format=1.0 -sn" \
               --build-dir=/home/runner/apt_repo --extra-package=/home/runner/apt_repo \
               --extra-repository="deb http://packages.ros.org/ros2/ubuntu ${{ env.ubuntu_distro }} main" \
               --extra-repository-key=/usr/share/keyrings/ros-archive-keyring.gpg
@@ -127,6 +127,6 @@ jobs:
         uses: s0/git-publish-subdir-action@develop
         env:
           REPO: self
-          BRANCH: ${{ env.ubuntu_distro }}-${{ matrix.ros_distro }}
+          BRANCH: arm64-${{ env.ubuntu_distro }}-${{ matrix.ros_distro }}
           FOLDER: /home/runner/apt_repo
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
