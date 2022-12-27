@@ -28,33 +28,27 @@ jobs:
 
       - name: Install dependencies
         run: |
+          sudo add-apt-repository ppa:v-launchpad-jochen-sprickerhof-de/sbuild
           sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key \
             -o /usr/share/keyrings/ros-archive-keyring.gpg
           echo "deb [signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo "$UBUNTU_CODENAME") main" \
             | sudo tee /etc/apt/sources.list.d/ros2.list
           sudo apt update
-          sudo apt install -y debian-archive-keyring python3-colcon-common-extensions python3-bloom python3-rosdep python3-vcstool ccache
-
-          # use newest versions of mmdebstrap and sbuild
-          echo "deb [signed-by=/usr/share/keyrings/debian-archive-keyring.gpg] http://deb.debian.org/debian unstable main" \
-            | sudo tee /etc/apt/sources.list.d/debian.list
-          sudo apt update
-          sudo apt install -y sbuild mmdebstrap
-
-          # workaround https://gitlab.mister-muffin.de/josch/mmdebstrap/commit/374ae3dc99e5d8a5a176939c3846e790e890a0e7
-          sudo sed -i 's/my $groupname = getgrgid $REAL_GROUP_ID;/my $groupname = $username;/' /usr/bin/mmdebstrap
+          sudo apt install -y sbuild mmdebstrap python3-colcon-common-extensions python3-bloom python3-rosdep python3-vcstool ccache
 
       - name: Setup build environment
         run: |
           mkdir -p ~/.cache/sbuild
-          mmdebstrap --variant=buildd --include=apt,ccache --components=main,universe ${{ env.ubuntu_distro }} ~/.cache/sbuild/${{ env.ubuntu_distro }}-amd64.tar
+          mmdebstrap --variant=buildd --include=apt,ccache \
+            --customize-hook='chroot "$1" update-ccache-symlinks' \
+            --components=main,universe ${{ env.ubuntu_distro }} ~/.cache/sbuild/${{ env.ubuntu_distro }}-amd64.tar
 
           ccache --zero-stats --max-size=10.0G
           chmod a+rwX ~
           chmod -R a+rwX ~/.cache/ccache
 
           cat << "EOF" > ~/.sbuildrc
-          $build_environment = { 'CCACHE_DIR' => '/build/ccache' };
+          $build_environment = { 'CCACHE_DIR' => '/build/ccache', 'CCACHE_BASEDIR' => '/build/package/XXX', 'DSC_DIR' => 'package' };
           $path = '/usr/lib/ccache:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games';
           $unshare_bind_mounts = [ { directory => '/home/runner/.cache/ccache', mountpoint => '/build/ccache' } ];
           EOF
@@ -105,7 +99,7 @@ jobs:
               --extra-repository="deb http://packages.ros.org/ros2/ubuntu ${{ env.ubuntu_distro }} main" \
               --extra-repository-key=/usr/share/keyrings/ros-archive-keyring.gpg
             )
-            sudo chown -R runner:docker /home/runner/.cache/ccache/
+            sudo chown -R runner:docker ~/.cache/ccache/
             chmod -R a+rwX ~/.cache/ccache
             ccache -sv
             COUNT=$((COUNT+1))
