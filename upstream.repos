@@ -1,5 +1,5 @@
 repositories:
-  pick_ik:
+  moveit2:
     type: git
-    url: https://github.com/pickNikRobotics/pick_ik
-    version: 1.0.0
+    url: https://github.com/ros-planning/moveit2.git
+    version: 2.5.4
