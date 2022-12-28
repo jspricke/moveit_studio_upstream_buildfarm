@@ -48,8 +48,10 @@ jobs:
           chmod -R a+rwX ~/.cache/ccache
 
           cat << "EOF" > ~/.sbuildrc
-          $build_environment = { 'CCACHE_DIR' => '/build/ccache', 'CCACHE_BASEDIR' => '/build/package/XXX', 'DSC_DIR' => 'package' };
+          $build_environment = { 'CCACHE_DIR' => '/build/ccache' };
           $path = '/usr/lib/ccache:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games';
+          $build_path = "/build/package/";
+          $dsc_dir = "package";
           $unshare_bind_mounts = [ { directory => '/home/runner/.cache/ccache', mountpoint => '/build/ccache' } ];
           EOF
 
