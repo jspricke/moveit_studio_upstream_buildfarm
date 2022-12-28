@@ -1,7 +1,5 @@
 # GitHub Actions based buildfarm for upstream dependencies of MoveIt Studio
 
-Test
-
 Stop building upstream dependencies from source for MoveIt Studio on Ubuntu 22.04.
 
 ```bash
