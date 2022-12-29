@@ -14,28 +14,9 @@ jobs:
     env:
       deb_distro: jammy
     steps:
-      - name: Check out the repo
-        uses: actions/checkout@v3
-
-      - name: Cache ccache
-        uses: pat-s/always-upload-cache@v3
-        with:
-          path: /home/runner/.cache/ccache
-          key: ccache-${{ matrix.ros_distro }}-${{ github.sha }}-${{ github.run_id }}
-          restore-keys: |
-            ccache-${{ matrix.ros_distro }}-${{ github.sha }}
-            ccache-${{ matrix.ros_distro }}
-
       - name: Create Debian packages
         uses: jspricke/ros-deb-builder-action@main
         env:
           DEB_DISTRO: ${{ env.deb_distro }}
           ROS_DISTRO: ${{ matrix.ros_distro }}
-
-      - name: Deploy
-        uses: s0/git-publish-subdir-action@develop
-        env:
-          REPO: self
-          BRANCH: ${{ env.deb_distro }}-${{ matrix.ros_distro }}
-          FOLDER: /home/runner/apt_repo
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
