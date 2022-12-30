@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Create Debian packages
         uses: jspricke/ros-deb-builder-action@main
-        env:
+        with:
           DEB_DISTRO: ${{ env.deb_distro }}
           ROS_DISTRO: ${{ matrix.ros_distro }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
