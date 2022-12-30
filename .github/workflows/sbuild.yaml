@@ -10,9 +10,9 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        ros_distro: [noetic]
+        ros_distro: [rolling]
     env:
-      deb_distro: focal
+      deb_distro: jammy
     steps:
       - name: Create Debian packages
         uses: jspricke/ros-deb-builder-action@main
