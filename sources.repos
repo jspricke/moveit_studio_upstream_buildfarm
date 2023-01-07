@@ -1,5 +1,5 @@
 repositories:
-  rsl:
+  ros2_control:
     type: git
-    url: https://github.com/PickNikRobotics/RSL.git
-    version: 45a0b0982513bfc49045825dfc1a6a3d8ffeb66f
+    url: https://github.com/ros-controls/ros2_control.git
+    version: 2.13.0
