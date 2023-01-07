@@ -12,7 +12,7 @@ jobs:
       matrix:
         ros_distro: [debian]
     env:
-      deb_distro: jammy
+      deb_distro: unstable
     steps:
       - name: Create Debian packages
         uses: jspricke/ros-deb-builder-action@devel
