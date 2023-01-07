@@ -10,12 +10,12 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        ros_distro: [rolling]
+        ros_distro: [debian]
     env:
       deb_distro: jammy
     steps:
       - name: Create Debian packages
-        uses: jspricke/ros-deb-builder-action@main
+        uses: jspricke/ros-deb-builder-action@devel
         with:
           DEB_DISTRO: ${{ env.deb_distro }}
           ROS_DISTRO: ${{ matrix.ros_distro }}
