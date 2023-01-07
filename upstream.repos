@@ -1,5 +1,0 @@
-repositories:
-  moveit_task_constructor:
-    type: git
-    url: https://github.com/jspricke/moveit_task_constructor.git
-    version: fix_dependency
