@@ -21,3 +21,4 @@ jobs:
           ROS_DISTRO: ${{ matrix.ros_distro }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VERBOSE: 1
+          REPOS_FILE: sources.repos
