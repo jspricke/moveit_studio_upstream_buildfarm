@@ -1,5 +1,5 @@
 repositories:
-  ros2_control:
+  moveit_task_constructor:
     type: git
-    url: https://github.com/ros-controls/ros2_control.git
-    version: 2.13.0
+    url: https://github.com/ros-planning/moveit_task_constructor.git
+    version: ros2
