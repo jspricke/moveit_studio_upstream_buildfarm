@@ -1,8 +1,8 @@
 repositories:
   qt_gui_core:
     type: git
-    url: https://github.com/ros-visualization/qt_gui_core.git
-    version: melodic-devel
+    url: https://github.com/ros-o/qt_gui_core.git
+    version: obese-devel
   rqt:
     type: git
     url: https://github.com/ros-visualization/rqt.git
