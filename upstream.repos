@@ -1,2 +1,3 @@
 - git: {local-name: rviz_visual_tools, uri: https://github.com/PickNikRobotics/rviz_visual_tools.git, version: master}
 - git: {local-name: graph_msgs, uri: https://github.com/PickNikRobotics/graph_msgs.git, version: jade-devel}
+- git: {local-name: graph_msgs, uri: https://github.com/ros/roslint.git, version: master}
