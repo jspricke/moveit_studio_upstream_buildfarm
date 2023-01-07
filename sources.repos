@@ -1,0 +1,65 @@
+repositories:
+  control_msgs:
+    type: git
+    url: https://github.com/ros-controls/control_msgs.git
+    version: kinetic-devel
+  control_toolbox:
+    type: git
+    url: https://github.com/ros-controls/control_toolbox.git
+    version: melodic-devel
+  moveit:
+    type: git
+    url: https://github.com/jspricke/moveit.git
+    version: debian_unstable
+  moveit_msgs:
+    type: git
+    url: https://github.com/ros-planning/moveit_msgs.git
+    version: master
+  moveit_resources:
+    type: git
+    url: https://github.com/ros-planning/moveit_resources.git
+    version: master
+  object_recognition_msgs:
+    type: git
+    url: https://github.com/wg-perception/object_recognition_msgs.git
+    version: master
+  octomap_msgs:
+    type: git
+    url: https://github.com/OctoMap/octomap_msgs.git
+    version: melodic-devel
+  realtime_tools:
+    type: git
+    url: https://github.com/ros-controls/realtime_tools.git
+    version: noetic-devel
+  ros_control:
+    type: git
+    url: https://github.com/ros-controls/ros_control.git
+    version: noetic-devel
+  roslint:
+    type: git
+    url: https://github.com/ros/roslint.git
+    version: master
+  rosparam_shortcuts:
+    type: git
+    url: https://github.com/jspricke/rosparam_shortcuts.git
+    version: old_std
+  srdfdom:
+    type: git
+    url: https://github.com/ros-planning/srdfdom.git
+    version: noetic-devel
+  warehouse_ros:
+    type: git
+    url: https://github.com/ros-planning/warehouse_ros.git
+    version: kinetic-devel
+  xacro:
+    type: git
+    url: https://github.com/ros/xacro.git
+    version: noetic-devel
+  qt_gui_core:
+    type: git
+    url: https://github.com/ros-visualization/qt_gui_core.git
+    version: melodic-devel
+  rqt:
+    type: git
+    url: https://github.com/ros-visualization/rqt.git
+    version: kinetic-devel
