@@ -1,5 +1,5 @@
 repositories:
-  moveit_task_constructor:
+  rsl:
     type: git
-    url: https://github.com/ros-planning/moveit_task_constructor.git
-    version: ros2
+    url: https://github.com/PickNikRobotics/RSL.git
+    version: 45a0b0982513bfc49045825dfc1a6a3d8ffeb66f
