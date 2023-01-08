@@ -20,4 +20,4 @@ jobs:
           DEB_DISTRO: ${{ env.deb_distro }}
           ROS_DISTRO: ${{ matrix.ros_distro }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          VERBOSE: 1
+          SBUILD_ARGS: --verbose
