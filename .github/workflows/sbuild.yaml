@@ -20,4 +20,4 @@ jobs:
           DEB_DISTRO: ${{ env.deb_distro }}
           ROS_DISTRO: ${{ matrix.ros_distro }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SBUILD_ARGS: --verbose
+          SBUILD_CONF: '$verbose = 1; $unshare_tmpdir_template = "/dev/shm/tmp.sbuild.XXXXXXXXXX";'
