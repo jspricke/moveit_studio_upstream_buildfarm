@@ -67,3 +67,7 @@ repositories:
     type: git
     url: https://github.com/ros/urdf_parser_py.git
     version: melodic-devel
+  pilz_robots:
+    type: git
+    url: https://github.com/PilzDE/pilz_robots.git
+    version: noetic-devel
