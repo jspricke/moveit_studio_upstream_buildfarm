@@ -12,7 +12,7 @@ jobs:
       matrix:
         ros_distro: [debian]
     env:
-      deb_distro: bookworm
+      deb_distro: sid
     steps:
       - name: Create Debian packages
         uses: jspricke/ros-deb-builder-action@devel
@@ -21,4 +21,3 @@ jobs:
           ROS_DISTRO: ${{ matrix.ros_distro }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VERBOSE: 1
-          REPOS_FILE: sources.repos
