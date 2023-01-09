@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: jspricke/ros-deb-builder-action@main
         with:
-          ROS_DISTRO: rolling
+          ROS_DISTRO: humble
           DEB_DISTRO: jammy
           REPOS_FILE: https://raw.githubusercontent.com/ros-planning/moveit2_tutorials/main/moveit2_tutorials.repos
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
