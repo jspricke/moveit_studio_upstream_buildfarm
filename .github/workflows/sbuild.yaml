@@ -20,5 +20,5 @@ jobs:
           DEB_DISTRO: ${{ env.deb_distro }}
           ROS_DISTRO: ${{ matrix.ros_distro }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SBUILD_CONF: '$verbose = 1; $unshare_tmpdir_template = "/dev/shm/tmp.sbuild.XXXXXXXXXX";'
+          SBUILD_CONF: '$verbose = 1;'
           ROSDEP_SOURCE: yaml file:///home/runner/work/moveit_studio_upstream_buildfarm/moveit_studio_upstream_buildfarm/rosdep.yaml ${{ matrix.ros_distro }}
