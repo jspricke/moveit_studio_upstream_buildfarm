@@ -1,24 +1,17 @@
-name: sbuild
+name: build
 
 on:
   workflow_dispatch:
   push:
 
 jobs:
-  sbuild:
+  build:
     runs-on: ubuntu-22.04
-    strategy:
-      fail-fast: false
-      matrix:
-        ros_distro: [debian]
-    env:
-      deb_distro: sid
     steps:
-      - name: Create Debian packages
-        uses: jspricke/ros-deb-builder-action@devel
+      - uses: jspricke/ros-deb-builder-action@main
         with:
-          DEB_DISTRO: ${{ env.deb_distro }}
-          ROS_DISTRO: ${{ matrix.ros_distro }}
+          ROS_DISTRO: debian
+          DEB_DISTRO: sid
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SBUILD_CONF: '$verbose = 1;'
           ROSDEP_SOURCE: yaml file:///home/runner/work/moveit_studio_upstream_buildfarm/moveit_studio_upstream_buildfarm/rosdep.yaml ${{ matrix.ros_distro }}
