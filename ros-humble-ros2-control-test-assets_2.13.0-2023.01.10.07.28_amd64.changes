@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Wed, 03 Aug 2022 00:00:00 -0000
+Source: ros-humble-ros2-control-test-assets
+Binary: ros-humble-ros2-control-test-assets
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.13.0-2023.01.10.07.28
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-humble-ros2-control-test-assets - The package provides shared test resources for ros2_control stack
+Changes:
+ ros-humble-ros2-control-test-assets (2.13.0-2023.01.10.07.28) jammy; urgency=high
+Checksums-Sha1:
+ 2dd81a1814b7109f6350a94efea8fd96aaa96bf6 9054 ros-humble-ros2-control-test-assets_2.13.0-2023.01.10.07.28_amd64.buildinfo
+ a8a55bce742dee6ea459238323195845b479e37e 11036 ros-humble-ros2-control-test-assets_2.13.0-2023.01.10.07.28_amd64.deb
+Checksums-Sha256:
+ 8a9e1e5812d19b54c552410ec4637ab8569da3c65071a25295417bfa0ca8f8c1 9054 ros-humble-ros2-control-test-assets_2.13.0-2023.01.10.07.28_amd64.buildinfo
+ a7841c9cdfc7e1a4b703f3cf8bfe1b3b149293239267b91c0e6e7fa63b9b9a82 11036 ros-humble-ros2-control-test-assets_2.13.0-2023.01.10.07.28_amd64.deb
+Files:
+ b6a03b95e0310e11c0e8622af0280326 9054 misc optional ros-humble-ros2-control-test-assets_2.13.0-2023.01.10.07.28_amd64.buildinfo
+ 6e982cf56e16ef92426e855858e2f3cc 11036 misc optional ros-humble-ros2-control-test-assets_2.13.0-2023.01.10.07.28_amd64.deb

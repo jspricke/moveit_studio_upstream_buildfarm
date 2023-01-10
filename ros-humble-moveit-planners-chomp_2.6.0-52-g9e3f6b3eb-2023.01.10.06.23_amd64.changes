@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 10 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit-planners-chomp
+Binary: ros-humble-moveit-planners-chomp
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.6.0-52-g9e3f6b3eb-2023.01.10.06.23
+Distribution: jammy
+Urgency: high
+Maintainer: Chittaranjan Srinivas Swaminathan <chitt@live.in>
+Changed-By: Chittaranjan Srinivas Swaminathan <chitt@live.in>
+Description:
+ ros-humble-moveit-planners-chomp - The interface for using CHOMP within MoveIt
+Changes:
+ ros-humble-moveit-planners-chomp (2.6.0-52-g9e3f6b3eb-2023.01.10.06.23) jammy; urgency=high
+ .
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>)
+   * Add planner configurations to CHOMP and PILZ (#1522 <https://github.com/ros-planning/moveit2/issues/1522>)
+   * Contributors: Sebastian Jahr
+Checksums-Sha1:
+ 78c7709cc37b44a886c6835e2716797feeab089c 4407020 ros-humble-moveit-planners-chomp-dbgsym_2.6.0-52-g9e3f6b3eb-2023.01.10.06.23_amd64.ddeb
+ 788d7f4614b37ceac149f5a637ca5398da8688bf 27146 ros-humble-moveit-planners-chomp_2.6.0-52-g9e3f6b3eb-2023.01.10.06.23_amd64.buildinfo
+ 76da17384920b2c769d58c65d34e4356380b4972 34376 ros-humble-moveit-planners-chomp_2.6.0-52-g9e3f6b3eb-2023.01.10.06.23_amd64.deb
+Checksums-Sha256:
+ 16b184e11018089b968f5b7517e73f20a3b8576176fa72d1ec8754b9b98f032b 4407020 ros-humble-moveit-planners-chomp-dbgsym_2.6.0-52-g9e3f6b3eb-2023.01.10.06.23_amd64.ddeb
+ 59971090f59cde66985f78f2a6cda6badb2baf6d2c3e035e6a0b642cf4d5f0af 27146 ros-humble-moveit-planners-chomp_2.6.0-52-g9e3f6b3eb-2023.01.10.06.23_amd64.buildinfo
+ 3146dd53a6251757cfe9a01f41439dfbdf804869e14f461345d40ac403ce6b8e 34376 ros-humble-moveit-planners-chomp_2.6.0-52-g9e3f6b3eb-2023.01.10.06.23_amd64.deb
+Files:
+ 96265e024f58f684b5515fdd9baebdbb 4407020 debug optional ros-humble-moveit-planners-chomp-dbgsym_2.6.0-52-g9e3f6b3eb-2023.01.10.06.23_amd64.ddeb
+ 9c5cedd7eb7b439c8f10da5c532df34c 27146 misc optional ros-humble-moveit-planners-chomp_2.6.0-52-g9e3f6b3eb-2023.01.10.06.23_amd64.buildinfo
+ 6dbbf3a3eb6f28d499dc4669c8f0eae5 34376 misc optional ros-humble-moveit-planners-chomp_2.6.0-52-g9e3f6b3eb-2023.01.10.06.23_amd64.deb

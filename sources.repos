@@ -1,0 +1,29 @@
+repositories:
+  moveit2:
+    type: git
+    url: https://github.com/ros-planning/moveit2
+    version: 9e3f6b3eb578b55722ea84d87a543a2042c6017b
+  moveit_resources:
+    type: git
+    url: https://github.com/ros-planning/moveit_resources
+    version: 48ec1162b1e6dbbc9586c3b846c3213eabef4de7
+  moveit_task_constructor:
+    type: git
+    url: https://github.com/ros-planning/moveit_task_constructor.git
+    version: 02704cf0cfadf36a82ca015873e7a9ebd9599a9b
+  moveit_visual_tools:
+    type: git
+    url: https://github.com/ros-planning/moveit_visual_tools
+    version: 24f0cd4fd1eaa6ec57980fdbdfd8aafea8fcd8bf
+  ros2_control:
+    type: git
+    url: https://github.com/ros-controls/ros2_control.git
+    version: 2.13.0
+  rosparam_shortcuts:
+    type: git
+    url: https://github.com/PickNikRobotics/rosparam_shortcuts
+    version: 0.5.0
+  rviz_visual_tools:
+    type: git
+    url: https://github.com/PickNikRobotics/rviz_visual_tools.git
+    version: 4.1.4

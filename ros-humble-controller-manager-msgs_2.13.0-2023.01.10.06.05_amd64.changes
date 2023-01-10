@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Wed, 03 Aug 2022 00:00:00 -0000
+Source: ros-humble-controller-manager-msgs
+Binary: ros-humble-controller-manager-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.13.0-2023.01.10.06.05
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-humble-controller-manager-msgs - Messages and services for the controller manager.
+Changes:
+ ros-humble-controller-manager-msgs (2.13.0-2023.01.10.06.05) jammy; urgency=high
+ .
+   * Add chained controllers information in list controllers service #abi-braking (#758 <https://github.com/ros-controls/ros2_control/issues/758>)
+     * add chained controllers in ros2controlcli
+     * remove controller_group from service
+     * added comments to ControllerState message
+     * added comments to ChainedConnection message
+   * Contributors: Paul Gesel
+Checksums-Sha1:
+ 62d1ef647fe74fdd191242a1fe299fdeb469cc3a 1531730 ros-humble-controller-manager-msgs-dbgsym_2.13.0-2023.01.10.06.05_amd64.ddeb
+ d0e7b16f08bdf4c938db8d144adf8a31a5f156d6 14312 ros-humble-controller-manager-msgs_2.13.0-2023.01.10.06.05_amd64.buildinfo
+ 46b19362c007691809c8932d501740797fc7d177 199802 ros-humble-controller-manager-msgs_2.13.0-2023.01.10.06.05_amd64.deb
+Checksums-Sha256:
+ 8b12321419e61c8656426a63bf1c7abc1fd87541620374f752cd8e4474facf35 1531730 ros-humble-controller-manager-msgs-dbgsym_2.13.0-2023.01.10.06.05_amd64.ddeb
+ c1741d8c92829cdce2c6c879ef172580a3fbded7bac9f3b78b5944f63ba83391 14312 ros-humble-controller-manager-msgs_2.13.0-2023.01.10.06.05_amd64.buildinfo
+ cd7b4b5164088c7c4b1bc99be076177fe770561cf051f3efa3a8835615ab6fe5 199802 ros-humble-controller-manager-msgs_2.13.0-2023.01.10.06.05_amd64.deb
+Files:
+ a951127728a1764c025ed9238e39ad77 1531730 debug optional ros-humble-controller-manager-msgs-dbgsym_2.13.0-2023.01.10.06.05_amd64.ddeb
+ a512caa07c182eeed8b646b0f665e36d 14312 misc optional ros-humble-controller-manager-msgs_2.13.0-2023.01.10.06.05_amd64.buildinfo
+ 7133c6152e787d37578dc37a3b922637 199802 misc optional ros-humble-controller-manager-msgs_2.13.0-2023.01.10.06.05_amd64.deb
