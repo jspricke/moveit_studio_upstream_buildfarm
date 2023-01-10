@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit-setup-srdf-plugins
+Binary: ros-humble-moveit-setup-srdf-plugins
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-11-gb882b0b2c-2023.01.10.18.47
+Distribution: jammy
+Urgency: high
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Changed-By: David V. Lu!! <davidvlu@gmail.com>
+Description:
+ ros-humble-moveit-setup-srdf-plugins - SRDF-based plugins for MoveIt Setup Assistant
+Changes:
+ ros-humble-moveit-setup-srdf-plugins (2.5.4-11-gb882b0b2c-2023.01.10.18.47) jammy; urgency=high
+ .
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ 4e852e73265df0ce264df476d882524d34ad9361 19796182 ros-humble-moveit-setup-srdf-plugins-dbgsym_2.5.4-11-gb882b0b2c-2023.01.10.18.47_amd64.ddeb
+ 70f0f20cdbd452bd07b23ec422a16f581f7fb16f 32331 ros-humble-moveit-setup-srdf-plugins_2.5.4-11-gb882b0b2c-2023.01.10.18.47_amd64.buildinfo
+ 880b1db2f302b3e8098631728dabb85da3fa9282 309744 ros-humble-moveit-setup-srdf-plugins_2.5.4-11-gb882b0b2c-2023.01.10.18.47_amd64.deb
+Checksums-Sha256:
+ 0997fc2e909b228a32e65d8d51971a0cf38898766606bcd80b04e0a2408c94b4 19796182 ros-humble-moveit-setup-srdf-plugins-dbgsym_2.5.4-11-gb882b0b2c-2023.01.10.18.47_amd64.ddeb
+ 2dae6707c6b7a3d2a72f97240c497d9efaa766b7a0e2aa866bc0e8728a5a5eab 32331 ros-humble-moveit-setup-srdf-plugins_2.5.4-11-gb882b0b2c-2023.01.10.18.47_amd64.buildinfo
+ 74801917c6d75b555216f74a84bb7aad544d67b2e99fe3fcf1d334ed2f5242d2 309744 ros-humble-moveit-setup-srdf-plugins_2.5.4-11-gb882b0b2c-2023.01.10.18.47_amd64.deb
+Files:
+ 317a1dada44eee956d3fde3b1e56d1d2 19796182 debug optional ros-humble-moveit-setup-srdf-plugins-dbgsym_2.5.4-11-gb882b0b2c-2023.01.10.18.47_amd64.ddeb
+ 9e53841072e51410aefe9294de3e5888 32331 misc optional ros-humble-moveit-setup-srdf-plugins_2.5.4-11-gb882b0b2c-2023.01.10.18.47_amd64.buildinfo
+ 8a3976daaacf9f9d2af40bfdd9c8b92d 309744 misc optional ros-humble-moveit-setup-srdf-plugins_2.5.4-11-gb882b0b2c-2023.01.10.18.47_amd64.deb

@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit-ros-robot-interaction
+Binary: ros-humble-moveit-ros-robot-interaction
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-11-gb882b0b2c-2023.01.10.18.00
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-ros-robot-interaction - Components of MoveIt that offer interaction via interactive marke
+Changes:
+ ros-humble-moveit-ros-robot-interaction (2.5.4-11-gb882b0b2c-2023.01.10.18.00) jammy; urgency=high
+ .
+   * Add moveit_core dependency to robot_interaction (#1617 <https://github.com/ros-planning/moveit2/issues/1617>) (#1618 <https://github.com/ros-planning/moveit2/issues/1618>)
+     (cherry picked from commit cc63903a11652eae3829f7e1dcc1d74e73c50839)
+     Co-authored-by: Sebastian Castro <mailto:4603398+sea-bass@users.noreply.github.com>
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Remove __has_include statements (#1481 <https://github.com/ros-planning/moveit2/issues/1481>) (#1483 <https://github.com/ros-planning/moveit2/issues/1483>)
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ 9344385aaf385ace44f8c2477f9b588a3795a9db 6768582 ros-humble-moveit-ros-robot-interaction-dbgsym_2.5.4-11-gb882b0b2c-2023.01.10.18.00_amd64.ddeb
+ c5943f38228f318c21e1adc8bc8070f9f21194a4 27206 ros-humble-moveit-ros-robot-interaction_2.5.4-11-gb882b0b2c-2023.01.10.18.00_amd64.buildinfo
+ 4af2fb9feb96bc44a5c1267e3610d8edd13a3b4d 174510 ros-humble-moveit-ros-robot-interaction_2.5.4-11-gb882b0b2c-2023.01.10.18.00_amd64.deb
+Checksums-Sha256:
+ efa7dc02eaa8c657cda6e741799c7709ac2d51d854bf4ca4ee04922bcd17f9e4 6768582 ros-humble-moveit-ros-robot-interaction-dbgsym_2.5.4-11-gb882b0b2c-2023.01.10.18.00_amd64.ddeb
+ ce334eb41d6042819028999badb8e98e31afbdc811dfddce0488df5eaf16262d 27206 ros-humble-moveit-ros-robot-interaction_2.5.4-11-gb882b0b2c-2023.01.10.18.00_amd64.buildinfo
+ cca0f5f0be17a9f20329017a1a98a7f1b04b94d8192d4ee3dc53d70db365d4e2 174510 ros-humble-moveit-ros-robot-interaction_2.5.4-11-gb882b0b2c-2023.01.10.18.00_amd64.deb
+Files:
+ 448483fed3b8d1c83f964af26abe8264 6768582 debug optional ros-humble-moveit-ros-robot-interaction-dbgsym_2.5.4-11-gb882b0b2c-2023.01.10.18.00_amd64.ddeb
+ a1841299cd63da241fe2a13c699ddd82 27206 misc optional ros-humble-moveit-ros-robot-interaction_2.5.4-11-gb882b0b2c-2023.01.10.18.00_amd64.buildinfo
+ 3af943ba0353de8c411a7e53fabcf535 174510 misc optional ros-humble-moveit-ros-robot-interaction_2.5.4-11-gb882b0b2c-2023.01.10.18.00_amd64.deb

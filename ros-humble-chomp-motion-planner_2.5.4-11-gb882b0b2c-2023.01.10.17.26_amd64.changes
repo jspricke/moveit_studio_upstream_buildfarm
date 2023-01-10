@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-humble-chomp-motion-planner
+Binary: ros-humble-chomp-motion-planner
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-11-gb882b0b2c-2023.01.10.17.26
+Distribution: jammy
+Urgency: high
+Maintainer: Chittaranjan Srinivas Swaminathan <chitt@live.in>
+Changed-By: Chittaranjan Srinivas Swaminathan <chitt@live.in>
+Description:
+ ros-humble-chomp-motion-planner - chomp_motion_planner
+Changes:
+ ros-humble-chomp-motion-planner (2.5.4-11-gb882b0b2c-2023.01.10.17.26) jammy; urgency=high
+ .
+   * updated comment formatting for correct doxygen generation (#1582 <https://github.com/ros-planning/moveit2/issues/1582>) (#1664 <https://github.com/ros-planning/moveit2/issues/1664>)
+     (cherry picked from commit 71e6d903927116a59b9a142ef7b501f4f6cd1022)
+     Co-authored-by: Michael Wrock <mailto:michael.wrock@picknik.ai>
+   * Replace C array with std::array in std::vector template argument (backport #1612 <https://github.com/ros-planning/moveit2/issues/1612>) (#1621 <https://github.com/ros-planning/moveit2/issues/1621>)
+     Co-authored-by: Tyler Weaver <mailto:tyler@picknik.ai>
+     (cherry picked from commit a8326ace6bb3e7d17191769533b85ec994a1bdd7)
+     Co-authored-by: light-tech <mailto:lightech@outlook.com>
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Remove __has_include statements (#1481 <https://github.com/ros-planning/moveit2/issues/1481>) (#1483 <https://github.com/ros-planning/moveit2/issues/1483>)
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ b3676ed1a219666d58f4eaf507c75692e89f4f54 6933904 ros-humble-chomp-motion-planner-dbgsym_2.5.4-11-gb882b0b2c-2023.01.10.17.26_amd64.ddeb
+ bfcb58ecd9c0515918e9b3ecc5c37afd1fe89ba9 26904 ros-humble-chomp-motion-planner_2.5.4-11-gb882b0b2c-2023.01.10.17.26_amd64.buildinfo
+ 52bde9f1271745671e90725ab37efd0f401b9bf6 99628 ros-humble-chomp-motion-planner_2.5.4-11-gb882b0b2c-2023.01.10.17.26_amd64.deb
+Checksums-Sha256:
+ f58e9bbe534bfcddaea821a55d79c84dd082db50d8e91bd3b2ad4a8f349804ef 6933904 ros-humble-chomp-motion-planner-dbgsym_2.5.4-11-gb882b0b2c-2023.01.10.17.26_amd64.ddeb
+ 388f894c48ec11632b94a7f19ad0347bfec0af20f7bcb650a0991c1ea4407e0b 26904 ros-humble-chomp-motion-planner_2.5.4-11-gb882b0b2c-2023.01.10.17.26_amd64.buildinfo
+ af09c5eed088e7d0742f0b1873f393636668af0202cb493247d18cad82b6122e 99628 ros-humble-chomp-motion-planner_2.5.4-11-gb882b0b2c-2023.01.10.17.26_amd64.deb
+Files:
+ f30cb72e96da2c2d3decc5ddf55a60cc 6933904 debug optional ros-humble-chomp-motion-planner-dbgsym_2.5.4-11-gb882b0b2c-2023.01.10.17.26_amd64.ddeb
+ 3c059e6f9cb1f68649fe93a9c4f4b6ec 26904 misc optional ros-humble-chomp-motion-planner_2.5.4-11-gb882b0b2c-2023.01.10.17.26_amd64.buildinfo
+ f475e0e59e4d7e5a7068731edef9e76f 99628 misc optional ros-humble-chomp-motion-planner_2.5.4-11-gb882b0b2c-2023.01.10.17.26_amd64.deb

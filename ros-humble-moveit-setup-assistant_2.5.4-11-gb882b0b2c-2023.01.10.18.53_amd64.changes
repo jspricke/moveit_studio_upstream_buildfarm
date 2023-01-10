@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit-setup-assistant
+Binary: ros-humble-moveit-setup-assistant
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-11-gb882b0b2c-2023.01.10.18.53
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-setup-assistant - Generates a configuration package that makes it easy to use MoveI
+Changes:
+ ros-humble-moveit-setup-assistant (2.5.4-11-gb882b0b2c-2023.01.10.18.53) jammy; urgency=high
+ .
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ 8540f8961185bed9926f6125b0085d355557316e 7371906 ros-humble-moveit-setup-assistant-dbgsym_2.5.4-11-gb882b0b2c-2023.01.10.18.53_amd64.ddeb
+ 20f96f31642594999fb3172395711b7d47060a2a 33592 ros-humble-moveit-setup-assistant_2.5.4-11-gb882b0b2c-2023.01.10.18.53_amd64.buildinfo
+ c7747dae70b7fc7dfaf77cdefae71bf84762f05c 291364 ros-humble-moveit-setup-assistant_2.5.4-11-gb882b0b2c-2023.01.10.18.53_amd64.deb
+Checksums-Sha256:
+ 9191c5b642349ebab5c870c866cdb31e0d11fad4d0f01d99f0f0d07b12ecf1ba 7371906 ros-humble-moveit-setup-assistant-dbgsym_2.5.4-11-gb882b0b2c-2023.01.10.18.53_amd64.ddeb
+ 6b5364275a4f5d5592f5438dba4d9d863d7f2e0752e0ac5d89787cb4a7cf1b26 33592 ros-humble-moveit-setup-assistant_2.5.4-11-gb882b0b2c-2023.01.10.18.53_amd64.buildinfo
+ 204a1dd30b52cb4cdebdff759eeb5838e57091f098ca74076994bd613b717933 291364 ros-humble-moveit-setup-assistant_2.5.4-11-gb882b0b2c-2023.01.10.18.53_amd64.deb
+Files:
+ 73c58c14f6079f34a945339367019569 7371906 debug optional ros-humble-moveit-setup-assistant-dbgsym_2.5.4-11-gb882b0b2c-2023.01.10.18.53_amd64.ddeb
+ 365e7dcc905df7e93360be30b42249a8 33592 misc optional ros-humble-moveit-setup-assistant_2.5.4-11-gb882b0b2c-2023.01.10.18.53_amd64.buildinfo
+ 59f60f264ef4ab77491caccce6cf56fd 291364 misc optional ros-humble-moveit-setup-assistant_2.5.4-11-gb882b0b2c-2023.01.10.18.53_amd64.deb

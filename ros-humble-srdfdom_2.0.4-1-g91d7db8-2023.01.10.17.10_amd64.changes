@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Mon, 09 May 2022 00:00:00 -0000
+Source: ros-humble-srdfdom
+Binary: ros-humble-srdfdom
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.0.4-1-g91d7db8-2023.01.10.17.10
+Distribution: jammy
+Urgency: high
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Description:
+ ros-humble-srdfdom - Parser for Semantic Robot Description Format (SRDF).
+Changes:
+ ros-humble-srdfdom (2.0.4-1-g91d7db8-2023.01.10.17.10) jammy; urgency=high
+ .
+   * Parse <disable_default_collisions> and <enable_collisions> tags (#101, from #97)
+   * Fix Windows .dll install location (#98)
+   * Contributors: Robert Haschke, Abishalini Sivaraman, Akash, Henning Kayser
+Checksums-Sha1:
+ 1d72fd322b23d4947c71142c89191040435216c6 708224 ros-humble-srdfdom-dbgsym_2.0.4-1-g91d7db8-2023.01.10.17.10_amd64.ddeb
+ a4c78155f646476c1a26eab34a38d8cad4fcf43d 10994 ros-humble-srdfdom_2.0.4-1-g91d7db8-2023.01.10.17.10_amd64.buildinfo
+ 861d0dccd6a3ff74bd1c93618cde1d8989830624 61224 ros-humble-srdfdom_2.0.4-1-g91d7db8-2023.01.10.17.10_amd64.deb
+Checksums-Sha256:
+ 3486723b692deec8ecaabaf009962a8ad48e56f2a7c7ac2bd3344af9f0b3981e 708224 ros-humble-srdfdom-dbgsym_2.0.4-1-g91d7db8-2023.01.10.17.10_amd64.ddeb
+ 4f153021957524c5a8ebedf1795171394348f9fd3c2163b6e9757fc483f9c19d 10994 ros-humble-srdfdom_2.0.4-1-g91d7db8-2023.01.10.17.10_amd64.buildinfo
+ 7279d72a546c21085af3da57601fd324dd099ecb70c2bba6190895dddc19e61c 61224 ros-humble-srdfdom_2.0.4-1-g91d7db8-2023.01.10.17.10_amd64.deb
+Files:
+ 6acbe0af5befc17713022eef4a1bb77f 708224 debug optional ros-humble-srdfdom-dbgsym_2.0.4-1-g91d7db8-2023.01.10.17.10_amd64.ddeb
+ 3859be6ce06404db88f01e1d403f3109 10994 misc optional ros-humble-srdfdom_2.0.4-1-g91d7db8-2023.01.10.17.10_amd64.buildinfo
+ bde7f69af07e852cd621e92888d6357b 61224 misc optional ros-humble-srdfdom_2.0.4-1-g91d7db8-2023.01.10.17.10_amd64.deb

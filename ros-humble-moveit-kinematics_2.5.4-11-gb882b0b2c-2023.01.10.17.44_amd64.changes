@@ -1,0 +1,45 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit-kinematics
+Binary: ros-humble-moveit-kinematics
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-11-gb882b0b2c-2023.01.10.17.44
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-kinematics - Package for all inverse kinematics solvers in MoveIt
+Changes:
+ ros-humble-moveit-kinematics (2.5.4-11-gb882b0b2c-2023.01.10.17.44) jammy; urgency=high
+ .
+   * Backport to Humble (#1642 <https://github.com/ros-planning/moveit2/issues/1642>)
+     Co-authored-by: Robert Haschke <mailto:rhaschke@techfak.uni-bielefeld.de>
+     Co-authored-by: Michael Görner <mailto:me@v4hn.de>
+     Co-authored-by: Jochen Sprickerhof <mailto:git@jochen.sprickerhof.de>
+   * Use pragma once as header include guard (#1525 <https://github.com/ros-planning/moveit2/issues/1525>) (#1652 <https://github.com/ros-planning/moveit2/issues/1652>)
+     (cherry picked from commit 7d758de1b2f2904b8c85520129fa8d48aad93713)
+     Co-authored-by: J. Javan <mailto:J-Javan@users.noreply.github.com>
+   * Unified code comment style (#1053 <https://github.com/ros-planning/moveit2/issues/1053>) (#1648 <https://github.com/ros-planning/moveit2/issues/1648>)
+     * Changes the comment style from /**/ to //
+     Co-authored-by: JafarAbdi <mailto:cafer.abdi@gmail.com>
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+     (cherry picked from commit 1d67b519e6ef9ca1ebba494743791da998b72950)
+     Co-authored-by: Michael Marron <mailto:62182318+michael-marron@users.noreply.github.com>
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Remove __has_include statements (#1481 <https://github.com/ros-planning/moveit2/issues/1481>) (#1483 <https://github.com/ros-planning/moveit2/issues/1483>)
+   * Contributors: Tyler Weaver, mergify[bot]
+Checksums-Sha1:
+ d177e4671c90a3bd9a19fc21c907b6acfa483776 17002016 ros-humble-moveit-kinematics-dbgsym_2.5.4-11-gb882b0b2c-2023.01.10.17.44_amd64.ddeb
+ 6e970415becbb1541af67016c708c78f4d3759db 32302 ros-humble-moveit-kinematics_2.5.4-11-gb882b0b2c-2023.01.10.17.44_amd64.buildinfo
+ 0f5e9d1d7a72d8cce03cf069e1c0977f4d7c96f8 470164 ros-humble-moveit-kinematics_2.5.4-11-gb882b0b2c-2023.01.10.17.44_amd64.deb
+Checksums-Sha256:
+ 169a92bec139dd86bfca401b355e6d2c48348ef1c757cd6955a1fbc54ad26f15 17002016 ros-humble-moveit-kinematics-dbgsym_2.5.4-11-gb882b0b2c-2023.01.10.17.44_amd64.ddeb
+ f62c3fd7ccb5747b9ddc177b88692ff61465f1bb4b21316eedd13343699fdb16 32302 ros-humble-moveit-kinematics_2.5.4-11-gb882b0b2c-2023.01.10.17.44_amd64.buildinfo
+ 5a657ff83e019306164aea15092251ab11e7c46eed5681fb0fdd74177fda61d7 470164 ros-humble-moveit-kinematics_2.5.4-11-gb882b0b2c-2023.01.10.17.44_amd64.deb
+Files:
+ a0326f7052db544a35ed5b5060d3b697 17002016 debug optional ros-humble-moveit-kinematics-dbgsym_2.5.4-11-gb882b0b2c-2023.01.10.17.44_amd64.ddeb
+ d6bc3e4c15fe3720919455c791060c38 32302 misc optional ros-humble-moveit-kinematics_2.5.4-11-gb882b0b2c-2023.01.10.17.44_amd64.buildinfo
+ b46d18ac1a90ce6ac6416c7f81c5f1d7 470164 misc optional ros-humble-moveit-kinematics_2.5.4-11-gb882b0b2c-2023.01.10.17.44_amd64.deb

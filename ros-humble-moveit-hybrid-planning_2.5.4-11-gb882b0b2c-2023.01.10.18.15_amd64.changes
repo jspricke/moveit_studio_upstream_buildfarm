@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit-hybrid-planning
+Binary: ros-humble-moveit-hybrid-planning
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-11-gb882b0b2c-2023.01.10.18.15
+Distribution: jammy
+Urgency: high
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Description:
+ ros-humble-moveit-hybrid-planning - Hybrid planning components of MoveIt 2
+Changes:
+ ros-humble-moveit-hybrid-planning (2.5.4-11-gb882b0b2c-2023.01.10.18.15) jammy; urgency=high
+ .
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ 9fcda84dfcb8102e55a19ebe43eddf45b939e47f 24524968 ros-humble-moveit-hybrid-planning-dbgsym_2.5.4-11-gb882b0b2c-2023.01.10.18.15_amd64.ddeb
+ 28593123177ec3a11d8c8680ac7ada8d045032d8 29223 ros-humble-moveit-hybrid-planning_2.5.4-11-gb882b0b2c-2023.01.10.18.15_amd64.buildinfo
+ 15c7d0099bb8d432105d419fcfe86e6516f816f6 625210 ros-humble-moveit-hybrid-planning_2.5.4-11-gb882b0b2c-2023.01.10.18.15_amd64.deb
+Checksums-Sha256:
+ e6e2f9cb5fc716580eaf8e860517e61e99f6c708423e0c69f86a4c380915e3c9 24524968 ros-humble-moveit-hybrid-planning-dbgsym_2.5.4-11-gb882b0b2c-2023.01.10.18.15_amd64.ddeb
+ 3023301c52df7856db37fad1591cbe58c1bc943025f3ddb10261f507cca72f37 29223 ros-humble-moveit-hybrid-planning_2.5.4-11-gb882b0b2c-2023.01.10.18.15_amd64.buildinfo
+ 36d39a68a5fda94b3cdf79a5930092351d7ee591c50ec01e7ccea466f36bc30d 625210 ros-humble-moveit-hybrid-planning_2.5.4-11-gb882b0b2c-2023.01.10.18.15_amd64.deb
+Files:
+ 5cbbc66bd51d31d319d21003eef35289 24524968 debug optional ros-humble-moveit-hybrid-planning-dbgsym_2.5.4-11-gb882b0b2c-2023.01.10.18.15_amd64.ddeb
+ c041fd54fa5175aa1269af670e6e36fe 29223 misc optional ros-humble-moveit-hybrid-planning_2.5.4-11-gb882b0b2c-2023.01.10.18.15_amd64.buildinfo
+ cd9580c41e9fef49eb5515982d01f22f 625210 misc optional ros-humble-moveit-hybrid-planning_2.5.4-11-gb882b0b2c-2023.01.10.18.15_amd64.deb

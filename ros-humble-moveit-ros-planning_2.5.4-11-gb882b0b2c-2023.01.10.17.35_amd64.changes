@@ -1,0 +1,48 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit-ros-planning
+Binary: ros-humble-moveit-ros-planning
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-11-gb882b0b2c-2023.01.10.17.35
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-ros-planning - Planning components of MoveIt that use ROS
+Changes:
+ ros-humble-moveit-ros-planning (2.5.4-11-gb882b0b2c-2023.01.10.17.35) jammy; urgency=high
+ .
+   * Backport to Humble (#1642 <https://github.com/ros-planning/moveit2/issues/1642>)
+     Co-authored-by: Robert Haschke <mailto:rhaschke@techfak.uni-bielefeld.de>
+     Co-authored-by: Michael Görner <mailto:me@v4hn.de>
+     Co-authored-by: Jochen Sprickerhof <mailto:git@jochen.sprickerhof.de>
+   * Rename MoveItControllerManager. Add deprecation warning (#1601 <https://github.com/ros-planning/moveit2/issues/1601>) (#1666 <https://github.com/ros-planning/moveit2/issues/1666>)
+     (cherry picked from commit b050890a2632a723dd95c08542ef6ed57d77fb06)
+     Co-authored-by: AndyZe <mailto:zelenak@picknik.ai>
+   * Disable flaky test_servo_singularity + test_rdf_integration (#1530 <https://github.com/ros-planning/moveit2/issues/1530>) (#1654 <https://github.com/ros-planning/moveit2/issues/1654>)
+     (cherry picked from commit f7655df7a439069565efa0de73c08e9d1dd45dde)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Removed plan_with_sensing (#1142 <https://github.com/ros-planning/moveit2/issues/1142>) (#1647 <https://github.com/ros-planning/moveit2/issues/1647>)
+     (cherry picked from commit ad9fb465776c68d53431ec477ff89d7e4e25f3b3)
+     Co-authored-by: Stephanie Eng <mailto:stephanie-eng@users.noreply.github.com>
+   * Default destructor for PlanningComponent (#1470 <https://github.com/ros-planning/moveit2/issues/1470>) (#1645 <https://github.com/ros-planning/moveit2/issues/1645>)
+     (cherry picked from commit f95e110085d7d5a9ac7b1cfa903d1a885ff519cb)
+     Co-authored-by: Tyler Weaver <mailto:tyler@picknik.ai>
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Remove __has_include statements (#1481 <https://github.com/ros-planning/moveit2/issues/1481>) (#1483 <https://github.com/ros-planning/moveit2/issues/1483>)
+   * Contributors: Tyler Weaver, mergify[bot]
+Checksums-Sha1:
+ 4d6016bcd0b59840193e74fd559bb3ac324d854b 63427598 ros-humble-moveit-ros-planning-dbgsym_2.5.4-11-gb882b0b2c-2023.01.10.17.35_amd64.ddeb
+ fd0acb2ea8bb2a08ac29c8164480223148c09728 31939 ros-humble-moveit-ros-planning_2.5.4-11-gb882b0b2c-2023.01.10.17.35_amd64.buildinfo
+ c4ff1d7473b08ab0a071e9d913c367dd41463c7f 1109076 ros-humble-moveit-ros-planning_2.5.4-11-gb882b0b2c-2023.01.10.17.35_amd64.deb
+Checksums-Sha256:
+ cf6c04218f73dcacca62652eea06411c9e69ef956a714f824998791998ee9b47 63427598 ros-humble-moveit-ros-planning-dbgsym_2.5.4-11-gb882b0b2c-2023.01.10.17.35_amd64.ddeb
+ 0912cf8d5b69deb561988fd71bfc4063e5f1179164a1a3c27a9264024e8d782d 31939 ros-humble-moveit-ros-planning_2.5.4-11-gb882b0b2c-2023.01.10.17.35_amd64.buildinfo
+ 866a93b44dde4300b482027aef136cfcb3e8f3e133c31ff2201fa07153deb6ee 1109076 ros-humble-moveit-ros-planning_2.5.4-11-gb882b0b2c-2023.01.10.17.35_amd64.deb
+Files:
+ 2cc0f0124b4b7ad2f9c8175313c052b2 63427598 debug optional ros-humble-moveit-ros-planning-dbgsym_2.5.4-11-gb882b0b2c-2023.01.10.17.35_amd64.ddeb
+ 57397e5159f0b507a37310a37c511bbc 31939 misc optional ros-humble-moveit-ros-planning_2.5.4-11-gb882b0b2c-2023.01.10.17.35_amd64.buildinfo
+ 0e1f004b9b04a3e6cbbe1da829ae0044 1109076 misc optional ros-humble-moveit-ros-planning_2.5.4-11-gb882b0b2c-2023.01.10.17.35_amd64.deb

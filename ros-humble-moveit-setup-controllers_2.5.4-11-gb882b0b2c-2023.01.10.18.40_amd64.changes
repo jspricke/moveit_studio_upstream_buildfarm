@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit-setup-controllers
+Binary: ros-humble-moveit-setup-controllers
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-11-gb882b0b2c-2023.01.10.18.40
+Distribution: jammy
+Urgency: high
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Changed-By: David V. Lu!! <davidvlu@gmail.com>
+Description:
+ ros-humble-moveit-setup-controllers - MoveIt Setup Steps for ROS 2 Control
+Changes:
+ ros-humble-moveit-setup-controllers (2.5.4-11-gb882b0b2c-2023.01.10.18.40) jammy; urgency=high
+ .
+   * MSA: write the default controller namespace (#1515 <https://github.com/ros-planning/moveit2/issues/1515>) (#1651 <https://github.com/ros-planning/moveit2/issues/1651>)
+     (cherry picked from commit 066e8621166858d3f556726197b07643a1b685f9)
+     Co-authored-by: AndyZe <mailto:zelenak@picknik.ai>
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ dc148c238d8ecc399f38dc4987a0b622d8084e8c 11078826 ros-humble-moveit-setup-controllers-dbgsym_2.5.4-11-gb882b0b2c-2023.01.10.18.40_amd64.ddeb
+ b4331089138a3746fdfc2e2df93dd20075fe7774 33707 ros-humble-moveit-setup-controllers_2.5.4-11-gb882b0b2c-2023.01.10.18.40_amd64.buildinfo
+ 7c1076c66bc51f0835832d553d2adbf7fb4c9677 159800 ros-humble-moveit-setup-controllers_2.5.4-11-gb882b0b2c-2023.01.10.18.40_amd64.deb
+Checksums-Sha256:
+ e7cfec42f7279b467e94a6fef7f060324beadc3a52a66cb9ce3c6fecfc559622 11078826 ros-humble-moveit-setup-controllers-dbgsym_2.5.4-11-gb882b0b2c-2023.01.10.18.40_amd64.ddeb
+ c265594b0b69af188cbe7dbaee979d79d65159028993611891c0b3a68a578c73 33707 ros-humble-moveit-setup-controllers_2.5.4-11-gb882b0b2c-2023.01.10.18.40_amd64.buildinfo
+ 6f4b902a6356f95cf9e89379ebe80135e345a3865f3d4e0e217b5f2cdc9b9c35 159800 ros-humble-moveit-setup-controllers_2.5.4-11-gb882b0b2c-2023.01.10.18.40_amd64.deb
+Files:
+ 2075666f749f81cfdce6c4935bbc58d1 11078826 debug optional ros-humble-moveit-setup-controllers-dbgsym_2.5.4-11-gb882b0b2c-2023.01.10.18.40_amd64.ddeb
+ 881c6b30eb30ec311b1c67a54a7acbf8 33707 misc optional ros-humble-moveit-setup-controllers_2.5.4-11-gb882b0b2c-2023.01.10.18.40_amd64.buildinfo
+ dca84fb5569822bcd2ba7bb3889e2f61 159800 misc optional ros-humble-moveit-setup-controllers_2.5.4-11-gb882b0b2c-2023.01.10.18.40_amd64.deb

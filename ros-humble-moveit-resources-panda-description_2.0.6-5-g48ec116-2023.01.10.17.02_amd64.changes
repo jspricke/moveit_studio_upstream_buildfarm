@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Mon, 18 Jul 2022 00:00:00 -0000
+Source: ros-humble-moveit-resources-panda-description
+Binary: ros-humble-moveit-resources-panda-description
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.0.6-5-g48ec116-2023.01.10.17.02
+Distribution: jammy
+Urgency: high
+Maintainer: Dave Coleman <dave@dav.ee>
+Changed-By: Dave Coleman <dave@dav.ee>
+Description:
+ ros-humble-moveit-resources-panda-description - panda Resources used for MoveIt testing
+Changes:
+ ros-humble-moveit-resources-panda-description (2.0.6-5-g48ec116-2023.01.10.17.02) jammy; urgency=high
+Checksums-Sha1:
+ 0a127bb532e20d3b52748ff06bafdb05b4b7cda0 9150 ros-humble-moveit-resources-panda-description_2.0.6-5-g48ec116-2023.01.10.17.02_amd64.buildinfo
+ ff17df3e9295d1939e01edc63e674d34bf3cfe09 3136692 ros-humble-moveit-resources-panda-description_2.0.6-5-g48ec116-2023.01.10.17.02_amd64.deb
+Checksums-Sha256:
+ 59d062c8caed2a457b356bf0c06f91043dd160c197add0b4d48a03b57fc2654a 9150 ros-humble-moveit-resources-panda-description_2.0.6-5-g48ec116-2023.01.10.17.02_amd64.buildinfo
+ 38e228e0afa19eab305d7e8a98b7c759d8347e9ff979236654d9845d88739cef 3136692 ros-humble-moveit-resources-panda-description_2.0.6-5-g48ec116-2023.01.10.17.02_amd64.deb
+Files:
+ f5bb59b590264734c3891e75787eef26 9150 misc optional ros-humble-moveit-resources-panda-description_2.0.6-5-g48ec116-2023.01.10.17.02_amd64.buildinfo
+ 0cc0291117cfc9d482a61b174438c5c8 3136692 misc optional ros-humble-moveit-resources-panda-description_2.0.6-5-g48ec116-2023.01.10.17.02_amd64.deb

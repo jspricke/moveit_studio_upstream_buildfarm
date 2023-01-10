@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit-runtime
+Binary: ros-humble-moveit-runtime
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-11-gb882b0b2c-2023.01.10.17.06
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-runtime - moveit_runtime meta package contains MoveIt packages that are ess
+Changes:
+ ros-humble-moveit-runtime (2.5.4-11-gb882b0b2c-2023.01.10.17.06) jammy; urgency=high
+ .
+   * Uncomment moveit_ros_perception dependency (#1463 <https://github.com/ros-planning/moveit2/issues/1463>) (#1644 <https://github.com/ros-planning/moveit2/issues/1644>)
+     (cherry picked from commit 450323cee2c74f09952a95ff1cae9951583cdce9)
+     Co-authored-by: AndyZe <mailto:zelenak@picknik.ai>
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ c7a031f71d1c71aa5cff5ee260dcd04460db4a67 10755 ros-humble-moveit-runtime_2.5.4-11-gb882b0b2c-2023.01.10.17.06_amd64.buildinfo
+ b712ae2edb00c9261ccac3e007a52aab105b7036 6312 ros-humble-moveit-runtime_2.5.4-11-gb882b0b2c-2023.01.10.17.06_amd64.deb
+Checksums-Sha256:
+ cec4b24124f13547e39d1d5020f5cc11b78d47d086837c423338f1a01cf7e24e 10755 ros-humble-moveit-runtime_2.5.4-11-gb882b0b2c-2023.01.10.17.06_amd64.buildinfo
+ 21492ba86c4cd683ebd9096c002a19d4e56e157df72564cea2ad3d7845516324 6312 ros-humble-moveit-runtime_2.5.4-11-gb882b0b2c-2023.01.10.17.06_amd64.deb
+Files:
+ d0269ce3bb87b7fc9cc5883f2b65f7cc 10755 misc optional ros-humble-moveit-runtime_2.5.4-11-gb882b0b2c-2023.01.10.17.06_amd64.buildinfo
+ 6c4091c2ebcfbdd6ec78778f6bf20ae0 6312 misc optional ros-humble-moveit-runtime_2.5.4-11-gb882b0b2c-2023.01.10.17.06_amd64.deb

@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Thu, 26 May 2022 00:00:00 -0000
+Source: ros-humble-launch-param-builder
+Binary: ros-humble-launch-param-builder
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.1.1-2023.01.10.16.57
+Distribution: jammy
+Urgency: high
+Maintainer: Jafar Abdi <jafar@picknik.ai>
+Changed-By: Jafar Abdi <jafar@picknik.ai>
+Description:
+ ros-humble-launch-param-builder - Python library for loading parameters in launch files
+Changes:
+ ros-humble-launch-param-builder (0.1.1-2023.01.10.16.57) jammy; urgency=high
+ .
+   * Reset parameters explicity when object is constructed to remove copied data. (#4 <https://github.com/PickNikRobotics/launch_param_builder/issues/4>)
+   * Add path_parameter to ParameterBuilder & get_path to utils (#3 <https://github.com/PickNikRobotics/launch_param_builder/issues/3>)
+   * Contributors: Jafar, Denis Štogl, Vatan Aksoy Tezer, livanov93
+Checksums-Sha1:
+ aba3c002c341faeaa27751daf123e63c0a69be02 7039 ros-humble-launch-param-builder_0.1.1-2023.01.10.16.57_amd64.buildinfo
+ 0f75825740a00eb31273c1bf6bfd957a033367b2 8036 ros-humble-launch-param-builder_0.1.1-2023.01.10.16.57_amd64.deb
+Checksums-Sha256:
+ 81a667c849c62582d3f18c34daa71d93930f9ff89280f4cdc3d8210d6db216bc 7039 ros-humble-launch-param-builder_0.1.1-2023.01.10.16.57_amd64.buildinfo
+ ff452098578e6f96cbbca6339593d39e4420d1f7ac07f3e4ea948a9be49bf481 8036 ros-humble-launch-param-builder_0.1.1-2023.01.10.16.57_amd64.deb
+Files:
+ a1e6dc3319b759654a926e9cda3393a9 7039 misc optional ros-humble-launch-param-builder_0.1.1-2023.01.10.16.57_amd64.buildinfo
+ 6c17300bdd5e646edb6392f53ded109b 8036 misc optional ros-humble-launch-param-builder_0.1.1-2023.01.10.16.57_amd64.deb

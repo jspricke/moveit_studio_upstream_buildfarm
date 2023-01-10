@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit-ros-occupancy-map-monitor
+Binary: ros-humble-moveit-ros-occupancy-map-monitor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-11-gb882b0b2c-2023.01.10.17.33
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-ros-occupancy-map-monitor - Components of MoveIt connecting to occupancy map
+Changes:
+ ros-humble-moveit-ros-occupancy-map-monitor (2.5.4-11-gb882b0b2c-2023.01.10.17.33) jammy; urgency=high
+ .
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ e20e3bd2fb467146ca1b382e3f4f2f81113d0357 4623094 ros-humble-moveit-ros-occupancy-map-monitor-dbgsym_2.5.4-11-gb882b0b2c-2023.01.10.17.33_amd64.ddeb
+ dad76f11424ffcb2ccd09cfd7b68bdb355c83179 27015 ros-humble-moveit-ros-occupancy-map-monitor_2.5.4-11-gb882b0b2c-2023.01.10.17.33_amd64.buildinfo
+ 63e1fe8244e543aac91243f9d06835d05dc1967c 242014 ros-humble-moveit-ros-occupancy-map-monitor_2.5.4-11-gb882b0b2c-2023.01.10.17.33_amd64.deb
+Checksums-Sha256:
+ 0ec782135b87d0f5f86604104f791241516bbf507603d0456dbfeaad021b3c3f 4623094 ros-humble-moveit-ros-occupancy-map-monitor-dbgsym_2.5.4-11-gb882b0b2c-2023.01.10.17.33_amd64.ddeb
+ 94cd2a8444aeba6a133a7457f9a7ac1f227ac56736ea0cfde0119aeb35660733 27015 ros-humble-moveit-ros-occupancy-map-monitor_2.5.4-11-gb882b0b2c-2023.01.10.17.33_amd64.buildinfo
+ 59c9435c4b10aab582e8e96ef84d959ff5de9665a2f823a9796cf0efcd3e0b37 242014 ros-humble-moveit-ros-occupancy-map-monitor_2.5.4-11-gb882b0b2c-2023.01.10.17.33_amd64.deb
+Files:
+ 7ae2ad63b1a84fbfc570add2ac553f76 4623094 debug optional ros-humble-moveit-ros-occupancy-map-monitor-dbgsym_2.5.4-11-gb882b0b2c-2023.01.10.17.33_amd64.ddeb
+ ac1414e509fac4cf06036c1200745d79 27015 misc optional ros-humble-moveit-ros-occupancy-map-monitor_2.5.4-11-gb882b0b2c-2023.01.10.17.33_amd64.buildinfo
+ 7ecd484fab0fc3791dcf6e40cf33e73f 242014 misc optional ros-humble-moveit-ros-occupancy-map-monitor_2.5.4-11-gb882b0b2c-2023.01.10.17.33_amd64.deb

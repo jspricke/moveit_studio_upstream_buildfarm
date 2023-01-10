@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit-ros-control-interface
+Binary: ros-humble-moveit-ros-control-interface
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-11-gb882b0b2c-2023.01.10.18.10
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-ros-control-interface - ros_control controller manager interface for MoveIt
+Changes:
+ ros-humble-moveit-ros-control-interface (2.5.4-11-gb882b0b2c-2023.01.10.18.10) jammy; urgency=high
+ .
+   * Rename MoveItControllerManager. Add deprecation warning (#1601 <https://github.com/ros-planning/moveit2/issues/1601>) (#1666 <https://github.com/ros-planning/moveit2/issues/1666>)
+     (cherry picked from commit b050890a2632a723dd95c08542ef6ed57d77fb06)
+     Co-authored-by: AndyZe <mailto:zelenak@picknik.ai>
+   * Support chained controllers (backport #1482 <https://github.com/ros-planning/moveit2/issues/1482>) (#1623 <https://github.com/ros-planning/moveit2/issues/1623>)
+     (cherry picked from commit 3db960a4b3b1e1d25630867a62ea1182bac2e96a)
+     Co-authored-by: Paul Gesel <mailto:paulgesel@gmail.com>
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ e7ca2beb2a3e47ae33de3aca350303acb5cb20ed 3636330 ros-humble-moveit-ros-control-interface-dbgsym_2.5.4-11-gb882b0b2c-2023.01.10.18.10_amd64.ddeb
+ a2a7fdefb1324d6c7531e3c97e52701b99423fb2 27196 ros-humble-moveit-ros-control-interface_2.5.4-11-gb882b0b2c-2023.01.10.18.10_amd64.buildinfo
+ 0974e8c4dd960bab96f0561c1a3442a82c8daf69 193818 ros-humble-moveit-ros-control-interface_2.5.4-11-gb882b0b2c-2023.01.10.18.10_amd64.deb
+Checksums-Sha256:
+ 5514d668897fdd696ccb106e7ce4016f450114c869c691d789d36ea7100a2f57 3636330 ros-humble-moveit-ros-control-interface-dbgsym_2.5.4-11-gb882b0b2c-2023.01.10.18.10_amd64.ddeb
+ 306652ddc2d0af5abfaa9a3161c1d22fa7ec8513e8653ac32270f864f7e69128 27196 ros-humble-moveit-ros-control-interface_2.5.4-11-gb882b0b2c-2023.01.10.18.10_amd64.buildinfo
+ 04901575bb19a88f7945d59af677e61e613cd1c5232f325e518fcbebf6a6a523 193818 ros-humble-moveit-ros-control-interface_2.5.4-11-gb882b0b2c-2023.01.10.18.10_amd64.deb
+Files:
+ e18550a6190416908aa45d6cd1b6f7b0 3636330 debug optional ros-humble-moveit-ros-control-interface-dbgsym_2.5.4-11-gb882b0b2c-2023.01.10.18.10_amd64.ddeb
+ 1a94e9bf85bf03807d817aa15a307714 27196 misc optional ros-humble-moveit-ros-control-interface_2.5.4-11-gb882b0b2c-2023.01.10.18.10_amd64.buildinfo
+ 5224685ba89447ba91ece7be8f8dc08c 193818 misc optional ros-humble-moveit-ros-control-interface_2.5.4-11-gb882b0b2c-2023.01.10.18.10_amd64.deb
