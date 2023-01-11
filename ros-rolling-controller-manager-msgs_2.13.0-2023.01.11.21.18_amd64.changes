@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Wed, 03 Aug 2022 00:00:00 -0000
+Source: ros-rolling-controller-manager-msgs
+Binary: ros-rolling-controller-manager-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.13.0-2023.01.11.21.18
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-rolling-controller-manager-msgs - Messages and services for the controller manager.
+Changes:
+ ros-rolling-controller-manager-msgs (2.13.0-2023.01.11.21.18) jammy; urgency=high
+ .
+   * Add chained controllers information in list controllers service #abi-braking (#758 <https://github.com/ros-controls/ros2_control/issues/758>)
+     * add chained controllers in ros2controlcli
+     * remove controller_group from service
+     * added comments to ControllerState message
+     * added comments to ChainedConnection message
+   * Contributors: Paul Gesel
+Checksums-Sha1:
+ 0fc91438a8d1ff1d380a5ca9e325fb9e5b8b8a62 1532296 ros-rolling-controller-manager-msgs-dbgsym_2.13.0-2023.01.11.21.18_amd64.ddeb
+ c600b782d129e3350fb42253c924f06ebde2b05d 14722 ros-rolling-controller-manager-msgs_2.13.0-2023.01.11.21.18_amd64.buildinfo
+ 472042d0a2c2aa97ec6c5b341cd73a8298abd143 199612 ros-rolling-controller-manager-msgs_2.13.0-2023.01.11.21.18_amd64.deb
+Checksums-Sha256:
+ 724dc4e1b24340d04131d2f6cf44c3e3c5598f37147b9bf39b08d8ebee7f6134 1532296 ros-rolling-controller-manager-msgs-dbgsym_2.13.0-2023.01.11.21.18_amd64.ddeb
+ 2922b93312dcbfcfa0978c6887a00ccb626578548c5a460db85cb7e526a0b53b 14722 ros-rolling-controller-manager-msgs_2.13.0-2023.01.11.21.18_amd64.buildinfo
+ fa9041a0b878731d70bd538cbef7ebf2c20d2d6e01afffe0dd21611f8c609b15 199612 ros-rolling-controller-manager-msgs_2.13.0-2023.01.11.21.18_amd64.deb
+Files:
+ 7464eb9ec415a022a257689ffbc26291 1532296 debug optional ros-rolling-controller-manager-msgs-dbgsym_2.13.0-2023.01.11.21.18_amd64.ddeb
+ 2ce7aab69afd9d8ef68fee6e5fca421f 14722 misc optional ros-rolling-controller-manager-msgs_2.13.0-2023.01.11.21.18_amd64.buildinfo
+ 7f4bdf82afb77e156626da2f6ec30ed2 199612 misc optional ros-rolling-controller-manager-msgs_2.13.0-2023.01.11.21.18_amd64.deb

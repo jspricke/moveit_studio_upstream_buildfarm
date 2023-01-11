@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 10 Nov 2022 00:00:00 -0000
+Source: ros-rolling-moveit-resources-prbt-support
+Binary: ros-rolling-moveit-resources-prbt-support
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.39
+Distribution: jammy
+Urgency: high
+Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Changed-By: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Description:
+ ros-rolling-moveit-resources-prbt-support - Mechanical, kinematic and visual description of the Pilz light we
+Changes:
+ ros-rolling-moveit-resources-prbt-support (2.6.0-53-gc6733bd0e-2023.01.11.21.39) jammy; urgency=high
+ .
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>)
+   * Contributors: Sebastian Jahr
+Checksums-Sha1:
+ 2833e60d8dbc8478adad4a698e5db611903cbb12 9157 ros-rolling-moveit-resources-prbt-support_2.6.0-53-gc6733bd0e-2023.01.11.21.39_amd64.buildinfo
+ 85f58fdc462e534104e60b34431bc663b3ad20f5 790200 ros-rolling-moveit-resources-prbt-support_2.6.0-53-gc6733bd0e-2023.01.11.21.39_amd64.deb
+Checksums-Sha256:
+ dee927a1ce09b80999835ae1446d9ff5badfcb045f924111f6a5c2514f637251 9157 ros-rolling-moveit-resources-prbt-support_2.6.0-53-gc6733bd0e-2023.01.11.21.39_amd64.buildinfo
+ e84e5a9c4537f4a38d556ef852832b1b35738629d405e304c6c8b3d483007c36 790200 ros-rolling-moveit-resources-prbt-support_2.6.0-53-gc6733bd0e-2023.01.11.21.39_amd64.deb
+Files:
+ fe3bc8c983d173a0301dd7179a45ceb1 9157 misc optional ros-rolling-moveit-resources-prbt-support_2.6.0-53-gc6733bd0e-2023.01.11.21.39_amd64.buildinfo
+ d4a0df01602aa9f9c614092ecc169c8d 790200 misc optional ros-rolling-moveit-resources-prbt-support_2.6.0-53-gc6733bd0e-2023.01.11.21.39_amd64.deb

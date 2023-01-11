@@ -2,7 +2,7 @@ repositories:
   moveit2:
     type: git
     url: https://github.com/ros-planning/moveit2
-    version: 9e3f6b3eb578b55722ea84d87a543a2042c6017b
+    version: c6733bd0efe403526b43095c8749b81f8c28689a
   moveit_resources:
     type: git
     url: https://github.com/ros-planning/moveit_resources

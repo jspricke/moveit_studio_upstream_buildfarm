@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 10 Nov 2022 00:00:00 -0000
+Source: ros-rolling-moveit-planners-chomp
+Binary: ros-rolling-moveit-planners-chomp
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.35
+Distribution: jammy
+Urgency: high
+Maintainer: Chittaranjan Srinivas Swaminathan <chitt@live.in>
+Changed-By: Chittaranjan Srinivas Swaminathan <chitt@live.in>
+Description:
+ ros-rolling-moveit-planners-chomp - The interface for using CHOMP within MoveIt
+Changes:
+ ros-rolling-moveit-planners-chomp (2.6.0-53-gc6733bd0e-2023.01.11.21.35) jammy; urgency=high
+ .
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>)
+   * Add planner configurations to CHOMP and PILZ (#1522 <https://github.com/ros-planning/moveit2/issues/1522>)
+   * Contributors: Sebastian Jahr
+Checksums-Sha1:
+ 9e4e08cf911a93839fa52136d4fcfae115c77c22 4447632 ros-rolling-moveit-planners-chomp-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.21.35_amd64.ddeb
+ 244315485100053e319bab74e985a2f36265897b 27389 ros-rolling-moveit-planners-chomp_2.6.0-53-gc6733bd0e-2023.01.11.21.35_amd64.buildinfo
+ 06f057cda454bf19fc89db978caf16c8ad3458d3 35452 ros-rolling-moveit-planners-chomp_2.6.0-53-gc6733bd0e-2023.01.11.21.35_amd64.deb
+Checksums-Sha256:
+ e5e344a8a56750f619e769cb0d1302de52e409b3f76db6e4ca9521162a25d6cd 4447632 ros-rolling-moveit-planners-chomp-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.21.35_amd64.ddeb
+ 5d0b759ca4131eefaf539fecf45c2d3d7560c0228bd5980f597e9056d956908b 27389 ros-rolling-moveit-planners-chomp_2.6.0-53-gc6733bd0e-2023.01.11.21.35_amd64.buildinfo
+ dbbbf21d9714f94da9bbf104c7ed654b70c4b3bcf9b2095f3a1b3147c360ed53 35452 ros-rolling-moveit-planners-chomp_2.6.0-53-gc6733bd0e-2023.01.11.21.35_amd64.deb
+Files:
+ 2c485f0c08655b0d3eecaf35c5a9d939 4447632 debug optional ros-rolling-moveit-planners-chomp-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.21.35_amd64.ddeb
+ e239f427ebd04e7d2db96287f3e3ee56 27389 misc optional ros-rolling-moveit-planners-chomp_2.6.0-53-gc6733bd0e-2023.01.11.21.35_amd64.buildinfo
+ 0c8e9c12788074a87013d73c6eeecd72 35452 misc optional ros-rolling-moveit-planners-chomp_2.6.0-53-gc6733bd0e-2023.01.11.21.35_amd64.deb

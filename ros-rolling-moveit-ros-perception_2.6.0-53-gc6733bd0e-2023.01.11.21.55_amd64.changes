@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Thu, 10 Nov 2022 00:00:00 -0000
+Source: ros-rolling-moveit-ros-perception
+Binary: ros-rolling-moveit-ros-perception
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.55
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit-ros-perception - Components of MoveIt connecting to perception
+Changes:
+ ros-rolling-moveit-ros-perception (2.6.0-53-gc6733bd0e-2023.01.11.21.55) jammy; urgency=high
+ .
+   * Merge PR #1553 <https://github.com/ros-planning/moveit2/issues/1553>: Improve cmake files
+   * Use standard exported targets: export_${PROJECT_NAME} -> ${PROJECT_NAME}Targets
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>)
+   * Remove __has_include statements (#1481 <https://github.com/ros-planning/moveit2/issues/1481>)
+   * Contributors: Robert Haschke, Sebastian Jahr, Vatan Aksoy Tezer
+Checksums-Sha1:
+ a1b1571d981fcf671b1cac0288080aa4f1176217 9148262 ros-rolling-moveit-ros-perception-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.21.55_amd64.ddeb
+ b3642d187f92b0c3266c336a7d4ed22e9cb06406 39232 ros-rolling-moveit-ros-perception_2.6.0-53-gc6733bd0e-2023.01.11.21.55_amd64.buildinfo
+ 81a578ee262b3dcefdacb9ef88464e278bb19b5f 338566 ros-rolling-moveit-ros-perception_2.6.0-53-gc6733bd0e-2023.01.11.21.55_amd64.deb
+Checksums-Sha256:
+ ef2d7029b414c334fa23e648486a65061d8bb433287e42b91f5f436fb7e95fb1 9148262 ros-rolling-moveit-ros-perception-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.21.55_amd64.ddeb
+ 9801e7d7ebbc21c53aea2b7f365bbeec1f44020b9d4f775ba9ce2fc1ec8fb76e 39232 ros-rolling-moveit-ros-perception_2.6.0-53-gc6733bd0e-2023.01.11.21.55_amd64.buildinfo
+ 829f794f41e404bf64a1e9c3d4ff3235a0866e241cb0d15324c168a0a176daeb 338566 ros-rolling-moveit-ros-perception_2.6.0-53-gc6733bd0e-2023.01.11.21.55_amd64.deb
+Files:
+ 4a40874560189192fea655c92576a0e1 9148262 debug optional ros-rolling-moveit-ros-perception-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.21.55_amd64.ddeb
+ 87937c76fef045cf92c8182e0381ac33 39232 misc optional ros-rolling-moveit-ros-perception_2.6.0-53-gc6733bd0e-2023.01.11.21.55_amd64.buildinfo
+ 2249477487a70815e1ebf7ff4509332d 338566 misc optional ros-rolling-moveit-ros-perception_2.6.0-53-gc6733bd0e-2023.01.11.21.55_amd64.deb

@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Mon, 18 Jul 2022 00:00:00 -0000
+Source: ros-rolling-moveit-resources-panda-moveit-config
+Binary: ros-rolling-moveit-resources-panda-moveit-config
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.0.6-5-g48ec116-2023.01.11.21.25
+Distribution: jammy
+Urgency: high
+Maintainer: Mike Lautman <mike@picknik.ai>
+Changed-By: Mike Lautman <mike@picknik.ai>
+Description:
+ ros-rolling-moveit-resources-panda-moveit-config - MoveIt Resources for testing: Franka Emika Panda A project-intern
+Changes:
+ ros-rolling-moveit-resources-panda-moveit-config (2.0.6-5-g48ec116-2023.01.11.21.25) jammy; urgency=high
+ .
+   * fake_components -> mock_components (#147 <https://github.com/ros-planning/moveit_resources/issues/147>)
+   * Rename cartesian_limits.yaml (#146 <https://github.com/ros-planning/moveit_resources/issues/146>)
+   * Contributors: AndyZe, Tyler Weaver
+Checksums-Sha1:
+ cd4b7dd2565c86ee398d319927b2b542c7458f68 9177 ros-rolling-moveit-resources-panda-moveit-config_2.0.6-5-g48ec116-2023.01.11.21.25_amd64.buildinfo
+ 377ee57fe620f328e064c25a421d9f12ca456710 18452 ros-rolling-moveit-resources-panda-moveit-config_2.0.6-5-g48ec116-2023.01.11.21.25_amd64.deb
+Checksums-Sha256:
+ 4b91bc2b4307fa0ed978e20cbf9ead0382b4d23e8e36e61d7f4dc7356481b4e4 9177 ros-rolling-moveit-resources-panda-moveit-config_2.0.6-5-g48ec116-2023.01.11.21.25_amd64.buildinfo
+ f3ead91a2f61cdf128ffae817a27359e114dee526dd9d6f54017a14962e00073 18452 ros-rolling-moveit-resources-panda-moveit-config_2.0.6-5-g48ec116-2023.01.11.21.25_amd64.deb
+Files:
+ a01bf568541ce81ecefa1e01af2dba17 9177 misc optional ros-rolling-moveit-resources-panda-moveit-config_2.0.6-5-g48ec116-2023.01.11.21.25_amd64.buildinfo
+ 17dcb5188a038fa612f82713f5cebbef 18452 misc optional ros-rolling-moveit-resources-panda-moveit-config_2.0.6-5-g48ec116-2023.01.11.21.25_amd64.deb
