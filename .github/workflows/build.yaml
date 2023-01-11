@@ -8,10 +8,10 @@ jobs:
   build:
     runs-on: ubuntu-22.04
     steps:
-      - uses: jspricke/ros-deb-builder-action@v1.0
+      - uses: jspricke/ros-deb-builder-action@rosotest
         with:
           DEB_DISTRO: jammy
-          ROS_DISTRO: humble
+          ROS_DISTRO: rolling
           REPOS_FILE: https://raw.githubusercontent.com/ros-planning/moveit2_tutorials/humble/moveit2_tutorials.repos
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SBUILD_CONF: '$verbose = 1;'
