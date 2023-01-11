@@ -1,0 +1,48 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-rolling-pilz-industrial-motion-planner
+Binary: ros-rolling-pilz-industrial-motion-planner
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-11-gb882b0b2c-2023.01.11.10.30
+Distribution: jammy
+Urgency: high
+Maintainer: Christian Henkel <c.henkel@pilz.de>
+Changed-By: Christian Henkel <c.henkel@pilz.de>
+Description:
+ ros-rolling-pilz-industrial-motion-planner - MoveIt plugin to generate industrial trajectories PTP, LIN, CIRC
+Changes:
+ ros-rolling-pilz-industrial-motion-planner (2.5.4-11-gb882b0b2c-2023.01.11.10.30) jammy; urgency=high
+ .
+   * Backport to Humble (#1642 <https://github.com/ros-planning/moveit2/issues/1642>)
+     Co-authored-by: Robert Haschke <mailto:rhaschke@techfak.uni-bielefeld.de>
+     Co-authored-by: Michael Görner <mailto:me@v4hn.de>
+     Co-authored-by: Jochen Sprickerhof <mailto:git@jochen.sprickerhof.de>
+   * Use MoveItConfigsBuilder in Pilz test launch file (#1571 <https://github.com/ros-planning/moveit2/issues/1571>) (#1662 <https://github.com/ros-planning/moveit2/issues/1662>)
+     (cherry picked from commit 5e880bacaad780f511ed99847050216a8b9905c1)
+     Co-authored-by: Abishalini Sivaraman <mailto:abi.gpuram@gmail.com>
+   * Add planner configurations to CHOMP and PILZ (#1522 <https://github.com/ros-planning/moveit2/issues/1522>) (#1656 <https://github.com/ros-planning/moveit2/issues/1656>)
+     (cherry picked from commit 888fc5358280b20edc394947e98341c0f03dc0bd)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Use pragma once as header include guard (#1525 <https://github.com/ros-planning/moveit2/issues/1525>) (#1652 <https://github.com/ros-planning/moveit2/issues/1652>)
+     (cherry picked from commit 7d758de1b2f2904b8c85520129fa8d48aad93713)
+     Co-authored-by: J. Javan <mailto:J-Javan@users.noreply.github.com>
+   * Removed plan_with_sensing (#1142 <https://github.com/ros-planning/moveit2/issues/1142>) (#1647 <https://github.com/ros-planning/moveit2/issues/1647>)
+     (cherry picked from commit ad9fb465776c68d53431ec477ff89d7e4e25f3b3)
+     Co-authored-by: Stephanie Eng <mailto:stephanie-eng@users.noreply.github.com>
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Remove __has_include statements (#1481 <https://github.com/ros-planning/moveit2/issues/1481>) (#1483 <https://github.com/ros-planning/moveit2/issues/1483>)
+   * Contributors: Tyler Weaver, mergify[bot]
+Checksums-Sha1:
+ d71a6602264e3302da08a24ed0b7b8fb0f878c90 88545590 ros-rolling-pilz-industrial-motion-planner-dbgsym_2.5.4-11-gb882b0b2c-2023.01.11.10.30_amd64.ddeb
+ d24158d1d1f64c8decc2e4dfb436d69c8c621380 36608 ros-rolling-pilz-industrial-motion-planner_2.5.4-11-gb882b0b2c-2023.01.11.10.30_amd64.buildinfo
+ 701e350a84d5419d5907169264802c99b9d0b03c 1745546 ros-rolling-pilz-industrial-motion-planner_2.5.4-11-gb882b0b2c-2023.01.11.10.30_amd64.deb
+Checksums-Sha256:
+ ee2e5e0e5647aa3fd9c3d21643753581384f0fc6724407454b98e5320d5da246 88545590 ros-rolling-pilz-industrial-motion-planner-dbgsym_2.5.4-11-gb882b0b2c-2023.01.11.10.30_amd64.ddeb
+ 608bc979e95b1b39eeb3b6963ef529ab471ca21335d2d81076ff3eb2b161bfe6 36608 ros-rolling-pilz-industrial-motion-planner_2.5.4-11-gb882b0b2c-2023.01.11.10.30_amd64.buildinfo
+ 40ec5bbe49de3c00bb3d1c84b84de565d482b9a21c176288b8856fb359bf7134 1745546 ros-rolling-pilz-industrial-motion-planner_2.5.4-11-gb882b0b2c-2023.01.11.10.30_amd64.deb
+Files:
+ b41951686f815e7ad2dbd0e6b1bfe863 88545590 debug optional ros-rolling-pilz-industrial-motion-planner-dbgsym_2.5.4-11-gb882b0b2c-2023.01.11.10.30_amd64.ddeb
+ cab3a44408f4f354f11679fcc9e77aec 36608 misc optional ros-rolling-pilz-industrial-motion-planner_2.5.4-11-gb882b0b2c-2023.01.11.10.30_amd64.buildinfo
+ 6e8f4d336bfdf2987104c7f3cb762f19 1745546 misc optional ros-rolling-pilz-industrial-motion-planner_2.5.4-11-gb882b0b2c-2023.01.11.10.30_amd64.deb

@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-rolling-moveit-resources-prbt-pg70-support
+Binary: ros-rolling-moveit-resources-prbt-pg70-support
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-11-gb882b0b2c-2023.01.11.07.21
+Distribution: jammy
+Urgency: high
+Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Changed-By: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Description:
+ ros-rolling-moveit-resources-prbt-pg70-support - PRBT support for Schunk pg70 gripper.
+Changes:
+ ros-rolling-moveit-resources-prbt-pg70-support (2.5.4-11-gb882b0b2c-2023.01.11.07.21) jammy; urgency=high
+ .
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ 9f91898beea85c79d94c8c7992bb115b7ebfdf23 9182 ros-rolling-moveit-resources-prbt-pg70-support_2.5.4-11-gb882b0b2c-2023.01.11.07.21_amd64.buildinfo
+ 5c27e5f29062ddca085f53ef27234675d8e47392 161634 ros-rolling-moveit-resources-prbt-pg70-support_2.5.4-11-gb882b0b2c-2023.01.11.07.21_amd64.deb
+Checksums-Sha256:
+ 98f2468f364bfc0ed49ee4bff1fc42dd77bffa128696f7113c02678bdcae2efa 9182 ros-rolling-moveit-resources-prbt-pg70-support_2.5.4-11-gb882b0b2c-2023.01.11.07.21_amd64.buildinfo
+ abb4cb0b0aa24cb55f24e49d7bdb641c5338a406b4bdd2e07f2db87424ea4e7d 161634 ros-rolling-moveit-resources-prbt-pg70-support_2.5.4-11-gb882b0b2c-2023.01.11.07.21_amd64.deb
+Files:
+ fe5054d3fc85782743b4459933c96d2d 9182 misc optional ros-rolling-moveit-resources-prbt-pg70-support_2.5.4-11-gb882b0b2c-2023.01.11.07.21_amd64.buildinfo
+ 8a5afbd9e4befc3c2d0287f766baed09 161634 misc optional ros-rolling-moveit-resources-prbt-pg70-support_2.5.4-11-gb882b0b2c-2023.01.11.07.21_amd64.deb

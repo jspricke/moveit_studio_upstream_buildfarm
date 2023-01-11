@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-rolling-moveit-ros-planning-interface
+Binary: ros-rolling-moveit-ros-planning-interface
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-11-gb882b0b2c-2023.01.11.08.54
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit-ros-planning-interface - Components of MoveIt that offer simpler interfaces to planning an
+Changes:
+ ros-rolling-moveit-ros-planning-interface (2.5.4-11-gb882b0b2c-2023.01.11.08.54) jammy; urgency=high
+ .
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Changed 'return false' in plan, move and execute such that MoveItErrorCode is returned (#1266 <https://github.com/ros-planning/moveit2/issues/1266>) (#1460 <https://github.com/ros-planning/moveit2/issues/1460>)
+   * Fix callback execution in MGI (backport #1305 <https://github.com/ros-planning/moveit2/issues/1305>) (#1462 <https://github.com/ros-planning/moveit2/issues/1462>)
+     The initial implementation with the private node allowed for concurrent spinning of the same node, producing runtime exceptions. This change removes the need for a private node by letting MGI manage its own CallbackGroup and Executor thread.
+     (cherry picked from commit 042186aef33d9af6de4ccb17e79b0eaffdc7febb)
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Remove __has_include statements (#1481 <https://github.com/ros-planning/moveit2/issues/1481>) (#1483 <https://github.com/ros-planning/moveit2/issues/1483>)
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ 3977066d3c32cdb1f460276fdd8e448c1cf3e072 9338458 ros-rolling-moveit-ros-planning-interface-dbgsym_2.5.4-11-gb882b0b2c-2023.01.11.08.54_amd64.ddeb
+ dd6dad271ea1873a1296352cf5093945e5791570 35690 ros-rolling-moveit-ros-planning-interface_2.5.4-11-gb882b0b2c-2023.01.11.08.54_amd64.buildinfo
+ a168835214ebdf327ccb33476c1cc74c50172595 248152 ros-rolling-moveit-ros-planning-interface_2.5.4-11-gb882b0b2c-2023.01.11.08.54_amd64.deb
+Checksums-Sha256:
+ b5e3ad5ed114d526030d61be99e0eaf0db858968efb94d94eaf83af140c0dc28 9338458 ros-rolling-moveit-ros-planning-interface-dbgsym_2.5.4-11-gb882b0b2c-2023.01.11.08.54_amd64.ddeb
+ 6c17d1976284f33175c3232ee341346e349906881b58e346beea2ec35ee90b51 35690 ros-rolling-moveit-ros-planning-interface_2.5.4-11-gb882b0b2c-2023.01.11.08.54_amd64.buildinfo
+ e50872009a14871bfa4cda2a50bacf5b5ac0f676ac9b0c6045cbf43fb862f7b5 248152 ros-rolling-moveit-ros-planning-interface_2.5.4-11-gb882b0b2c-2023.01.11.08.54_amd64.deb
+Files:
+ c1bea6d6af747b0e3c84b897c65e9424 9338458 debug optional ros-rolling-moveit-ros-planning-interface-dbgsym_2.5.4-11-gb882b0b2c-2023.01.11.08.54_amd64.ddeb
+ 21fe65b926866a5b7237f0ddb151d86b 35690 misc optional ros-rolling-moveit-ros-planning-interface_2.5.4-11-gb882b0b2c-2023.01.11.08.54_amd64.buildinfo
+ 9517a6a78bc35c2d2bb625175e06f829 248152 misc optional ros-rolling-moveit-ros-planning-interface_2.5.4-11-gb882b0b2c-2023.01.11.08.54_amd64.deb

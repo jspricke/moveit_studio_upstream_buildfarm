@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-rolling-moveit-ros-move-group
+Binary: ros-rolling-moveit-ros-move-group
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-11-gb882b0b2c-2023.01.11.08.27
+Distribution: jammy
+Urgency: high
+Maintainer: Michael Görner <me@v4hn.de>
+Changed-By: Michael Görner <me@v4hn.de>
+Description:
+ ros-rolling-moveit-ros-move-group - The move_group node for MoveIt
+Changes:
+ ros-rolling-moveit-ros-move-group (2.5.4-11-gb882b0b2c-2023.01.11.08.27) jammy; urgency=high
+ .
+   * Removed plan_with_sensing (#1142 <https://github.com/ros-planning/moveit2/issues/1142>) (#1647 <https://github.com/ros-planning/moveit2/issues/1647>)
+     (cherry picked from commit ad9fb465776c68d53431ec477ff89d7e4e25f3b3)
+     Co-authored-by: Stephanie Eng <mailto:stephanie-eng@users.noreply.github.com>
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Remove __has_include statements (#1481 <https://github.com/ros-planning/moveit2/issues/1481>) (#1483 <https://github.com/ros-planning/moveit2/issues/1483>)
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ 263a075544199d624264f885a4efe44a2c0f5352 23692002 ros-rolling-moveit-ros-move-group-dbgsym_2.5.4-11-gb882b0b2c-2023.01.11.08.27_amd64.ddeb
+ e92934653d27a18af4944b6b2a12677aecc65d38 28269 ros-rolling-moveit-ros-move-group_2.5.4-11-gb882b0b2c-2023.01.11.08.27_amd64.buildinfo
+ a04c018c8658b8f1f7766cfa1ba11ffca2f7228c 338226 ros-rolling-moveit-ros-move-group_2.5.4-11-gb882b0b2c-2023.01.11.08.27_amd64.deb
+Checksums-Sha256:
+ f5d177a985e91ebd134becb8d680e1041c4c6da7be93861bdd52321d80415e43 23692002 ros-rolling-moveit-ros-move-group-dbgsym_2.5.4-11-gb882b0b2c-2023.01.11.08.27_amd64.ddeb
+ e949a030883d6793a02aaacdea912b53bb964a657b7ffd23ef53c391ec61f10b 28269 ros-rolling-moveit-ros-move-group_2.5.4-11-gb882b0b2c-2023.01.11.08.27_amd64.buildinfo
+ 6233b0d7fa51fafd70ef125d9ee233712a85f950eb95fcfbdd95186beb0f935e 338226 ros-rolling-moveit-ros-move-group_2.5.4-11-gb882b0b2c-2023.01.11.08.27_amd64.deb
+Files:
+ d467955d1a7b73cc0f246b1ef87f0322 23692002 debug optional ros-rolling-moveit-ros-move-group-dbgsym_2.5.4-11-gb882b0b2c-2023.01.11.08.27_amd64.ddeb
+ f6bdba87079300c92385bb303a044f05 28269 misc optional ros-rolling-moveit-ros-move-group_2.5.4-11-gb882b0b2c-2023.01.11.08.27_amd64.buildinfo
+ ac420976168de2de079ff6007a08d384 338226 misc optional ros-rolling-moveit-ros-move-group_2.5.4-11-gb882b0b2c-2023.01.11.08.27_amd64.deb

@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-rolling-moveit-plugins
+Binary: ros-rolling-moveit-plugins
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-11-gb882b0b2c-2023.01.11.07.14
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit-plugins - Metapackage for MoveIt plugins.
+Changes:
+ ros-rolling-moveit-plugins (2.5.4-11-gb882b0b2c-2023.01.11.07.14) jammy; urgency=high
+ .
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ 9dea83d5f07d21cad96ff12334d9bb25a88745a8 10798 ros-rolling-moveit-plugins_2.5.4-11-gb882b0b2c-2023.01.11.07.14_amd64.buildinfo
+ ec82c81df2bd51fd0ef09fc533b8f4713f6fc8c0 6198 ros-rolling-moveit-plugins_2.5.4-11-gb882b0b2c-2023.01.11.07.14_amd64.deb
+Checksums-Sha256:
+ 1e0f0b9e3f228a0b9a2604d04b9b628d29b3e5e1275eab5f5f585206d676bf6a 10798 ros-rolling-moveit-plugins_2.5.4-11-gb882b0b2c-2023.01.11.07.14_amd64.buildinfo
+ 56fad3dff3ac34812f4dcef57ef05497122b61eed8fd6cb68a35e52d6ee088f1 6198 ros-rolling-moveit-plugins_2.5.4-11-gb882b0b2c-2023.01.11.07.14_amd64.deb
+Files:
+ 7f3bacffb945eb021c3585399af43f1d 10798 misc optional ros-rolling-moveit-plugins_2.5.4-11-gb882b0b2c-2023.01.11.07.14_amd64.buildinfo
+ 8bd8e0914d167df44c647212fcc96eeb 6198 misc optional ros-rolling-moveit-plugins_2.5.4-11-gb882b0b2c-2023.01.11.07.14_amd64.deb

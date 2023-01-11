@@ -1,0 +1,57 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-rolling-moveit-core
+Binary: ros-rolling-moveit-core
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-11-gb882b0b2c-2023.01.11.07.32
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit-core - Core libraries used by MoveIt
+Changes:
+ ros-rolling-moveit-core (2.5.4-11-gb882b0b2c-2023.01.11.07.32) jammy; urgency=high
+ .
+   * Free functions for calculating properties of trajectories (#1503 <https://github.com/ros-planning/moveit2/issues/1503>) (#1657 <https://github.com/ros-planning/moveit2/issues/1657>)
+     (cherry picked from commit 43a22ece72bb5362e6ef7df1d2783b03935aea2e)
+   * Improve Cartesian interpolation (#1547 <https://github.com/ros-planning/moveit2/issues/1547>) (#1670 <https://github.com/ros-planning/moveit2/issues/1670>)
+   * added brace intialization (#1615 <https://github.com/ros-planning/moveit2/issues/1615>) (#1667 <https://github.com/ros-planning/moveit2/issues/1667>)
+     (cherry picked from commit f1d0ab59228dc04899724add96162eb93f039939)
+     Co-authored-by: Abhijeet Das Gupta <mailto:75399048+abhijelly@users.noreply.github.com>
+   * size_t bijection index type (#1544 <https://github.com/ros-planning/moveit2/issues/1544>) (#1659 <https://github.com/ros-planning/moveit2/issues/1659>)
+     (cherry picked from commit af7bd63a084d62de0821bb0e451008f2b1b11954)
+   * Add planner configurations to CHOMP and PILZ (#1522 <https://github.com/ros-planning/moveit2/issues/1522>) (#1656 <https://github.com/ros-planning/moveit2/issues/1656>)
+     (cherry picked from commit 888fc5358280b20edc394947e98341c0f03dc0bd)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Add error_code_to_string function (#1523 <https://github.com/ros-planning/moveit2/issues/1523>) (#1655 <https://github.com/ros-planning/moveit2/issues/1655>)
+     (cherry picked from commit 042709ab3ddfd9e33a0533eb1df14536c1cf1ecf)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Use pragma once as header include guard (#1525 <https://github.com/ros-planning/moveit2/issues/1525>) (#1652 <https://github.com/ros-planning/moveit2/issues/1652>)
+     (cherry picked from commit 7d758de1b2f2904b8c85520129fa8d48aad93713)
+     Co-authored-by: J. Javan <mailto:J-Javan@users.noreply.github.com>
+   * Unified code comment style (#1053 <https://github.com/ros-planning/moveit2/issues/1053>) (#1648 <https://github.com/ros-planning/moveit2/issues/1648>)
+   * Const ptr to jmg arg for cost function (#1537 <https://github.com/ros-planning/moveit2/issues/1537>) (#1610 <https://github.com/ros-planning/moveit2/issues/1610>)
+     (cherry picked from commit 389a5a855140450e5051035e42441c4653c302a2)
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Fixed fabs() use in quaternion interpolation (backport #1479 <https://github.com/ros-planning/moveit2/issues/1479>) (#1496 <https://github.com/ros-planning/moveit2/issues/1496>)
+   * Fixes for using generate_state_database (backport #1412 <https://github.com/ros-planning/moveit2/issues/1412>) (#1493 <https://github.com/ros-planning/moveit2/issues/1493>)
+   * Fixed fabs() use in quaternion interpolation (#1479 <https://github.com/ros-planning/moveit2/issues/1479>)
+   * fix path to constraints parameters
+     (cherry picked from commit fb0331610a304172c395084d4d981ed173684305)
+   * Remove __has_include statements (#1481 <https://github.com/ros-planning/moveit2/issues/1481>) (#1483 <https://github.com/ros-planning/moveit2/issues/1483>)
+   * Contributors: Alaa, Henning Kayser, werner291
+Checksums-Sha1:
+ 2d2a5ce99108dc2ba3e1c4e3802c7b1ca5cd3792 69082576 ros-rolling-moveit-core-dbgsym_2.5.4-11-gb882b0b2c-2023.01.11.07.32_amd64.ddeb
+ 96cfbff7e5dfa3aed0b87250f3796a3a8911da94 31343 ros-rolling-moveit-core_2.5.4-11-gb882b0b2c-2023.01.11.07.32_amd64.buildinfo
+ 97f4aa85e823d289ee19e2af866a28c9aceef743 1150148 ros-rolling-moveit-core_2.5.4-11-gb882b0b2c-2023.01.11.07.32_amd64.deb
+Checksums-Sha256:
+ a00cac752a6970edef3e461a4ca4f63f213888809d2d31bec4c75690863c0685 69082576 ros-rolling-moveit-core-dbgsym_2.5.4-11-gb882b0b2c-2023.01.11.07.32_amd64.ddeb
+ 9b343fd304ab77114e75eaf1966c882246e543a3f4a53089e4ec176cf3ef2cd9 31343 ros-rolling-moveit-core_2.5.4-11-gb882b0b2c-2023.01.11.07.32_amd64.buildinfo
+ 0b7ff44464bb0ccb719982241f05df884cb7e67dda5d890b7c0f2e05e8b1130a 1150148 ros-rolling-moveit-core_2.5.4-11-gb882b0b2c-2023.01.11.07.32_amd64.deb
+Files:
+ b9c3ff2976663a560b0b13b5e989eb96 69082576 debug optional ros-rolling-moveit-core-dbgsym_2.5.4-11-gb882b0b2c-2023.01.11.07.32_amd64.ddeb
+ e5267a429f01955245ab0a642ed3a422 31343 misc optional ros-rolling-moveit-core_2.5.4-11-gb882b0b2c-2023.01.11.07.32_amd64.buildinfo
+ 91b656fb0f6dfb2add31d0ff74c24297 1150148 misc optional ros-rolling-moveit-core_2.5.4-11-gb882b0b2c-2023.01.11.07.32_amd64.deb

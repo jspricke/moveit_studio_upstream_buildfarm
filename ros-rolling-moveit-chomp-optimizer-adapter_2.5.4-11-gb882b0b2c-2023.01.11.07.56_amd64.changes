@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-rolling-moveit-chomp-optimizer-adapter
+Binary: ros-rolling-moveit-chomp-optimizer-adapter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-11-gb882b0b2c-2023.01.11.07.56
+Distribution: jammy
+Urgency: high
+Maintainer: Raghavender Sahdev <raghavendersahdev@gmail.com>
+Changed-By: Raghavender Sahdev <raghavendersahdev@gmail.com>
+Description:
+ ros-rolling-moveit-chomp-optimizer-adapter - MoveIt planning request adapter utilizing chomp for solution opti
+Changes:
+ ros-rolling-moveit-chomp-optimizer-adapter (2.5.4-11-gb882b0b2c-2023.01.11.07.56) jammy; urgency=high
+ .
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ 487f6db19f7c7bf5c1bf2daa904f02ef64cd6e7e 2047144 ros-rolling-moveit-chomp-optimizer-adapter-dbgsym_2.5.4-11-gb882b0b2c-2023.01.11.07.56_amd64.ddeb
+ 59a14bc6f57dd70c8e8474b1a78048a62e7a4ed9 27229 ros-rolling-moveit-chomp-optimizer-adapter_2.5.4-11-gb882b0b2c-2023.01.11.07.56_amd64.buildinfo
+ edc11849855af3376b3ed6ce35093fb3f9a8d22a 28264 ros-rolling-moveit-chomp-optimizer-adapter_2.5.4-11-gb882b0b2c-2023.01.11.07.56_amd64.deb
+Checksums-Sha256:
+ 7383821c11c5e9a252660e4f92f3f4f7e5e94adcae8694ab6a673e008bb8b3b4 2047144 ros-rolling-moveit-chomp-optimizer-adapter-dbgsym_2.5.4-11-gb882b0b2c-2023.01.11.07.56_amd64.ddeb
+ ac066b217c9b02d0280b8a66efd01986391b62738ff30da5582e13f90767c49c 27229 ros-rolling-moveit-chomp-optimizer-adapter_2.5.4-11-gb882b0b2c-2023.01.11.07.56_amd64.buildinfo
+ 0e0dda32da795a389ae4d7c61c153a781da85123ba85606ff184a0ce3cbb5c40 28264 ros-rolling-moveit-chomp-optimizer-adapter_2.5.4-11-gb882b0b2c-2023.01.11.07.56_amd64.deb
+Files:
+ c356ac6477764122a50112fa7401bf13 2047144 debug optional ros-rolling-moveit-chomp-optimizer-adapter-dbgsym_2.5.4-11-gb882b0b2c-2023.01.11.07.56_amd64.ddeb
+ 4b3c8ba0d1579181bf48d23648621066 27229 misc optional ros-rolling-moveit-chomp-optimizer-adapter_2.5.4-11-gb882b0b2c-2023.01.11.07.56_amd64.buildinfo
+ d520d414b28533491e3b878e78792090 28264 misc optional ros-rolling-moveit-chomp-optimizer-adapter_2.5.4-11-gb882b0b2c-2023.01.11.07.56_amd64.deb
