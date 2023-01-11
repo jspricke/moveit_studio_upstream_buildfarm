@@ -1,0 +1,75 @@
+Format: 1.8
+Date: Thu, 10 Nov 2022 00:00:00 -0000
+Source: ros-rolling-moveit-simple-controller-manager
+Binary: ros-rolling-moveit-simple-controller-manager
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.6.0-52-g9e3f6b3eb-2023.01.11.16.53
+Distribution: jammy
+Urgency: high
+Maintainer: Michael Görner <me@v4hn.de>
+Changed-By: Michael Görner <me@v4hn.de>
+Description:
+ ros-rolling-moveit-simple-controller-manager - A generic, simple controller manager plugin for MoveIt.
+Changes:
+ ros-rolling-moveit-simple-controller-manager (2.6.0-52-g9e3f6b3eb-2023.01.11.16.53) jammy; urgency=high
+ .
+   * Merge PR #1553 <https://github.com/ros-planning/moveit2/issues/1553>: Improve cmake files
+   * Use standard exported targets: export_${PROJECT_NAME} -> ${PROJECT_NAME}Targets
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>)
+   * Support chained controllers (#1482 <https://github.com/ros-planning/moveit2/issues/1482>)
+     * fix controller list if chained controllers exist
+     * add comments and clean code
+     * added additional comments
+     * fix formatting
+     * fix white space
+     * add const reference and chhnage variable name
+     * simplify logic to only  work with one layer chain
+     * Don't return false when not finding optional parameter
+     * Update moveit_ros/perception/pointcloud_octomap_updater/src/pointcloud_octomap_updater.cpp
+     Co-authored-by: AndyZe <mailto:andyz@utexas.edu>
+     * add debug information
+     * print controller names
+     * print controllers with not known type
+     * load controller dependencies
+     * start chained controllers in switch
+     * reverse order of activate controllers
+     * prevent stoppping controller twice
+     * revert all debug changes
+     * add ROS error if a controller chains to more than one
+     * use loop to index chained connections
+     * update ros_control
+     * add empty controller allocator for admittance controller
+     * fix plugin xml
+     * Update moveit_plugins/moveit_ros_control_interface/src/controller_manager_plugin.cpp
+     Co-authored-by: AndyZe <mailto:andyz@utexas.edu>
+     * Update moveit_plugins/moveit_ros_control_interface/src/controller_manager_plugin.cpp
+     Co-authored-by: AndyZe <mailto:andyz@utexas.edu>
+     * Update moveit_plugins/moveit_ros_control_interface/src/controller_manager_plugin.cpp
+     Co-authored-by: AndyZe <mailto:andyz@utexas.edu>
+     * Update moveit_plugins/moveit_ros_control_interface/src/controller_manager_plugin.cpp
+     Co-authored-by: AndyZe <mailto:andyz@utexas.edu>
+     * fix map indexing
+     * add comment
+     * Update moveit_plugins/moveit_ros_control_interface/src/controller_manager_plugin.cpp
+     Co-authored-by: Tyler Weaver <mailto:squirrel428@protonmail.com>
+     * Typos
+     Co-authored-by: JafarAbdi <mailto:cafer.abdi@gmail.com>
+     Co-authored-by: Jafar <mailto:jafar.uruc@gmail.com>
+     Co-authored-by: AndyZe <mailto:andyz@utexas.edu>
+     Co-authored-by: Vatan Aksoy Tezer <mailto:vatan@picknik.ai>
+     Co-authored-by: Tyler Weaver <mailto:squirrel428@protonmail.com>
+     Co-authored-by: AndyZe <mailto:zelenak@picknik.ai>
+   * Contributors: Paul Gesel, Robert Haschke, Sebastian Jahr
+Checksums-Sha1:
+ aff0f6c5d4c482e40d20b5af423b10246719c956 1514930 ros-rolling-moveit-simple-controller-manager-dbgsym_2.6.0-52-g9e3f6b3eb-2023.01.11.16.53_amd64.ddeb
+ 3bbc02b14a4a112b568c6c8f5d2b28410b2b2bb7 27309 ros-rolling-moveit-simple-controller-manager_2.6.0-52-g9e3f6b3eb-2023.01.11.16.53_amd64.buildinfo
+ 9cc6fa629f991e5b7e57ab151baca11e2de80796 100108 ros-rolling-moveit-simple-controller-manager_2.6.0-52-g9e3f6b3eb-2023.01.11.16.53_amd64.deb
+Checksums-Sha256:
+ d81c765f7d545a341a8c53647d0e7008d774fcb533799fae20921f42ae257c8d 1514930 ros-rolling-moveit-simple-controller-manager-dbgsym_2.6.0-52-g9e3f6b3eb-2023.01.11.16.53_amd64.ddeb
+ 19a4b0d2b552170ca8800ad166e1d76ab2b98610dfa7d8c9427d44dd85c4ec03 27309 ros-rolling-moveit-simple-controller-manager_2.6.0-52-g9e3f6b3eb-2023.01.11.16.53_amd64.buildinfo
+ 1bf99d832036d0e356066372a45bd97f22fea245b486f5be7d935fea04d75584 100108 ros-rolling-moveit-simple-controller-manager_2.6.0-52-g9e3f6b3eb-2023.01.11.16.53_amd64.deb
+Files:
+ 0e725cb266c2857d34497de28aef85e3 1514930 debug optional ros-rolling-moveit-simple-controller-manager-dbgsym_2.6.0-52-g9e3f6b3eb-2023.01.11.16.53_amd64.ddeb
+ 89b6fe23a4d175f059867b8c8a097637 27309 misc optional ros-rolling-moveit-simple-controller-manager_2.6.0-52-g9e3f6b3eb-2023.01.11.16.53_amd64.buildinfo
+ 3cd79ef1db38c34839b09b662bed6a57 100108 misc optional ros-rolling-moveit-simple-controller-manager_2.6.0-52-g9e3f6b3eb-2023.01.11.16.53_amd64.deb

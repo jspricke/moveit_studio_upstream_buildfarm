@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Wed, 03 Aug 2022 00:00:00 -0000
+Source: ros-rolling-ros2-control-test-assets
+Binary: ros-rolling-ros2-control-test-assets
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.13.0-2023.01.11.18.02
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-rolling-ros2-control-test-assets - The package provides shared test resources for ros2_control stack
+Changes:
+ ros-rolling-ros2-control-test-assets (2.13.0-2023.01.11.18.02) jammy; urgency=high
+Checksums-Sha1:
+ 63c477873fce03d3020c92b94223a1d0daa1d447 9077 ros-rolling-ros2-control-test-assets_2.13.0-2023.01.11.18.02_amd64.buildinfo
+ 633a0658596a831aee20c7733059f668514ad252 11046 ros-rolling-ros2-control-test-assets_2.13.0-2023.01.11.18.02_amd64.deb
+Checksums-Sha256:
+ c88dbf1125f66bee8897e40f3a9665e8c3c2a090a72d2b39ba24073310ee36e3 9077 ros-rolling-ros2-control-test-assets_2.13.0-2023.01.11.18.02_amd64.buildinfo
+ 7a1394f5d49309521e004436c64dd3fdd78ee6b65e8a69624a6bf74d61f40720 11046 ros-rolling-ros2-control-test-assets_2.13.0-2023.01.11.18.02_amd64.deb
+Files:
+ 10dfe4e1e8c7835d170d748881f42078 9077 misc optional ros-rolling-ros2-control-test-assets_2.13.0-2023.01.11.18.02_amd64.buildinfo
+ e107e20fe29349b7664c7b89077a2bcc 11046 misc optional ros-rolling-ros2-control-test-assets_2.13.0-2023.01.11.18.02_amd64.deb

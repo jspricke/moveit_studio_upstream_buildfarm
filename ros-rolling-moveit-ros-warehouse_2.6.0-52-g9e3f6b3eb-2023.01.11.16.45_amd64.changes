@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Thu, 10 Nov 2022 00:00:00 -0000
+Source: ros-rolling-moveit-ros-warehouse
+Binary: ros-rolling-moveit-ros-warehouse
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.6.0-52-g9e3f6b3eb-2023.01.11.16.45
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit-ros-warehouse - Components of MoveIt connecting to MongoDB
+Changes:
+ ros-rolling-moveit-ros-warehouse (2.6.0-52-g9e3f6b3eb-2023.01.11.16.45) jammy; urgency=high
+ .
+   * Restructure moveit warehouse package (#1551 <https://github.com/ros-planning/moveit2/issues/1551>)
+     * Restructure warhouse package to match other packages, remove manifest.xml
+     * Cleanup CMakeLists.txt file
+     * Remove dublicate install command
+     * Export ${PROJECT_NAME}Targets
+   * Merge PR #1553 <https://github.com/ros-planning/moveit2/issues/1553>: Improve cmake files
+   * Use standard exported targets: export_${PROJECT_NAME} -> ${PROJECT_NAME}Targets
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>)
+   * Remove __has_include statements (#1481 <https://github.com/ros-planning/moveit2/issues/1481>)
+   * Contributors: Robert Haschke, Sebastian Jahr, Vatan Aksoy Tezer
+Checksums-Sha1:
+ fdbf27d5add9a82e458760e7b1fa50d57ba6014c 17615552 ros-rolling-moveit-ros-warehouse-dbgsym_2.6.0-52-g9e3f6b3eb-2023.01.11.16.45_amd64.ddeb
+ d8746b5c9efa1eb8f6655aeedec1777fd032a6e7 28037 ros-rolling-moveit-ros-warehouse_2.6.0-52-g9e3f6b3eb-2023.01.11.16.45_amd64.buildinfo
+ 80533170a8276a5de7d5c7fd1fa186d09dd99cb1 398908 ros-rolling-moveit-ros-warehouse_2.6.0-52-g9e3f6b3eb-2023.01.11.16.45_amd64.deb
+Checksums-Sha256:
+ 11962f3d4308979af6b36587b0c4a39d5c3ba1ac63868ff13a1ec9a84ff12d3d 17615552 ros-rolling-moveit-ros-warehouse-dbgsym_2.6.0-52-g9e3f6b3eb-2023.01.11.16.45_amd64.ddeb
+ 0d30f01f7e1ac839ca9c346435fda70b1b2f9aa017abcd6c3173082286b33f2a 28037 ros-rolling-moveit-ros-warehouse_2.6.0-52-g9e3f6b3eb-2023.01.11.16.45_amd64.buildinfo
+ e1e8e3d73184cf5af673d572fff2f0299b9ad9c04c65ac3c899697118fd8d6cc 398908 ros-rolling-moveit-ros-warehouse_2.6.0-52-g9e3f6b3eb-2023.01.11.16.45_amd64.deb
+Files:
+ 0c81521e10aa5c0a7d5038624214b1f2 17615552 debug optional ros-rolling-moveit-ros-warehouse-dbgsym_2.6.0-52-g9e3f6b3eb-2023.01.11.16.45_amd64.ddeb
+ c3a278b5282dad3d401effd578f74fa6 28037 misc optional ros-rolling-moveit-ros-warehouse_2.6.0-52-g9e3f6b3eb-2023.01.11.16.45_amd64.buildinfo
+ 65e05b237dac789149acc7928f604f9e 398908 misc optional ros-rolling-moveit-ros-warehouse_2.6.0-52-g9e3f6b3eb-2023.01.11.16.45_amd64.deb

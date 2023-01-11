@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 10 Nov 2022 00:00:00 -0000
+Source: ros-rolling-moveit-planners
+Binary: ros-rolling-moveit-planners
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.6.0-52-g9e3f6b3eb-2023.01.11.15.39
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit-planners - Meta package that installs all available planners for MoveIt
+Changes:
+ ros-rolling-moveit-planners (2.6.0-52-g9e3f6b3eb-2023.01.11.15.39) jammy; urgency=high
+ .
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>)
+   * Contributors: Sebastian Jahr
+Checksums-Sha1:
+ 63720d335fa0e6bbd89db39d0f538bbc40465894 10803 ros-rolling-moveit-planners_2.6.0-52-g9e3f6b3eb-2023.01.11.15.39_amd64.buildinfo
+ 4f26ccb0c7cdf23d1fe6ae49a1b36f6adf0219dc 6102 ros-rolling-moveit-planners_2.6.0-52-g9e3f6b3eb-2023.01.11.15.39_amd64.deb
+Checksums-Sha256:
+ f4ee899da4235e20f184a45fdc5e5d5e4faefd5b1ae26bd478f749d8e70b07d9 10803 ros-rolling-moveit-planners_2.6.0-52-g9e3f6b3eb-2023.01.11.15.39_amd64.buildinfo
+ 30950ac9ae8211ed4bb445bf19ffbfd78d8d8218839d1566b503e7f8cddac42c 6102 ros-rolling-moveit-planners_2.6.0-52-g9e3f6b3eb-2023.01.11.15.39_amd64.deb
+Files:
+ 32afd8154e558d87625f65ab5479323b 10803 misc optional ros-rolling-moveit-planners_2.6.0-52-g9e3f6b3eb-2023.01.11.15.39_amd64.buildinfo
+ 74b0071b15a3a6b8b09745ac4a899a15 6102 misc optional ros-rolling-moveit-planners_2.6.0-52-g9e3f6b3eb-2023.01.11.15.39_amd64.deb
