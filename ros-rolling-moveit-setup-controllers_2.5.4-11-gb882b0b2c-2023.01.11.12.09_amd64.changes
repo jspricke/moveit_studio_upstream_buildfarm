@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-rolling-moveit-setup-controllers
+Binary: ros-rolling-moveit-setup-controllers
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-11-gb882b0b2c-2023.01.11.12.09
+Distribution: jammy
+Urgency: high
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Changed-By: David V. Lu!! <davidvlu@gmail.com>
+Description:
+ ros-rolling-moveit-setup-controllers - MoveIt Setup Steps for ROS 2 Control
+Changes:
+ ros-rolling-moveit-setup-controllers (2.5.4-11-gb882b0b2c-2023.01.11.12.09) jammy; urgency=high
+ .
+   * MSA: write the default controller namespace (#1515 <https://github.com/ros-planning/moveit2/issues/1515>) (#1651 <https://github.com/ros-planning/moveit2/issues/1651>)
+     (cherry picked from commit 066e8621166858d3f556726197b07643a1b685f9)
+     Co-authored-by: AndyZe <mailto:zelenak@picknik.ai>
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ 69729c9cd0cf8c5605e450ac2d84ba7f586e3026 11122680 ros-rolling-moveit-setup-controllers-dbgsym_2.5.4-11-gb882b0b2c-2023.01.11.12.09_amd64.ddeb
+ eb80f1e60546ffe84961366a6e81b903087f5073 34547 ros-rolling-moveit-setup-controllers_2.5.4-11-gb882b0b2c-2023.01.11.12.09_amd64.buildinfo
+ 701ceabdbd82592752d1cc57ece7f8753a433ca2 162224 ros-rolling-moveit-setup-controllers_2.5.4-11-gb882b0b2c-2023.01.11.12.09_amd64.deb
+Checksums-Sha256:
+ 651500285548c80630fb987b74ed3e3d04387ff4b87c5418f531c1e2c7d4b2e5 11122680 ros-rolling-moveit-setup-controllers-dbgsym_2.5.4-11-gb882b0b2c-2023.01.11.12.09_amd64.ddeb
+ 9ffdd76b8085afe36706ec6b16178cd051c4ac0d57c0b88c402d437531ce3753 34547 ros-rolling-moveit-setup-controllers_2.5.4-11-gb882b0b2c-2023.01.11.12.09_amd64.buildinfo
+ 5788dac387a285572448fe3dea8008d9f87add9a19a630610f9ad5de5f477dec 162224 ros-rolling-moveit-setup-controllers_2.5.4-11-gb882b0b2c-2023.01.11.12.09_amd64.deb
+Files:
+ cc114f55a88b839cd127228726c5eb72 11122680 debug optional ros-rolling-moveit-setup-controllers-dbgsym_2.5.4-11-gb882b0b2c-2023.01.11.12.09_amd64.ddeb
+ bc7ecf057aba2b355fc9c3b3f0ec0531 34547 misc optional ros-rolling-moveit-setup-controllers_2.5.4-11-gb882b0b2c-2023.01.11.12.09_amd64.buildinfo
+ a39dd28bbbaf64803e3147b96eb1b6f3 162224 misc optional ros-rolling-moveit-setup-controllers_2.5.4-11-gb882b0b2c-2023.01.11.12.09_amd64.deb

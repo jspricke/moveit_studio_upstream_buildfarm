@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-rolling-moveit-configs-utils
+Binary: ros-rolling-moveit-configs-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-11-gb882b0b2c-2023.01.11.11.07
+Distribution: jammy
+Urgency: high
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Description:
+ ros-rolling-moveit-configs-utils - Python library for loading moveit config parameters in launch fil
+Changes:
+ ros-rolling-moveit-configs-utils (2.5.4-11-gb882b0b2c-2023.01.11.11.07) jammy; urgency=high
+ .
+   * Use MoveItConfigsBuilder in Pilz test launch file (#1571 <https://github.com/ros-planning/moveit2/issues/1571>) (#1662 <https://github.com/ros-planning/moveit2/issues/1662>)
+     (cherry picked from commit 5e880bacaad780f511ed99847050216a8b9905c1)
+     Co-authored-by: Abishalini Sivaraman <mailto:abi.gpuram@gmail.com>
+   * Only require Cartesian limits if Pilz is used (#1519 <https://github.com/ros-planning/moveit2/issues/1519>) (#1653 <https://github.com/ros-planning/moveit2/issues/1653>)
+     (cherry picked from commit 40f7f091cc77a683f3c0a4af64f6a463dd0846f1)
+     Co-authored-by: Stephanie Eng <mailto:stephanie-eng@users.noreply.github.com>
+   * Typo fix (#1518 <https://github.com/ros-planning/moveit2/issues/1518>) (#1650 <https://github.com/ros-planning/moveit2/issues/1650>)
+     (cherry picked from commit e89526de24d88fb05eb646a7925de69ba480bfe8)
+     Co-authored-by: Stephanie Eng <mailto:stephanie-eng@users.noreply.github.com>
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ 905afbaa3cb20ade3fbc1d0bc6851aeac0f7996e 9852 ros-rolling-moveit-configs-utils_2.5.4-11-gb882b0b2c-2023.01.11.11.07_amd64.buildinfo
+ b5432a5f5abf714130f706a96d5a38936275f945 20292 ros-rolling-moveit-configs-utils_2.5.4-11-gb882b0b2c-2023.01.11.11.07_amd64.deb
+Checksums-Sha256:
+ c855349d96c043f59178d54642e14ef43bbf54e218abb69eb56923b14105807d 9852 ros-rolling-moveit-configs-utils_2.5.4-11-gb882b0b2c-2023.01.11.11.07_amd64.buildinfo
+ a9368170702168962613bc614dc221d115698f030bd160be1e940600324b0cfc 20292 ros-rolling-moveit-configs-utils_2.5.4-11-gb882b0b2c-2023.01.11.11.07_amd64.deb
+Files:
+ 36e5bd1cf10645d444b7856116b515b6 9852 misc optional ros-rolling-moveit-configs-utils_2.5.4-11-gb882b0b2c-2023.01.11.11.07_amd64.buildinfo
+ eba0c9b94dc2c752fa1b4968f2a3bc53 20292 misc optional ros-rolling-moveit-configs-utils_2.5.4-11-gb882b0b2c-2023.01.11.11.07_amd64.deb

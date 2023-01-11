@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-rolling-moveit-common
+Binary: ros-rolling-moveit-common
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-11-gb882b0b2c-2023.01.11.11.06
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit-common - Common support functionality used throughout MoveIt
+Changes:
+ ros-rolling-moveit-common (2.5.4-11-gb882b0b2c-2023.01.11.11.06) jammy; urgency=high
+ .
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ e36a8ff398aa72b6033530b00c6c51d7dcbe7de6 10989 ros-rolling-moveit-common_2.5.4-11-gb882b0b2c-2023.01.11.11.06_amd64.buildinfo
+ 9c4cd148be7f09da241546933aeaca0d411613ad 7674 ros-rolling-moveit-common_2.5.4-11-gb882b0b2c-2023.01.11.11.06_amd64.deb
+Checksums-Sha256:
+ c21132a99641fd4a27cce51f8e8a26272f363584fb7dfb369f89aab141e2aad2 10989 ros-rolling-moveit-common_2.5.4-11-gb882b0b2c-2023.01.11.11.06_amd64.buildinfo
+ c3473850898c2feea068cf26a6bb0bc649c342c09a408f66fe0b65a2edb97995 7674 ros-rolling-moveit-common_2.5.4-11-gb882b0b2c-2023.01.11.11.06_amd64.deb
+Files:
+ 35a5ad866c4407a53639115870545128 10989 misc optional ros-rolling-moveit-common_2.5.4-11-gb882b0b2c-2023.01.11.11.06_amd64.buildinfo
+ f89433c8eb780a4c859c65d173b60feb 7674 misc optional ros-rolling-moveit-common_2.5.4-11-gb882b0b2c-2023.01.11.11.06_amd64.deb

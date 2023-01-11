@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Mon, 09 May 2022 00:00:00 -0000
+Source: ros-rolling-srdfdom
+Binary: ros-rolling-srdfdom
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.0.4-1-g91d7db8-2023.01.11.11.20
+Distribution: jammy
+Urgency: high
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Description:
+ ros-rolling-srdfdom - Parser for Semantic Robot Description Format (SRDF).
+Changes:
+ ros-rolling-srdfdom (2.0.4-1-g91d7db8-2023.01.11.11.20) jammy; urgency=high
+ .
+   * Parse <disable_default_collisions> and <enable_collisions> tags (#101, from #97)
+   * Fix Windows .dll install location (#98)
+   * Contributors: Robert Haschke, Abishalini Sivaraman, Akash, Henning Kayser
+Checksums-Sha1:
+ 30ffb41ee7d4f62b58d7ed1686267464fec40a28 708236 ros-rolling-srdfdom-dbgsym_2.0.4-1-g91d7db8-2023.01.11.11.20_amd64.ddeb
+ 13f8ff86bebc0c3b09d07764f0472d7f957b224f 11038 ros-rolling-srdfdom_2.0.4-1-g91d7db8-2023.01.11.11.20_amd64.buildinfo
+ 34787325c78bfb2aae670ba7b6114bfee035ac6b 61222 ros-rolling-srdfdom_2.0.4-1-g91d7db8-2023.01.11.11.20_amd64.deb
+Checksums-Sha256:
+ dc2eab281b0907a30803478799eb783cf0df86da6bdfc4a0dc932db946123eaa 708236 ros-rolling-srdfdom-dbgsym_2.0.4-1-g91d7db8-2023.01.11.11.20_amd64.ddeb
+ fc36c35b8ee659f7df3eb7a64a7f3f6d4336c5a57325393a3a8c78caf91fc5e2 11038 ros-rolling-srdfdom_2.0.4-1-g91d7db8-2023.01.11.11.20_amd64.buildinfo
+ b54ae8172b1ebbaaae77761d8f7bce84b5709b23c169a786ac91c3456fe89140 61222 ros-rolling-srdfdom_2.0.4-1-g91d7db8-2023.01.11.11.20_amd64.deb
+Files:
+ 88690443e993d0753c4f2a0614a4a6eb 708236 debug optional ros-rolling-srdfdom-dbgsym_2.0.4-1-g91d7db8-2023.01.11.11.20_amd64.ddeb
+ f4b4a98812a420daddd4f82f9ce6c66e 11038 misc optional ros-rolling-srdfdom_2.0.4-1-g91d7db8-2023.01.11.11.20_amd64.buildinfo
+ 661e4e0a94bbd5e292099716eff1fff0 61222 misc optional ros-rolling-srdfdom_2.0.4-1-g91d7db8-2023.01.11.11.20_amd64.deb

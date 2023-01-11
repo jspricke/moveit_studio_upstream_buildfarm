@@ -1,0 +1,44 @@
+sbuild (Debian sbuild) 0.84.2~ubuntu2204+3 (28 December 2022) on fv-az193-131.nrc2ynj0rd0exph0lb1os4zsqh.jx.internal.cloudapp.net
+
++=============================================================================================================+
+| ros-rolling-moveit-task-constructor-capabilities 0-2023.01.11.12.21 (amd64) Wed, 11 Jan 2023 12:21:28 +0000 |
++=============================================================================================================+
+
+Package: ros-rolling-moveit-task-constructor-capabilities
+Version: 0-2023.01.11.12.21
+Source Version: 0-2023.01.11.12.21
+Distribution: jammy
+Machine Architecture: amd64
+Host Architecture: amd64
+Build Architecture: amd64
+Build Type: binary
+
+Unpacking /home/runner/.cache/sbuild/jammy-amd64.tar to /tmp/tmp.sbuild.seJiAau0ou...
+E: ABORT: Received PIPE signal (requesting cleanup and shutdown)
+E: ABORT: Received PIPE signal (requesting cleanup and shutdown)
+copy() failed: Broken pipe
+E: Error creating chroot session: skipping ros-rolling-moveit-task-constructor-capabilities
+
++------------------------------------------------------------------------------+
+| Summary                                                                      |
++------------------------------------------------------------------------------+
+
+Build Architecture: amd64
+Build Type: binary
+Build-Space: 0
+Build-Time: 0
+Distribution: jammy
+Fail-Stage: create-session
+Host Architecture: amd64
+Install-Time: 0
+Job: /home/runner/work/moveit_studio_upstream_buildfarm/moveit_studio_upstream_buildfarm/src/moveit_task_constructor/ros-rolling-moveit-task-constructor-capabilities_0-2023.01.11.12.21.dsc
+Machine Architecture: amd64
+Package: ros-rolling-moveit-task-constructor-capabilities
+Package-Time: 0
+Source-Version: 0-2023.01.11.12.21
+Space: 0
+Status: failed
+Version: 0-2023.01.11.12.21
+--------------------------------------------------------------------------------
+Finished at 2023-01-11T12:21:28Z
+Build needed 00:00:00, 0k disk space

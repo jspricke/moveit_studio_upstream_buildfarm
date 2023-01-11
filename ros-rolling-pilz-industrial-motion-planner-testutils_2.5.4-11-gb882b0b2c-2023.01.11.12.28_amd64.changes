@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-rolling-pilz-industrial-motion-planner-testutils
+Binary: ros-rolling-pilz-industrial-motion-planner-testutils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-11-gb882b0b2c-2023.01.11.12.28
+Distribution: jammy
+Urgency: high
+Maintainer: Christian Henkel <c.henkel@pilz.de>
+Changed-By: Christian Henkel <c.henkel@pilz.de>
+Description:
+ ros-rolling-pilz-industrial-motion-planner-testutils - Helper scripts and functionality to test industrial motion genera
+Changes:
+ ros-rolling-pilz-industrial-motion-planner-testutils (2.5.4-11-gb882b0b2c-2023.01.11.12.28) jammy; urgency=high
+ .
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Remove __has_include statements (#1481 <https://github.com/ros-planning/moveit2/issues/1481>) (#1483 <https://github.com/ros-planning/moveit2/issues/1483>)
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ a9e27e7962794c2a204036a25356ba335f0c25aa 5054014 ros-rolling-pilz-industrial-motion-planner-testutils-dbgsym_2.5.4-11-gb882b0b2c-2023.01.11.12.28_amd64.ddeb
+ 3ed76cbd29def120ffe082da981ba28cba2eb0c9 27254 ros-rolling-pilz-industrial-motion-planner-testutils_2.5.4-11-gb882b0b2c-2023.01.11.12.28_amd64.buildinfo
+ bd43535a0b52c884644df92c14a210f5f5147c89 104084 ros-rolling-pilz-industrial-motion-planner-testutils_2.5.4-11-gb882b0b2c-2023.01.11.12.28_amd64.deb
+Checksums-Sha256:
+ 69d3186efe2cf12e1263a1f1b0e240c4db147c4bc6c6ffa8d4e3b1e70e56b823 5054014 ros-rolling-pilz-industrial-motion-planner-testutils-dbgsym_2.5.4-11-gb882b0b2c-2023.01.11.12.28_amd64.ddeb
+ a706fc793c5211f471d40f671de3f76d99b69344b8dfd7ec7aa6e3eeae042aad 27254 ros-rolling-pilz-industrial-motion-planner-testutils_2.5.4-11-gb882b0b2c-2023.01.11.12.28_amd64.buildinfo
+ c9f87296c1c18c28a39af095af2ef35ae0de9c055b04bad93f6e6049aff4059c 104084 ros-rolling-pilz-industrial-motion-planner-testutils_2.5.4-11-gb882b0b2c-2023.01.11.12.28_amd64.deb
+Files:
+ 40fb2c0e7420b8f5441176b6f5305531 5054014 debug optional ros-rolling-pilz-industrial-motion-planner-testutils-dbgsym_2.5.4-11-gb882b0b2c-2023.01.11.12.28_amd64.ddeb
+ 74ed7de2753f38874669c3260707ef33 27254 misc optional ros-rolling-pilz-industrial-motion-planner-testutils_2.5.4-11-gb882b0b2c-2023.01.11.12.28_amd64.buildinfo
+ 7cf249344b2df689d13b33b48f9f645a 104084 misc optional ros-rolling-pilz-industrial-motion-planner-testutils_2.5.4-11-gb882b0b2c-2023.01.11.12.28_amd64.deb
