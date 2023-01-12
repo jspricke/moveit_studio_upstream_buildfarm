@@ -1,0 +1,53 @@
+Format: 1.8
+Date: Thu, 10 Nov 2022 00:00:00 -0000
+Source: ros-rolling-moveit-ros-move-group
+Binary: ros-rolling-moveit-ros-move-group
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.17.28
+Distribution: jammy
+Urgency: high
+Maintainer: Michael Görner <me@v4hn.de>
+Changed-By: Michael Görner <me@v4hn.de>
+Description:
+ ros-rolling-moveit-ros-move-group - The move_group node for MoveIt
+Changes:
+ ros-rolling-moveit-ros-move-group (2.6.0-53-gc6733bd0e-2023.01.12.17.28) jammy; urgency=high
+ .
+   * Short-circuit planning adapters (#1694 <https://github.com/ros-planning/moveit2/issues/1694>)
+     * Revert "Planning request adapters: short-circuit if failure, return code rather than bool (#1605 <https://github.com/ros-planning/moveit2/issues/1605>)"
+     This reverts commit 66a64b4a72b6ddef1af2329f20ed8162554d5bcb.
+     * Add debug message in call stack of planning_request_adapters
+     * Short-circuit planning request adapters
+     * Replace if-elseif cascade with switch
+     * Cleanup translation of MoveItErrorCode to string
+     - Move default code to moveit_core/utils
+     - Override defaults in existing getActionResultString()
+     - Provide translations for all error codes defined in moveit_msgs
+     * Fix comment according to review
+     * Add braces
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+     * Add braces
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+     Co-authored-by: AndyZe <mailto:andyz@utexas.edu>
+   * avoid implicit conversions (#1593 <https://github.com/ros-planning/moveit2/issues/1593>)
+   * Remove unused header (#1572 <https://github.com/ros-planning/moveit2/issues/1572>)
+   * Merge PR #1553 <https://github.com/ros-planning/moveit2/issues/1553>: Improve cmake files
+   * Use standard exported targets: export_${PROJECT_NAME} -> ${PROJECT_NAME}Targets
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>)
+   * Removed plan_with_sensing (#1142 <https://github.com/ros-planning/moveit2/issues/1142>)
+   * Remove __has_include statements (#1481 <https://github.com/ros-planning/moveit2/issues/1481>)
+   * Contributors: Abishalini Sivaraman, Robert Haschke, Sarah Nix, Sebastian Jahr, Stephanie Eng, Vatan Aksoy Tezer
+Checksums-Sha1:
+ 78d310231a18dd96518dd0263e7bc836de0070b1 23734148 ros-rolling-moveit-ros-move-group-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.17.28_amd64.ddeb
+ ca55ee120418b15a789e3f258367b299de5d98d0 28352 ros-rolling-moveit-ros-move-group_2.6.0-53-gc6733bd0e-2023.01.12.17.28_amd64.buildinfo
+ 4fa9bb6b6cf88f35e66267af09e79464307d6606 338924 ros-rolling-moveit-ros-move-group_2.6.0-53-gc6733bd0e-2023.01.12.17.28_amd64.deb
+Checksums-Sha256:
+ b7bd1d2a175d657af2d24c101963549d865dcf1f85dff0af90f8cb5b3bf59354 23734148 ros-rolling-moveit-ros-move-group-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.17.28_amd64.ddeb
+ 37b2791dc292dc3b9e8bbf927a4c2844519cac8ba2b0267a4cea98bb3b85ba21 28352 ros-rolling-moveit-ros-move-group_2.6.0-53-gc6733bd0e-2023.01.12.17.28_amd64.buildinfo
+ 171435e3e75f9faea41b73cf108c6cb40082c1f561b68b28946f0a193517bcb1 338924 ros-rolling-moveit-ros-move-group_2.6.0-53-gc6733bd0e-2023.01.12.17.28_amd64.deb
+Files:
+ 557e8eed70ba00db6d59e82c667bf3af 23734148 debug optional ros-rolling-moveit-ros-move-group-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.17.28_amd64.ddeb
+ 25d163812116c1d3d2a13b22344efd48 28352 misc optional ros-rolling-moveit-ros-move-group_2.6.0-53-gc6733bd0e-2023.01.12.17.28_amd64.buildinfo
+ 4dedce8f43f4be2c6f88c4fd3a7920ee 338924 misc optional ros-rolling-moveit-ros-move-group_2.6.0-53-gc6733bd0e-2023.01.12.17.28_amd64.deb

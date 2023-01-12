@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 03 Aug 2022 00:00:00 -0000
+Source: ros-rolling-ros2controlcli
+Binary: ros-rolling-ros2controlcli
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.13.0-2023.01.12.19.00
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-rolling-ros2controlcli - The ROS 2 command line tools for ROS2 Control.
+Changes:
+ ros-rolling-ros2controlcli (2.13.0-2023.01.12.19.00) jammy; urgency=high
+ .
+   * Add chained controllers information in list controllers service #abi-braking (#758 <https://github.com/ros-controls/ros2_control/issues/758>)
+     * add chained controllers in ros2controlcli
+     * remove controller_group from service
+     * added comments to ControllerState message
+     * added comments to ChainedConnection message
+   * Added spawner colors to command interfaces based on availablity and claimed status (#754 <https://github.com/ros-controls/ros2_control/issues/754>)
+   * Contributors: Leander Stephen D'Souza, Paul Gesel
+Checksums-Sha1:
+ 7aff773b4e8135a8ffcd981ae6dc6ebf00748945 16847 ros-rolling-ros2controlcli_2.13.0-2023.01.12.19.00_amd64.buildinfo
+ 1c2ed06fed4b6c445a2cc2e497cc6c6d77b54b81 15276 ros-rolling-ros2controlcli_2.13.0-2023.01.12.19.00_amd64.deb
+Checksums-Sha256:
+ 87b029b297bb14f45b2648349417b8c021543751b5c93eadb596d255a9cae6c2 16847 ros-rolling-ros2controlcli_2.13.0-2023.01.12.19.00_amd64.buildinfo
+ 4283a0d36220facfca264f043bb66960a6c9959e2f4149d8703afa2ce116894d 15276 ros-rolling-ros2controlcli_2.13.0-2023.01.12.19.00_amd64.deb
+Files:
+ 5517de1f019674b9fc5022ca98d99dc1 16847 misc optional ros-rolling-ros2controlcli_2.13.0-2023.01.12.19.00_amd64.buildinfo
+ 5fd78ba2c2f7e6e68055ac57f4e2c29c 15276 misc optional ros-rolling-ros2controlcli_2.13.0-2023.01.12.19.00_amd64.deb

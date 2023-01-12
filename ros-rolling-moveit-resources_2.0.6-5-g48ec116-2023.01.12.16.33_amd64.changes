@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Mon, 18 Jul 2022 00:00:00 -0000
+Source: ros-rolling-moveit-resources
+Binary: ros-rolling-moveit-resources
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.0.6-5-g48ec116-2023.01.12.16.33
+Distribution: jammy
+Urgency: high
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Description:
+ ros-rolling-moveit-resources - Resources used for MoveIt testing
+Changes:
+ ros-rolling-moveit-resources (2.0.6-5-g48ec116-2023.01.12.16.33) jammy; urgency=high
+Checksums-Sha1:
+ 62181216b90f2f37fe9712e1dd1240d6820f115c 9074 ros-rolling-moveit-resources_2.0.6-5-g48ec116-2023.01.12.16.33_amd64.buildinfo
+ e424d2f8e1d5bcd04b6373ec2569908cecacd130 6438 ros-rolling-moveit-resources_2.0.6-5-g48ec116-2023.01.12.16.33_amd64.deb
+Checksums-Sha256:
+ 009c0c362e84cec17429b52d7c6016d3cec411f10f75241948fbe687730e0d04 9074 ros-rolling-moveit-resources_2.0.6-5-g48ec116-2023.01.12.16.33_amd64.buildinfo
+ c73b631269cc93d953f039a21495249dd13f65cf8eb839be73dd9f1cd458016a 6438 ros-rolling-moveit-resources_2.0.6-5-g48ec116-2023.01.12.16.33_amd64.deb
+Files:
+ 37b86aa70519ac9f0d037b31c4858154 9074 misc optional ros-rolling-moveit-resources_2.0.6-5-g48ec116-2023.01.12.16.33_amd64.buildinfo
+ b5b542bf83e6a3a1ae849277f1d9cf57 6438 misc optional ros-rolling-moveit-resources_2.0.6-5-g48ec116-2023.01.12.16.33_amd64.deb
