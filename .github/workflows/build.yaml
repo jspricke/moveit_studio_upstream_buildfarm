@@ -11,7 +11,6 @@ jobs:
       - uses: jspricke/ros-deb-builder-action@main
         with:
           ROS_DISTRO: debian
-          DEB_DISTRO: sid
+          DEB_DISTRO: jammy
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SBUILD_CONF: '$verbose = 1;'
-          ROSDEP_SOURCE: yaml file:///home/runner/work/moveit_studio_upstream_buildfarm/moveit_studio_upstream_buildfarm/rosdep.yaml ${{ matrix.ros_distro }}
