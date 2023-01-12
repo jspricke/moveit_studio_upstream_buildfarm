@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Mon, 18 Jul 2022 00:00:00 -0000
+Source: ros-rolling-moveit-resources-panda-description
+Binary: ros-rolling-moveit-resources-panda-description
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.0.6-5-g48ec116-2023.01.12.09.39
+Distribution: jammy
+Urgency: high
+Maintainer: Dave Coleman <dave@dav.ee>
+Changed-By: Dave Coleman <dave@dav.ee>
+Description:
+ ros-rolling-moveit-resources-panda-description - panda Resources used for MoveIt testing
+Changes:
+ ros-rolling-moveit-resources-panda-description (2.0.6-5-g48ec116-2023.01.12.09.39) jammy; urgency=high
+Checksums-Sha1:
+ 606f0cfa34a0e69b539d650877e293ad64a3f6e4 9173 ros-rolling-moveit-resources-panda-description_2.0.6-5-g48ec116-2023.01.12.09.39_amd64.buildinfo
+ d6594089b62e1fe2e82165babfeea05f1c2b8a00 3135392 ros-rolling-moveit-resources-panda-description_2.0.6-5-g48ec116-2023.01.12.09.39_amd64.deb
+Checksums-Sha256:
+ 1483fd5c3fb5838e1124ba93cfe427bbd89b45470aed03b9fa9c161284dfa677 9173 ros-rolling-moveit-resources-panda-description_2.0.6-5-g48ec116-2023.01.12.09.39_amd64.buildinfo
+ b75e8fe280799c5ebb0f04d03fa7b2d48a89052e13ac6c556753192450c63460 3135392 ros-rolling-moveit-resources-panda-description_2.0.6-5-g48ec116-2023.01.12.09.39_amd64.deb
+Files:
+ ff10bc591e0a867f41dbddc6b7ebcaa6 9173 misc optional ros-rolling-moveit-resources-panda-description_2.0.6-5-g48ec116-2023.01.12.09.39_amd64.buildinfo
+ 2110d4739c98e8d693c19602a09ef685 3135392 misc optional ros-rolling-moveit-resources-panda-description_2.0.6-5-g48ec116-2023.01.12.09.39_amd64.deb

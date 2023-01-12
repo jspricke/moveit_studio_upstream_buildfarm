@@ -1,2 +1,2 @@
-- [hardware_interface](https://raw.githubusercontent.com/jspricke/moveit_studio_upstream_buildfarm/jammy-rolling/ros-rolling-hardware-interface*-*T*.build)
-- [controller_manager](https://raw.githubusercontent.com/jspricke/moveit_studio_upstream_buildfarm/jammy-rolling/ros-rolling-controller-manager*-*T*.build)
+- [hardware_interface](https://raw.githubusercontent.com/jspricke/moveit_studio_upstream_buildfarm/jammy-rolling/ros-rolling-hardware-interface_2.13.0-2023.01.12.10.49_amd64-2023-01-12T10:49:23Z.build)
+- [controller_manager](https://raw.githubusercontent.com/jspricke/moveit_studio_upstream_buildfarm/jammy-rolling/ros-rolling-controller-manager-msgs_2.13.0-2023.01.12.09.32_amd64-2023-01-12T09:32:24Z.build)
