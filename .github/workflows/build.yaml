@@ -11,6 +11,6 @@ jobs:
       - uses: jspricke/ros-deb-builder-action@main
         with:
           ROS_DISTRO: debian
-          DEB_DISTRO: jammy
+          DEB_DISTRO: sid
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SBUILD_CONF: '$verbose = 1;'
