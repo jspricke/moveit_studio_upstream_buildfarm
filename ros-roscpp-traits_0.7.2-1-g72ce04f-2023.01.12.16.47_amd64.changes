@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Thu, 28 May 2020 00:00:00 -0000
+Source: ros-roscpp-traits
+Binary: ros-roscpp-traits
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.7.2-1-g72ce04f-2023.01.12.16.47
+Distribution: jammy
+Urgency: high
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Changed-By: Dirk Thomas <dthomas@osrfoundation.org>
+Description:
+ ros-roscpp-traits - roscpp_traits contains the message traits code as described in Me
+Changes:
+ ros-roscpp-traits (0.7.2-1-g72ce04f-2023.01.12.16.47) jammy; urgency=high
+Checksums-Sha1:
+ 5199f2ced73f183cd7a9613c83dc1f30ecf303eb 7903 ros-roscpp-traits_0.7.2-1-g72ce04f-2023.01.12.16.47_amd64.buildinfo
+ aeeda5d5e0fb2de90a92d405f3fda9518c615efb 10276 ros-roscpp-traits_0.7.2-1-g72ce04f-2023.01.12.16.47_amd64.deb
+Checksums-Sha256:
+ 4ccaaea40a6adbb2fc00b0f03cef155272aa8e674ca6411f20c556c2ee19f305 7903 ros-roscpp-traits_0.7.2-1-g72ce04f-2023.01.12.16.47_amd64.buildinfo
+ 7bbd3f61388ee280dd17ad3ce971c54d5886fe070243802251093515244ba52f 10276 ros-roscpp-traits_0.7.2-1-g72ce04f-2023.01.12.16.47_amd64.deb
+Files:
+ 757a66abae1f05b3474276d3c74984aa 7903 misc optional ros-roscpp-traits_0.7.2-1-g72ce04f-2023.01.12.16.47_amd64.buildinfo
+ 153fbef8480928b2377dcaafce769ea6 10276 misc optional ros-roscpp-traits_0.7.2-1-g72ce04f-2023.01.12.16.47_amd64.deb

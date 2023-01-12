@@ -1,0 +1,5 @@
+repositories:
+  roscpp_core:
+    type: git
+    url: https://github.com/ros/roscpp_core.git
+    version: 72ce04f8b2849e0e4587ea4d598be6ec5d24d8ca

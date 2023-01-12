@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 28 May 2020 00:00:00 -0000
+Source: ros-roscpp-serialization
+Binary: ros-roscpp-serialization
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.7.2-1-g72ce04f-2023.01.12.16.49
+Distribution: jammy
+Urgency: high
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Changed-By: Dirk Thomas <dthomas@osrfoundation.org>
+Description:
+ ros-roscpp-serialization - roscpp_serialization contains the code for serialization as descr
+Changes:
+ ros-roscpp-serialization (0.7.2-1-g72ce04f-2023.01.12.16.49) jammy; urgency=high
+Checksums-Sha1:
+ cce7d948a46c05f2ca85829c52c24967e74c086d 30636 ros-roscpp-serialization-dbgsym_0.7.2-1-g72ce04f-2023.01.12.16.49_amd64.ddeb
+ 467f85f94836fc3e8a2283b1ba7a2316a5bd1999 9350 ros-roscpp-serialization_0.7.2-1-g72ce04f-2023.01.12.16.49_amd64.buildinfo
+ 75e26b8eff1c54bc626dda3342491318f202c910 13312 ros-roscpp-serialization_0.7.2-1-g72ce04f-2023.01.12.16.49_amd64.deb
+Checksums-Sha256:
+ 05715287f24d00283f1b0e04987d09445c721982e5be132cdd74af34d77b0b30 30636 ros-roscpp-serialization-dbgsym_0.7.2-1-g72ce04f-2023.01.12.16.49_amd64.ddeb
+ 030d8b15e01cd996f49e52ca073f4f3dc0813826a4b71983ee58eb1b4adf41ce 9350 ros-roscpp-serialization_0.7.2-1-g72ce04f-2023.01.12.16.49_amd64.buildinfo
+ 7e835fde65539c8e8359c5f80bdd378e3c08eb3d14974d32d48245523e9511ac 13312 ros-roscpp-serialization_0.7.2-1-g72ce04f-2023.01.12.16.49_amd64.deb
+Files:
+ 33c352963f456c9fe986b894cf7ff18f 30636 debug optional ros-roscpp-serialization-dbgsym_0.7.2-1-g72ce04f-2023.01.12.16.49_amd64.ddeb
+ e70c0ffeb5d42fa27b099decf348528d 9350 misc optional ros-roscpp-serialization_0.7.2-1-g72ce04f-2023.01.12.16.49_amd64.buildinfo
+ e3d870a013edfe2a36e9746858a5a45c 13312 misc optional ros-roscpp-serialization_0.7.2-1-g72ce04f-2023.01.12.16.49_amd64.deb

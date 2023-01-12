@@ -1,0 +1,148 @@
+Package: ros-cpp-common-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.7.2-1-g72ce04f-2023.01.12.16.46
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-cpp-common
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 159
+Depends: ros-cpp-common (= 0.7.2-1-g72ce04f-2023.01.12.16.46)
+Filename: ./ros-cpp-common-dbgsym_0.7.2-1-g72ce04f-2023.01.12.16.46_amd64.ddeb
+Size: 137210
+MD5sum: 6a7c76831b7f020a74fc73a03b59d78f
+SHA1: 42168e890d1df68e2c16e7e4cd8ff07d6f7935d4
+SHA256: 7ca942ff66862a1f7a5980a53396e4ce517216e9b28bd39cf0f14a62e6d7ad96
+SHA512: cc58b9005a31d425dfbd42b50b2854dae71a9e39aec0a15eca75f80d298d39a4c60fc9014699f698317fa726a8910698ff4f1eedd63adee451f5eaec19d31d61
+Description: debug symbols for ros-cpp-common
+Build-Ids: ffe94a32be2027e0d64d114c1e2a4e05fe8a2144
+
+Package: ros-cpp-common
+Architecture: amd64
+Version: 0.7.2-1-g72ce04f-2023.01.12.16.46
+Priority: optional
+Section: misc
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 90
+Depends: libc6 (>= 2.14), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), libboost-system-dev, libboost-thread-dev, libconsole-bridge-dev
+Filename: ./ros-cpp-common_0.7.2-1-g72ce04f-2023.01.12.16.46_amd64.deb
+Size: 21506
+MD5sum: d3670a3bf3c8847390f246a2499953fb
+SHA1: fe5bbfd0d9fe0482d5585f6a311a6038e29d6ba0
+SHA256: 8681cb0359f96d1a05de8576ba5252e41b8971eca59bb1190da2e6b9f7eefe47
+SHA512: 23709d6511fc5c69d1a343fe14a607fffc9d7d45c14243703471464495cc4e517ff1fdd937bd7b2014da50e0e739abeaaa8eb34be2d938749965206e120f80f2
+Homepage: http://www.ros.org/wiki/cpp_common
+Description: cpp_common contains C++ code for doing things that are not necessarily ROS related, but are useful for multiple packages.
+ This includes things like the ROS_DEPRECATED and ROS_FORCE_INLINE macros, as well as code for getting backtraces. This package is a component of roscpp.
+
+Package: ros-roscpp-core
+Architecture: amd64
+Version: 0.7.2-1-g72ce04f-2023.01.12.16.47
+Priority: optional
+Section: misc
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 9
+Depends: ros-cpp-common, ros-roscpp-serialization, ros-roscpp-traits, ros-rostime
+Filename: ./ros-roscpp-core_0.7.2-1-g72ce04f-2023.01.12.16.47_amd64.deb
+Size: 1456
+MD5sum: d1d7487c656127f9a63831a443b9e9a7
+SHA1: 5f0734a0fceeb530e836733ee90957ef96536da2
+SHA256: 860fe0aefb913dbbe454343939dc298087dba83fcfd832491d4da3385fb0b221
+SHA512: a0ea0c4fa43aa5876beca128b7d606da98664103018d6dbdcc892e6ffccc0f1c6cd0afdadd58dbc509df70be90bd2177eaed1d13ea4681848c706bc253984d5b
+Homepage: http://www.ros.org/wiki/roscpp_core
+Description: Underlying data libraries for roscpp messages.
+
+Package: ros-roscpp-serialization-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.7.2-1-g72ce04f-2023.01.12.16.49
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-roscpp-serialization
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 45
+Depends: ros-roscpp-serialization (= 0.7.2-1-g72ce04f-2023.01.12.16.49)
+Filename: ./ros-roscpp-serialization-dbgsym_0.7.2-1-g72ce04f-2023.01.12.16.49_amd64.ddeb
+Size: 30636
+MD5sum: 33c352963f456c9fe986b894cf7ff18f
+SHA1: cce7d948a46c05f2ca85829c52c24967e74c086d
+SHA256: 05715287f24d00283f1b0e04987d09445c721982e5be132cdd74af34d77b0b30
+SHA512: 88f6dcb24f4b91ff4b66dbec01ba276adb64e79d40d6311ab998af3d7c43cee9c31f764e144d1a8960d44d469de63539c23ea95a58ea2a3ea42ed49ad657f592
+Description: debug symbols for ros-roscpp-serialization
+Build-Ids: b31409902bfa54b9b293ba30c708b30daec22b74
+
+Package: ros-roscpp-serialization
+Architecture: amd64
+Version: 0.7.2-1-g72ce04f-2023.01.12.16.49
+Priority: optional
+Section: misc
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 72
+Depends: libc6 (>= 2.2.5), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), ros-cpp-common, ros-roscpp-traits, ros-rostime
+Filename: ./ros-roscpp-serialization_0.7.2-1-g72ce04f-2023.01.12.16.49_amd64.deb
+Size: 13312
+MD5sum: e3d870a013edfe2a36e9746858a5a45c
+SHA1: 75e26b8eff1c54bc626dda3342491318f202c910
+SHA256: 7e835fde65539c8e8359c5f80bdd378e3c08eb3d14974d32d48245523e9511ac
+SHA512: 636c612ac488655a6b094fd14adfbe9ba6e60d6398bf83f5e7317617b41613d85308d53f1a7d732281c093870a36bb3343a2448d45c9d96c1b3e8c095c960a4b
+Homepage: http://ros.org/wiki/roscpp_serialization
+Description: roscpp_serialization contains the code for serialization as described in MessagesSerializationAndAdaptingTypes.
+ This package is a component of roscpp.
+
+Package: ros-roscpp-traits
+Architecture: amd64
+Version: 0.7.2-1-g72ce04f-2023.01.12.16.47
+Priority: optional
+Section: misc
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 56
+Depends: ros-cpp-common, ros-rostime
+Filename: ./ros-roscpp-traits_0.7.2-1-g72ce04f-2023.01.12.16.47_amd64.deb
+Size: 10276
+MD5sum: 153fbef8480928b2377dcaafce769ea6
+SHA1: aeeda5d5e0fb2de90a92d405f3fda9518c615efb
+SHA256: 7bbd3f61388ee280dd17ad3ce971c54d5886fe070243802251093515244ba52f
+SHA512: 2a9c6bc383f2b44d83dbcfd26fec95e63033e4d4de6c20a93ea722fe15b41966171d619fda741479a30c9a367efe5905bc8e532d77ef65eecc46eb206ae21757
+Homepage: http://ros.org/wiki/roscpp_traits
+Description: roscpp_traits contains the message traits code as described in MessagesTraits.
+ This package is a component of roscpp.
+
+Package: ros-rostime-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.7.2-1-g72ce04f-2023.01.12.16.48
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-rostime
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 278
+Depends: ros-rostime (= 0.7.2-1-g72ce04f-2023.01.12.16.48)
+Filename: ./ros-rostime-dbgsym_0.7.2-1-g72ce04f-2023.01.12.16.48_amd64.ddeb
+Size: 230932
+MD5sum: 589c95efe45f8ce5bd3e11e6f6bdfcfd
+SHA1: 4f5d2cc1c97324be2365240578eacc49f5f73071
+SHA256: b210a1296d910b45986145e99c0479e95b70acd8467b2c82442312b2959ec35a
+SHA512: 3a90cb3643f327ec6857a0e9562ab074f64fe1712885326604db61302e623463d81419cf03d2ebce5d3b463393dbc6b6bc31a9171bc4b81e98bd4a73d02c3b91
+Description: debug symbols for ros-rostime
+Build-Ids: 86cf44152b4156f627251ad765449c848d90b1f2
+
+Package: ros-rostime
+Architecture: amd64
+Version: 0.7.2-1-g72ce04f-2023.01.12.16.48
+Priority: optional
+Section: misc
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 164
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 9), libboost-date-time-dev, libboost-system-dev, libboost-thread-dev, ros-cpp-common
+Filename: ./ros-rostime_0.7.2-1-g72ce04f-2023.01.12.16.48_amd64.deb
+Size: 37786
+MD5sum: a1d04c27c286b1c66d5808fd24c88a4e
+SHA1: 7c53f1f800021a7b1856cc068ec3ae2a131d07a9
+SHA256: ef9e724db8e879e7d08b39d2d1ac47651152e808e4c630347451febf578084e6
+SHA512: e9be1a9b4955e6c93085348dba5bc6d3e3940d144c93e1a36b86fa759dc7fcf998d1cb1ba55fc94460a83d9d83867d19aebdc5ddfc3b1bbde38dbfaa9dc3ae99
+Homepage: http://ros.org/wiki/rostime
+Description: Time and Duration implementations for C++ libraries, including roscpp.
+

@@ -1,0 +1,15 @@
+cpp_common:
+  ubuntu:
+  - ros-cpp-common
+roscpp_core:
+  ubuntu:
+  - ros-roscpp-core
+roscpp_traits:
+  ubuntu:
+  - ros-roscpp-traits
+rostime:
+  ubuntu:
+  - ros-rostime
+roscpp_serialization:
+  ubuntu:
+  - ros-roscpp-serialization
