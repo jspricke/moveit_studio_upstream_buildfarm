@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Wed, 03 Aug 2022 00:00:00 -0000
+Source: ros-rolling-ros2-control
+Binary: ros-rolling-ros2-control
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.13.0-2023.01.12.08.08
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-rolling-ros2-control - Metapackage for ROS2 control related packages
+Changes:
+ ros-rolling-ros2-control (2.13.0-2023.01.12.08.08) jammy; urgency=high
+Checksums-Sha1:
+ 91a3b762bf42c19904e036f6f5045f010f81d02d 9014 ros-rolling-ros2-control_2.13.0-2023.01.12.08.08_amd64.buildinfo
+ 1c8d372ea7e328e25da98e74c05cf0e31d9be484 5680 ros-rolling-ros2-control_2.13.0-2023.01.12.08.08_amd64.deb
+Checksums-Sha256:
+ 50b931a039f81acce72b83bbcc5653b978a6366a89823a1e73e01c0313954178 9014 ros-rolling-ros2-control_2.13.0-2023.01.12.08.08_amd64.buildinfo
+ 1cde3d9747e8c5b2000ac4cc3a884f978ae050d77ac06c6c27c1f398c76282f3 5680 ros-rolling-ros2-control_2.13.0-2023.01.12.08.08_amd64.deb
+Files:
+ facb3216b39a6a1b9b3e4c349fdce563 9014 misc optional ros-rolling-ros2-control_2.13.0-2023.01.12.08.08_amd64.buildinfo
+ 0b180591a7f3d9503e5370d5696161a1 5680 misc optional ros-rolling-ros2-control_2.13.0-2023.01.12.08.08_amd64.deb

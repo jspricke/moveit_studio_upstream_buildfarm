@@ -1,0 +1,73 @@
+Format: 1.8
+Date: Thu, 10 Nov 2022 00:00:00 -0000
+Source: ros-rolling-moveit-hybrid-planning
+Binary: ros-rolling-moveit-hybrid-planning
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.33
+Distribution: jammy
+Urgency: high
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Description:
+ ros-rolling-moveit-hybrid-planning - Hybrid planning components of MoveIt 2
+Changes:
+ ros-rolling-moveit-hybrid-planning (2.6.0-53-gc6733bd0e-2023.01.12.07.33) jammy; urgency=high
+ .
+   * Parallel planning pipelines (#1420 <https://github.com/ros-planning/moveit2/issues/1420>)
+     * Add setTrajectoryConstraints() to PlanningComponent
+     * Add planning time to PlanningComponent::PlanSolution
+     * Replace PlanSolution with MotionPlanResponse
+     * Address review
+     * Add MultiPipelinePlanRequestParameters
+     Add plan(const MultiPipelinePlanRequestParameters& parameters)
+     Add mutex to avoid segfaults
+     Add optional stop_criterion_callback and solution_selection_callback
+     Remove stop_criterion_callback
+     Make default solution_selection_callback = nullptr
+     Remove parameter handling copy&paste code in favor of a template
+     Add TODO to refactor pushBack() method into insert()
+     Fix selection criteria and add RCLCPP_INFO output
+     Changes due to rebase and formatting
+     Fix race condition and segfault when no solution is found
+     Satisfy clang tidy
+     Remove mutex and thread safety TODOs
+     Add stopping functionality to parallel planning
+     Remove unnecessary TODOs
+     * Fix unused plan solution with failure
+     * Add sanity check for number of parallel planning problems
+     * Check stopping criterion when new solution is generated + make thread safe
+     * Add terminatePlanningPipeline() to MoveItCpp interface
+     * Format!
+     * Bug fixes
+     * Move getShortestSolution callback into own function
+     * No east const
+     * Remove PlanSolutions and make planner_id accessible
+     * Make solution executable
+     * Rename update_last_solution to store_solution
+     * Alphabetize includes and include plan_solutions.hpp instead of .h
+     * Address review
+     * Add missing header
+     * Apply suggestions from code review
+     Co-authored-by: AndyZe <andyz@utexas.edu>
+     Co-authored-by: AndyZe <andyz@utexas.edu>
+   * Merge PR #1553 <https://github.com/ros-planning/moveit2/issues/1553>: Improve cmake files
+   * Cleanup cmake files
+     - Replace ament_export_libraries() -> ament_export_targets(HAS_LIBRARY_TARGET)
+     - Replace ament_export_include_directories() -> INCLUDES DESTINATION include
+     See https://docs.ros.org/en/foxy/How-To-Guides/Ament-CMake-Documentation.html#building-a-library
+   * Use standard exported targets: export_${PROJECT_NAME} -> ${PROJECT_NAME}Targets
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>)
+   * Contributors: Robert Haschke, Sebastian Jahr
+Checksums-Sha1:
+ 0a57c37423b830323f6157f38ad1569088984570 23600782 ros-rolling-moveit-hybrid-planning-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.07.33_amd64.ddeb
+ 2dc256d5ee3d312d9c575d1c3cdda325a90716c2 30146 ros-rolling-moveit-hybrid-planning_2.6.0-53-gc6733bd0e-2023.01.12.07.33_amd64.buildinfo
+ 905ad6a13a870347e296c03f060c212fc5de13ba 592522 ros-rolling-moveit-hybrid-planning_2.6.0-53-gc6733bd0e-2023.01.12.07.33_amd64.deb
+Checksums-Sha256:
+ 4a475018cb475a6a750039317ccfbb6744c881bef60848cd85046f0d054e2f16 23600782 ros-rolling-moveit-hybrid-planning-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.07.33_amd64.ddeb
+ 4657b76a00064199e816bf674c986fae22950b1b355dbfe27ec5be26380c38bc 30146 ros-rolling-moveit-hybrid-planning_2.6.0-53-gc6733bd0e-2023.01.12.07.33_amd64.buildinfo
+ e986849d7deabd90394d5c74ae7e7a65d78bea8bda78e01a23c707d5153a070e 592522 ros-rolling-moveit-hybrid-planning_2.6.0-53-gc6733bd0e-2023.01.12.07.33_amd64.deb
+Files:
+ 4561c6296806ad59f280c14b9fc2dfc6 23600782 debug optional ros-rolling-moveit-hybrid-planning-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.07.33_amd64.ddeb
+ d9794088f96e5546c10091be89885b5e 30146 misc optional ros-rolling-moveit-hybrid-planning_2.6.0-53-gc6733bd0e-2023.01.12.07.33_amd64.buildinfo
+ b4f9517e6c8f19c201ae17caec4cbae4 592522 misc optional ros-rolling-moveit-hybrid-planning_2.6.0-53-gc6733bd0e-2023.01.12.07.33_amd64.deb

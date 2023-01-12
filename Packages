@@ -1,869 +1,869 @@
 Package: ros-rolling-chomp-motion-planner-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.32
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.06.51
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-chomp-motion-planner
 Maintainer: Chittaranjan Srinivas Swaminathan <chitt@live.in>
 Installed-Size: 6887
-Depends: ros-rolling-chomp-motion-planner (= 2.6.0-53-gc6733bd0e-2023.01.11.21.32)
-Filename: ./ros-rolling-chomp-motion-planner-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.21.32_amd64.ddeb
-Size: 6928748
-MD5sum: a35a28f2bda327860d7b227ffea23360
-SHA1: 0c09420b70c2fe42c0ac40688d6cb40440c8d9f2
-SHA256: 361fec6302c71f0bdfed09a446522cbd222050ae58f1844b07086c9ab9da3149
-SHA512: a9d5707b6fe728c37b8d104dec18ae24e1157687eb14e746a4e2f35f9703b9a14c3839f1a529181ea8f7bcb646b9d4e0bdb59e44fe1783895af142c69e6afa0d
+Depends: ros-rolling-chomp-motion-planner (= 2.6.0-53-gc6733bd0e-2023.01.12.06.51)
+Filename: ./ros-rolling-chomp-motion-planner-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.06.51_amd64.ddeb
+Size: 6928752
+MD5sum: a4be53c4078e1fe4034d5eaeb49f9f37
+SHA1: e9bdb05ef17ebd4ad49e3826d68dcf329e6a093e
+SHA256: b345a8667727d4f8b916d45888cd57ef85e5a41e4d36f717a566e062e9203aca
+SHA512: 67731aec6cc0ef2985931ffda7a11fa4d84df2ae4f4e070494c957dcb22c916798b729d3622d13554abdbef96fa7969e57aec45c115400f331a91032da3785e2
 Description: debug symbols for ros-rolling-chomp-motion-planner
-Build-Ids: 6aba9fcfe48ff2ca839513436c336267c218f4aa
+Build-Ids: 003187dca370e6ade4604a40e11c529a8d4dc9d2
 
 Package: ros-rolling-chomp-motion-planner
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.32
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.06.51
 Priority: optional
 Section: misc
 Maintainer: Chittaranjan Srinivas Swaminathan <chitt@live.in>
 Installed-Size: 296
 Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-rolling-moveit-core, ros-rolling-moveit-common, ros-rolling-rclcpp, ros-rolling-rsl, ros-rolling-trajectory-msgs
-Filename: ./ros-rolling-chomp-motion-planner_2.6.0-53-gc6733bd0e-2023.01.11.21.32_amd64.deb
-Size: 99416
-MD5sum: 8dae55fbe854facf08f662fcb32a8e69
-SHA1: 9fc9ccc33d2de7a6fd4905c57738caee20fa2505
-SHA256: a7e5d1e612761b70f1f66ae6b347bff9cc1efeffc8630fccf9c0dd285bd0f970
-SHA512: d2a19a077d6b6e4b91fb0eee82879d1b90570fc14d665211d8329390d7c26daaba0d18cdfee7fbd5c933e1c87a14949c7e5bec0a9fb0184d60851d212413e26c
+Filename: ./ros-rolling-chomp-motion-planner_2.6.0-53-gc6733bd0e-2023.01.12.06.51_amd64.deb
+Size: 99402
+MD5sum: 966df162dc1c5ab6a7f9fe5b1ffde19d
+SHA1: cb6dfc4d13edacefc7b522167bc8b082038f71c5
+SHA256: 33b7ecbb9add8d6c0774532e94428171772aa031dd667b9931fac1606101d640
+SHA512: 64ad3881bfb7c319c9b43c9db980e3613b603a40cbf175eec9a4a00d40a183e797fbbf909a8281a20d000b3ade6f3e0518838909cb87c02dc288c8a74100870f
 Homepage: http://ros.org/wiki/chomp_motion_planner
 Description: chomp_motion_planner
 
 Package: ros-rolling-controller-interface-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.13.0-2023.01.11.22.39
+Version: 2.13.0-2023.01.12.08.12
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-controller-interface
 Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
 Installed-Size: 501
-Depends: ros-rolling-controller-interface (= 2.13.0-2023.01.11.22.39)
-Filename: ./ros-rolling-controller-interface-dbgsym_2.13.0-2023.01.11.22.39_amd64.ddeb
-Size: 479588
-MD5sum: b5b6222562f16818607ad2506e058020
-SHA1: 8b0bc46691111b9d543f3446a10510f9bacb4632
-SHA256: 7c26cf556f9f57dc0beb10ab1767affe0adeeda3050fa6a387d285a035265417
-SHA512: 5197c1d4454586a028fca257e99698107b2c12f826435e0504111d71dddbeb41edb26db07231974c050b7c2b08c3716a5b14c831526dbfda875236d971725fcb
+Depends: ros-rolling-controller-interface (= 2.13.0-2023.01.12.08.12)
+Filename: ./ros-rolling-controller-interface-dbgsym_2.13.0-2023.01.12.08.12_amd64.ddeb
+Size: 479594
+MD5sum: a6d6efee2aea1db06e2a8ff7339589a9
+SHA1: cf9666f0fabaf52c01030cd9b3b575904855a934
+SHA256: 0c882626befafa0a2cee185fa1771bafe3128ddaa761dce5ed1230fe5ff96ddb
+SHA512: 7e5034be0a5ce73576b449ad6925099c074d02d8143263205f80b55c0e4e1811eeceb6ac5e57b94aeafc0749e74881347f5f13ffaca296234c03e6f2ee758a18
 Description: debug symbols for ros-rolling-controller-interface
-Build-Ids: 090404c7eaa668de3ec26a892e7a044a840bc8d7
+Build-Ids: 13535970caaa0e94ed816a4957c81e864208cecc
 
 Package: ros-rolling-controller-interface
 Architecture: amd64
-Version: 2.13.0-2023.01.11.22.39
+Version: 2.13.0-2023.01.12.08.12
 Priority: optional
 Section: misc
 Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
 Installed-Size: 147
 Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), ros-rolling-hardware-interface, ros-rolling-rclcpp-lifecycle, ros-rolling-sensor-msgs
-Filename: ./ros-rolling-controller-interface_2.13.0-2023.01.11.22.39_amd64.deb
-Size: 30804
-MD5sum: ac3356fe24691dd34709bba36e76e693
-SHA1: e60028dea29d979a29ecedf06a3ae6bd89d017f2
-SHA256: 06afbb0bcbbda350f0b410f683319acc03e6681f1306347d55bc2f09c053e896
-SHA512: 25aacec1cb5f41abcbdbd306133abb10d48a650fdffca894b33d49501159508c74c02ef33c0e2eeaa4208a7d283a97cd9ce0e39d5e1867e29efb075548f168d0
+Filename: ./ros-rolling-controller-interface_2.13.0-2023.01.12.08.12_amd64.deb
+Size: 30800
+MD5sum: c932480ca39dd9f69fff97ee05d1d818
+SHA1: ef13cad9eeeb54e308cef3447469ee3c02cade85
+SHA256: 1098cc5aea0c43544514f6e0459f35ae2acf77bff675edcb128fd77810f0eb6e
+SHA512: 2ae00e77b60ccb54751ed2f8404beb05e83db8f7890161ec53c47ff3155da38226a852617ee0f4ca92ca3a26bdef677f0cf2a577f0d4ae0192e9e73a52ffa893
 Description: Description of controller_interface
 
 Package: ros-rolling-controller-manager-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.13.0-2023.01.11.21.18
+Version: 2.13.0-2023.01.12.06.33
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-controller-manager-msgs
 Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
-Installed-Size: 2127
-Depends: ros-rolling-controller-manager-msgs (= 2.13.0-2023.01.11.21.18)
-Filename: ./ros-rolling-controller-manager-msgs-dbgsym_2.13.0-2023.01.11.21.18_amd64.ddeb
-Size: 1532296
-MD5sum: 7464eb9ec415a022a257689ffbc26291
-SHA1: 0fc91438a8d1ff1d380a5ca9e325fb9e5b8b8a62
-SHA256: 724dc4e1b24340d04131d2f6cf44c3e3c5598f37147b9bf39b08d8ebee7f6134
-SHA512: ab54ee010e08c24730a14ed6b1c2ba14ee17445c345949e7ad53064a87bfca433d9c507efe777bbfb17e43e7efcf5094d67f138b8706a0d603159a83050dda3d
+Installed-Size: 2126
+Depends: ros-rolling-controller-manager-msgs (= 2.13.0-2023.01.12.06.33)
+Filename: ./ros-rolling-controller-manager-msgs-dbgsym_2.13.0-2023.01.12.06.33_amd64.ddeb
+Size: 1532064
+MD5sum: 4287f2dcdb30b3aed57d61f6b1a69531
+SHA1: 8660484a5394c89c1ef2eec360c3bbffb40f8beb
+SHA256: 3650807d0a4d1f33b0172ba09b1c60eee89217cd64403c10608d49f136952ff5
+SHA512: fd5621ee739caaa867f259d47ad0497f2a85843e44bfaca6e14953e3ff7c2c09243711d4c4fe8668554296279e35ab8223794ede7ece02be84ff00e49b555b1e
 Description: debug symbols for ros-rolling-controller-manager-msgs
-Build-Ids: 04ff6b9bb7326a0fddd476e7ca52d35ed7016847 3e100f05263fdfbaa50946266eb49c95b4374465 4170874e68a9c64da4f4405c6f69303c7e9afca0 66d70ff3032f09ff01dcaf8ed0bbc6439a61e4f9 7b18251b0822cd573d36a9c37a383dbf977fbc98 867136a80f4ded3fcf2b38e5090c05b4ea68afdb 89b82e56fc0e7ae57ad2502b71e7c3d86dd4c0fd 8c1d9cf2ae8ade59da47673469605e28f06f626d b4e11882d600e8cb1283dbd3969d70a223722273 bc3da942b7cc684d90a1f0d88696bbc681a82565 c8d8421b68c6b30e30cb2df35d905be0c47b0edb db6166a0ffefdba725d3f32ead1248156a069515
+Build-Ids: 16de4b972a02a0a18b7b548facf6306c0f34ccfb 3c740426eef419cedb0fd31e770a5e57d928eaf3 4c28d8c92a43afd8842c948a7ddd0d26d9ec3f02 51ff009d9cd7daecb8c70327c865b1f65e6a43f6 62927aa576699c8fdfc5eccec7857d4b9c108ab2 640aabbb683747a93a9d854066d1329a7fdd01f3 70b383f5329fcea5a17d371fc16fdc3d4ca5dfa0 ad71a36a1e3c4e6f810f7d3d61801e7549ea654a adffe4a8cad26cfda45851a357314bccc5b142cb b4eeef6f57a028c082b536091cda817fdbe9f61b d39c167d81544d4ca3a38bd573cf664494b8539e dad35668d12c5cce0958fe5d0af2e47bbab4346d
 
 Package: ros-rolling-controller-manager-msgs
 Architecture: amd64
-Version: 2.13.0-2023.01.11.21.18
+Version: 2.13.0-2023.01.12.06.33
 Priority: optional
 Section: misc
 Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
 Installed-Size: 3222
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-rolling-fastcdr, ros-rolling-builtin-interfaces, ros-rolling-lifecycle-msgs, ros-rolling-rosidl-default-runtime
-Filename: ./ros-rolling-controller-manager-msgs_2.13.0-2023.01.11.21.18_amd64.deb
-Size: 199612
-MD5sum: 7f4bdf82afb77e156626da2f6ec30ed2
-SHA1: 472042d0a2c2aa97ec6c5b341cd73a8298abd143
-SHA256: fa9041a0b878731d70bd538cbef7ebf2c20d2d6e01afffe0dd21611f8c609b15
-SHA512: 3e1e229773af5b571f8b5c0c0db1ac1ee6a9f156a641ca32576bee5a00d4d056945a7a12bb449021eb36a96c454570d7fc7c4c02d4a4e222733cfe89cb3d13cf
+Filename: ./ros-rolling-controller-manager-msgs_2.13.0-2023.01.12.06.33_amd64.deb
+Size: 199590
+MD5sum: 8e661c4b8035893e669a3e20c65b8ce2
+SHA1: a68ac6d8d61d7f6be09bf7c9e758f418360d8014
+SHA256: b5a819e17ca8cfaaa5b31845bb354c03438253a8456b5bc35b256ac428367dc9
+SHA512: 30400b61a3c9247b5e5ec69707c32ceaa0aaf0cd9f394ce62db5cf6f907c7cff3f05371aecb4b5fd8f746ce3c06bbe18b03627da55d9c82004544173e6719bdd
 Homepage: http://ros.org/wiki/controller_manager_msgs
 Description: Messages and services for the controller manager.
 
 Package: ros-rolling-joint-limits-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.13.0-2023.01.11.21.19
+Version: 2.13.0-2023.01.12.06.34
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-joint-limits
 Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
 Installed-Size: 1571
-Depends: ros-rolling-joint-limits (= 2.13.0-2023.01.11.21.19)
-Filename: ./ros-rolling-joint-limits-dbgsym_2.13.0-2023.01.11.21.19_amd64.ddeb
-Size: 1473552
-MD5sum: a3a729fbafab77609fe940a09f963c2a
-SHA1: 3a6104be04b5b19fe7fb55efe763ed8df69afbb8
-SHA256: e0dee5b4c5d8c32190b65da332301be6d1531ac2679ad9054fd7613206d6f3bc
-SHA512: e64fc8d03f91c46134a355a30cea59c49d7696f61dd329946a9a8f8940b7ecb839aea4c1101b1db3ad1b66ac646c2296ae42c8b6fd3a73bdb4183608d9404aa5
+Depends: ros-rolling-joint-limits (= 2.13.0-2023.01.12.06.34)
+Filename: ./ros-rolling-joint-limits-dbgsym_2.13.0-2023.01.12.06.34_amd64.ddeb
+Size: 1473548
+MD5sum: 8e4697e28cd85c9f97df67cded5bcaeb
+SHA1: 21cfad93d03656a72ae564480d8d9f60eae812e2
+SHA256: 591410617007a59129f4be0c0d250c3ff7354e4a8ab4e24a7218cb543d0ac9d9
+SHA512: 82642c089770e76c546b18e3563b9dcf1c4673a79042407d90cfa59ff8617a0b4f3ddf0e629b51b8236aed2f2d03ac0f49ac73cdb1a6f4907184b42d6ae0f144
 Description: debug symbols for ros-rolling-joint-limits
-Build-Ids: 7976876de40f3911cc473e6eca7f4a96ac7b2a0b
+Build-Ids: ac41ab9b93c63b30dd54e631306dfa87f17ced94
 
 Package: ros-rolling-joint-limits
 Architecture: amd64
-Version: 2.13.0-2023.01.11.21.19
+Version: 2.13.0-2023.01.12.06.34
 Priority: optional
 Section: misc
 Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
 Installed-Size: 413
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-rolling-rclcpp, ros-rolling-rclcpp-lifecycle
-Filename: ./ros-rolling-joint-limits_2.13.0-2023.01.11.21.19_amd64.deb
-Size: 130236
-MD5sum: 5dd5ebea54875bec6b5f0b0a352868c3
-SHA1: 568ada6000a8ea4bb47b191f18fbaecc59592e1a
-SHA256: c29749904c3ce444782ce77ea144072b241040532b72c0042e243b17c439ab1f
-SHA512: d74b186e204e67680e753c1bf0123f3d62acb35341bb06ef38f8041c7600163c1ce60abfc7fb59bf1bf130577a06a14b425185a0b8b744efd1dd3791cf6fc947
+Filename: ./ros-rolling-joint-limits_2.13.0-2023.01.12.06.34_amd64.deb
+Size: 130234
+MD5sum: 44fb5b2cfa1df1e537a35dd76d022c56
+SHA1: 84d9fa7622c11f66763685bdb8f49dc749193fa6
+SHA256: 65f1d064454baf307dd039ae82867fed19cbfe486ccf00a5ec0fe3f462b76a49
+SHA512: 5190c740bcb1730701003b4e33526ce38b0345bcc3cd70a95eee3cec9e31649ae72990588d014d38e80aee90199b14fd99ab28ba1164758cd10547ac7aa1d62b
 Homepage: https://github.com/ros-controls/ros2_control/wiki
 Description: Interfaces for handling of joint limits for controllers or hardware.
 
 Package: ros-rolling-moveit-chomp-optimizer-adapter-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.34
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.06.52
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-moveit-chomp-optimizer-adapter
 Maintainer: Raghavender Sahdev <raghavendersahdev@gmail.com>
 Installed-Size: 2053
-Depends: ros-rolling-moveit-chomp-optimizer-adapter (= 2.6.0-53-gc6733bd0e-2023.01.11.21.34)
-Filename: ./ros-rolling-moveit-chomp-optimizer-adapter-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.21.34_amd64.ddeb
-Size: 2047286
-MD5sum: 5fd2b2224c8b7c42d71c2c8c2d007f77
-SHA1: 1d7aade967435984a961a4c7fabe7ebdf71d59fb
-SHA256: 2826a59118dc35b58e4c264d265a0afaba79ba5623bf52cc32ee85b12a9b934b
-SHA512: 9f6807dadf6519e2122bc95dd614e5034e554483b6b9113ca46ac2f0fff94dc56b07693fbd8b22268edfa43ceed11561ad263a3659c22d931c23917898d85ed7
+Depends: ros-rolling-moveit-chomp-optimizer-adapter (= 2.6.0-53-gc6733bd0e-2023.01.12.06.52)
+Filename: ./ros-rolling-moveit-chomp-optimizer-adapter-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.06.52_amd64.ddeb
+Size: 2047280
+MD5sum: b367940dc264825dcf47191784ba7f07
+SHA1: 64ea70f89eccdcbfdca42676f103825771b84c94
+SHA256: 5eb12f5045888204d470fd6c4556ce6819ab1c704c6c6678f15587229b145077
+SHA512: 755b7a23fa6c0930b756d5125c716744d2605d045866f18ccade61ac7ffed061d470cdcf963ef5f0bcb316aa7f7114e8c5a924e2448a3b7d08ed21bc876be147
 Description: debug symbols for ros-rolling-moveit-chomp-optimizer-adapter
-Build-Ids: 4bd2df573329fe8467f6d08936cee831a4e03f53
+Build-Ids: b7e1a5818f05d41c0a23cc65f8172369ce2b0efc
 
 Package: ros-rolling-moveit-chomp-optimizer-adapter
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.34
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.06.52
 Priority: optional
 Section: misc
 Maintainer: Raghavender Sahdev <raghavendersahdev@gmail.com>
 Installed-Size: 132
 Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), ros-rolling-chomp-motion-planner, ros-rolling-moveit-core, ros-rolling-moveit-common, ros-rolling-pluginlib (>= 1.11.2), ros-rolling-rsl
-Filename: ./ros-rolling-moveit-chomp-optimizer-adapter_2.6.0-53-gc6733bd0e-2023.01.11.21.34_amd64.deb
-Size: 28744
-MD5sum: 08aed9a11c406678b8a1bdec494776d2
-SHA1: c56e537ba153a30c5508e966c20394aa037e8232
-SHA256: 9ec57a2b1f3721b7c156ae0e6aa450155824737cfac010466238d5a2fcbc1ad5
-SHA512: 54e00f7f2e728753f021f1c543deff5dcf26ab58e3978660a38fd2f9f8c4bc6107ca00397d69d35b4edbc014ebbdd02d238d787ddfd654d5b04c136325cd0554
+Filename: ./ros-rolling-moveit-chomp-optimizer-adapter_2.6.0-53-gc6733bd0e-2023.01.12.06.52_amd64.deb
+Size: 28738
+MD5sum: beec51f83b161b7a613a130055f3911a
+SHA1: 4badcdc467b5e8035211623bedad74017732e22e
+SHA256: 1404fd22a83004dde940d4a2a7a39b12822731027d696edc063e9253ab5d549a
+SHA512: 472349c9686a69cb58897e6c972d8b0e63dfb415dd170218487c62d8c1327a7130ba53305438445a7865468d9f278d070411972aee263deae623335489bede55
 Description: MoveIt planning request adapter utilizing chomp for solution optimization
 
 Package: ros-rolling-moveit-common
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.20
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.06.36
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 48
 Depends: ros-rolling-backward-ros
-Filename: ./ros-rolling-moveit-common_2.6.0-53-gc6733bd0e-2023.01.11.21.20_amd64.deb
-Size: 7624
-MD5sum: f607c31d4f4d4869fd7895ba6a336483
-SHA1: 997bbf21ee53bb31d60b6b442d0d2978e53ccd68
-SHA256: 7da87e3f7c63bfef0d4650e7f8204f0584c8f6e4f281d60e1e9c7f4cb45f0821
-SHA512: 63f3f1b46d8c8e9abea8df1c4e6f13b51a87a41d4cb3a3bf916ce710d345f3bedf4501ba8459cc9143b367199318b9928de571059904c68c657a18eaf085fbb1
+Filename: ./ros-rolling-moveit-common_2.6.0-53-gc6733bd0e-2023.01.12.06.36_amd64.deb
+Size: 7620
+MD5sum: 82dcf0408ddfad96bc4ad5163d5ae73d
+SHA1: 08959ea5d81c209b15fcd08af3462c042ee4234b
+SHA256: b75d95fb1cccc33617c3c2cc1c1267ae36b6d14c9f5ef3dc09aa59443d4f8a2c
+SHA512: e3b8910ec63a634fc58a472f4bd84d5288af7449a9ca6d47d5c5c542ee4223f9b59f10003aa3d172dc693fdea3fac180607314b58d43cec8a5b66a6dba4807dd
 Homepage: http://moveit.ros.org
 Description: Common support functionality used throughout MoveIt
 
 Package: ros-rolling-moveit-configs-utils
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.21
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.06.37
 Priority: optional
 Section: misc
 Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
 Installed-Size: 103
 Depends: ros-rolling-ament-index-python, ros-rolling-launch, ros-rolling-launch-param-builder, ros-rolling-launch-ros, ros-rolling-srdfdom
-Filename: ./ros-rolling-moveit-configs-utils_2.6.0-53-gc6733bd0e-2023.01.11.21.21_amd64.deb
-Size: 20160
-MD5sum: 1caa9ccb2bdd82a66934d5ad55d2fc5f
-SHA1: ab8a53ae26e557b021c3a469a8fc7c25656b697b
-SHA256: a9da6fee0f633def46f41feb5b0acc8f7c77621baaa43e08c2c864da7ab034d4
-SHA512: 51dd29a3783b17de816b30b855ce33349ca5112e35859aeaa68e73ab1aa94afb706a2517f45d7472d1d230f97f634ab388be23b10fe3b404389745e78a5528d2
+Filename: ./ros-rolling-moveit-configs-utils_2.6.0-53-gc6733bd0e-2023.01.12.06.37_amd64.deb
+Size: 20166
+MD5sum: 0e3f628bcae82050bf00f8ddbc0a6c07
+SHA1: 5e265660c91a4fab082073a948ff60d84418108b
+SHA256: f5919ef5601a9eede8ec54a738db4691c31dbee04bd067acdbb781cbb8422954
+SHA512: 62592053a0ceada62c4ebd0fb86714c6f585358a62a466f8327e4bcf97a089a9bb9d620437e5a57988576a6f678512bf9e2a5122ddf41b9780a21146373a5077
 Description: Python library for loading moveit config parameters in launch files
 
 Package: ros-rolling-moveit-core-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.27
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.06.44
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-moveit-core
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
-Installed-Size: 67877
-Depends: ros-rolling-moveit-core (= 2.6.0-53-gc6733bd0e-2023.01.11.21.27)
-Filename: ./ros-rolling-moveit-core-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.21.27_amd64.ddeb
-Size: 67626324
-MD5sum: 63f8760e6012b225b67e2762d824bfae
-SHA1: 1a8ef2dc1e161ccb6ede946aa487e6e2177cc655
-SHA256: a4d0bdc2eebeb373c7d18b020c8a662abf04cc963f9bae496f31b99b08e9f9d3
-SHA512: 5013df01014ece7dea52c182285c56ea794b6e3ca379f1e7c61431011d973ab9073c3ec88158fd17df99f8c1fd9dcaa2bcfccd47520d5ce2bd25d31770f52ec4
+Installed-Size: 67879
+Depends: ros-rolling-moveit-core (= 2.6.0-53-gc6733bd0e-2023.01.12.06.44)
+Filename: ./ros-rolling-moveit-core-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.06.44_amd64.ddeb
+Size: 67623896
+MD5sum: 86877d90b13ac946d668c8e0386c088d
+SHA1: 9a3c17eaa30895be93f545a3ccb0948ff6923af3
+SHA256: 120cc4db8f081ccaad6d768d59e3fd88be357f5ccfff1ddd1dfd4436268d0854
+SHA512: fd081053128a3d17909d145db62ab5aae71da5198460a3f980fb9cec93fbffc145ea0029806133b3ea95c4526c6017d795f9a5b5e7b77437faf1732a6ab484db
 Description: debug symbols for ros-rolling-moveit-core
-Build-Ids: 28e906936daf4599a02cfc601bd82621b1ce759b 35db53b589260444923e39041307c520a791b7bc 3841ba85bcd22dac782b7e562733a37f7dcb6cf9 38e44ab33e5b97a9bbbe5bcefbc992b18ca362ac 42d77659b506ea5b6daace9d0d49805af744a747 43d6b0de7f4d8818c2d8cd2f42290a5466384f0b 47795baff18e68e2457b144cc7428f30ff95248d 47e1bd0b1b77db1e6ac3bbad3a7aa257149ee165 4fc738f5e4c580a6bcf30f2e500446fd6a31c014 52d506e044224f8eb413453636ea07d8488dd47b 5602b7dbbbf79286f5fb80d48709ba4943b16d4e 5c03344df124a93f4c3670f9f4cfcc1485060fb9 658c16c4cb1f645bf7f382f25209d9912b9c4787 82f461ce92404469afcd36bc394363297c0d200d 95362074502c0f2385907bf9e7bfc0f21da52565 99cf88fcd80020b68fc4c123efd25a079ddc4d64 9b2ec40d78206ecb43859356d329f4c36b821bc7 9b5c25f3f1f534732c6f68e1969a71ff94a79003 a2158c4013015a40991d31e37d75388eabcee551 acb8e6b1773a45c31dedead593cf11ba18088478 b714221834302e9a59e8c94c0a746a26a3d52b85 bcfe4b80dd221d3e600d6cacaf273425ef241a9a d5276eed8c7dd8c4b3fffffb3fd6934b84c2774a d706c76dfb9a35131ff25e1448a4d33a622c7fa4 e3c971e427710a11eaae20e250d9806e3b8751f5
+Build-Ids: 2c966f75dcf50d4b2c0a334d0559b476ece95c97 31143e78d2859990cb41029fa84f46a3395ea468 31f432e497c0e0221d9e4aea58f332bff7b7d82e 43131d718358086e00ec1677b6798613b17ff89c 4f1ccf8797464867edca23bd500102dbc597f2ec 5191b65f8f0fe4bb0d369eb7b110aed2bc46344d 6542456018c4bdf09f7f3f32c52342156fd598e3 67a359de7810db663520d5c10d26a7bbd54c041a 6abb3da317355bd21580815b0c89bbabab75f72a 6fde701cf49cb5de3b8d6f095ae983de63439a5b 7fa5289e0f663524e8a2cc0224b7fbf1d09476ab 867a294a6c10eb98d389d42e76d191fa0145c2e5 870679a3537c190349704c0b95a3e7c9f6596629 91cf86895cc8c299b9ae073ec5e67405ac7ed565 9a250d6fb722871d679eb1057b908b0039e5f33b a589662102ad2dd07faa8e2d902b64721111d6f0 b24208b9a8b00fde2a76c818868e234bcaa0c359 b5eccda71f7acc4baf92e64072c42a12b8939e9c befcef7845eeba725c4158e0e87b8beb3e00bf69 d077f185899a27fa0046873e5b955eb4fae334f0 d47b19fdf170dfcc77634e933252f1c95458b853 d50e9ee662505d934e017139c47e9ecf32ada1d8 def58568a59831efa06a737c36ee1676ea83310f eaf9e1f41c73cf1f35fbb239b3379a20965c7430 f79fa1eeb0db44a5eb2e580d43ab8b183073fe9d
 
 Package: ros-rolling-moveit-core
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.27
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.06.44
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 4525
 Depends: libboost-iostreams1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu70, libbullet3.06 (>= 3.06+dfsg), libc6 (>= 2.35), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libdw1 (>= 0.126), libfcl0.7 (>= 0.7.0), libgcc-s1 (>= 4.0), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-rolling-geometric-shapes, ros-rolling-octomap, ros-rolling-srdfdom, ros-rolling-urdfdom, libassimp-dev, libboost-all-dev, libbullet-dev, libeigen3-dev, libfcl-dev, ros-rolling-angles, ros-rolling-common-interfaces, ros-rolling-eigen-stl-containers, ros-rolling-eigen3-cmake-module, ros-rolling-geometry-msgs, ros-rolling-kdl-parser, ros-rolling-moveit-common, ros-rolling-moveit-msgs, ros-rolling-octomap-msgs, ros-rolling-pluginlib, ros-rolling-pybind11-vendor, ros-rolling-random-numbers, ros-rolling-rclcpp, ros-rolling-ruckig, ros-rolling-sensor-msgs, ros-rolling-shape-msgs, ros-rolling-std-msgs, ros-rolling-tf2, ros-rolling-tf2-eigen, ros-rolling-tf2-geometry-msgs, ros-rolling-tf2-kdl, ros-rolling-trajectory-msgs, ros-rolling-urdf, ros-rolling-urdfdom-headers, ros-rolling-visualization-msgs
-Filename: ./ros-rolling-moveit-core_2.6.0-53-gc6733bd0e-2023.01.11.21.27_amd64.deb
-Size: 1142448
-MD5sum: 1759d0c21eb11561145ee63d8bf08097
-SHA1: a51900142bbf331b3bdc2dcf5257900ae161b08f
-SHA256: de369c521e37763fd37fcae5cbed15cb5ab8b1bae58f5ed1141e596d4e2b49d3
-SHA512: d3c9b01e231ab7f7007b9aa9e0e22eaeef73cb7e3bb709f8053bf365fce9ee3fc084d46acf74e93f24fa04c8f19df8802ef203a9c65fe35d6ccadac8b45974f0
+Filename: ./ros-rolling-moveit-core_2.6.0-53-gc6733bd0e-2023.01.12.06.44_amd64.deb
+Size: 1142400
+MD5sum: 1fd135de588dcaaa6b5eab0f599bb3fe
+SHA1: 5042284d9346246a5ee5334cfc2697a50c2cec18
+SHA256: bf1cb716f0a668d853f24b2f57ab854b87fe1dc51d5c21bbf043307bc5dbd08a
+SHA512: 6ae616826537c104782668780d9a16ef9b3a9f882c3b01a931c5b49478f453f7046d517bd27ffeb0f73844fbaf66cc33ae7f04d9d5e10e220f4d8a9e85eb9430
 Homepage: http://moveit.ros.org
 Description: Core libraries used by MoveIt
 
 Package: ros-rolling-moveit-hybrid-planning-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.22.09
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.33
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-moveit-hybrid-planning
 Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
-Installed-Size: 24962
-Depends: ros-rolling-moveit-hybrid-planning (= 2.6.0-53-gc6733bd0e-2023.01.11.22.09)
-Filename: ./ros-rolling-moveit-hybrid-planning-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.22.09_amd64.ddeb
-Size: 23596786
-MD5sum: 2a84670619f2cc52c3c59bc3d43e594a
-SHA1: 58ee49e009900343c0c5fa0eb25fb8a91d5376d3
-SHA256: abc6833c2904b45774eb5147dccad7e5be70421145dbc11b9bdbd280be77fde2
-SHA512: 180a8e083968c099ebbeb689990bb2b79601e9d560516558b09a7bc099284e73d357146cd25e61a72dc74653e812663ec29d4eff22cedd956e2660bf9af0bf84
+Installed-Size: 24961
+Depends: ros-rolling-moveit-hybrid-planning (= 2.6.0-53-gc6733bd0e-2023.01.12.07.33)
+Filename: ./ros-rolling-moveit-hybrid-planning-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.07.33_amd64.ddeb
+Size: 23600782
+MD5sum: 4561c6296806ad59f280c14b9fc2dfc6
+SHA1: 0a57c37423b830323f6157f38ad1569088984570
+SHA256: 4a475018cb475a6a750039317ccfbb6744c881bef60848cd85046f0d054e2f16
+SHA512: 461ea2db4775a4b1148c038b46dac84daef7b00370f376cc6731b37c8d769ddd2ef08afd1ab03f473471a9abb22f5727fa418334187077e65705aa67f4609bb5
 Description: debug symbols for ros-rolling-moveit-hybrid-planning
-Build-Ids: 04089a671753c92810b267b52b3bddd558e9c014 061a8dc35fc3ef6b4f4e85461157c198197f73bf 298de5965c0574c77dfaff282916b72c455dc194 4ba7a5f269ed48641130dafffa0e19f7c6464fef 53d5e56bdeadf8d98c753a2605ff3b629c0fb525 5c3a901830a8481282fe36815a3dfead533a5e4a a97ff895059e517c5d42280a5191e515b5a03471 b4534c2cd8d125c1c89b7bff0c990ae9d3489063 c01e087b903bcfa0f303bfb5148fe45e1f0bb914 e4cfc4ed64a1d5119cd1cd93c4220dbbbf2c9a50
+Build-Ids: 075ccd9386b84a51a01f6bc6cac695e2120755ec 0a8f1584151fe46120272a2836a6cabb74396a27 1f76cf5fc160178a1560d73c9ce2c26206629cc5 43d532fc48cb77617503512739613fe42e00aa39 4ca8e95906a1bca23841f785183bc392760d281c 4ea219114d5a47ae9ac618cf2b9ecb980189a68d 9ea109d0a5263d5385d4789f4264b45b607f8a91 9eee7240f9ea1be5c998fbf3999a2b66d373da9e c224f200d876947decaf65fc0aa4a76cf447a8a3 e7fa572855b828f67bfccdbb5e31529c3edb7901
 
 Package: ros-rolling-moveit-hybrid-planning
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.22.09
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.33
 Priority: optional
 Section: misc
 Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
 Installed-Size: 2949
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libdw1 (>= 0.126), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-rolling-moveit-core, ros-rolling-moveit-ros-planning, ros-rolling-ament-index-cpp, ros-rolling-controller-manager, ros-rolling-moveit-common, ros-rolling-moveit-msgs, ros-rolling-moveit-resources-panda-moveit-config, ros-rolling-moveit-ros-planning-interface, ros-rolling-pluginlib, ros-rolling-position-controllers, ros-rolling-rclcpp, ros-rolling-rclcpp-action, ros-rolling-rclcpp-components, ros-rolling-robot-state-publisher, ros-rolling-rviz2, ros-rolling-std-msgs, ros-rolling-std-srvs, ros-rolling-tf2-ros, ros-rolling-trajectory-msgs
-Filename: ./ros-rolling-moveit-hybrid-planning_2.6.0-53-gc6733bd0e-2023.01.11.22.09_amd64.deb
-Size: 592510
-MD5sum: 205a748df14880bdd9a68f5b82e6e9cd
-SHA1: e39032269af72f374dbe24d3e76d98c8fb765751
-SHA256: 5e217e4cd1df2c8f6211a36ba741b6ca25932894594750f0d3320bed0ed4c751
-SHA512: 4cca30ef36cc71e0ab18bcbe2da27b657e6effe840ff395748a372cf99ba4b0e52fbfaf07603b9499623ec4ad622452853ecd19fcee47729569677b8c1779568
+Filename: ./ros-rolling-moveit-hybrid-planning_2.6.0-53-gc6733bd0e-2023.01.12.07.33_amd64.deb
+Size: 592522
+MD5sum: b4f9517e6c8f19c201ae17caec4cbae4
+SHA1: 905ad6a13a870347e296c03f060c212fc5de13ba
+SHA256: e986849d7deabd90394d5c74ae7e7a65d78bea8bda78e01a23c707d5153a070e
+SHA512: dd77daa6981dda53c7903561f91a374619f180b92a740a5e492e85560fc15b11f1cfb7456b0a00c62aeb21b748cc663a00484df44d11524024a5c58277dd23f8
 Homepage: http://moveit.ros.org
 Description: Hybrid planning components of MoveIt 2
 
 Package: ros-rolling-moveit-kinematics-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.46
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.07
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-moveit-kinematics
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 17718
-Depends: ros-rolling-moveit-kinematics (= 2.6.0-53-gc6733bd0e-2023.01.11.21.46)
-Filename: ./ros-rolling-moveit-kinematics-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.21.46_amd64.ddeb
-Size: 17505102
-MD5sum: 4b085bac6db6eff825e89f4b349c94b1
-SHA1: 30bb0006f7af4bbc7399b5bb7628fe02320232ad
-SHA256: 85c0288870d79048953ae3fd93b3fa94c792e02e7c7bef3c448a095f7e4e0b13
-SHA512: c37275443ccc75336b3411e2404a48129cd565c33089d4e5eeb71ead3adcec3fa31a6050d27085806818fde08bcefab6a70ac665a63b8c6419eaeed7793e8e79
+Depends: ros-rolling-moveit-kinematics (= 2.6.0-53-gc6733bd0e-2023.01.12.07.07)
+Filename: ./ros-rolling-moveit-kinematics-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.07.07_amd64.ddeb
+Size: 17503090
+MD5sum: 6a2aac73e7bbef72cdcf5b409dfabedf
+SHA1: f5ea50a952699d359b2b01d077d8abe97350c671
+SHA256: add6acf5afdf249886b79e093593f68e0604043a4baa415ffc32d501eb4e85f7
+SHA512: c90a7bfb022dd1c2152acf6163fa6258b901b78c9bfa73c97f14915269f19778f43d76f8327908d193f0dd6cbbc14eba096319b99f60173ba34320083a82b490
 Description: debug symbols for ros-rolling-moveit-kinematics
-Build-Ids: 20872ed53a8314c8802ff5cdf250bb16a11d0dde 2f489f687c7f983413123a1e9714fefa9ddf19c4 9b59b8f6cd094996aaaba31f2ce7ba2285384f80 b06f6381b41e0947b554eaf8ddc18fc9f75e34ce b5b8a407e51d33106e6e7c775b1b8e9472969ce3 d2fa5dc46c10fb65d2f600b19019514a2ab0f962 f30d3fa050a697cfd88b60d776dfc71d312ac7bb
+Build-Ids: 373052774d6c427fa29962978723bc15e6e1ae00 4c071411b61c2b4031ce1b9753671279cdd08269 59fc91206993c7d4a0ba6f0370dfb2ab7941dfbe 5f0c7e8d1434de6b655f41a65b556d923b1aa575 a9169de3fd8d46beded3fed4b29e3d1595580840 c91f98c37e8f0bc388a27c9a780b1ba2df000f8a d993e9b0ccadaf4107186dcd655a3d009fce1e72
 
 Package: ros-rolling-moveit-kinematics
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.46
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.07
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 1732
 Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libdw1 (>= 0.126), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-rolling-moveit-core, ros-rolling-moveit-ros-planning, ros-rolling-urdfdom, libeigen3-dev, python3-lxml, ros-rolling-class-loader, ros-rolling-generate-parameter-library, ros-rolling-moveit-common, ros-rolling-moveit-msgs, ros-rolling-orocos-kdl-vendor, ros-rolling-pluginlib, ros-rolling-rsl, ros-rolling-tf2, ros-rolling-tf2-kdl
-Filename: ./ros-rolling-moveit-kinematics_2.6.0-53-gc6733bd0e-2023.01.11.21.46_amd64.deb
-Size: 482626
-MD5sum: 58a4dd1220cb160ae9f87aabdca1c697
-SHA1: 538674a35649ccd545cc9126b5a7794512e4621b
-SHA256: 67106ffd5d33e3effa6f3de4cf7b1f0730bd1b129a63002b0b3eb8970add5cb8
-SHA512: 313978f19b25db3c5521e19dab462a1252e0ab0b0b7e8ccd903df92caa5eb152845e183cce1036aa84b6b7f62414e30f9d14addf7a109a9bcabe1a083eaaf725
+Filename: ./ros-rolling-moveit-kinematics_2.6.0-53-gc6733bd0e-2023.01.12.07.07_amd64.deb
+Size: 482616
+MD5sum: 90bbdfaeba6587e31f305dd2308aec3c
+SHA1: ddfa7b7471ea574cca88c8409fd0e50f8be1709f
+SHA256: 3b40a3d47289e62022dce1a9e5bcc4ae6be53bea956704039ec6dbd3c243718a
+SHA512: 4fc75fe5f69ffce576df673759b2b1d4c215123ae57cc27db1efe49a7098b4ca6c76285937be58e904b57d03215c45a6318e4b26de324f0a2df76804d7975bbd
 Homepage: http://moveit.ros.org
 Description: Package for all inverse kinematics solvers in MoveIt
 
 Package: ros-rolling-moveit-planners-chomp-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.35
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.06.54
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-moveit-planners-chomp
 Maintainer: Chittaranjan Srinivas Swaminathan <chitt@live.in>
 Installed-Size: 4433
-Depends: ros-rolling-moveit-planners-chomp (= 2.6.0-53-gc6733bd0e-2023.01.11.21.35)
-Filename: ./ros-rolling-moveit-planners-chomp-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.21.35_amd64.ddeb
-Size: 4447632
-MD5sum: 2c485f0c08655b0d3eecaf35c5a9d939
-SHA1: 9e4e08cf911a93839fa52136d4fcfae115c77c22
-SHA256: e5e344a8a56750f619e769cb0d1302de52e409b3f76db6e4ca9521162a25d6cd
-SHA512: 95d00c8838237e039dd3c207ff2944ff550f9257898438151cd58226b132b1b138be5f99b293184ea76d2fda6d00b0b48dcef9a9ef4487cb56d6b68043b71287
+Depends: ros-rolling-moveit-planners-chomp (= 2.6.0-53-gc6733bd0e-2023.01.12.06.54)
+Filename: ./ros-rolling-moveit-planners-chomp-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.06.54_amd64.ddeb
+Size: 4447872
+MD5sum: 18b3179f60736f65c5c2ef33ca35b496
+SHA1: 7c2aa90567859aa6435c7bbc674a1ddc2e891177
+SHA256: 5a2e96be3b1d73f0a2540d35938d17f63ca0cf3b30dbd311fe08cb50a5a71b56
+SHA512: 3a10e11f88b035c2db1d78740722037c6f5ebeab92971d0df8ad35fd4253dd3ddbceeb819e249e8557158484786912e8a8103cd4126cf250ece1f9660d426970
 Description: debug symbols for ros-rolling-moveit-planners-chomp
-Build-Ids: cbe038a3860eed20c3a024c34031fb64ad1820d0 efe30e3e9552579a1ff428df2a00d8809c47042d
+Build-Ids: 77ebc144de2f16d35673e8a8b1be818fac70d7b8 b91d5d0b888a49170ce6b1cc95f2e0ec3c9fbfbc
 
 Package: ros-rolling-moveit-planners-chomp
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.35
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.06.54
 Priority: optional
 Section: misc
 Maintainer: Chittaranjan Srinivas Swaminathan <chitt@live.in>
 Installed-Size: 158
 Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), ros-rolling-chomp-motion-planner, ros-rolling-moveit-core, ros-rolling-moveit-common, ros-rolling-pluginlib, ros-rolling-rclcpp
-Filename: ./ros-rolling-moveit-planners-chomp_2.6.0-53-gc6733bd0e-2023.01.11.21.35_amd64.deb
-Size: 35452
-MD5sum: 0c8e9c12788074a87013d73c6eeecd72
-SHA1: 06f057cda454bf19fc89db978caf16c8ad3458d3
-SHA256: dbbbf21d9714f94da9bbf104c7ed654b70c4b3bcf9b2095f3a1b3147c360ed53
-SHA512: b803aca3d4ed82d1823df49e9c88f0cbc51f970cf9af3a3127e699057b568e8be86bb1dd9da7b9baab7d5c4918e0a7b6f3a12c250188b8471a728f9228377267
+Filename: ./ros-rolling-moveit-planners-chomp_2.6.0-53-gc6733bd0e-2023.01.12.06.54_amd64.deb
+Size: 35444
+MD5sum: 9a46d2eca5fb136b1c1a5fca3d01941e
+SHA1: 31fd8993dfb9f691a9c90ce81790bdc5c9af051e
+SHA256: 45065731f6cdc1557afebf7fa0ed78ce4b86cd0d35bcbefa7a1d37574e0230a9
+SHA512: dbe931d3b0b741fef25ff0b9100c004d72bc44e4afd4d41acd5b96db6e3b531ef91b1312c384451f302e3d30bef5aa0dc0a7d7e829b8f0747a692f2aec8395b9
 Description: The interface for using CHOMP within MoveIt
 
 Package: ros-rolling-moveit-planners-ompl-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.48
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.09
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-moveit-planners-ompl
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 23195
-Depends: ros-rolling-moveit-planners-ompl (= 2.6.0-53-gc6733bd0e-2023.01.11.21.48)
-Filename: ./ros-rolling-moveit-planners-ompl-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.21.48_amd64.ddeb
-Size: 22719442
-MD5sum: 6e4eba13c35a307e0b80dbf0db4b91db
-SHA1: b035cc1a7659b06313d5c4eb141752f25c6df8e4
-SHA256: f8a03f8ecc61a6f64e231c944887361e318558d19bf4ce4d7c781df0c61f3bc6
-SHA512: 5006712da22ecc21129c01ace0ec8a01c555c7a11b9f15488e242bc9609160b62d09686a5bfaaef016c4e295f5d73eb8ba96d5661afd1742070a02b9b660c38f
+Depends: ros-rolling-moveit-planners-ompl (= 2.6.0-53-gc6733bd0e-2023.01.12.07.09)
+Filename: ./ros-rolling-moveit-planners-ompl-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.07.09_amd64.ddeb
+Size: 22719430
+MD5sum: ec35c0e04559073bee538a69771e850e
+SHA1: 7297388e847654f51f54398d1f8deacf51f1014f
+SHA256: c57d444e9a5cc522418a907e26379846b140322f608828229962200796ebde1f
+SHA512: 7606ae2fe48701d9f39a4f4f26e7581902fbfdeaf3c11c8e91e4cd139ba85bd495cee1a24131bef4c982504153a686521cb1a6bd7105de83a7ef053ed5e3c1c9
 Description: debug symbols for ros-rolling-moveit-planners-ompl
-Build-Ids: 764571dd880b1601e4cedcec2e7b69eeed138a7e cbc7140c2fe7b26c40e4fda173aece2db0e8ffac de42e46e60833bb4666d335100baab7659534bd3
+Build-Ids: ba9326734b1b0a8f497bb7a8af615e212689bd60 d253627dffc6bf250bd80d4c7ac9c9e0cacf445d fd1485bfcf17da75a836ceee6a145c8b11b476d8
 
 Package: ros-rolling-moveit-planners-ompl
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.48
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.09
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 1402
 Depends: libboost-serialization1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libdw1 (>= 0.126), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-rolling-moveit-core, ros-rolling-moveit-ros-planning, ros-rolling-ompl, libomp-dev, ros-rolling-moveit-common, ros-rolling-moveit-msgs, ros-rolling-pluginlib (>= 1.11.2), ros-rolling-rclcpp, ros-rolling-tf2-eigen, ros-rolling-tf2-ros
-Filename: ./ros-rolling-moveit-planners-ompl_2.6.0-53-gc6733bd0e-2023.01.11.21.48_amd64.deb
-Size: 320638
-MD5sum: 8744b762208c494646a67316503c4d9d
-SHA1: 37f452f5da371807c5d76adcf17247da5a45b36c
-SHA256: 1e0c537e38103ff3a84bdfc21f550acc41bb23b24bd1842d6ac621934c578022
-SHA512: 2e5c3f50b4606e56176a4d44c0dba223170a14157aa3cb4dc684afdba850608ac18c1ca19fc82c5e785c31e74ca116641d498c087b9af277d454bdea03e094ce
+Filename: ./ros-rolling-moveit-planners-ompl_2.6.0-53-gc6733bd0e-2023.01.12.07.09_amd64.deb
+Size: 320642
+MD5sum: ddd4342d4ae32910ef8d97cbd4793f07
+SHA1: ecdb14346524da548caa6b2b17c5eb0fd6bef011
+SHA256: 7b8b80c6d2b3400d9092cb636281273296f988aa260b3ecef6532b40d5b2219d
+SHA512: b8a7070b1a65ac1d3c67c2fef7d6c33383da0fcbd6e8947cbd3be4f61e33440c813c5aca185a35accb7f04b4fa9e2a6ea4ab0986e6c4e869bce87f5f1ff1eadf
 Homepage: http://moveit.ros.org
 Description: MoveIt interface to OMPL
 
 Package: ros-rolling-moveit-planners
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.21
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.06.38
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 42
 Depends: ros-rolling-moveit-planners-ompl, ros-rolling-pilz-industrial-motion-planner
-Filename: ./ros-rolling-moveit-planners_2.6.0-53-gc6733bd0e-2023.01.11.21.21_amd64.deb
-Size: 6092
-MD5sum: 474a3f9ae9e6965fdeba15b47daa4f12
-SHA1: b03f45f3bd6277038695ee0a856a1fe012066945
-SHA256: 94c3fdffaccd7ae9bb5714c1552d7c6d3865349a626c3e2678f762e50e9c0eca
-SHA512: ee6dd39fd81f404442dd8abac853d06ee5fdfb6640b714699fd562bb11f5a7f19026e3272cfb00dbeef36296093c2c2f8ef51ae37d52b71af21c8b46751ad690
+Filename: ./ros-rolling-moveit-planners_2.6.0-53-gc6733bd0e-2023.01.12.06.38_amd64.deb
+Size: 6108
+MD5sum: 6ec8235555dcb2584def81add3ae9306
+SHA1: 5f5be41196017a651069db69eab1ee1b41b5a390
+SHA256: 48f659f4de02fadbba34239b181e9f74e0733be0cd3521fbbb81a801cdad5ecc
+SHA512: b2e9bab3b28aff6e36c5d5ca0c0db3eb24056edcc70f02c5328bb607195ea77331e1877a2052ba41215502b0c23cc322079e486b7c0323a987df8f563158f570
 Homepage: http://moveit.ros.org
 Description: Meta package that installs all available planners for MoveIt
 
 Package: ros-rolling-moveit-plugins
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.22
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.06.38
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 42
 Depends: ros-rolling-moveit-simple-controller-manager
-Filename: ./ros-rolling-moveit-plugins_2.6.0-53-gc6733bd0e-2023.01.11.21.22_amd64.deb
-Size: 6158
-MD5sum: 6f64e08c94df7d222b032ec635dc4cf1
-SHA1: 5c58dbaab3fc55d412246854cc19105c8ffb2524
-SHA256: 428467b0a7e8798f249d07538d6b00820419268b44df47921fa86b13e865bf99
-SHA512: c805032ee31ce81db07ecfe04a74421b126ebf41e79e695f4ed493d04869301aa74066bd7d7b27a6c2a12fe1a20278917030d6b62899c34177faf3d50c822861
+Filename: ./ros-rolling-moveit-plugins_2.6.0-53-gc6733bd0e-2023.01.12.06.38_amd64.deb
+Size: 6160
+MD5sum: 6f0282ca33c0b8d566f90738a01b727c
+SHA1: a75ecdfa572f6661e99853a548cf4252e8009235
+SHA256: 9e9c0afff09e92c47244431b63ee697b96e7c119dd6bd73c2b593bc3511b6b3d
+SHA512: 0e3120e571e510471751413378ae0747aa27d35537908bcbffe967641d2da367edbd69a897ed90dfe943e46f37424284e697091bf54a9526894d7ac2153dc6db
 Homepage: http://moveit.ros.org
 Description: Metapackage for MoveIt plugins.
 
 Package: ros-rolling-moveit-resources-fanuc-description
 Architecture: amd64
-Version: 2.0.6-5-g48ec116-2023.01.11.21.23
+Version: 2.0.6-5-g48ec116-2023.01.12.06.40
 Priority: optional
 Section: misc
 Maintainer: Dave Coleman <dave@dav.ee>
 Installed-Size: 735
-Filename: ./ros-rolling-moveit-resources-fanuc-description_2.0.6-5-g48ec116-2023.01.11.21.23_amd64.deb
-Size: 127846
-MD5sum: 47ee8c8259d816b305521ae4a2e54f2a
-SHA1: c96d8790020128713c291e251369a7993b49194f
-SHA256: 6ce4821f27e525437e971ab5eec5f27b908f17fc982ad744a0821b2a3b35db18
-SHA512: af2553d450e3b7579e52ececadcf0d3bb0a1081bdbb864c92895605aac458c45860eb5c167057241aa191a96ef0856f45e0460126ab5c4468f89c7b55b548041
+Filename: ./ros-rolling-moveit-resources-fanuc-description_2.0.6-5-g48ec116-2023.01.12.06.40_amd64.deb
+Size: 127836
+MD5sum: 7af2e44e714a4e68b9dd0bd285c73ef1
+SHA1: 708d841f498144f0c85a1b47d1a16ce11a3bea83
+SHA256: 48cfb276f6b70ecb5ecce84091c598d722b5b66167dc78756615f74888b95d31
+SHA512: a8b42887922bed239269fe8631d711f6bcec9aba3fd1278495d8f45f25b4f465110292693a8faa8652c8538215771b43626f3df07bbf235c1594ac475713b141
 Homepage: http://moveit.ros.org
 Description: Fanuc Resources used for MoveIt testing
 
 Package: ros-rolling-moveit-resources-fanuc-moveit-config
 Architecture: amd64
-Version: 2.0.6-5-g48ec116-2023.01.11.21.24
+Version: 2.0.6-5-g48ec116-2023.01.12.06.41
 Priority: optional
 Section: misc
 Maintainer: Dave Coleman <dave@dav.ee>
 Installed-Size: 88
 Depends: ros-rolling-joint-state-publisher, ros-rolling-moveit-resources-fanuc-description, ros-rolling-robot-state-publisher, ros-rolling-tf2-ros, ros-rolling-xacro
-Filename: ./ros-rolling-moveit-resources-fanuc-moveit-config_2.0.6-5-g48ec116-2023.01.11.21.24_amd64.deb
-Size: 14784
-MD5sum: 25a9c61acd043c2de752c015bae69fe0
-SHA1: e5078b5dc9aaf1f6644d906c25d6f621bf195ff8
-SHA256: ecaa28aaf261689f143c2d7b205c972a3caa2bc9ad8579f1f038e270f5046a82
-SHA512: 62eed822c3d4ae8d45ffececf827bfdb8664863e6d0e85b204815ff70bc7fd13518d5d276ae7173a283dfbedbab2d12f035b0e536d556790c219473856952f2e
+Filename: ./ros-rolling-moveit-resources-fanuc-moveit-config_2.0.6-5-g48ec116-2023.01.12.06.41_amd64.deb
+Size: 14780
+MD5sum: 6c2b62f5e7fd3c8cd4b6867130a2be17
+SHA1: dbafebac8d8bb19662726f18a3495b0122f5c20a
+SHA256: 296c5502f94fc366df945d3062987962fe108bd43a11c5ec1381f94579e00be3
+SHA512: 8f06c563eae33020021217148b720adec76d3a0849ff5f93865e32f1cf48a0326b7c74fe53751ab69cb154224257f7ffd4b83b807f3c0f8a9a66976e4f2d3473
 Homepage: http://moveit.ros.org
 Description: MoveIt Resources for testing: Fanuc M-10iA.
  A project-internal configuration for testing in MoveIt.
 
 Package: ros-rolling-moveit-resources-panda-description
 Architecture: amd64
-Version: 2.0.6-5-g48ec116-2023.01.11.21.24
+Version: 2.0.6-5-g48ec116-2023.01.12.06.41
 Priority: optional
 Section: misc
 Maintainer: Dave Coleman <dave@dav.ee>
 Installed-Size: 10444
-Filename: ./ros-rolling-moveit-resources-panda-description_2.0.6-5-g48ec116-2023.01.11.21.24_amd64.deb
-Size: 3135510
-MD5sum: 720c0687df23f8825918b76b24efe8ca
-SHA1: 7a2f91126e695f44281a1e110a91ee5eb3ddf0bc
-SHA256: ac75460f6c666c44c70dbeff6bd658d399206efd7095eac6eb7e5cd3668ce6e9
-SHA512: f0e0b47fcf45d21afa3fdf839ac1f120aece9d53a6af24fb9a2e18618debe5d461f5b1e232e28cc7da8c0b04b53c75de6a9867fd9c49bb6988433c133ac50b9f
+Filename: ./ros-rolling-moveit-resources-panda-description_2.0.6-5-g48ec116-2023.01.12.06.41_amd64.deb
+Size: 3135252
+MD5sum: b13c8ee22c3e3fecf4aa21486540daff
+SHA1: 6ff30222f3275e598e99b5f650da36e277ce3aa6
+SHA256: c2826b3a9b8d36fb3572af22f09cdae0ee81d082db054e86b595e110a15e0d77
+SHA512: bb9b14a1db3ff473565fa4edf7c36fc5ddc1b5c4cebea2f76843a83b7c83946ed37a02b6a9e983a0abe3c07ca253bc4efbbe0619c242f32b2d73cd42bc7d5b25
 Homepage: http://moveit.ros.org
 Description: panda Resources used for MoveIt testing
 
 Package: ros-rolling-moveit-resources-panda-moveit-config
 Architecture: amd64
-Version: 2.0.6-5-g48ec116-2023.01.11.21.25
+Version: 2.0.6-5-g48ec116-2023.01.12.06.42
 Priority: optional
 Section: misc
 Maintainer: Mike Lautman <mike@picknik.ai>
 Installed-Size: 126
 Depends: ros-rolling-joint-state-publisher, ros-rolling-joint-state-publisher-gui, ros-rolling-moveit-resources-panda-description, ros-rolling-robot-state-publisher, ros-rolling-xacro
-Filename: ./ros-rolling-moveit-resources-panda-moveit-config_2.0.6-5-g48ec116-2023.01.11.21.25_amd64.deb
+Filename: ./ros-rolling-moveit-resources-panda-moveit-config_2.0.6-5-g48ec116-2023.01.12.06.42_amd64.deb
 Size: 18452
-MD5sum: 17dcb5188a038fa612f82713f5cebbef
-SHA1: 377ee57fe620f328e064c25a421d9f12ca456710
-SHA256: f3ead91a2f61cdf128ffae817a27359e114dee526dd9d6f54017a14962e00073
-SHA512: 0ebbb62688ececb7b25f2bd3f842ceeafb155fa751c07fe34010dfcfacb8fb4ede4e1d65abacc03d7eaa3fc09fbdc1b37bc1f7dcb89697769d914566311f8ce8
+MD5sum: 69a8317ea9e7bab4af20deefe9d955e6
+SHA1: 05c056dc798e8ca080624371604d2723e854ae4a
+SHA256: 53878fad4e8524eb8c4ea9b0be366c2254dd6439e7246b0d6f64ef2f3d95cf90
+SHA512: 3bd6dbb7e5885da9e3e4ecf9a93da2659b05a021f2a3e29097c7e6a13ea0e81106c76a7c899394ebeb54840ebcfbe7f16c68e98929bfda46dc233b5de57ef121
 Homepage: http://moveit.ros.org/
 Description: MoveIt Resources for testing: Franka Emika Panda A project-internal configuration for testing in MoveIt.
 
 Package: ros-rolling-moveit-resources-pr2-description
 Architecture: amd64
-Version: 2.0.6-5-g48ec116-2023.01.11.21.26
+Version: 2.0.6-5-g48ec116-2023.01.12.06.43
 Priority: optional
 Section: misc
 Maintainer: Dave Coleman <dave@dav.ee>
 Installed-Size: 48623
-Filename: ./ros-rolling-moveit-resources-pr2-description_2.0.6-5-g48ec116-2023.01.11.21.26_amd64.deb
-Size: 24386870
-MD5sum: 81da47388b97038ba02b38b3eb125995
-SHA1: 0a4df579f15eb4ea6a8a9e27c3ac7b6627b68dc8
-SHA256: 4c0eb8255729b4ea2da877a72b226c678170944b7566ee026c4d26f1a1145342
-SHA512: 3f772848d0f156414377777c9d572fa3b90d11d3702e3bfb4ea2d0b968fdb3285e96d6327318309efbc8a8779f2543bd634791bc852b4d6ae0ddea609b366fe7
+Filename: ./ros-rolling-moveit-resources-pr2-description_2.0.6-5-g48ec116-2023.01.12.06.43_amd64.deb
+Size: 24386880
+MD5sum: 18d290c3efc9d0aa57a2ffc92d5a179e
+SHA1: 8c6ac1eefa660190c412fbfd5e746d3a841253f1
+SHA256: d422ca8e030806ce94491209cd33cb02146825481b3bf29ae819378880cadf81
+SHA512: 46a4963733143a7e619eab379a9967a57a41d583b827510a7262d0d74afdeb0872b8cb19fdf0f47f5a00a0084c7a7105521fe968da1a51a72dfdac7e68768205
 Homepage: http://moveit.ros.org
 Description: PR2 Resources used for MoveIt! testing
 
 Package: ros-rolling-moveit-resources-prbt-ikfast-manipulator-plugin-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.36
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.06.55
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-moveit-resources-prbt-ikfast-manipulator-plugin
 Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
 Installed-Size: 2718
-Depends: ros-rolling-moveit-resources-prbt-ikfast-manipulator-plugin (= 2.6.0-53-gc6733bd0e-2023.01.11.21.36)
-Filename: ./ros-rolling-moveit-resources-prbt-ikfast-manipulator-plugin-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.21.36_amd64.ddeb
-Size: 2695954
-MD5sum: ad1fdb30132dc32dafa4f6641335e840
-SHA1: 5d5ebff7d679bfe204ea32b45add44bb7f3b20e2
-SHA256: 7500a62e5a9fc950d02dfd4bf94eb85f97e0406c3851e9cb426fcb2064faeb47
-SHA512: f10ae6a1da75ed4e5ea6250577403d577e99b10386781b1eac09d9ec4bb00cb1a983e184deaea9dcef900a4bff6d5d8aba58c56ba9f5bd098f7a7161f0c8a70d
+Depends: ros-rolling-moveit-resources-prbt-ikfast-manipulator-plugin (= 2.6.0-53-gc6733bd0e-2023.01.12.06.55)
+Filename: ./ros-rolling-moveit-resources-prbt-ikfast-manipulator-plugin-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.06.55_amd64.ddeb
+Size: 2695960
+MD5sum: e8b3bdeec98181a0cf8d04bfe8d142ed
+SHA1: 10aa76c8e07d2278b3f360b654a6e52b2aa4dfa9
+SHA256: 674abab3e53870c80aa31c568462507c4ba31d31d623d83b2bd997e6df0047e1
+SHA512: 731e16a6f7083000a97405d62305d7b9f36f7aca7820aae3043b8760ddede7ad6cb9cdcf18f15ac8cb5b1b8c963fb6b2e90762f3f5582961d669e85e0452641e
 Description: debug symbols for ros-rolling-moveit-resources-prbt-ikfast-manipulator-plugin
-Build-Ids: 2b2309a71674fd233e015a637f16c6027c14bbd3
+Build-Ids: 24ac977f5e5249fb77fd737f42685c3ec947f5c1
 
 Package: ros-rolling-moveit-resources-prbt-ikfast-manipulator-plugin
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.36
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.06.55
 Priority: optional
 Section: misc
 Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
 Installed-Size: 467
 Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 4.0), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), ros-rolling-moveit-core, ros-rolling-generate-parameter-library, ros-rolling-pluginlib, ros-rolling-rclcpp, ros-rolling-tf2-geometry-msgs, ros-rolling-tf2-kdl
-Filename: ./ros-rolling-moveit-resources-prbt-ikfast-manipulator-plugin_2.6.0-53-gc6733bd0e-2023.01.11.21.36_amd64.deb
-Size: 127698
-MD5sum: bb6f9557b6653aed4c6b72d8c66de1ef
-SHA1: 72abec159b8db1c624fd083e49451cbaa7df7203
-SHA256: 73ddf14d9d842fc81a07acd3271dd070c3c56f37456507e58f101dfeaaf0d682
-SHA512: bc1466b8f1eed66c49ac54971dcde3e6c3ff838629c272646bbabf909b15ab4af5bf06e8ce7c21015647e55007f71730ff5def5b023f8dfde21511cc225c4fa4
+Filename: ./ros-rolling-moveit-resources-prbt-ikfast-manipulator-plugin_2.6.0-53-gc6733bd0e-2023.01.12.06.55_amd64.deb
+Size: 127694
+MD5sum: 2e82d670af0ae5d8cdf2d2ba880034e1
+SHA1: c4243b7256a5644dfaf41ff823ed134a72c283e0
+SHA256: dbe46add3e4d24e01ef558706ecee7440a02f5eaa9c54e59caa4946a1a4ab975
+SHA512: dca6868e2160fd2e0ee2940e12fd758b9ea27d22ecd3e699237962b0a8071d2c4867a5dea733c4483e50010042d1ee13afa1389836dbc13b2116156f8dd3ab24
 Homepage: http://moveit.ros.org
 Description: The prbt_ikfast_manipulator_plugin package
 
 Package: ros-rolling-moveit-resources-prbt-moveit-config
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.38
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.06.57
 Priority: optional
 Section: misc
 Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
 Installed-Size: 83
 Depends: ros-rolling-joint-state-publisher, ros-rolling-moveit-resources-prbt-ikfast-manipulator-plugin, ros-rolling-moveit-resources-prbt-support, ros-rolling-moveit-ros-move-group, ros-rolling-robot-state-publisher, ros-rolling-rviz2, ros-rolling-xacro
-Filename: ./ros-rolling-moveit-resources-prbt-moveit-config_2.6.0-53-gc6733bd0e-2023.01.11.21.38_amd64.deb
-Size: 13898
-MD5sum: 75d87618f29e9afaed5a1931b958dbbb
-SHA1: 154e5ed1ae23132f7ebc8a4f3763ea404f44b7f2
-SHA256: 554b05247ad77cea551021bb7df669bd9613b43f142eea186b8a6a5de3c450f8
-SHA512: 81d48b518f2227af5bcbcba486645cbbe1f3bd80b9ba9237d0ac8c3b907947b083f1a98e825697cfbd153c9e52e704de491d5eeaa197623de0126685b52361dc
+Filename: ./ros-rolling-moveit-resources-prbt-moveit-config_2.6.0-53-gc6733bd0e-2023.01.12.06.57_amd64.deb
+Size: 13900
+MD5sum: 6be366e0794f24656933592381222cec
+SHA1: 44fc41287441f21665e5135520cc7612021963f5
+SHA256: bcc0e83de7d7ca26f444a87096dceda0f647b952abb52854d73e786e05ebf3f9
+SHA512: 23053dde87121296aa7e11158ce728f4a4fc7753c193592b9663de7b6152e296e52aa49fcd566af18e4b07de39139eebbc4da1c28b2d4e20018d95cc208dd714
 Homepage: http://moveit.ros.org
 Description: MoveIt Resources for testing: Pilz PRBT 6 A project-internal configuration for testing in MoveIt.
 
 Package: ros-rolling-moveit-resources-prbt-pg70-support
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.38
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.06.58
 Priority: optional
 Section: misc
 Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
 Installed-Size: 933
 Depends: ros-rolling-moveit-resources-prbt-ikfast-manipulator-plugin, ros-rolling-moveit-resources-prbt-moveit-config, ros-rolling-moveit-resources-prbt-support, ros-rolling-xacro
-Filename: ./ros-rolling-moveit-resources-prbt-pg70-support_2.6.0-53-gc6733bd0e-2023.01.11.21.38_amd64.deb
-Size: 161272
-MD5sum: b209bff9daa539769247196131889748
-SHA1: 2ee8573cde2ff263dd0265164974bdc7e48b8564
-SHA256: 5a56a7397f99da26f358d20688b3dd6308886c1867070b59b4a05ce2e3231ddb
-SHA512: bb783bc9d100c4521d39e8970bc48f748ae6b9817035089c8264f32729f3fe74facb6eea8f9a59b3bd022ec28a4f17475598e4cb1aceef0566f36330b4bafc14
+Filename: ./ros-rolling-moveit-resources-prbt-pg70-support_2.6.0-53-gc6733bd0e-2023.01.12.06.58_amd64.deb
+Size: 161276
+MD5sum: 8e5610501289bd70fb63862ebf40daf4
+SHA1: d27017f0ea2ddb1acc9286e1e0c9f7c9f534316d
+SHA256: f32e99c8efbbb7912b7c8e6323e8800be3fc4d7f8554d513c8bea98b3b58a270
+SHA512: 8cd46563b23d98f45ca839d2ac632921a657eaba91a28248150d44db0f18032562e9e8aeb19152482707edc929bcd0e7382f0ee807afd2e8af06f378e5d30b2b
 Homepage: http://moveit.ros.org
 Description: PRBT support for Schunk pg70 gripper.
 
 Package: ros-rolling-moveit-resources-prbt-support
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.39
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.06.59
 Priority: optional
 Section: misc
 Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
 Installed-Size: 3858
 Depends: ros-rolling-xacro
-Filename: ./ros-rolling-moveit-resources-prbt-support_2.6.0-53-gc6733bd0e-2023.01.11.21.39_amd64.deb
-Size: 790200
-MD5sum: d4a0df01602aa9f9c614092ecc169c8d
-SHA1: 85f58fdc462e534104e60b34431bc663b3ad20f5
-SHA256: e84e5a9c4537f4a38d556ef852832b1b35738629d405e304c6c8b3d483007c36
-SHA512: 01db61e27c8dcc44ecbdd88d6387e7b65fb2671b6d61b5dcd01c2826e296aa034760909a78844906f5a29fc2196bf6356c787d3222d3d206a6ed672ec05868d4
+Filename: ./ros-rolling-moveit-resources-prbt-support_2.6.0-53-gc6733bd0e-2023.01.12.06.59_amd64.deb
+Size: 790204
+MD5sum: 746c054aa17ae540f1ac2346fd8db792
+SHA1: bbee1f331f78861357b862c4b70d7f726541104d
+SHA256: 1c6cab9e44af8e6abec0f81bbff21de740a406cdb734e4286a32e3c920f497f5
+SHA512: 2d9c8c28861cd7376776d83985626b063dbbccb2649e688f71804a7a22ce3021de51597c8c14f21a40cb7352c2f244bba8be8d9803c0c7bc69295c05c3a7af84
 Homepage: http://moveit.ros.org
 Description: Mechanical, kinematic and visual description of the Pilz light weight arm PRBT.
 
 Package: ros-rolling-moveit-resources
 Architecture: amd64
-Version: 2.0.6-5-g48ec116-2023.01.11.21.23
+Version: 2.0.6-5-g48ec116-2023.01.12.06.39
 Priority: optional
 Section: misc
 Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
 Installed-Size: 42
 Depends: ros-rolling-joint-state-publisher, ros-rolling-moveit-resources-fanuc-description, ros-rolling-moveit-resources-fanuc-moveit-config, ros-rolling-moveit-resources-panda-description, ros-rolling-moveit-resources-panda-moveit-config, ros-rolling-moveit-resources-pr2-description, ros-rolling-robot-state-publisher
-Filename: ./ros-rolling-moveit-resources_2.0.6-5-g48ec116-2023.01.11.21.23_amd64.deb
-Size: 6440
-MD5sum: b681808f8c6d62331befac31b2b14fe2
-SHA1: d6bd0cdd9420db933be85289109865e39d5b1538
-SHA256: 2045e8c616f91240f33aba66e227f4803fb43d4cea204834abbe8cdbc3852546
-SHA512: 56b2fe8237488e511f094ac8fbc31fed1d9f75060d1546372a4a5c57a5df779e9956a3ac1af15dd9a3d1b94ad234905bc5038ea92c82ca764748bb551652d2a9
+Filename: ./ros-rolling-moveit-resources_2.0.6-5-g48ec116-2023.01.12.06.39_amd64.deb
+Size: 6442
+MD5sum: 71a1ccc4a4067d14129384a302b0404b
+SHA1: 08baed936675dfcc5a850aa965e89d66e444c185
+SHA256: 1f614f70dfefccc92b4c2b26ef6d8bb1ea9b7c0b907635e348c3559554bbbbc8
+SHA512: 5cc4ef0ac3551d346f412736e4a76c6ed469923eaf4fc71b2d6af3a3f8717bf905427bb806d2c12aec5adc90508339d49a0429d6e3234b829e2c743ab679e333
 Homepage: http://moveit.ros.org
 Description: Resources used for MoveIt testing
 
 Package: ros-rolling-moveit-ros-benchmarks-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.22.01
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.23
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-moveit-ros-benchmarks
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 8104
-Depends: ros-rolling-moveit-ros-benchmarks (= 2.6.0-53-gc6733bd0e-2023.01.11.22.01)
-Filename: ./ros-rolling-moveit-ros-benchmarks-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.22.01_amd64.ddeb
-Size: 8044986
-MD5sum: 7f8e288ea5362243da0ffb7d99673fac
-SHA1: 9d48f1896b3339318ef448ea3ebec9c964c8c063
-SHA256: 23cdf6feb192b032895bd98430a247e61935e716cc325b25334941a021504abc
-SHA512: 0296f9a8839aa39f380ae62114cd34aa698c856c1ec90f876231db01bd59602fd75f3a9dcd621d20aef39b5ffe29c1bddcf7235f74cbe5f537d650d61e1e1c5d
+Depends: ros-rolling-moveit-ros-benchmarks (= 2.6.0-53-gc6733bd0e-2023.01.12.07.23)
+Filename: ./ros-rolling-moveit-ros-benchmarks-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.07.23_amd64.ddeb
+Size: 8045294
+MD5sum: c0d7286f2b2085bbf6a364efc3943ef8
+SHA1: bdcb3b4744dbcdf7743ad314ee288ebf54885602
+SHA256: a2da795b08d2010c9464f50704f22fa146dd20200e2532da45ebd2cb7691c5eb
+SHA512: 94104f9b3cc97347b747b2aacb29d892133e1d142beaeaaa8f4bd9524d1054076aac2c2a7743ea968feb4f5f05c5f12add6f8651e7116917112ca457f4eb54ae
 Description: debug symbols for ros-rolling-moveit-ros-benchmarks
-Build-Ids: 269db4c79a5322225bc5fbe4baac9163074e37ad 456c8afc1d782c92a8e302910cdce1aa267f4eee b7ad33c57c9711ca1647a74bb4ab844ba3628151
+Build-Ids: 198d83d4d8614b5d60a4a8082b8007cae6989e88 8f3b196e2198546065e82e1cc6d6eba9c6e9839e be2204498e352fb9fca023f0f13e564c0b6aade0
 
 Package: ros-rolling-moveit-ros-benchmarks
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.22.01
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.23
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 702
 Depends: libc6 (>= 2.34), libdw1 (>= 0.126), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-rolling-moveit-core, ros-rolling-moveit-ros-planning, ros-rolling-moveit-ros-warehouse, libboost-date-time1.74.0, libboost-filesystem1.74.0, ros-rolling-launch-param-builder, ros-rolling-moveit-common, ros-rolling-moveit-configs-utils, ros-rolling-pluginlib (>= 1.11.2), ros-rolling-rclcpp, ros-rolling-tf2-eigen
-Filename: ./ros-rolling-moveit-ros-benchmarks_2.6.0-53-gc6733bd0e-2023.01.11.22.01_amd64.deb
-Size: 209122
-MD5sum: e8709059f79a7d41f853698e16bf6bfe
-SHA1: d642a8328bfc2d7c2a9a251c8494dfac1df53ebe
-SHA256: 15e4ca50cf710a50892d999baeb96f1322c2e317089a28a351e75d5ba21a0e06
-SHA512: c4f6cae28a1ca499ac2e56e007025dc75155644ab2b79719567cf5456d75e94731e012cafc34f70025718eaca68e9924e6fff2523abce09bb287c3e45750a2b4
+Filename: ./ros-rolling-moveit-ros-benchmarks_2.6.0-53-gc6733bd0e-2023.01.12.07.23_amd64.deb
+Size: 209102
+MD5sum: 501e7b6161605d081be19c3c8a570d8e
+SHA1: 61fb07afc07d3c383fc35b1c8cbca7fb1d0e0d0d
+SHA256: 3c68112b55c5635d350cc869062c81f9784e6f0d361219ecdd8d0b46253e3231
+SHA512: ca44b26d1977c8c22de4f3a7cddb5c2a23866106cc8c654141482253e81adb580aa4db968ac29a2c1bd3023befa13fd1444338dea073a33bd8bd809093f09420
 Homepage: http://moveit.ros.org
 Description: Enhanced tools for benchmarks in MoveIt
 
 Package: ros-rolling-moveit-ros-control-interface-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.22.05
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.28
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-moveit-ros-control-interface
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 3996
-Depends: ros-rolling-moveit-ros-control-interface (= 2.6.0-53-gc6733bd0e-2023.01.11.22.05)
-Filename: ./ros-rolling-moveit-ros-control-interface-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.22.05_amd64.ddeb
-Size: 3746886
-MD5sum: 5a7732a2a7d7979c25d55750276a9ec0
-SHA1: 358b7e7a6737302a019ca59dfae96cf42d7e149a
-SHA256: 0d2863b902a98c05b142aea4b574c1b326fe8ec3e5deac36b4dc849bca44711a
-SHA512: d1f489cfc2c9f76b1488b7d37920b52ac846f78ccae131df3e23cabbc526c71c5234a323ab78ec2c8260b3d1ef4ea230adae08d309a8808cfc6c6494db2907a2
+Depends: ros-rolling-moveit-ros-control-interface (= 2.6.0-53-gc6733bd0e-2023.01.12.07.28)
+Filename: ./ros-rolling-moveit-ros-control-interface-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.07.28_amd64.ddeb
+Size: 3746052
+MD5sum: 5f647e7c3d7e15e388c7b0a3815e680d
+SHA1: 4fce510a4a3a5a49e72bc72fc34699b5814c1530
+SHA256: 2a8c992ddd9a32d3fac8ff3bfba495a64d15403114c0add1aa889956462ae12c
+SHA512: d4148965a26e8ac0cd421c39c23f6d575e7419b388fdf3dcc75c4d4bcbeeeac6ad02693cea8ecf313e9c16de5612cf9be25d538851bb654d320a256f068fa6aa
 Description: debug symbols for ros-rolling-moveit-ros-control-interface
-Build-Ids: 1cda65bd01b49ce5796e47f8411e0799a4a4a8f0 1ffa4e06c45d006349e7d9e9a5aaebaa35b91550 b5c4ea306085a929b99f6af61f1a2bc3069a1517 dbccabc63329e9d53e695f86763df4197e5cdbd4
+Build-Ids: 0691384978aa0786a12739cd38177f66d03387e2 0c0dcdf4ffbe53d235f236d011cccaa13f1d2c76 7b392aa6985f32b1ea8015e052851bd8bee4fe83 d0956feb666b791a869b11197ef1ea83e72630ce
 
 Package: ros-rolling-moveit-ros-control-interface
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.22.05
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.28
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 765
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-rolling-moveit-core, ros-rolling-moveit-simple-controller-manager, ros-rolling-controller-manager-msgs, ros-rolling-moveit-common, ros-rolling-pluginlib (>= 1.11.2), ros-rolling-rclcpp-action, ros-rolling-trajectory-msgs
-Filename: ./ros-rolling-moveit-ros-control-interface_2.6.0-53-gc6733bd0e-2023.01.11.22.05_amd64.deb
-Size: 197410
-MD5sum: 7dc6ec33919c50783c0b35eb172e5cd8
-SHA1: fdebbd64def41a78267842e348f6f84f8be4e4a2
-SHA256: dc1016511fca151b518d6a0c1761c23e8b8270502c3015de6b00ffded15251de
-SHA512: c74041c6896ee884f85f6a414ad2aeacf89f969a96a18012bc974e8313ed2a37fda38d0c006712ba0f64fa81d56e3235dcdbfe3c990d39925627da8a76b18f80
+Filename: ./ros-rolling-moveit-ros-control-interface_2.6.0-53-gc6733bd0e-2023.01.12.07.28_amd64.deb
+Size: 197418
+MD5sum: 3567c701d14d83647ba0e48cd97d5a23
+SHA1: 46cf712b1aa81489541992fc40cedf4717aafe4a
+SHA256: 05050c7f552c91d5dd3bc3b10c904129913e2921e5ade804177741312836cc99
+SHA512: 404a5910b18d93386888741395d9f4a8ca4f5b9d09fe47b3120f6280a9801a539021e4900000c6ed1224da0488430d32c16f2eb01b8b374745bd6e85fbe8d768
 Description: ros_control controller manager interface for MoveIt
 
 Package: ros-rolling-moveit-ros-move-group-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.51
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.13
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-moveit-ros-move-group
 Maintainer: Michael Görner <me@v4hn.de>
 Installed-Size: 24133
-Depends: ros-rolling-moveit-ros-move-group (= 2.6.0-53-gc6733bd0e-2023.01.11.21.51)
-Filename: ./ros-rolling-moveit-ros-move-group-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.21.51_amd64.ddeb
-Size: 23724672
-MD5sum: 1c8d5ac84d9c9a90f96cec1522ee3c66
-SHA1: 29c1cc2783a4847246ea697aa05388ca3f267216
-SHA256: 48737cb649f2a412c94ad1ca27e79626592eb365c3765777bf0f86eefbd3ab47
-SHA512: 7f78002bd8239279de54f45da47ee6eaa42bbfa6a14c8c633a5f6e2445406f550e0236fb561ca8221b3149caa1805cba4b1f534926e1160ae98c1ca62c5b286b
+Depends: ros-rolling-moveit-ros-move-group (= 2.6.0-53-gc6733bd0e-2023.01.12.07.13)
+Filename: ./ros-rolling-moveit-ros-move-group-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.07.13_amd64.ddeb
+Size: 23726866
+MD5sum: 0b079496a7133aff1239a0590d4be477
+SHA1: 8115841733c0840edd82d4e5832c3543870c0cc8
+SHA256: 3178dbbb2846a11ba9593722922592dccee1169cacc4b9c84b7f3c112c68ac03
+SHA512: 0035aa328c1e61417087d2e0c6ef720164eaf37d9e7cf9392e6b9039cc28613afdedd97f3443ae46b4a340024db75bb9a568d03cc15c8d5589fc5d86177978a8
 Description: debug symbols for ros-rolling-moveit-ros-move-group
-Build-Ids: 1c866f9355776c8f2a654bbdde98fc9fdd7f37ae 61704c4a8c81b3fd60c5f011d3c3097385c3ce68 aecd0c61b72876f01e3dbcbc326909cfe4469eb8 c4c471c8f20f0c578cbc76ab13c32b7d16aedfe2
+Build-Ids: 3b2dad1c66d0bcf93a6ff2442fd46142970f6a2b bb9e9c4f9266f7935ae6703dcbd32633a7e7e0cc ccdd9c3e8872cb224154fa9c2b4076a6fecb201b e78a282ea9b782cca2b8555bb005a594629482ad
 
 Package: ros-rolling-moveit-ros-move-group
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.51
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.13
 Priority: optional
 Section: misc
 Maintainer: Michael Görner <me@v4hn.de>
 Installed-Size: 1419
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libdw1 (>= 0.126), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-rolling-moveit-core, ros-rolling-moveit-ros-planning, ros-rolling-moveit-common, ros-rolling-moveit-kinematics, ros-rolling-moveit-ros-occupancy-map-monitor, ros-rolling-pluginlib (>= 1.11.2), ros-rolling-rclcpp, ros-rolling-rclcpp-action, ros-rolling-std-srvs, ros-rolling-tf2, ros-rolling-tf2-geometry-msgs, ros-rolling-tf2-ros
-Filename: ./ros-rolling-moveit-ros-move-group_2.6.0-53-gc6733bd0e-2023.01.11.21.51_amd64.deb
-Size: 338924
-MD5sum: 794ef844de18c09c1ae2ca997324e4f4
-SHA1: 9a599f8405d2cc819c8eea824b79c16099db7895
-SHA256: 3ecdf5dc2775201af6d995a3ccca84b4c47419b61b053a087a8632bd6ee6dd8b
-SHA512: a4b78a76af26babba703f6f121e58aa69133e8b7517d9246fe9c610c3af8497efa2eeeec205d26d84957e5afa0c9057bfdfcd167b821aea6561b8181f4894625
+Filename: ./ros-rolling-moveit-ros-move-group_2.6.0-53-gc6733bd0e-2023.01.12.07.13_amd64.deb
+Size: 338926
+MD5sum: a6a4726d231c1d674a9a631595f0e20c
+SHA1: 8c0b2495a1966e8a2594b2d59514da4337d52e89
+SHA256: 62c4354400d55fe547b17a175585fc89eeed72828db11eec28e9f7caccae0fc7
+SHA512: 9f76f8b01766bd2e7d5c9705b7e6e0360cbad3a77442a969787b726f9638af171531314b9a8af43e21ba394f6defd456062775947291ff6dd4b5bcd5a4db388b
 Homepage: http://moveit.ros.org
 Description: The move_group node for MoveIt
 
 Package: ros-rolling-moveit-ros-occupancy-map-monitor-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.40
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.01
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-moveit-ros-occupancy-map-monitor
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 4687
-Depends: ros-rolling-moveit-ros-occupancy-map-monitor (= 2.6.0-53-gc6733bd0e-2023.01.11.21.40)
-Filename: ./ros-rolling-moveit-ros-occupancy-map-monitor-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.21.40_amd64.ddeb
-Size: 4256444
-MD5sum: a8c7daa9f5e0967b8c284c420ebd6497
-SHA1: 2b95d96fc2e22a8d1e37a6ba1e0b3f4a0af17a0b
-SHA256: 4d103c09c5887458900ad744088cc1b277d21c95b72c21d167a4aacc006379a8
-SHA512: a98cb45b78502f15ba2e22dd4dfd73eea21f7e298583a5b8908f674deea7367f99f5c984f7883f2899bb48a0cb3f0f7a453d2dc36db4048a6dd85f0926b31f9e
+Depends: ros-rolling-moveit-ros-occupancy-map-monitor (= 2.6.0-53-gc6733bd0e-2023.01.12.07.01)
+Filename: ./ros-rolling-moveit-ros-occupancy-map-monitor-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.07.01_amd64.ddeb
+Size: 4257124
+MD5sum: c9301ac6dd1f4b1e0fd132e0b33e17a2
+SHA1: 02d5d7e9f2c28458d0d6d68f107e3337bfde450e
+SHA256: 1e964e06256a8cd1d91f99bf6f0d211820c6b07890564e8638a43fddf34736ba
+SHA512: 4a9e213df86cf162d7f35bdc9cb4a683d3c4bfe7b7524b8c0e9bbbc4d6333a00a67ba5dbae5c949189cdfa94afbf355a6bc385ed69489bb4890547646ad615ee
 Description: debug symbols for ros-rolling-moveit-ros-occupancy-map-monitor
-Build-Ids: 2dad3f0bdb9097aaf4915f0ab78f3e95c8cff5f5 fb66044963ef86419afd916cb5c7fdd777e410ea
+Build-Ids: 20cd6dd2096a3f0f3a6284172408369509c864c2 4a0ad6d40e395fa1b7ab6f978be20b557420cab2
 
 Package: ros-rolling-moveit-ros-occupancy-map-monitor
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.40
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.01
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 898
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libdw1 (>= 0.126), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-rolling-octomap, libeigen3-dev, ros-rolling-eigen3-cmake-module, ros-rolling-geometric-shapes, ros-rolling-moveit-common, ros-rolling-moveit-core, ros-rolling-moveit-msgs, ros-rolling-pluginlib (>= 1.11.2), ros-rolling-rclcpp, ros-rolling-tf2-ros
-Filename: ./ros-rolling-moveit-ros-occupancy-map-monitor_2.6.0-53-gc6733bd0e-2023.01.11.21.40_amd64.deb
-Size: 226344
-MD5sum: 349274623f8b89289ddbfc9b8241de7a
-SHA1: af681280c74e240a657f4a75bfa669cab06373f4
-SHA256: 617ac39e867aece4aa2ebceb8b1f2ed377aeb957cc5f44bee3db98ce8778505e
-SHA512: e9aecf9e0ce5246f53712bea1e7d4c57da72f57ec38f34831dc87fd2096f010e0a6b94013fadd58371618e25aa44dcb17b2bfbab7118e3274a8534817fb26049
+Filename: ./ros-rolling-moveit-ros-occupancy-map-monitor_2.6.0-53-gc6733bd0e-2023.01.12.07.01_amd64.deb
+Size: 226316
+MD5sum: 33560089c9aa02942f9ac47b68a966de
+SHA1: 31b2fe9b77627089e6b7fd77d732c3918d765804
+SHA256: 9d508b381961e9eab3419fe01879827d4e90f5618e4438dc4e573dfa94d7dc24
+SHA512: 56c6635a04b9927907c91b22d0d27b944a8549c2d50008bfd62f9cbeea7cafb67fcdff4e6e9b88690c143eba1f31763597814679e51f7150593fe9b6fc34f217
 Homepage: http://moveit.ros.org
 Description: Components of MoveIt connecting to occupancy map
 
 Package: ros-rolling-moveit-ros-perception-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.55
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.15
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-moveit-ros-perception
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 9847
-Depends: ros-rolling-moveit-ros-perception (= 2.6.0-53-gc6733bd0e-2023.01.11.21.55)
-Filename: ./ros-rolling-moveit-ros-perception-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.21.55_amd64.ddeb
-Size: 9148262
-MD5sum: 4a40874560189192fea655c92576a0e1
-SHA1: a1b1571d981fcf671b1cac0288080aa4f1176217
-SHA256: ef2d7029b414c334fa23e648486a65061d8bb433287e42b91f5f436fb7e95fb1
-SHA512: 116ada7fa6c31f4bd91911c699ff4e57632422d631e0c5286fd8294a654f678aadc7e77b275542faa1fb56fe281339b6e4de711546d6687b0bf59a14b04bda6c
+Depends: ros-rolling-moveit-ros-perception (= 2.6.0-53-gc6733bd0e-2023.01.12.07.15)
+Filename: ./ros-rolling-moveit-ros-perception-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.07.15_amd64.ddeb
+Size: 9143888
+MD5sum: a6d2882c8f29ad6cf3b34677b03ba8de
+SHA1: 41a34230f684438435501f8adcd97688fdfe1026
+SHA256: 6433e740e7b0b6ca98de86447f8d40dad315729e3c1340ecacc4f1b99f0fbd92
+SHA512: 11290b07a84d726b1f82bcf52a9e24ecb266e8c3375bb4465143c836fd59d029f1901817b0edf0fb56f0df484bc574ba6385ff59aa7bcd16a59a9ca20cb92494
 Description: debug symbols for ros-rolling-moveit-ros-perception
-Build-Ids: 13ab3eded6557b42a3ff9ad5ca4c9eecdfecbd51 15773e0cfe27571e9bef6c0a5e7f55e1da1cd29d 29c023777f60033e9a79d5accaf976dca64e9a04 3c5a660ccb3b5d1140cfa464d0fc2df583bb9f7e 754fea4efc1789ca444e054a6d16b687118b4678 9cdc069f9aabe40409cfdff04a9d1df1b0ee2e3a b75d60b6bafe92b41a87aeb19b92cf83825caa30 c9eae8e0b9bfb1085a9518587f45e1f225dbf8ea
+Build-Ids: 0d7767dd34f7bf9c26c634f7304a3ec276194f20 2099faca66b288f6b8058c033d0e4f1d13681344 7961336e7d9443e619fa1c8dc32fda19dda7df20 7c5fbce252b7266e2ea79be052f7a22cc167f98c bf1e9f91314a2392db32cd7871058d84367cb268 e576d52115f7bcc3d9a540024e264a32ad18046d ebbec236f220a514c393175acaaa644ae4420b58 fbb3658223656aea01c64bba2262ac842982557b
 
 Package: ros-rolling-moveit-ros-perception
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.55
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.15
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 1550
 Depends: freeglut3 (>= 2.8.1), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libglew2.2 (>= 2.2.0-4), libglu1-mesa | libglu1, libglx0, libgomp1 (>= 4.2.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libopengl0, libstdc++6 (>= 12), ros-rolling-geometric-shapes, ros-rolling-moveit-core, ros-rolling-moveit-ros-occupancy-map-monitor, ros-rolling-octomap, freeglut3-dev, libgl1-mesa-dev, libglew-dev, libglu1-mesa-dev, libomp-dev, ros-rolling-cv-bridge, ros-rolling-image-transport, ros-rolling-message-filters, ros-rolling-moveit-common, ros-rolling-moveit-msgs, ros-rolling-moveit-ros-planning, ros-rolling-object-recognition-msgs, ros-rolling-pluginlib (>= 1.11.2), ros-rolling-rclcpp, ros-rolling-sensor-msgs, ros-rolling-tf2, ros-rolling-tf2-eigen, ros-rolling-tf2-geometry-msgs, ros-rolling-tf2-ros, ros-rolling-urdf
-Filename: ./ros-rolling-moveit-ros-perception_2.6.0-53-gc6733bd0e-2023.01.11.21.55_amd64.deb
-Size: 338566
-MD5sum: 2249477487a70815e1ebf7ff4509332d
-SHA1: 81a578ee262b3dcefdacb9ef88464e278bb19b5f
-SHA256: 829f794f41e404bf64a1e9c3d4ff3235a0866e241cb0d15324c168a0a176daeb
-SHA512: 0695c771ad73e4ca8371fb353f9c98576b0553f6240af9f03c7846dac3a1394c54c522694e89e5f52492b625c626bd9e8027aaf6966a9098735b442eae82d7da
+Filename: ./ros-rolling-moveit-ros-perception_2.6.0-53-gc6733bd0e-2023.01.12.07.15_amd64.deb
+Size: 338556
+MD5sum: 3f09e2775d32aab051e127927aea34a6
+SHA1: ce87210c8dcf05d23ceb524b7637449e59fcb5e2
+SHA256: f642b1234efbc287b081965a2b6c78dce9233c541f5138025f5f29127fc2604b
+SHA512: 3cbb98e22c4a7b0c6f2a2fc94288070634a7c0973f5d5da0db29e383a13fc0fa7bf6452001fb84cd99c9d4e0f5478ddcb11e6b8103cc131aaa9d6702947abb52
 Homepage: http://moveit.ros.org
 Description: Components of MoveIt connecting to perception
 
 Package: ros-rolling-moveit-ros-planning-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.42
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.03
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-moveit-ros-planning
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
-Installed-Size: 62721
-Depends: ros-rolling-moveit-ros-planning (= 2.6.0-53-gc6733bd0e-2023.01.11.21.42)
-Filename: ./ros-rolling-moveit-ros-planning-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.21.42_amd64.ddeb
-Size: 60271948
-MD5sum: 01ebfbee33c444c8a84362672f92f7a8
-SHA1: 8299c9b31010c942e939f55a469eee27dac297ea
-SHA256: ce26afb2683c0040a5046ee573c1a463807943caf434b497af3fc5769c1c3688
-SHA512: e739fd1e53a600c7e747f09febc56a571d99f6bd379bbf5e8e0837aacc3327cdd92fc5d0ab9abc1482f22e90480ad5783521d80ea8111ddb61be54e64c1217d0
+Installed-Size: 62720
+Depends: ros-rolling-moveit-ros-planning (= 2.6.0-53-gc6733bd0e-2023.01.12.07.03)
+Filename: ./ros-rolling-moveit-ros-planning-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.07.03_amd64.ddeb
+Size: 60255864
+MD5sum: 3a69f0e37992d45521b135a37fb0507d
+SHA1: 8944a71c507d0e80f768543c88c421ef2bf9decb
+SHA256: ac6bd05b0cd1f48c742780b80126fd7367e097e13ea68c032535f1f99c9faa10
+SHA512: 066deef8ca3425119d468131dbb4b845a4e8bd07823868e44ea1f2b1e4160f6fd5a70eeda50ba2300d2d357bb8889a6037c9284f91d26ccb4882b74910d295cd
 Description: debug symbols for ros-rolling-moveit-ros-planning
-Build-Ids: 150d8bddf6f683ec08577cb15028f0cdf29dcd17 1c32e46c227c38d25b53626cb87400f9a8479367 29203cc1d369188bffd9e60c745efa81f5315746 2f6fecf4148e0d8ac00f76aaeed4004706ec13d1 34ab74229bd8f0664ebf8fb974ab5e3a91bd24e3 34b7de08b970c1b1bd0e1894f3463ea20ea37450 3d0ecde72baaee45d41aec747df4e01cecbf2d2b 4e9ef657c092c76e1e94e6c76d0fec5444c670ca 565d927f30d434a8acf605145c2c9416429f0de2 5941579ebbc8295dfb33a076d3ac9817bf9cbf96 72bbddda1e81a0e8d59b2bc8c322d00b54b48f03 7b0653f139b7fdf95cee00b542acc97ca187ef59 907f66139d6cd06e7e3056814052c2b0e3a8a187 aa103f6df756c9ca22bc098d7809ac8958571972 bdc7427494c7dbef2f617bbca78f9e94734e2d3c cced3c57426283f7e32088a5903ad62603cf262f e48836835a9d1ed7f628a1b1a0ef09e2bf3530a5 e6528e237a5d28cbd796fdd9868185bf190f2264 eef6294e4b0cec3d0b1fba539e0d7c0d7491b4ee
+Build-Ids: 0818d1ee98b52b9c401ac61da8d83839281a0671 0b0933938184500a5635d4ce514ab8674c18d054 0e11987a0e941bb99b4f9bbfd133338f91f75c64 1e9ce256f54caf2d6b3f169730a8afdbffce7c0e 1eff08c3bb9337b6759b838c70e2304e26486b2e 53e791990d21049ead4e0a98918ee46e7fd0f6fb 6fdf7be0f08e72a165db95dd46247c58e2c8e571 7d78ded1168b327de30b19cfb346aee3b3f34019 7dbca29f94b501aa65dfe683899cc37a42e4120a 84660fd62bf422191b67010f9bf07cd70f08e5e9 85107ff624d8c67114c49f97ae3657ec4386a8e5 97f30334759f88deaf1850289108d049b5bac03a a9f0f1737d1306d1aa1882f02186013287af1e03 d059501f2994bc3fda8e1a48832bec1aa7543c6b d775086cbef586892373df0a31c385e7d93a21b0 d8778e8f31108e671509593def66571abb08e437 e900b39ca038b33ef641bb0f9bec43dd16ded4ac f160d1246de534d620f339e83badf261790b2adf f24c78acd7edf0601f398acae2e7d41280f6e8ec
 
 Package: ros-rolling-moveit-ros-planning-interface-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.22.07
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.30
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-moveit-ros-planning-interface
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 9587
-Depends: ros-rolling-moveit-ros-planning-interface (= 2.6.0-53-gc6733bd0e-2023.01.11.22.07)
-Filename: ./ros-rolling-moveit-ros-planning-interface-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.22.07_amd64.ddeb
-Size: 9342412
-MD5sum: c34c622e7abe7dbd83afb028ba70c27c
-SHA1: ed843408a3fd36759a66338461c74db80cf4031b
-SHA256: 65656c65f74c946d6c736ec93c903ea17d5873cf5ebc3728e8b312b28447f41d
-SHA512: dfbac98aec9f187e8987d43b8719ed1b2103b802ec39eef988d4cc764241f515aaed67aba59421e1ce23a23f386135cf25cf7f1ff46a31343f30b291bd08a56b
+Depends: ros-rolling-moveit-ros-planning-interface (= 2.6.0-53-gc6733bd0e-2023.01.12.07.30)
+Filename: ./ros-rolling-moveit-ros-planning-interface-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.07.30_amd64.ddeb
+Size: 9342404
+MD5sum: cc502ae6a00518ded002dca7e206ef45
+SHA1: 3026a238becdfe35d89d3c0d86f49466e3a71667
+SHA256: 0b44604d3c49787fbb7c87d5c3f904b6ed40fbb31aad15e5d879443c704cd8de
+SHA512: 18c7d26ee07f9f7990b87365fca15de464ad4b64f4d2b2f5c5bd2f3e1be56f2c8462421f2e26691569086f661292febe765f673a95ec093a041c3d94b2435397
 Description: debug symbols for ros-rolling-moveit-ros-planning-interface
-Build-Ids: 0d4506b6f71facc924c649996fa00183c12b6020 4b578937a1a88b9738b79a52cd4821c786e700bc 9f27ff0dca48cd9cd1fed28bacb7896a33bd236b
+Build-Ids: 0ad38fc40ebca4ec31ba0343e68b727806a4304b 0f0b77480500b0aa54de945cb435260f2098010f 772c49d0ea40c1b958573a9d85371c8a8e57dbd6
 
 Package: ros-rolling-moveit-ros-planning-interface
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.22.07
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.30
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 962
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), ros-rolling-moveit-core, ros-rolling-moveit-ros-planning, ros-rolling-moveit-ros-warehouse, python3-dev, ros-rolling-geometry-msgs, ros-rolling-moveit-common, ros-rolling-moveit-msgs, ros-rolling-moveit-ros-move-group, ros-rolling-rclcpp, ros-rolling-rclcpp-action, ros-rolling-rclpy, ros-rolling-tf2, ros-rolling-tf2-eigen, ros-rolling-tf2-geometry-msgs, ros-rolling-tf2-ros
-Filename: ./ros-rolling-moveit-ros-planning-interface_2.6.0-53-gc6733bd0e-2023.01.11.22.07_amd64.deb
-Size: 249182
-MD5sum: b592490ca86179820cd3f1e442ec4ef4
-SHA1: 731dc6305f529ce69b1d947f2e54e88a5aa4f2ed
-SHA256: 24ded0f2201ff67050a0b9acbc0d9b790802e2203aa53a9466b4aa6cf5960437
-SHA512: 1af7146ee056ef116a18f02317c51abcd789dc5b673cea69784563c4779780ac556e7db28a89676dc7df43c2af39aa1b0d2fafac6fa4cb614d4b27ece3142d60
+Filename: ./ros-rolling-moveit-ros-planning-interface_2.6.0-53-gc6733bd0e-2023.01.12.07.30_amd64.deb
+Size: 249178
+MD5sum: 6f1d4d92581abf4440378fb467c03556
+SHA1: 2ff5975a5ca4b2fbfe79885e5021dafbaaf180f5
+SHA256: 351c154f69c8ed9dd70d39f8bc97afcb254a3e16b7e9be0f8f8cc4bb4a6db39d
+SHA512: 1e2bbeb6f37611255a1ef60c1c0df5d9a34e1e2ce69babdf82a7fffc3e7e3c57bd825b943eaf0b1085fe77629e4957af494b9f9b5b7f9cb88622cb83608f1fcc
 Homepage: http://moveit.ros.org
 Description: Components of MoveIt that offer simpler interfaces to planning and execution
 
 Package: ros-rolling-moveit-ros-planning
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.42
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.03
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
@@ -871,157 +871,157 @@ Installed-Size: 5670
 Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libdw1 (>= 0.126), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 12), libtinyxml2-9 (>= 8.0.0), ros-rolling-geometric-shapes, ros-rolling-moveit-core, ros-rolling-moveit-ros-occupancy-map-monitor, ros-rolling-srdfdom, libeigen3-dev, ros-rolling-ament-index-cpp, ros-rolling-eigen3-cmake-module, ros-rolling-generate-parameter-library, ros-rolling-message-filters, ros-rolling-moveit-common, ros-rolling-moveit-msgs, ros-rolling-pluginlib (>= 1.11.2), ros-rolling-rclcpp, ros-rolling-rclcpp-action, ros-rolling-tf2, ros-rolling-tf2-eigen, ros-rolling-tf2-geometry-msgs, ros-rolling-tf2-msgs, ros-rolling-tf2-ros, ros-rolling-urdf
 Conflicts: ros-rolling-moveit-ros-planning-interface (<< 2.1.5)
 Replaces: ros-rolling-moveit-ros-planning-interface (<< 2.1.5)
-Filename: ./ros-rolling-moveit-ros-planning_2.6.0-53-gc6733bd0e-2023.01.11.21.42_amd64.deb
-Size: 1052716
-MD5sum: 3ae650215d29aed0e30a2e15e7a526b3
-SHA1: 949624e48cd7fc992a7b23e6b4bccb3c495f3449
-SHA256: 91d9aa66bc7c3dc66b58ed49ac9c3c9ed4c86032cd275bf9fe2a69e148d5f277
-SHA512: 66d3dc675e8e744584a423789733e64bfeaf2fb13b65148e0dd948c3c4f1e0c20d04be5d85a8a0ddbb7b9e6a0986d8d67efdd17e54cf855473be82279f515c54
+Filename: ./ros-rolling-moveit-ros-planning_2.6.0-53-gc6733bd0e-2023.01.12.07.03_amd64.deb
+Size: 1052772
+MD5sum: 58e8c2cb6e331e45db50e1783758aaff
+SHA1: 845cf2a72dfd0e55d3f33114aa7352b481afae0a
+SHA256: fe5ae172ae63f26fadcc15b3ed710ec30a64bae3745590eb2744917b96cf2bf5
+SHA512: 55e84a977ec51e01a4a45bebe20ea7a56ca7faeaf4a817cd3b37bb411689267baff3e441922879681eb44eab749d7a41d2b4b6b72600877f8da96e1571315e81
 Homepage: http://moveit.ros.org
 Description: Planning components of MoveIt that use ROS
 
 Package: ros-rolling-moveit-ros-robot-interaction-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.58
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.18
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-moveit-ros-robot-interaction
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 6670
-Depends: ros-rolling-moveit-ros-robot-interaction (= 2.6.0-53-gc6733bd0e-2023.01.11.21.58)
-Filename: ./ros-rolling-moveit-ros-robot-interaction-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.21.58_amd64.ddeb
+Depends: ros-rolling-moveit-ros-robot-interaction (= 2.6.0-53-gc6733bd0e-2023.01.12.07.18)
+Filename: ./ros-rolling-moveit-ros-robot-interaction-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.07.18_amd64.ddeb
 Size: 6396244
-MD5sum: bded9d2dce326a789aa0ed70a1ea08bb
-SHA1: bfe2589e4d4ff7a70742e320e98fa0c5ccf8e056
-SHA256: f6f23cd918793361d1c9ef313b2463a3a565bcc798b1f70d7951bb4ecab391b4
-SHA512: b349737d7f7d76dd5806135f7a7b326c65aeed713b525231990cce2a084f499c7d4215efd5313d074b8f94b5ee8acd968cee43185b293653acaaba6993863d63
+MD5sum: f5558e820f5591e3baa8e9aed58fe2fa
+SHA1: 661bb3dbff47d5923a3cc29b11af17c29a124ad8
+SHA256: 80869b1769dae7fa783bb0683f5901d096b6a618e3b549533a78a885c94bd32e
+SHA512: adf64bfd348ecbe8f73c245812031114ab80e7617d905c4afaf1820105d176d19685a34e5911b806434949bc53c1b859020c1a267211fbb55297025af7b18e87
 Description: debug symbols for ros-rolling-moveit-ros-robot-interaction
-Build-Ids: ec96c8d73469f141a3ea82551f7f9a76f31a264a
+Build-Ids: 02c2975b76b85f67010bea71928fc131dd8281dc
 
 Package: ros-rolling-moveit-ros-robot-interaction
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.58
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.18
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 665
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 12), ros-rolling-moveit-core, ros-rolling-interactive-markers, ros-rolling-moveit-common, ros-rolling-moveit-ros-planning, ros-rolling-rclcpp, ros-rolling-tf2, ros-rolling-tf2-eigen, ros-rolling-tf2-geometry-msgs, ros-rolling-tf2-ros
-Filename: ./ros-rolling-moveit-ros-robot-interaction_2.6.0-53-gc6733bd0e-2023.01.11.21.58_amd64.deb
-Size: 158400
-MD5sum: 0334f65fcbbe39b0cf2416957cd126b7
-SHA1: acdac2c7184658b04745b4ec4afc15ff8f099c2f
-SHA256: be72cdf5782dbc99367e33e2af9c994f700cf24a7ea2441dcda593c98ee07922
-SHA512: 96591f99ae52e13a4b92bd80c5a29574672b268f09a1daf40f438a7fb3fe17f5082654585cb89ef6531e2733099a2e9ee33fc21457247dc331ffca942300c6c7
+Filename: ./ros-rolling-moveit-ros-robot-interaction_2.6.0-53-gc6733bd0e-2023.01.12.07.18_amd64.deb
+Size: 158406
+MD5sum: ad784d5c5657496a31213e26360d97fb
+SHA1: 63e97e698883d282bd921944429b05e51bbe0596
+SHA256: 5c7411c6fe69a9fde415489476dd6d0bea500465117778e891c273c8f0b58d89
+SHA512: fcca7c1a69fb10832c17c54dceb3d397abf24f3d386fccfaee3c647f08ba5f333c2f554f05418913350e1b4ac57e12b23e5d29bc410723a1db180e5051167566
 Homepage: http://moveit.ros.org
 Description: Components of MoveIt that offer interaction via interactive markers
 
 Package: ros-rolling-moveit-ros-visualization-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.22.11
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.36
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-moveit-ros-visualization
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 41884
-Depends: ros-rolling-moveit-ros-visualization (= 2.6.0-53-gc6733bd0e-2023.01.11.22.11)
-Filename: ./ros-rolling-moveit-ros-visualization-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.22.11_amd64.ddeb
-Size: 40106722
-MD5sum: 47c21c04236d85124025142364434073
-SHA1: 181896f366e2b706cf4a5700698af01f7725e4ef
-SHA256: cd40a0c0d89758e93bc1a30ac1ee6840c15165d5863dc87b4ea80cff0010b2cf
-SHA512: 7c3e586b3504d86747a0b2f2061e10a96babda2fd0831d58e692bd7e64f39cd4cad50220c865e2e6613a7aa90f0fc669f64b4fad76aa9cbed957ca853e65e26b
+Depends: ros-rolling-moveit-ros-visualization (= 2.6.0-53-gc6733bd0e-2023.01.12.07.36)
+Filename: ./ros-rolling-moveit-ros-visualization-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.07.36_amd64.ddeb
+Size: 40109270
+MD5sum: f26b0c2605d414c2c4b42a27a90d9023
+SHA1: 4b5430bb2b2fb602026ca8637ee3b209eb574f9f
+SHA256: 7394e5e3f832b32be75768a036ce976f0faa62e0bcd3d20cb3de2ca2c363486f
+SHA512: ff4fa1e674b139d86c084ac81e5328a65ceb29b27636a6086fc9d984a6d4f2caf923244abef17a0fdacf53d5e7ad1771b0f7fc56f76d337f26fec9628823ec95
 Description: debug symbols for ros-rolling-moveit-ros-visualization
-Build-Ids: 21b069de99cfed57aabb59cccdb803465b64d2ae 29462cba4dc4b64a0c28d64b4ec915fcfd6aaaeb 45a561c1e6b9ccfc502c539f2c714111255441e6 7f45ab79f16bf8bfb4f30a0e601cfe3e2b7c7720 994fa99e6c92d3545613fcd4ec449bad02d151cf a53e1a90f7d86110c0d3021d9ac7f551716a6ea4 aca0e9d5f92f5da0061825be72180f75a919f40e d58494a23c76ad43331c5bb0a974d020dc5fd870 e1a36b6c632b102977908bec5b60ec1c844db13b
+Build-Ids: 72b454d63b34cfee6c5b25f01bc856923f8d3d96 79f85e1d053883540c762f39ad0d660422e172a5 9ef4e5aa3eebee3f5137384b8e2755c85b2ff429 a38ee8bd81c75cb6953f054a0ab05d9eb684e3ec e4dd01dddc5f32a6aeb265b7c63a68c1553f510f eea59d63e31460c19130c8adcd9d16663cc6edc7 f0b27926c00293e9a8d1974645816516ca80f026 f64bd57d47d0abe2a9e815dcdf9d8bd9730e3d30 f74dc4a07e6fbff01a8358ca73011dff583ed7ad
 
 Package: ros-rolling-moveit-ros-visualization
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.22.11
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.36
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 3381
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopengl0, liborocos-kdl1.5 (>= 1.5.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.14.1), libstdc++6 (>= 12), ros-rolling-geometric-shapes, ros-rolling-moveit-core, ros-rolling-moveit-ros-planning, ros-rolling-moveit-ros-planning-interface, ros-rolling-moveit-ros-robot-interaction, ros-rolling-moveit-ros-warehouse, ros-rolling-rviz-ogre-vendor, ros-rolling-interactive-markers, ros-rolling-moveit-common, ros-rolling-object-recognition-msgs, ros-rolling-pluginlib (>= 1.11.2), ros-rolling-rclcpp, ros-rolling-rclpy, ros-rolling-rviz2, ros-rolling-tf2-eigen
-Filename: ./ros-rolling-moveit-ros-visualization_2.6.0-53-gc6733bd0e-2023.01.11.22.11_amd64.deb
-Size: 680978
-MD5sum: 8feef480711276ceef9471ee3067f23a
-SHA1: 797da657bf6e8f6dd67aa16ad8787422fea40097
-SHA256: 7e68ac73b72a098b4073bf8dac470287a580d7cde6eac3171ab78bf3c58aa46b
-SHA512: 21bb2cb51f9eeb01bac4e25bc78a959c320b04137df1a8c38be3e38d74bf75788fe77f744980429dcf03b66ee49b6ca455edd603115363e567ab4587750cc82a
+Filename: ./ros-rolling-moveit-ros-visualization_2.6.0-53-gc6733bd0e-2023.01.12.07.36_amd64.deb
+Size: 680948
+MD5sum: 6f5e7c2e8f1c22476c5281d42d34c7de
+SHA1: c2559f0738a2e274557f8a2b03adf6a8cbfaa31c
+SHA256: 8a2be5d542fdbe56f07bc3f444336c9ff551cdeca87a2c0c63520d3b76b4c442
+SHA512: 269bf2cb5f5110ad3c96e67d68c6084f1d297dfd3e727c86d46ee68358eb7a30699ff057702ac3660f0e2d16ebb01349aba54bf7253001ee94985ba26a6af1d3
 Homepage: http://moveit.ros.org
 Description: Components of MoveIt that offer visualization
 
 Package: ros-rolling-moveit-ros-warehouse-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.59
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.21
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-moveit-ros-warehouse
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
-Installed-Size: 18830
-Depends: ros-rolling-moveit-ros-warehouse (= 2.6.0-53-gc6733bd0e-2023.01.11.21.59)
-Filename: ./ros-rolling-moveit-ros-warehouse-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.21.59_amd64.ddeb
-Size: 17612246
-MD5sum: b464e4a5e07c51e9c377dc23d1bfefdc
-SHA1: 76ba1229dbf2d1d22eff9398b486b0c6c80e93ff
-SHA256: e1750aba78c79960ae593a62b8aea24175ce307d03047b65e9fa87bb6d7f8fb2
-SHA512: d0656b724bc037a592d6b9d94b886f15f94ac51322b2c6c46d8758c1d4c0546c4881542811ab1a81840d808738b9608a4b7b8ecdf2b57ab731a958974522143c
+Installed-Size: 18831
+Depends: ros-rolling-moveit-ros-warehouse (= 2.6.0-53-gc6733bd0e-2023.01.12.07.21)
+Filename: ./ros-rolling-moveit-ros-warehouse-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.07.21_amd64.ddeb
+Size: 17610958
+MD5sum: 4eb010da9ec40fbe8cd8c01b72cc847a
+SHA1: a2c9f6524882bc5f56910f0d16041caff67cfc69
+SHA256: 170f95a792467225db77739bb5661a3307ee569ac534bd8686d7878d36884080
+SHA512: 0745e2f681fc9dd92824ac7b64de7e4cc058ae410d16dad35bdfe6a27285673dce5671d65a8b75fdf5f9e442f289a99fdb5f158b7d4cfacc83c649e5fa311402
 Description: debug symbols for ros-rolling-moveit-ros-warehouse
-Build-Ids: 0815017fcf32b145636b83a3ac6b61eb281eab67 33c584ab31c69e48b6e1d92bde0ace1719ff9e0b 797b47af61bc53fd2f8797c3dd5af3911a2bcbdf a4f3d5b1cb8e677bb47811d6c66c8db98bf38801 e1b6aeb433175a5d1df8374ac04a88dd1bb7536c f6e09db2b04523be89c4ff1583d0ed35530fd953 f6e3ab9826697a4989a35895988f68c1b9386bb6
+Build-Ids: 0fe54692e810a19484643e14a41eea120dd3645d 257c40c5209f94b593710f61b8a58f4468768531 3172e465623923c1a9863de08f8849848d61870a 4825c83f309ac5171e2c8c9d1fce5357152f25f6 86c8288db6c2ac3917ee14ab4f0ce220e287e70f cabc3cfb7848deebb1d02f9b5012f98d2e376ef0 dffc1feb13a8eab6fb56bf33b85b97000fb5ede9
 
 Package: ros-rolling-moveit-ros-warehouse
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.59
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.21
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 1699
 Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libdw1 (>= 0.126), libgcc-s1 (>= 3.3.1), libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 11), ros-rolling-moveit-core, ros-rolling-moveit-ros-planning, ros-rolling-moveit-common, ros-rolling-rclcpp, ros-rolling-tf2-eigen, ros-rolling-tf2-ros, ros-rolling-warehouse-ros
-Filename: ./ros-rolling-moveit-ros-warehouse_2.6.0-53-gc6733bd0e-2023.01.11.21.59_amd64.deb
-Size: 398916
-MD5sum: e83c12a6f7717f46c3eec8447f6e2c00
-SHA1: 9da78b21eead4d570a228d12ac4603c56e370742
-SHA256: f7c035dae3ed196b3aa255d0f84d1eda8fe421cc40b442e2c2a230307edcb114
-SHA512: 86f094d9e2575cebb9adbd563c167d8653a8d8be4546bc6715802d38cd8703c32bdc71b8cfe4f1a198db063264675141af32192a9e4606df3225da9a796f4e59
+Filename: ./ros-rolling-moveit-ros-warehouse_2.6.0-53-gc6733bd0e-2023.01.12.07.21_amd64.deb
+Size: 398920
+MD5sum: e631b414c1e85e29f256374f6fd48352
+SHA1: c1ea892240f5ec6e7d2c62524378c499cd77fb47
+SHA256: 7012f9a2dceafa307b2cf638c6f8af154d5b3ae261e4d7e27a6932d69530d85b
+SHA512: 3c641d33564c30f1e28e74113c5abacc54f2dc586fca65d4a81ed72880d4d2b3d4fb782f1d3827a5c98cc57215cd2acd0f0500fc488817f921d0598793a42256
 Homepage: http://moveit.ros.org
 Description: Components of MoveIt connecting to MongoDB
 
 Package: ros-rolling-moveit-ros
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.40
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.00
 Priority: optional
 Section: misc
 Maintainer: Michael Görner <me@v4hn.de>
 Installed-Size: 42
 Depends: ros-rolling-moveit-ros-benchmarks, ros-rolling-moveit-ros-move-group, ros-rolling-moveit-ros-planning, ros-rolling-moveit-ros-planning-interface, ros-rolling-moveit-ros-robot-interaction, ros-rolling-moveit-ros-visualization, ros-rolling-moveit-ros-warehouse
-Filename: ./ros-rolling-moveit-ros_2.6.0-53-gc6733bd0e-2023.01.11.21.40_amd64.deb
-Size: 6678
-MD5sum: aa75b867f82b2d7f437c00c7f3ad927a
-SHA1: 41d3b39ea95008adbb8c3cec7c3012b0a6ebd326
-SHA256: dba130b790f3663caa8970ebedfe66e90a4c94234eb7490ddbff123cc6e17860
-SHA512: 32294bc8c70eb504e57b9a325bf58f36bac1d5b37c23dca99921f89a83a099d365c6191770334f233f20bf97f1e1fde887ef1c9ce22a7db0b1cafdf3e7ecad84
+Filename: ./ros-rolling-moveit-ros_2.6.0-53-gc6733bd0e-2023.01.12.07.00_amd64.deb
+Size: 6680
+MD5sum: 2167bb81cda92a610846c90b28e76732
+SHA1: b5cd0a0d5e4808fdd91612334caf046a077af82a
+SHA256: 7af2777b4f4fbbf62450d41f71d48a1d58d15411c967e5f0ac86965e2d241d7c
+SHA512: dac157d846a9f670e0068a14e8042e90e09cfbe33f2460f17e6252a524d366cd975766a26a4005cf916e29987eac99fdfca8c28d86cf720310d5d4a7738181d3
 Homepage: http://moveit.ros.org
 Description: Components of MoveIt that use ROS
 
 Package: ros-rolling-moveit-runtime
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.22.03
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.25
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 42
 Depends: ros-rolling-moveit-core, ros-rolling-moveit-planners, ros-rolling-moveit-plugins, ros-rolling-moveit-ros-move-group, ros-rolling-moveit-ros-perception, ros-rolling-moveit-ros-planning, ros-rolling-moveit-ros-planning-interface, ros-rolling-moveit-ros-warehouse
-Filename: ./ros-rolling-moveit-runtime_2.6.0-53-gc6733bd0e-2023.01.11.22.03_amd64.deb
-Size: 6206
-MD5sum: b2a3a60f4bbea09ac7a6792ed9a51408
-SHA1: f68f160f4159814a8a48b01d72f9e53ce2b7f8d2
-SHA256: e4bb8964b363737a12dbe7739aaeb1ab427c99b1c82065e8c5c8d49b372e191a
-SHA512: 7938dfe31f6be75d8fdced9c1b3a6a72fd6e90ffbfc53e6867cc7e8932911f52b1b3d9ea7e7b8dd59cc7f1bb33c82e8c94a97eb2d6aa3d06c90a7f08f1614839
+Filename: ./ros-rolling-moveit-runtime_2.6.0-53-gc6733bd0e-2023.01.12.07.25_amd64.deb
+Size: 6214
+MD5sum: 9c28d728602d7407a7eadfe54390ad73
+SHA1: 08dc87600db92cb2250c1f0dc3e4f963870919e7
+SHA256: eaff3e619e7221c91b624b076737a43304abd34362c25f4da377f2997d15a062
+SHA512: 5d467676619f6215be86d0a84b74d3a4e0776c9cf3d1e84b775d5fd7775046d9226ee85bae31bf60473b9fb6093887d3c1947788abd0c723dcaf1ee43def70df
 Homepage: http://moveit.ros.org
 Description: moveit_runtime meta package contains MoveIt packages that are essential for its runtime (e.g.
  running MoveIt on robots).
@@ -1029,576 +1029,793 @@ Description: moveit_runtime meta package contains MoveIt packages that are essen
 Package: ros-rolling-moveit-servo-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.22.14
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.40
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-moveit-servo
 Maintainer: Blake Anderson <blakeanderson@utexas.edu>
-Installed-Size: 32983
-Depends: ros-rolling-moveit-servo (= 2.6.0-53-gc6733bd0e-2023.01.11.22.14)
-Filename: ./ros-rolling-moveit-servo-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.22.14_amd64.ddeb
-Size: 31260812
-MD5sum: 96adfdaf10c6e6e7cebaef2947fd37c2
-SHA1: aeba72f9e13a7ef8a58b41d72d3e6eb0b0d1c63c
-SHA256: 91a505ffe3380a8f06c09c2cc8f37aec1988de51f40ecbfd4f3f9e043e3298b4
-SHA512: 6be2d9bdf1eca89684e6cad851c5ef36f8d3af039f6c8fad6d63279dbfd9d76f2a9f3907d9c9f63cf17f0a64ba14172b019c1e8af0b0c61e0402eb68beeaacf7
+Installed-Size: 32984
+Depends: ros-rolling-moveit-servo (= 2.6.0-53-gc6733bd0e-2023.01.12.07.40)
+Filename: ./ros-rolling-moveit-servo-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.07.40_amd64.ddeb
+Size: 31264712
+MD5sum: 8b6cecec1a645f22dc9f3caf9fd5aa00
+SHA1: 56e88689d6ac01ac70616c634f27bbbfdced2c3a
+SHA256: c3e851d6dec779381d0f1da4fd955a00b52bff362dc52a8a08ae0e3bcc52bde8
+SHA512: ae1a550f610d213544258493ee453a50de5a103f05a979679c2442e54888f826fd6dac7c14a0fc6c4c5181fbcf97a46bbea207900f36925f9bb53810d9fc293c
 Description: debug symbols for ros-rolling-moveit-servo
-Build-Ids: 02676d5baf4f4845da3015c1e7d96433c2bc9375 35c456e3dc1a60ea7b1a9562777f34dd47096e08 418a11ff33bc07701a01f5ff80f4f5f93a74c800 52d6a3ce0e9ee5898f157476424ea1596309f0b7 dcf7272bc1f38c7a737c100f3192fc84c89cd56d e10015d2e2438f7aa9bc4a2df1b248c0a75f66f8 e1595f850489471e0f21bea406db5c55b6465c54 ef554ddf4f06c21b047f0962034bbc08b6eebb37
+Build-Ids: 598303dd9e333fcefbdb7667a4181e193aaf641d 679d1e07128682b694857d1580539f7e92a6e632 7b9c430895cee3e5f99f16865564d2f2468d867d dc748ba6d42f3182a92652566c35767af2cd1ec0 e9c054ad2eee920916f44422d70846d787ebf9df ecdd7cfc160241b2834465ceab396732b6b83a4f f8b69efb9af0871c31fae87243f648260d65d05d fa461c794f60a302071409353e464f4378d0323e
 
 Package: ros-rolling-moveit-servo
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.22.14
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.40
 Priority: optional
 Section: misc
 Maintainer: Blake Anderson <blakeanderson@utexas.edu>
 Installed-Size: 3171
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libdw1 (>= 0.126), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 12), libtinyxml2-9 (>= 8.0.0), ros-rolling-moveit-core, ros-rolling-moveit-ros-planning, ros-rolling-control-msgs, ros-rolling-control-toolbox, ros-rolling-controller-manager, ros-rolling-geometry-msgs, ros-rolling-gripper-controllers, ros-rolling-joint-state-broadcaster, ros-rolling-joint-trajectory-controller, ros-rolling-joy, ros-rolling-launch-param-builder, ros-rolling-moveit-common, ros-rolling-moveit-configs-utils, ros-rolling-moveit-msgs, ros-rolling-moveit-ros-planning-interface, ros-rolling-pluginlib, ros-rolling-realtime-tools, ros-rolling-robot-state-publisher, ros-rolling-sensor-msgs, ros-rolling-std-msgs, ros-rolling-std-srvs, ros-rolling-tf2-eigen, ros-rolling-tf2-ros, ros-rolling-trajectory-msgs
-Filename: ./ros-rolling-moveit-servo_2.6.0-53-gc6733bd0e-2023.01.11.22.14_amd64.deb
-Size: 626726
-MD5sum: a8900ce1a829a078b8154ea2b0a23469
-SHA1: 81f31078efd951c0de65fa00c4f0f2162b7cfb49
-SHA256: 4f45f7cb5cd4a57f1b4d6b1ad76c496a5d9870eaaa41eb50f812bcbe65c19c00
-SHA512: 00a330ecb6694973d91d34c6f35e19d5667b682d2d46f9fe4b0f548bd9523b4fe1974d85a67f57119a850b03853ad04307c3502751034eb2f0fc67fca7141517
+Filename: ./ros-rolling-moveit-servo_2.6.0-53-gc6733bd0e-2023.01.12.07.40_amd64.deb
+Size: 626768
+MD5sum: f0f45e888216f427882a040e8fccdae2
+SHA1: 375531e4f110761c3927bb721adea4c4f90b95d0
+SHA256: 2c952c64c2a5ef23b791bb25592ccb3039b94be1c3881be392a60ba3dedf3bbd
+SHA512: 5c2d5ee97b6337cb53bb4f1d04853ea9026bd0ad92a0f5f5eabe99f5545a5893ce7540e988dc7dfa13deee84c321114aa38ec452845eb91b21218ae9816222a0
 Homepage: https://ros-planning.github.io/moveit_tutorials
 Description: Provides real-time manipulator Cartesian and joint servoing.
 
 Package: ros-rolling-moveit-setup-app-plugins-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.22.19
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.46
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-moveit-setup-app-plugins
 Maintainer: David V. Lu!! <davidvlu@gmail.com>
 Installed-Size: 2931
-Depends: ros-rolling-moveit-setup-app-plugins (= 2.6.0-53-gc6733bd0e-2023.01.11.22.19)
-Filename: ./ros-rolling-moveit-setup-app-plugins-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.22.19_amd64.ddeb
+Depends: ros-rolling-moveit-setup-app-plugins (= 2.6.0-53-gc6733bd0e-2023.01.12.07.46)
+Filename: ./ros-rolling-moveit-setup-app-plugins-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.07.46_amd64.ddeb
 Size: 2901868
-MD5sum: 20da2776d14254aa57b48a42d3800878
-SHA1: 14b90b2222e6389a6890ea4be3d2a084657f3d72
-SHA256: d3746a976eeddb7361186532cf2742b467a3f6896e39012d3b3f82bd9ab70c76
-SHA512: 8c8d5e40c49a8efa997baf34689b626731d7aea9c0181a6cb00dd92f72d0a7efcd0083c4f14b53053344cbde06f8a3c5b796cc80525d5c8ee2f90abca08ace43
+MD5sum: e91e791ea305bc18782d15f7b24a144c
+SHA1: 21ae839f271a5d58883f4207562724dc99b2e21f
+SHA256: 2a061a930bef39ba28788d25ba12d52c9d39967e3ed4cba8b6dc4b74ba696fe4
+SHA512: e320a948912f2c20021a3ba826c4cb9b3116411d68ad61aa50b1a48d6f391983c512b64b259eec629e00ff18f5653b81d015121b2b3dbba674c91a059e64510c
 Description: debug symbols for ros-rolling-moveit-setup-app-plugins
-Build-Ids: 415b734a978913f68b2868e27cc12929754d3c5f
+Build-Ids: 7f4b6083d72f5e697e35558de7e55abc3b10dd3e
 
 Package: ros-rolling-moveit-setup-app-plugins
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.22.19
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.46
 Priority: optional
 Section: misc
 Maintainer: David V. Lu!! <davidvlu@gmail.com>
 Installed-Size: 265
 Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), ros-rolling-ament-index-cpp, ros-rolling-moveit-ros-visualization, ros-rolling-moveit-setup-framework, ros-rolling-pluginlib, ros-rolling-rclcpp
-Filename: ./ros-rolling-moveit-setup-app-plugins_2.6.0-53-gc6733bd0e-2023.01.11.22.19_amd64.deb
-Size: 70526
-MD5sum: 9fd4fbcd7327ba8ede1f8f444e591ae9
-SHA1: c51b9e55f456669b9f77f4d4e0f92d057526dae5
-SHA256: 161aa9584e545ecb1be82ac87ef1d69647de65aa9ba32e0a7d4a95353373145b
-SHA512: 57dbdb11098031d81a0c832edd041d5ac80ceee46e3313066f999e1d7f9efb94c2b9fac8ec5709f6057654cb25fe73249e2280666ccec33d9e61fcd9478119ad
+Filename: ./ros-rolling-moveit-setup-app-plugins_2.6.0-53-gc6733bd0e-2023.01.12.07.46_amd64.deb
+Size: 70522
+MD5sum: 1ff49129ce086aa88b8da819ba0c0fb6
+SHA1: 80c72420824e5cc612f6bb53187190531a59378a
+SHA256: b62eaf002ed05726bf2fcc768dc58db987ba1a783534cc56107cb334b7103793
+SHA512: 668bd2f7e8b94aba1cd386677415d25085557a77692f616de4f9765252a4573303e8210ad6cbf036e18e145e27599d3125454a46f502e0e40e47e6e5540c3c05
 Description: Various specialty plugins for MoveIt Setup Assistant
 
 Package: ros-rolling-moveit-setup-assistant-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.22.27
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.56
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-moveit-setup-assistant
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 7486
-Depends: ros-rolling-moveit-setup-assistant (= 2.6.0-53-gc6733bd0e-2023.01.11.22.27)
-Filename: ./ros-rolling-moveit-setup-assistant-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.22.27_amd64.ddeb
+Depends: ros-rolling-moveit-setup-assistant (= 2.6.0-53-gc6733bd0e-2023.01.12.07.56)
+Filename: ./ros-rolling-moveit-setup-assistant-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.07.56_amd64.ddeb
 Size: 7317392
-MD5sum: b6976f3453750623f0a7999e1f3290b7
-SHA1: 357eb39d8e762c3517911d1fef9300f72eaa815a
-SHA256: 6ab18541d2890c9aea57eab22fab133b113af51110c49ab113082b9d16ee1e52
-SHA512: f4da3fcf72d2feeeb16aeafc9a8348963a9ef47cb8d33edfead644cdba4e77a00d3f935f8568d2bb3d5075cae2f08ef5f5c21a3bdfad7bd5bc40b6fbaa12fc26
+MD5sum: b8a42fda70aa465294d2fc1b43520591
+SHA1: 865e1838e3b09fe41033c57d96a33d9c48398f25
+SHA256: 2f7728831a1845d54ef0dc8b40155c0fba902277f02fffe27a251ccf334a5995
+SHA512: 4663e31f5afa59e0dc47cd46e50c89d1757186d98ff6a1d3caa550a758debc768e443b1dbf571f733d8003f1ba8f059f939a8ed711760ad45bc44979965b69d9
 Description: debug symbols for ros-rolling-moveit-setup-assistant
-Build-Ids: 88f4ffca08b09e4ec5a57f812f7228ff91f44481 9c07037da82ec3e13bf2329bf751229d4f7789e7
+Build-Ids: 1e9355a8548872f2511c9b24514f0c3a8d8658a8 209ee90d14be0bb8cd7253de96ff36ad8a066b51
 
 Package: ros-rolling-moveit-setup-assistant
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.22.27
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.56
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 845
 Depends: libboost-program-options1.74.0 (>= 1.74.0), libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libdw1 (>= 0.126), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-rolling-moveit-ros-planning, ros-rolling-srdfdom, qtbase5-dev, ros-rolling-ament-index-cpp, ros-rolling-moveit-setup-app-plugins, ros-rolling-moveit-setup-controllers, ros-rolling-moveit-setup-core-plugins, ros-rolling-moveit-setup-framework, ros-rolling-moveit-setup-srdf-plugins, ros-rolling-pluginlib, ros-rolling-rclcpp
-Filename: ./ros-rolling-moveit-setup-assistant_2.6.0-53-gc6733bd0e-2023.01.11.22.27_amd64.deb
-Size: 291430
-MD5sum: 1aee5948d19fc9db9c284f6f36c0ce78
-SHA1: 77841b2e11269be2d0ae0aeb54581480753a03ac
-SHA256: 6821a9c0eb8e20ebe14c713c2e60218ab687ee20e698653666d22325e8a27ade
-SHA512: 06d72bfc0018930c81d4b0f0c4aa3138e109e52e7f4c75f01b8701e6452c2bd6f95acf616d65f001a5ce9e856157d94949b7b443ef95df17fc9bbd9f4d0f938f
+Filename: ./ros-rolling-moveit-setup-assistant_2.6.0-53-gc6733bd0e-2023.01.12.07.56_amd64.deb
+Size: 291434
+MD5sum: 4329334a77b98b0cb16873673cb37e33
+SHA1: 8d234572da56b93b5c7a18dc0465ffa6425fc971
+SHA256: 545a08a1c328626166c461f35f76d4cb8c4beebc261df8665bd71bef835d9281
+SHA512: cd629baecf937f44767e93dd0e246d8b16e919ba0350b59f09ddc8775b6d09c5d2baf85ad9ded48be49db48720667296016233c0bd0c1d606146b8aa525b8599
 Homepage: http://moveit.ros.org
 Description: Generates a configuration package that makes it easy to use MoveIt
 
 Package: ros-rolling-moveit-setup-controllers-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.22.21
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.49
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-moveit-setup-controllers
 Maintainer: David V. Lu!! <davidvlu@gmail.com>
 Installed-Size: 11177
-Depends: ros-rolling-moveit-setup-controllers (= 2.6.0-53-gc6733bd0e-2023.01.11.22.21)
-Filename: ./ros-rolling-moveit-setup-controllers-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.22.21_amd64.ddeb
-Size: 11124240
-MD5sum: bfa47ec25d38acf2d4f1dfa50e378915
-SHA1: 22e4a0643b01a549defe8377374512b63187e149
-SHA256: e834a1abc53eafb5d23161a290415a81ed6a19c52023aabed2453141420e9b02
-SHA512: 22fa70e8166424cd57151f120829be4d0e3974318e83859aab88bfe7c78098310ed124bdb1534b1515b44c5ac692766b784c4158e31bcb958ef9de53ac6aeb40
+Depends: ros-rolling-moveit-setup-controllers (= 2.6.0-53-gc6733bd0e-2023.01.12.07.49)
+Filename: ./ros-rolling-moveit-setup-controllers-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.07.49_amd64.ddeb
+Size: 11124238
+MD5sum: 02c386af28db9c3953ef32b92d4bcef5
+SHA1: 1e9a63f4378f132f1cfda1bea45527a18ee4a155
+SHA256: b477cca75cb6a1fd3c2279fe72a350353dfdbc6f1fadfc809cf40aff6e7d2aaf
+SHA512: d44d57f160e471850598b996363d64acdf5591de7fb2209b667ac55de12b866626882a9911e93b0c0eef8dce94baa0bbda5930e3f15e0bc872d9deba41cae512
 Description: debug symbols for ros-rolling-moveit-setup-controllers
-Build-Ids: 55ba97c6987901e71d23429aaeec6d7718beacf9
+Build-Ids: c42595aed773013ad765c2137611dc7d790ce813
 
 Package: ros-rolling-moveit-setup-controllers
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.22.21
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.49
 Priority: optional
 Section: misc
 Maintainer: David V. Lu!! <davidvlu@gmail.com>
 Installed-Size: 570
 Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), libyaml-cpp0.7 (>= 0.7.0), ros-rolling-moveit-core, ros-rolling-ament-index-cpp, ros-rolling-moveit-setup-framework, ros-rolling-pluginlib, ros-rolling-rclcpp
-Filename: ./ros-rolling-moveit-setup-controllers_2.6.0-53-gc6733bd0e-2023.01.11.22.21_amd64.deb
-Size: 161010
-MD5sum: a433ff1c71d219b7a26a80e77ad162bc
-SHA1: 04257f0a6330e276a99d8ae48b065b515fe611bc
-SHA256: 077d38d98b3159b0bb0cccb4203962b2a8244d22a2cd7de901797e3040c5075a
-SHA512: c924544e287fa16ef2c08c029fb94b3263ab5be383b9be719e40bdf515335766a8ac216de31aa6387e3b570727f884ce72af96af68c78e01d6436933b42014c9
+Filename: ./ros-rolling-moveit-setup-controllers_2.6.0-53-gc6733bd0e-2023.01.12.07.49_amd64.deb
+Size: 161020
+MD5sum: f965f1bc5aebedbb42a4c2cf967b6ceb
+SHA1: 7dd0054cdde4ca52fb6cfc180f3357c6e8c7aed0
+SHA256: 867bb62ac80ad2439bffa07a69baf003f348d55bf50a867692d1b5eb8dbbaa22
+SHA512: a0cd445e34c0e03e0e7b0d2ed57e51ab8868bdb833ddf728646221921e15a1c1932aad7b5a2ffb430ebe0b311449e07504452383227028545b0a0a7176781eea
 Description: MoveIt Setup Steps for ROS 2 Control
 
 Package: ros-rolling-moveit-setup-core-plugins-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.22.23
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.51
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-moveit-setup-core-plugins
 Maintainer: David V. Lu!! <davidvlu@gmail.com>
 Installed-Size: 5218
-Depends: ros-rolling-moveit-setup-core-plugins (= 2.6.0-53-gc6733bd0e-2023.01.11.22.23)
-Filename: ./ros-rolling-moveit-setup-core-plugins-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.22.23_amd64.ddeb
-Size: 5221462
-MD5sum: 1bb5a85e858361de354781be451d49a8
-SHA1: 41df79ca8bfb3c5b5bb09df3f93cf379026b33c4
-SHA256: c0d5a0e9e0204ecf872fb1371063c7192d6d5c2ea16264f2e3cd526918dd8919
-SHA512: d52cd8b88560646fc89dc0068f9a36c1eafe46d369de9796eb845b223f064e29c450411ba2b0fe5f30a6a18c299f0b4b78d52c523bf713ffab1f68d682ba1007
+Depends: ros-rolling-moveit-setup-core-plugins (= 2.6.0-53-gc6733bd0e-2023.01.12.07.51)
+Filename: ./ros-rolling-moveit-setup-core-plugins-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.07.51_amd64.ddeb
+Size: 5221464
+MD5sum: 2485c42ed1abe3f866ffc9110e501557
+SHA1: ef2780cb95f59e5526591a93915d3b7a258e725e
+SHA256: a69c8e0e82fb10de0b4a00779d84d605dd9a8cdc43fe0449eb17d49d19d74484
+SHA512: 6c2801a8d13ef1413cedc5ecc61b94cb04a68d5767fec0387082ad2fc881459ef9fb4b22c267d1221f62dca645d109f8df87137619757d73eaa56a262caace18
 Description: debug symbols for ros-rolling-moveit-setup-core-plugins
-Build-Ids: 170f672ac43cbf6d7f098c5e05c6821073582cbd
+Build-Ids: 7fd0cacfa547896999e978a815f5548158940f03
 
 Package: ros-rolling-moveit-setup-core-plugins
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.22.23
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.51
 Priority: optional
 Section: misc
 Maintainer: David V. Lu!! <davidvlu@gmail.com>
 Installed-Size: 239
 Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11), ros-rolling-moveit-core, ros-rolling-ament-index-cpp, ros-rolling-moveit-ros-visualization, ros-rolling-moveit-setup-framework, ros-rolling-pluginlib, ros-rolling-rclcpp, ros-rolling-srdfdom, ros-rolling-urdf
-Filename: ./ros-rolling-moveit-setup-core-plugins_2.6.0-53-gc6733bd0e-2023.01.11.22.23_amd64.deb
-Size: 60928
-MD5sum: 69ac266e30c769df0acfc69aa61f5731
-SHA1: 7338620676b4b936998bad176eb0cb35a0e2d2c3
-SHA256: 7b5a2f0ac06793ef4d05a0ace8d29516ccadd14e40b3aa17a4ff83d0c5c86bbc
-SHA512: 736e8b1114edc722e450f5607fa1be9ffc3398a44ad50a067e2cc13fde2a03712f40368b7349f75b95553a6d75963265ea08ba4f77ed3434fe702df95057bb21
+Filename: ./ros-rolling-moveit-setup-core-plugins_2.6.0-53-gc6733bd0e-2023.01.12.07.51_amd64.deb
+Size: 60930
+MD5sum: 0f775bc8068e80d36282b56e601315a7
+SHA1: c78bbc94499aab7f78f70bebf9b4350d41387ded
+SHA256: 9c5fa4950ef3f4666e7795d32b9d2267a94a08e702f661ed093aaefcbb832dc0
+SHA512: 5ae9fd054970dbdf8cc7851bc69becdb711de2d20ffbb57b70fa24186ffa9604c09801f49286ad7cce41a6b3455a08126699b4cb6f02e37bd63b7fd12ad6dad8
 Description: Core (meta) plugins for MoveIt Setup Assistant
 
 Package: ros-rolling-moveit-setup-framework-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.22.17
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.44
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-moveit-setup-framework
 Maintainer: David V. Lu!! <davidvlu@gmail.com>
 Installed-Size: 6942
-Depends: ros-rolling-moveit-setup-framework (= 2.6.0-53-gc6733bd0e-2023.01.11.22.17)
-Filename: ./ros-rolling-moveit-setup-framework-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.22.17_amd64.ddeb
-Size: 6847970
-MD5sum: 3a1874b657b0dd4c3daf755843304ddd
-SHA1: efb4371eef6b35dae7007662dd3fde0f0a233c13
-SHA256: eefd950dfe6cf31f96c07d128d99b6af04acbc2edc63dd9e9690198c42e4eec7
-SHA512: e3e5a56a453ffce96be5c192ad958c6bb442d8ff7d1e60861f5f737a3800f5dd45587a5d4621be9f58652cbcaebc81b3f41e2d589f1eb21cdf3f4332fd35d16d
+Depends: ros-rolling-moveit-setup-framework (= 2.6.0-53-gc6733bd0e-2023.01.12.07.44)
+Filename: ./ros-rolling-moveit-setup-framework-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.07.44_amd64.ddeb
+Size: 6847972
+MD5sum: 7d8916d739f50faa9c8d7d68f0319374
+SHA1: 4fbc48f6f4d051269d94914899386544e5ae5b63
+SHA256: 45bcee5f506d71319f8cbb1faf967bd2181e05832d7598a582da1802ac35567a
+SHA512: fd62a0fe69bbfd4f37ee1a6b6c5a0e29ae71674cb15795869e2cd1257647a0daa411a39cacb78c6b4250fd456642e75b910fae1aaa10324942aa38a1d60c96ad
 Description: debug symbols for ros-rolling-moveit-setup-framework
-Build-Ids: b91b547fe71bbaf020b2a2700b25649c3b462a35
+Build-Ids: 75eb60ffb6b33aa9b66916f37c95e196e86548a8
 
 Package: ros-rolling-moveit-setup-framework
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.22.17
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.44
 Priority: optional
 Section: misc
 Maintainer: David V. Lu!! <davidvlu@gmail.com>
 Installed-Size: 647
 Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), libyaml-cpp0.7 (>= 0.7.0), ros-rolling-moveit-core, ros-rolling-moveit-ros-planning, ros-rolling-moveit-ros-visualization, ros-rolling-srdfdom, ros-rolling-ament-index-cpp, ros-rolling-moveit-common, ros-rolling-pluginlib, ros-rolling-rclcpp, ros-rolling-rviz-common, ros-rolling-rviz-rendering, ros-rolling-urdf
-Filename: ./ros-rolling-moveit-setup-framework_2.6.0-53-gc6733bd0e-2023.01.11.22.17_amd64.deb
-Size: 186390
-MD5sum: 9d92914290dbfcb71af9caeac1b28806
-SHA1: e854d3de4caf283269beeb1d87740f1920f815a8
-SHA256: 35a8684ee01d5fb017456c935af997338cb84eb69a2232507a9fb44eaf890950
-SHA512: c0df6fb1a68cdeae131e9392b5574cc9625f6542e58139cf697f3eec6ca9d2b230f05d69f6b5a05e1e5b547e2a93aba26a57ca1b9c0cb7df43575629733ae704
+Filename: ./ros-rolling-moveit-setup-framework_2.6.0-53-gc6733bd0e-2023.01.12.07.44_amd64.deb
+Size: 186356
+MD5sum: 33155dfec878bfe63d20753325e14987
+SHA1: 798f14f6302d9407d3a1a74266313021fb67245f
+SHA256: cd30ce3b47d9b2821a5bb7499675e1b49e3e01747e364fc2ee09c76c9caf5b6b
+SHA512: 2b044cef55a25215eb5fd1d02445d54239a12b89509073e34e49a74a326f6aa380aff4afd8ca60d1b71ad7d831ea5caa3bb47f33ca303cc24a147232fe234ba6
 Description: C++ Interface for defining setup steps for MoveIt Setup Assistant
 
 Package: ros-rolling-moveit-setup-srdf-plugins-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.22.25
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.54
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-moveit-setup-srdf-plugins
 Maintainer: David V. Lu!! <davidvlu@gmail.com>
 Installed-Size: 19726
-Depends: ros-rolling-moveit-setup-srdf-plugins (= 2.6.0-53-gc6733bd0e-2023.01.11.22.25)
-Filename: ./ros-rolling-moveit-setup-srdf-plugins-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.22.25_amd64.ddeb
-Size: 19625432
-MD5sum: 670a080db02e3dc0193a8bc5a4ef6a29
-SHA1: e68c38209f4fbf68cb1d1ac9adc75a1b8452c596
-SHA256: ca78afdbb923ab6a018d3fd8e08222403979dca774e4402c817784b97e459a85
-SHA512: f16f1ee98af57628cbea34bf68b893b6755f12ee69b05e729976b5b176e18eb107073cefe5ab07f58a11b29cc004984f10f169be9f3ee418182392ca27ab3d29
+Depends: ros-rolling-moveit-setup-srdf-plugins (= 2.6.0-53-gc6733bd0e-2023.01.12.07.54)
+Filename: ./ros-rolling-moveit-setup-srdf-plugins-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.07.54_amd64.ddeb
+Size: 19625430
+MD5sum: ce5bad5fae9debac8270b8637eba6b5f
+SHA1: 867ef4db4fbc8938402a7244fd9b9f825711ece7
+SHA256: 00677eb7a6b7658e7075d8aad40688641cc15559cceca458e1701426cc51dfb7
+SHA512: 45eb112b3e8ea361aefe580ca31af851773c40c5a52468e4de6b0e1e828de1cc910b299e99b3a27b6cef3798db02e2f5f8b5452ca6c83b57d80713938e02e3be
 Description: debug symbols for ros-rolling-moveit-setup-srdf-plugins
-Build-Ids: fd51a140af83db949804a1f1f770c6a07cbfa2cc
+Build-Ids: e5ebe8e423681040cd8891e691df5738d1140c9e
 
 Package: ros-rolling-moveit-setup-srdf-plugins
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.22.25
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.54
 Priority: optional
 Section: misc
 Maintainer: David V. Lu!! <davidvlu@gmail.com>
 Installed-Size: 1028
 Depends: libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), libyaml-cpp0.7 (>= 0.7.0), ros-rolling-moveit-core, ros-rolling-moveit-setup-framework, ros-rolling-pluginlib
-Filename: ./ros-rolling-moveit-setup-srdf-plugins_2.6.0-53-gc6733bd0e-2023.01.11.22.25_amd64.deb
-Size: 302106
-MD5sum: 09c7570ab003befa9a6eec54ed0ba4bf
-SHA1: 963eae9e7f6748461a040c40d96fead45063815c
-SHA256: 25a9a8d3cee022847bfeeb6f6a62601591e44b3b976359e61711992deaf15f89
-SHA512: a5123158cab92bbcdcc4deca901934af18fd663e948d1de26e1937aeb5aa2b7b9959bda0f6e373bf3119be70cc189e96f0d6d76eabebc8d5e2832716ad949757
+Filename: ./ros-rolling-moveit-setup-srdf-plugins_2.6.0-53-gc6733bd0e-2023.01.12.07.54_amd64.deb
+Size: 302108
+MD5sum: f21bbf8c676ed46400f72666c615e11a
+SHA1: 56cfbd013e46e3c6bdea9bba4f0062631a774399
+SHA256: b835ed28dd3c8fc1c7360b95c71ce239440811b73da04732c2c2aae89c7b2a18
+SHA512: 0504cac0f5becaf7f6db7bfec1d1650fec059aa95e4a6ad3e990e4a186b58fd2d60094259ddff179712a68f774185c8cf744c91dc2c97bedcd8ce7a45d1b561d
 Description: SRDF-based plugins for MoveIt Setup Assistant
 
 Package: ros-rolling-moveit-simple-controller-manager-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.22.04
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.26
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-moveit-simple-controller-manager
 Maintainer: Michael Görner <me@v4hn.de>
 Installed-Size: 1662
-Depends: ros-rolling-moveit-simple-controller-manager (= 2.6.0-53-gc6733bd0e-2023.01.11.22.04)
-Filename: ./ros-rolling-moveit-simple-controller-manager-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.22.04_amd64.ddeb
-Size: 1514928
-MD5sum: 934d9f83617359ee130c62d2d79d8b29
-SHA1: 869c9536cece0673c5f4fc810270a8636a89c63f
-SHA256: 26bda033a54b1f4bc098af3b2a155efea079fc893d936f2761529175cafceebd
-SHA512: b3fcefe866b8b682d7c3e557b0fe6320392b96dd90e3554635b05354c76ae247a6c71fdfe478f8e31c5ef0ca85d797a09a7ad516dfb9f10c9a9815194d6a6302
+Depends: ros-rolling-moveit-simple-controller-manager (= 2.6.0-53-gc6733bd0e-2023.01.12.07.26)
+Filename: ./ros-rolling-moveit-simple-controller-manager-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.07.26_amd64.ddeb
+Size: 1514930
+MD5sum: 0a3bc4232085112d7d77468f11fa6420
+SHA1: e777cd39366fb963b4b9aa8eb98943b78323ade2
+SHA256: 3b3e634434fd2409ce125ba176a1c1ef936f0a28e4e61067a4b018b0e6ee98bd
+SHA512: 3c86bdb80b99b2b4982939773f87e88530f97982f297a74cb0bb6c5041812df45f708ca717422d07ee1ad4c44dec915ebddea4aa117d31350fb62ae0e97818c9
 Description: debug symbols for ros-rolling-moveit-simple-controller-manager
-Build-Ids: 0b7c610b762f49d95a7ff032602ddab2b859ffd0
+Build-Ids: 2ac2c859026438d4f5d0d14ce4d64bea6676748b
 
 Package: ros-rolling-moveit-simple-controller-manager
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.22.04
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.07.26
 Priority: optional
 Section: misc
 Maintainer: Michael Görner <me@v4hn.de>
 Installed-Size: 390
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-rolling-control-msgs, ros-rolling-moveit-common, ros-rolling-moveit-core, ros-rolling-pluginlib (>= 1.11.2), ros-rolling-rclcpp, ros-rolling-rclcpp-action
-Filename: ./ros-rolling-moveit-simple-controller-manager_2.6.0-53-gc6733bd0e-2023.01.11.22.04_amd64.deb
-Size: 100106
-MD5sum: 22ab99ff722e664f37af1ba56c0381d9
-SHA1: 11592871b44904a6a825337e5976e94ea7f7d4ae
-SHA256: f5a6b7cd8e71c5735f49f29324d1524cba79b95924c396d9828248ece89daa84
-SHA512: 675027cc3bab6ace278f9f9417e45d28871340e64ace9eea4d263daa05b44c44eef20d4f98b7edb4eae83a155bb1abf1381477f34f1b2ee807d8bae292d12fb4
+Filename: ./ros-rolling-moveit-simple-controller-manager_2.6.0-53-gc6733bd0e-2023.01.12.07.26_amd64.deb
+Size: 100102
+MD5sum: d2d4078527f36f9cfe368e594a512b8f
+SHA1: 365b56e773699bd006f7119bf1ad4b69c2a02b22
+SHA256: 51367745695638b4a0f493f51331da6584957d4e9ec8f27c00ee6eb739ddb6d0
+SHA512: 09d82c7805c10fae7b6e3c7adfe1a153b25dbff13cd098192871df81e75e72680656e7840c8625d0e5f711e59f61b0280dd34aa18dcd349aae7c67f71ddd823b
 Homepage: http://moveit.ros.org
 Description: A generic, simple controller manager plugin for MoveIt.
+
+Package: ros-rolling-moveit-task-constructor-capabilities-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2023.01.12.08.25
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-rolling-moveit-task-constructor-capabilities
+Maintainer: Michael v4hn Goerner <me@v4hn.de>
+Installed-Size: 2456
+Depends: ros-rolling-moveit-task-constructor-capabilities (= 0-2023.01.12.08.25)
+Filename: ./ros-rolling-moveit-task-constructor-capabilities-dbgsym_0-2023.01.12.08.25_amd64.ddeb
+Size: 2418308
+MD5sum: 689a0daf31dc6326f717b45864b153c6
+SHA1: aab80d2ff7d2594fddc6ef3a944f688887fe8c16
+SHA256: 29ff34d3b5f63cd769a9e20e2c75f3655339a4339fa6efa3c1b632489b95f7e1
+SHA512: 8d3abb7287e711e9673cb29ab9bbe767c8d551db640f153366daa916b971b4dd89ad6adffffcd0f80b780af20e02eba4654faab2ddd9a6317ca13a834f1d85cd
+Description: debug symbols for ros-rolling-moveit-task-constructor-capabilities
+Build-Ids: 672a00a5e29e1c2d917e1c684a4a74150ae2247c
+
+Package: ros-rolling-moveit-task-constructor-capabilities
+Architecture: amd64
+Version: 0-2023.01.12.08.25
+Priority: optional
+Section: misc
+Maintainer: Michael v4hn Goerner <me@v4hn.de>
+Installed-Size: 189
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-rolling-moveit-core, ros-rolling-moveit-ros-planning, ros-rolling-moveit-ros-move-group, ros-rolling-moveit-task-constructor-core, ros-rolling-moveit-task-constructor-msgs, ros-rolling-pluginlib, ros-rolling-rclcpp-action, ros-rolling-std-msgs
+Filename: ./ros-rolling-moveit-task-constructor-capabilities_0-2023.01.12.08.25_amd64.deb
+Size: 49474
+MD5sum: a7e002688837d567577a4ee986fa1ddf
+SHA1: 42f9dfebd0afc75fc1f95a4c97a4fe408fc50e27
+SHA256: 6201ef6d9f70e4ed7cc25b59855587a57f120bbdf45de7079729f2ea9f6d2a52
+SHA512: f868d33a9c9115c79b10a6cf932632efce4b4133fc5933692b0ba44b49e6b181c81ff53882226763edbeb8728655f3c30e6636098156885924a38b784f653e37
+Description: MoveGroupCapabilites to interact with MoveIt
+
+Package: ros-rolling-moveit-task-constructor-core-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2023.01.12.08.20
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-rolling-moveit-task-constructor-core
+Maintainer: Michael Goerner <me@v4hn.de>
+Installed-Size: 39265
+Depends: ros-rolling-moveit-task-constructor-core (= 0-2023.01.12.08.20)
+Filename: ./ros-rolling-moveit-task-constructor-core-dbgsym_0-2023.01.12.08.20_amd64.ddeb
+Size: 39033644
+MD5sum: c0b344a8e7c5333a918ce85900b7d58d
+SHA1: 3167d817c0b092d4eee4b320f067400c20f1e788
+SHA256: c6c78c285e8ae6693e545bd68bcb0cf21cf991ebedbfd15a88662bb1481cac79
+SHA512: 31188d7b8a57ea9c3748b84012146081be562ce0060c95a2170059bcfc1dcff796d0810cc06398c4ad051e7cf54e44b54dc550ae42b8deba3b5fddc7fbdf55d1
+Description: debug symbols for ros-rolling-moveit-task-constructor-core
+Build-Ids: 016ef8270569c6dadd12b2e4563e44444c00f06b 1e4a5b2c7de5326634892324606e7853dc67d630 a2caac22d334a5a447a8ed2ac7dba2ad3e16747f
+
+Package: ros-rolling-moveit-task-constructor-core
+Architecture: amd64
+Version: 0-2023.01.12.08.20
+Priority: optional
+Section: misc
+Maintainer: Michael Goerner <me@v4hn.de>
+Installed-Size: 1738
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-rolling-moveit-core, ros-rolling-moveit-ros-planning, ros-rolling-geometry-msgs, ros-rolling-moveit-ros-planning-interface, ros-rolling-moveit-task-constructor-msgs, ros-rolling-rclcpp, ros-rolling-rviz-marker-tools, ros-rolling-tf2-eigen, ros-rolling-visualization-msgs
+Filename: ./ros-rolling-moveit-task-constructor-core_0-2023.01.12.08.20_amd64.deb
+Size: 497044
+MD5sum: 80eca4cb6ef1cb3030f9a876d221a2b5
+SHA1: 5009762ee397b24b8781d0c0ab1d6ea563f3596d
+SHA256: e7a0bcf81f551d422319324880c7aac96204194c7a35f735f787ee5ef904187c
+SHA512: 94f6f36ee2181a728c34ed9c19a7b872a759c45ae3fec0aa02277479283191a056d7a8e10075c5ad8f02db27c1f535976a45af426d484dcd2bbdb30837c54e35
+Homepage: https://github.com/ros-planning/moveit_task_constructor
+Description: MoveIt Task Pipeline
+
+Package: ros-rolling-moveit-task-constructor-demo-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2023.01.12.08.28
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-rolling-moveit-task-constructor-demo
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 13884
+Depends: ros-rolling-moveit-task-constructor-demo (= 0-2023.01.12.08.28)
+Filename: ./ros-rolling-moveit-task-constructor-demo-dbgsym_0-2023.01.12.08.28_amd64.ddeb
+Size: 13880076
+MD5sum: f349edaf6336e4c9b5ae0b56de540748
+SHA1: 5ed1e30465b60f0e2cbeb784e2c14f25326b2fff
+SHA256: 807444f2d8fd0fadd24ee839b6e61665a9f46bb05adfa0fd9a934642293728a5
+SHA512: 58c96df177676b7cb8d846dd03343ae819eb5faa9d221fb8a1871ad246d96e57329e8093877dc9889bb311ce4cf152c1221905337b4f3c2d52747e92ace61fe3
+Description: debug symbols for ros-rolling-moveit-task-constructor-demo
+Build-Ids: 0342cf62bda83a73bb4dff3dd2620315ea385edb 139610fb346a20fb9db75994a72715a03eb6074e 3190ca89e539e626bdf8902bc590b3dda606dfdd 98b93c517a474945ff63527dc7a7c798246b831b b484f1553fbd1ca7eb45b190105ca9d4f1e78353 be998d6b24d5495629d67e92f49bb5a27d9be495 f69c421e72fe5d1ad8feaa8588cb0a52d5ed8f34
+
+Package: ros-rolling-moveit-task-constructor-demo
+Architecture: amd64
+Version: 0-2023.01.12.08.28
+Priority: optional
+Section: misc
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 519
+Depends: libc6 (>= 2.34), libdw1 (>= 0.126), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-rolling-moveit-core, ros-rolling-moveit-ros-planning-interface, ros-rolling-generate-parameter-library, ros-rolling-moveit-configs-utils, ros-rolling-moveit-resources-panda-moveit-config, ros-rolling-moveit-task-constructor-capabilities, ros-rolling-moveit-task-constructor-core
+Filename: ./ros-rolling-moveit-task-constructor-demo_0-2023.01.12.08.28_amd64.deb
+Size: 105042
+MD5sum: a06670c1d3e29b32bfa7b32621400057
+SHA1: a3f2525f649efb49feacbd461e1f9a19570a61ec
+SHA256: c834fd592685a92e5620cfabf375dee76f9fa27b0698130c2ec4b75d96790877
+SHA512: 9b353145abdc762f593486017d5b14c1e85d193d59a11f8da31b78f55084e7e9519f1cd1e196590d97bf9c1ab7480ec35d8ffba338a371c47b3c10b2e32668e4
+Description: demo tasks illustrating various capabilities of MTC.
+
+Package: ros-rolling-moveit-task-constructor-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2023.01.12.07.59
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-rolling-moveit-task-constructor-msgs
+Maintainer: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
+Installed-Size: 2986
+Depends: ros-rolling-moveit-task-constructor-msgs (= 0-2023.01.12.07.59)
+Filename: ./ros-rolling-moveit-task-constructor-msgs-dbgsym_0-2023.01.12.07.59_amd64.ddeb
+Size: 2487142
+MD5sum: 80bbf36538dd79c76e0b40dca628bf83
+SHA1: 89d5d90e72661d4ef843645d9da8776976c7a581
+SHA256: 5a67b31c4afeeaf99d369688ef5fc7b974d3bdf879ce5f8356352e653a510f83
+SHA512: c688444d8bdcecf75e19fcd3e93a7a98ddf6b2558ce83878f57cc38eeb1b3a997d935a05420fa7258ab3fa7de165fde75276450c6e0d953a16dbad7b45066b61
+Description: debug symbols for ros-rolling-moveit-task-constructor-msgs
+Build-Ids: 000e56484343729d8c0d0083f664afead65aed75 22fe3faa303e83da3aeb95acb91e0ae8d06e9515 3973ada002ca398b9998111eaa35242d3ee510e5 40ace4349b45e99b74328d4b475a5e1f1f89b585 5fea2f1042052c81459d826c4c529c93e3094ec6 649303ff6b6ae7ea26541de1fb19c59f032b8744 6e1b717685b824ee14773c80cdfaafac0e637c51 948ff80b65b7f265b176f7c4dda96dd51cad3d19 ab02327bdd19ff40ee885a44bb897af76ec70c52 abcdec59cbcf087512550a00362cc8be3f7d5eeb bf13da65e3e54e0bd46a82e25deb437c671a9269 fa62053d7a607a365954d67654ab1fb9a4877276
+
+Package: ros-rolling-moveit-task-constructor-msgs
+Architecture: amd64
+Version: 0-2023.01.12.07.59
+Priority: optional
+Section: misc
+Maintainer: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
+Installed-Size: 2593
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-rolling-fastcdr, ros-rolling-moveit-msgs, ros-rolling-rosidl-default-runtime, ros-rolling-visualization-msgs
+Filename: ./ros-rolling-moveit-task-constructor-msgs_0-2023.01.12.07.59_amd64.deb
+Size: 196078
+MD5sum: 2e836969ab97e55d0340df7ae87d6c04
+SHA1: e77a71f3ea8fbf1149b77bf2a94bf4fd7400de6b
+SHA256: 5563bc6486dea88143462ef937d2b34623284f26f654aaf88a4aedc14011bb90
+SHA512: 7bef2ab81fa35c6f88968a65274ea7b7f8fc28739131cf54b6514cb0a33ec2849da5e372ba0c7892d15ec175bb1b7d0f649c647de8e14a4c4f09df8e41afc20c
+Description: Messages for MoveIt Task Pipeline
+
+Package: ros-rolling-moveit-task-constructor-visualization-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2023.01.12.08.30
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-rolling-moveit-task-constructor-visualization
+Maintainer: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
+Installed-Size: 17774
+Depends: ros-rolling-moveit-task-constructor-visualization (= 0-2023.01.12.08.30)
+Filename: ./ros-rolling-moveit-task-constructor-visualization-dbgsym_0-2023.01.12.08.30_amd64.ddeb
+Size: 16767362
+MD5sum: 608429bf1fd4faf642b209c29469e81d
+SHA1: deda62d7607b6942b1c9dc6bbfb8186324555953
+SHA256: f9f7a9ee809316b513f47db77a194058d646effd0d05a2f555ae7a8c7a9b8b35
+SHA512: eb895f6f2219cbc7e1b2cf0ddc84207dfc4bade9b219ec67f0c6566f17d92852d708a56509b2daad9d411a1e0033ba24b57410773710f516997a9d1a4be4ab52
+Description: debug symbols for ros-rolling-moveit-task-constructor-visualization
+Build-Ids: 25e874511456a0747c9996b62c729396a54aafe0 bfc0cee8d0dcb3cf8faab2d3982aafb9c630ae7f f8d71658f78469130c7e24df2f8390ffa81ed524 ffc34f08a63bf6f88103bde741bdaf656c2be97e
+
+Package: ros-rolling-moveit-task-constructor-visualization
+Architecture: amd64
+Version: 0-2023.01.12.08.30
+Priority: optional
+Section: misc
+Maintainer: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
+Installed-Size: 2011
+Depends: libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-rolling-moveit-core, ros-rolling-moveit-ros-planning, ros-rolling-moveit-ros-visualization, ros-rolling-rviz-ogre-vendor, ros-rolling-moveit-task-constructor-core, ros-rolling-moveit-task-constructor-msgs, ros-rolling-rclcpp, ros-rolling-rviz2
+Filename: ./ros-rolling-moveit-task-constructor-visualization_0-2023.01.12.08.30_amd64.deb
+Size: 466716
+MD5sum: 6afe0919fc3b8e78bca58208d66d2ad7
+SHA1: 429cb18d2417ea3ee92a6fd8f0c108dbd200cc19
+SHA256: a24b12a41390fca719f0d687d98e7fcfd01279580d5283017499f77fe8d86a46
+SHA512: 5a38798c6f271f756a4669d0b03adc4eaec1afa8fc903f5e49c355418b5f2752b7f37abd0b0170f6de2e25f0efcde31265244c9e39d46fa80499a68daf07ef4a
+Description: Visualization tools for MoveIt Task Pipeline
 
 Package: ros-rolling-moveit-visual-tools-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 4.1.0-3-g24f0cd4-2023.01.11.22.46
+Version: 4.1.0-3-g24f0cd4-2023.01.12.08.36
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-moveit-visual-tools
 Maintainer: Dave Coleman <dave@picknik.ai>
 Installed-Size: 8686
-Depends: ros-rolling-moveit-visual-tools (= 4.1.0-3-g24f0cd4-2023.01.11.22.46)
-Filename: ./ros-rolling-moveit-visual-tools-dbgsym_4.1.0-3-g24f0cd4-2023.01.11.22.46_amd64.ddeb
-Size: 8632900
-MD5sum: 4af0aa7cb2a05b1ac811ea59b56e3c4f
-SHA1: 5978529138b2a53c048e7cfa29c2add6af007677
-SHA256: 255f8aa4bcb146a9840b2b6ed8120bd8b83d495590bd45b0ab711cc9feb1249c
-SHA512: ebdc2a76d183a191b34ef72fa8bd51725cb66166a7a0085cfae119b45d56f3d09f91a70c291dbf052aeb80c31274456a102f5823c906fa6cda14b17822abd976
+Depends: ros-rolling-moveit-visual-tools (= 4.1.0-3-g24f0cd4-2023.01.12.08.36)
+Filename: ./ros-rolling-moveit-visual-tools-dbgsym_4.1.0-3-g24f0cd4-2023.01.12.08.36_amd64.ddeb
+Size: 8633320
+MD5sum: 009a3a922c5fb86b9ede92e88d405fb8
+SHA1: ebc82ef7496baf7631550a0a2f0ed68c277012eb
+SHA256: d188263a69c6bb990466db3472a3e6aabdeaaa9f76d94f66cb48498a48b79e00
+SHA512: e334b4a5dc0ae5625ed3232490760b22c3010ef6af6f270c6aa25de38d271acc6d4b2854799329eb271a6be746666ceb333aeae5a262bae048956f7d53ac40bc
 Description: debug symbols for ros-rolling-moveit-visual-tools
-Build-Ids: 437e6b4bad96357b8bcc2e08b35a48d605e40db3 7ccb9d55dddcdde6fec5f2b4b7bc23b9399ca27c
+Build-Ids: 898103c4b6d5db44f60c70e1276082e5c78befa3 f22506ba9e365357d006a24131a61921d263baa8
 
 Package: ros-rolling-moveit-visual-tools
 Architecture: amd64
-Version: 4.1.0-3-g24f0cd4-2023.01.11.22.46
+Version: 4.1.0-3-g24f0cd4-2023.01.12.08.36
 Priority: optional
 Section: misc
 Maintainer: Dave Coleman <dave@picknik.ai>
 Installed-Size: 737
 Depends: libboost-filesystem1.74.0 (>= 1.74.0), libc6 (>= 2.34), libdw1 (>= 0.126), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-rolling-geometric-shapes, ros-rolling-moveit-core, ros-rolling-moveit-ros-planning, ros-rolling-geometry-msgs, ros-rolling-graph-msgs, ros-rolling-moveit-common, ros-rolling-rclcpp, ros-rolling-rviz-visual-tools, ros-rolling-std-msgs, ros-rolling-tf2-eigen, ros-rolling-tf2-ros, ros-rolling-trajectory-msgs, ros-rolling-visualization-msgs
-Filename: ./ros-rolling-moveit-visual-tools_4.1.0-3-g24f0cd4-2023.01.11.22.46_amd64.deb
-Size: 294048
-MD5sum: 660aaf1593dddac23f547f8c43705fbf
-SHA1: d99769ac9999a0a7e1e9dc19f8be7fa00b454643
-SHA256: e2a2c152122c17168ea583781b85f3a95658044cc1ce1b545e9fc1c0222692e3
-SHA512: bf7bf9bc1df41a2eac040507ad158c61328a9d594cf62397780e4f9a0d3b3ab979a3b8a793da3bced1c79287d5c68f0693a638a2ab35b444bf7acee9d36163e6
+Filename: ./ros-rolling-moveit-visual-tools_4.1.0-3-g24f0cd4-2023.01.12.08.36_amd64.deb
+Size: 294044
+MD5sum: 5ee9efa19aef57d65c9c9fe648dc3844
+SHA1: 579e852ca51d21c8aa63ad8eb8d73f8d243e8841
+SHA256: 275ebd73bbda499e5946a60133ef241ffaa73af0d23f9c0e54a775684256c3c4
+SHA512: 0288a921c1fa158f62c78380c9990c36451ee497213b4f3fd9604bcb9ccc61a62f4cc436c4206d0e39af7af7618c615b62288b7d27cffaf7ebc451bf6c454df7
 Homepage: https://github.com/ros-planning/moveit_visual_tools
 Description: Helper functions for displaying and debugging MoveIt data in Rviz via published markers
 
 Package: ros-rolling-moveit
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.21.19
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.06.35
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 48
 Depends: ros-rolling-moveit-core, ros-rolling-moveit-planners, ros-rolling-moveit-plugins, ros-rolling-moveit-ros, ros-rolling-moveit-setup-assistant
-Filename: ./ros-rolling-moveit_2.6.0-53-gc6733bd0e-2023.01.11.21.19_amd64.deb
-Size: 12936
-MD5sum: 7701c56ede3de6300f09dd88f19fad9f
-SHA1: 1e692b73c65a09bbc8abab603224a1c5115f09f4
-SHA256: 8c08c2a371b295fe49f94a163da69ca219fe1237f7be5122c414de30f5a67c41
-SHA512: 593bec57f759968c2b28eba73072ce26c91d1bdec9d92d05befa4bceb43be7c03e6a88e9e60630d1becc5b40a0eb312578522efc71cd5699b7cdd03cfa7d2ca3
+Filename: ./ros-rolling-moveit_2.6.0-53-gc6733bd0e-2023.01.12.06.35_amd64.deb
+Size: 12932
+MD5sum: e11fed6855dcc5943d006633dc97433c
+SHA1: 7cfaa9a17811d84ef8ce95047fb9824adcbbb6c7
+SHA256: 71888a3cb525523849e81331678a4b908038a8cf55599c3d4b76691e7d0360c5
+SHA512: 7549547a358833e35299350363723369b54e1476c3ce7e9a2be1382a89f2e797420af5900834f924153a09e35b897910a3b36816716bb989db7a044dae82c375
 Homepage: http://moveit.ros.org
 Description: Meta package that contains all essential packages of MoveIt 2
 
 Package: ros-rolling-pilz-industrial-motion-planner-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.22.31
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.08.03
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-pilz-industrial-motion-planner
 Maintainer: Christian Henkel <c.henkel@pilz.de>
 Installed-Size: 89761
-Depends: ros-rolling-pilz-industrial-motion-planner (= 2.6.0-53-gc6733bd0e-2023.01.11.22.31)
-Filename: ./ros-rolling-pilz-industrial-motion-planner-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.22.31_amd64.ddeb
-Size: 87558060
-MD5sum: e3031b42d91deafcd3dc11386892d5fe
-SHA1: cc9692e6f9f04c6b40d3a95dc92c505f88dde9ce
-SHA256: 96ce9695c02ee35140a562dfd0eba15be0bb308b6741febc1694f23971828385
-SHA512: 2a6b470bdded5fe3a9d186307cbd8eb6f762efa9797d2d7595e4fe49850ef8adba4daff910b889130edd0a209a1fb9d7086d59bfab998c7e8c49153210f84803
+Depends: ros-rolling-pilz-industrial-motion-planner (= 2.6.0-53-gc6733bd0e-2023.01.12.08.03)
+Filename: ./ros-rolling-pilz-industrial-motion-planner-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.08.03_amd64.ddeb
+Size: 87612702
+MD5sum: 0cf95ad480257952c947f77d88a56bb2
+SHA1: 2a262e1fccc890036a7ab2f743a3c4b390fa74ff
+SHA256: 2745e7ebc5cca213ce9b86f06e8970bc31cbab5ec9e96bdd4e5785dc707cf734
+SHA512: 976d159745239db6470ef45355939c63ae64379c7421112b6ae18d70dd0a4a7157948a8794bea9a442e852bad2c062b9487974287105988e541f4e0f69ececfc
 Description: debug symbols for ros-rolling-pilz-industrial-motion-planner
-Build-Ids: 004a333eb5c32bf663e3e856f3a691bf9ca34a01 24f14fe27bea2aee4aaddb3fac99f10d5507b7a4 253080915a2d142c724014f6c825b6defbf6883d 2dce7d0b8d45938910eb9207f8424433854a6d32 2f6a2c77c221c9857e8df57f358d6f13bc4b373f 3cdc3cae06d13327d65c5007cdcf743380592d54 5a0ecefc441116f6f37d19ae2a8f7392799d91c8 5b57c9fec44a9b9ce200f43443547b4b5df7cedd 5e861879425757bf80f7f51e1b5e1a0abc6aaf8d 65e8bb4e62d6dfa7d76fb675de7c478a5cd6c306 6f16f2c6486093051a2e9253e633ccf29d0cea26 7654385340d36d336160cef3390be062490a0bd8 8dbe63e80f498119f7432f450e2ed1dc54dd9063 973c486ee1b34b4ef5275010aec1c6cafe3c0159 9b69cb85527cde81b705f9ba4e7b88d1df6a05c4 ad0bf171507650ef4ede8e3eb9f7bbd71a1eba44 b3e602440e4e925ed83dd2a77c077cf3fcba4bdd bb930738c5b3e9d43dd0c5ddc855d972a71bb237 c1d6a3c6dcac8792841a905ab4c597fdeec9c29f c7c07c0baf43d65b47a4dd8b75f2d2d94e881df5 cd3a49a112c5ce26450bf6197bed986d822c4830 cfc225440132f74bbe94205e98428d170490256c d8fe3c5ce678289013d7c11f53ae1c6eed0db37e da5c55dad136acd13c6ee771324741c0ee074711 f40967b3fb823f98de23ac1e7e5bb8a5b3acf792 fa4bf65900da687e35099e2637b47e50ea1c12eb
+Build-Ids: 05be0ce87f1a986c3385619f874dcd934d068b74 0fbb0e4fd1dd359b7ab18d76be3c8f960eef8c8d 103e56a240337318a7fdf57c204a06a0f50849a9 28cacc1302593c4a38a1dfccdf0e38d68b3dbf33 2d4a9b8b963a22c9a3240af4dca28bf0cc835015 493c8a88af359492aedf7f83fca690644931507e 4df4f125b6ad48c675b2673a479909d3bfeb4083 558bb6371ff5597956e3eeb6077855495306ee4b 5857712fa64436ee5b285e2984d980fdfba790e7 5ab8f909e8bff504ca545545aab6d35d7ee7b06c 6b716e66f81754d55d9385062fecd58c16ad2dd9 7978c3b4b774843be7423b2b4c155e39c0c4fa12 84060d849a104ff7b174810f189640826dab6898 937c7f3ab2d0a158dc2447f7f44e2ffd848201c0 9a9a644dd7478906a891dfc5cf74463710907fed a1c3e994b0936c1095ec74dbf201b1229225bcef a58fc523c7f845b2ded650ac75c1eec32f831285 b684aa2689ae413b8e20611addfdd043859def8f b9b2bef0a19429f596dbf26d34749bb298a2cd87 c4e885363536191efc1227e9296309e1b6ab76bc d03e9a7dcdb46b77c2703eb8f33797a05bda1bf1 d80f410d6bcfb1601e342a9534730fd50bbdc47b db22dc23577b8a6e46497936a2a7f8e1a3362cf5 e1eaa1abd29b73fc152e6c67b35ec97234d7fe61 f7d144653ae517476c81e9ee86cf091fb0fe638f ffd47012eaaa62f7ebcd27eef931c5e3a2fe7d65
 
 Package: ros-rolling-pilz-industrial-motion-planner-testutils-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.22.30
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.08.01
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-pilz-industrial-motion-planner-testutils
 Maintainer: Christian Henkel <c.henkel@pilz.de>
 Installed-Size: 5161
-Depends: ros-rolling-pilz-industrial-motion-planner-testutils (= 2.6.0-53-gc6733bd0e-2023.01.11.22.30)
-Filename: ./ros-rolling-pilz-industrial-motion-planner-testutils-dbgsym_2.6.0-53-gc6733bd0e-2023.01.11.22.30_amd64.ddeb
-Size: 5053646
-MD5sum: 18f573f744b32c89718c92aff286ee4c
-SHA1: 98425c0bd16ee717d59f51b56a198c24b59ebbe3
-SHA256: 4db5fd11a32dbb81b01a2becea8aa06f2db1127ac831371c167b821c802ff333
-SHA512: 184ec49f53173df4ea01b90153737d3350f6dd7b3ac5e2e9b4ede74cc66c20a59a8fa87dc4eee332d6aebdf22e7248888cff698ff2986d3b790d7bc9064261ed
+Depends: ros-rolling-pilz-industrial-motion-planner-testutils (= 2.6.0-53-gc6733bd0e-2023.01.12.08.01)
+Filename: ./ros-rolling-pilz-industrial-motion-planner-testutils-dbgsym_2.6.0-53-gc6733bd0e-2023.01.12.08.01_amd64.ddeb
+Size: 5053648
+MD5sum: 85fa8397359dd1559df6762220a42875
+SHA1: 5ccd5ad59ea10b0bb9abbbcca19ff311251f1f01
+SHA256: 1fd539e78d4a5b3276fa8bd35be6100f038d7aee313731c9fdfe87057c3515ca
+SHA512: 0e2013cb76dcc5a6d028718e53484776c02aaedc093f083e0cf92854791dbda46df5f75208e9feabebb956940719724be6cb16cd56a3c5a64b1d9c0710cbb662
 Description: debug symbols for ros-rolling-pilz-industrial-motion-planner-testutils
-Build-Ids: 655d4ddfa5c60993574b93990fe48825dcf3897b
+Build-Ids: c9e9ea399e428e7ce025aff26aa5c956c61fecaf
 
 Package: ros-rolling-pilz-industrial-motion-planner-testutils
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.22.30
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.08.01
 Priority: optional
 Section: misc
 Maintainer: Christian Henkel <c.henkel@pilz.de>
 Installed-Size: 449
 Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-rolling-moveit-core, ros-rolling-eigen3-cmake-module, ros-rolling-moveit-common, ros-rolling-moveit-msgs, ros-rolling-rclcpp
-Filename: ./ros-rolling-pilz-industrial-motion-planner-testutils_2.6.0-53-gc6733bd0e-2023.01.11.22.30_amd64.deb
-Size: 104112
-MD5sum: e1702f1c08fd0f7ec3feb3e953a14f8d
-SHA1: abb89c9aa6d361ed86221546eae324be5b2834d4
-SHA256: f0f32ecad0e5de25b7fd3d02d5592329328d2c445471dd460010e3511738497d
-SHA512: 21ef096480402fd5e7f46fdebe648eb38a9a4828da18336625236544ac837cee856297491da2d27708eb6c647117627c7bcd12cf334adbaa9ab75ac8b7f594d3
+Filename: ./ros-rolling-pilz-industrial-motion-planner-testutils_2.6.0-53-gc6733bd0e-2023.01.12.08.01_amd64.deb
+Size: 104114
+MD5sum: b0e04bba93485b14a53c0f5da2ea6220
+SHA1: f27563ce73f918c7360c96c70784f1e24fa9a4ad
+SHA256: 7e8fd28e6a46a851374d4fc0da4b429e2e9796982c58503b7badc60c2e04d7d6
+SHA512: 7a7bc32c9fb1705cae67c54cc1a0d5792af00c118f3c35c1c6b0114e16e0bb5d3199e0d7c8b73e577954316be48582ddcaf48c24b75fb0ce74e5e267b5e6d2ed
 Homepage: http://moveit.ros.org
 Description: Helper scripts and functionality to test industrial motion generation
 
 Package: ros-rolling-pilz-industrial-motion-planner
 Architecture: amd64
-Version: 2.6.0-53-gc6733bd0e-2023.01.11.22.31
+Version: 2.6.0-53-gc6733bd0e-2023.01.12.08.03
 Priority: optional
 Section: misc
 Maintainer: Christian Henkel <c.henkel@pilz.de>
 Installed-Size: 8175
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libdw1 (>= 0.126), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-rolling-moveit-core, ros-rolling-moveit-ros-move-group, ros-rolling-moveit-ros-planning, ros-rolling-eigen3-cmake-module, ros-rolling-generate-parameter-library, ros-rolling-geometry-msgs, ros-rolling-moveit-common, ros-rolling-moveit-msgs, ros-rolling-moveit-ros-planning-interface, ros-rolling-orocos-kdl-vendor, ros-rolling-pluginlib, ros-rolling-rclcpp, ros-rolling-tf2, ros-rolling-tf2-eigen, ros-rolling-tf2-eigen-kdl, ros-rolling-tf2-geometry-msgs, ros-rolling-tf2-kdl, ros-rolling-tf2-ros
-Filename: ./ros-rolling-pilz-industrial-motion-planner_2.6.0-53-gc6733bd0e-2023.01.11.22.31_amd64.deb
-Size: 1712028
-MD5sum: e6d5a76ab8b1ed8d0dc2bc4d6807ab49
-SHA1: 6aef07b5181c8915773d6523c2c6abc1889b74d5
-SHA256: e65cff876a166a6406b812c13446a9dc5cf7442809ee5784de3cbd957fabf9a8
-SHA512: fa6efea21a68d3f7e417f594b159f885f8a4969368df1fa75cd6040929bbc93062007a621ccd09def0ff1f28e9b4b8571c60bc15f412bc2db451926f58536edb
+Filename: ./ros-rolling-pilz-industrial-motion-planner_2.6.0-53-gc6733bd0e-2023.01.12.08.03_amd64.deb
+Size: 1712334
+MD5sum: d72bff47c4d6881e6470e038dd942ea3
+SHA1: 888caae5d1e20032d186f921ba75e19e18bf0031
+SHA256: 2eb897aec9cc33a1bc2584693d09f456499e96bcf5d523ded8d7a0785d9c52de
+SHA512: 534eedd5f7c725456f9c90c695e4de7101bd207e05b1c3146bf37c43a3bc3b63dffe70fda153827dbd2adeabf54618f59e536d1f217b378f983ca6e8dce218d6
 Homepage: http://moveit.ros.org
 Description: MoveIt plugin to generate industrial trajectories PTP, LIN, CIRC and sequences thereof.
 
 Package: ros-rolling-ros2-control-test-assets
 Architecture: amd64
-Version: 2.13.0-2023.01.11.22.37
+Version: 2.13.0-2023.01.12.08.09
 Priority: optional
 Section: misc
 Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
 Installed-Size: 79
-Filename: ./ros-rolling-ros2-control-test-assets_2.13.0-2023.01.11.22.37_amd64.deb
-Size: 11054
-MD5sum: ef956d027a7f1bbb908b7491e3914f5d
-SHA1: a7570a5d766620e54972c217abc043f960a84816
-SHA256: e0af0fb43cb040f349bdcd1ebd0e9797055cdb5afa89cf6b7e42a50226190998
-SHA512: 91f66b77ef2df20f330dbd702e5f3c4d9f9f88f4b33621b90f175653c3c9fe76a144126d0684ab1ee23819253e65fdda063cd59b51a15d3240305a50a5d452fa
+Filename: ./ros-rolling-ros2-control-test-assets_2.13.0-2023.01.12.08.09_amd64.deb
+Size: 11034
+MD5sum: 5ddd8c7d7bfc0548f31d896ecf6dfc4d
+SHA1: ca96be41b1a2a03666e0ccd4af191e71695af062
+SHA256: 5be96deeaa4b4dd4d47ce2c946a9c9ec404f221594ecc374d08c06938b404331
+SHA512: 029773866cc4b4fb3099931355062fa5ad512dd908baa5f0e3adf4376662be757c6a7396d5704c26e7c86a4e590964b3c656e8b9455e3825d09b55c21f41fc58
 Description: The package provides shared test resources for ros2_control stack
 
 Package: ros-rolling-ros2-control
 Architecture: amd64
-Version: 2.13.0-2023.01.11.22.36
+Version: 2.13.0-2023.01.12.08.08
 Priority: optional
 Section: misc
 Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
 Installed-Size: 40
 Depends: ros-rolling-controller-interface, ros-rolling-controller-manager, ros-rolling-controller-manager-msgs, ros-rolling-hardware-interface, ros-rolling-joint-limits, ros-rolling-ros2-control-test-assets, ros-rolling-ros2controlcli, ros-rolling-transmission-interface
-Filename: ./ros-rolling-ros2-control_2.13.0-2023.01.11.22.36_amd64.deb
-Size: 5676
-MD5sum: 1231142ced9dc28c13b45273aec02c88
-SHA1: efa548d4cd0fe1cdeef02c2ce33bc0a70afdb5b9
-SHA256: d127982afc99e48b27895e59a4da051ab101b69cca1421e24563d1380bde4f73
-SHA512: 20e083eb98044563fc1a9f4caa8f7c62a53bf3d649f1e7f745303c4e6b41d44ef55d5ce883b92cf631ad5083bb1c661e774bab53cd0ffe2f909a5e7eaac1fc8e
+Filename: ./ros-rolling-ros2-control_2.13.0-2023.01.12.08.08_amd64.deb
+Size: 5680
+MD5sum: 0b180591a7f3d9503e5370d5696161a1
+SHA1: 1c8d372ea7e328e25da98e74c05cf0e31d9be484
+SHA256: 1cde3d9747e8c5b2000ac4cc3a884f978ae050d77ac06c6c27c1f398c76282f3
+SHA512: 0bc43db9f745a49414514cd5a2e19595409e9e0a36dd74562a04e82d6e7a7d16d16f20fca19d389cfc763d56e7f6ae003ad4741d42a0688d6d81e444b39e8f1d
 Description: Metapackage for ROS2 control related packages
 
 Package: ros-rolling-ros2controlcli
 Architecture: amd64
-Version: 2.13.0-2023.01.11.22.42
+Version: 2.13.0-2023.01.12.08.16
 Priority: optional
 Section: misc
 Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
 Installed-Size: 96
 Depends: ros-rolling-controller-manager, ros-rolling-controller-manager-msgs, ros-rolling-rclpy, ros-rolling-ros2cli, ros-rolling-ros2node, ros-rolling-ros2param, ros-rolling-rosidl-runtime-py
-Filename: ./ros-rolling-ros2controlcli_2.13.0-2023.01.11.22.42_amd64.deb
-Size: 15282
-MD5sum: a0dc41d62c96e861f214a7c4b1c66f95
-SHA1: 0811178368a2bf706f66734eee9484a7f4c15982
-SHA256: 7d2596ddf1913a55222cf2675a759c53c0ef12a50fb56103c4dee32d71108e25
-SHA512: 6a3572b128c3346d307a9dbea16e441678296c64167baf003427efdabc71a27984998d8642c5176d3001ade34fe4caa94e15301819e9c2c499ae224885dfd7be
+Filename: ./ros-rolling-ros2controlcli_2.13.0-2023.01.12.08.16_amd64.deb
+Size: 15276
+MD5sum: 31a638375b6a802ec4180bdf86262232
+SHA1: 4def6e61c69ba1c16e77d3209710de7da16212ea
+SHA256: 2dc8cd0712fff4cac2661f3bc26a28a6ff4ea5cbd329c9aea86527f51e94257d
+SHA512: 43dbb6b5863852a201fff01a3f233542dc5e524a22ffb8793b73c20cdef84207e6ba982565a36feb7261c80cdcbe1542b8433171490afd511bc1cf0741db0a88
 Description: The ROS 2 command line tools for ROS2 Control.
 
 Package: ros-rolling-rosparam-shortcuts-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.5.0-2023.01.11.22.43
+Version: 0.5.0-2023.01.12.08.17
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-rosparam-shortcuts
 Maintainer: Dave Coleman <davetcoleman@gmail.com>
 Installed-Size: 1784
-Depends: ros-rolling-rosparam-shortcuts (= 0.5.0-2023.01.11.22.43)
-Filename: ./ros-rolling-rosparam-shortcuts-dbgsym_0.5.0-2023.01.11.22.43_amd64.ddeb
-Size: 1740268
-MD5sum: 384078bed7f52e7a8fa9ffc2b88c391d
-SHA1: 24f2dec470250f6031e9e4024636a84a5d8747e5
-SHA256: 3e168ff894401e4bce9487d99e64a725e85a845cd43d5277c2b484d7e2fcc03c
-SHA512: 3c9cbeda136d5b6e9fd6633f519d553cb757a8b59a313fea2d76f54831e84a8521f4c9f676423130df3f0b25e3de4b43b13e0f397497c91c761ef650f27f2794
+Depends: ros-rolling-rosparam-shortcuts (= 0.5.0-2023.01.12.08.17)
+Filename: ./ros-rolling-rosparam-shortcuts-dbgsym_0.5.0-2023.01.12.08.17_amd64.ddeb
+Size: 1740470
+MD5sum: 35eaf73ea155ebf5ad4473f34e179fb6
+SHA1: 4c3c4619b6b67edb7eae8cf3d0a180d82e485574
+SHA256: 3be7fe1da00ef4a7ea561a4760aaa488e0ea0874d24f05e724961a54d88e019d
+SHA512: 70f05d3527ded3e1dfc4d87b6e0310dce17a05d8b982e26501b4804fa011aa2f4c08e165b2baf537cde99f793594d4ad4fcb3f698e36c25e6e017b13a14fb30c
 Description: debug symbols for ros-rolling-rosparam-shortcuts
-Build-Ids: 0d553899c475c6c36b9ee6b942cac00fb2571e1b 908f2224718bda8c82cc324754b249135af5e7e2 e868cc4ded7286c78cc8b04af17bada586fb0ade
+Build-Ids: 0ba84fc7df4beef290089eb96479878b85d73a71 56d5b6502a55c4d2fe0a74be621d306d7459c819 975170bbeea95f79512180ef17614df8fe6db22f
 
 Package: ros-rolling-rosparam-shortcuts
 Architecture: amd64
-Version: 0.5.0-2023.01.11.22.43
+Version: 0.5.0-2023.01.12.08.17
 Priority: optional
 Section: misc
 Maintainer: Dave Coleman <davetcoleman@gmail.com>
 Installed-Size: 272
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libeigen3-dev, ros-rolling-eigen3-cmake-module, ros-rolling-geometry-msgs, ros-rolling-rclcpp, ros-rolling-tf2-eigen
-Filename: ./ros-rolling-rosparam-shortcuts_0.5.0-2023.01.11.22.43_amd64.deb
+Filename: ./ros-rolling-rosparam-shortcuts_0.5.0-2023.01.12.08.17_amd64.deb
 Size: 66116
-MD5sum: 60f91ea82d28737f4f60d25ad205165c
-SHA1: 0f0791275700973b2d44f7cc58806489b1001beb
-SHA256: a9af1720cf1d36091a995a6cf904d8ee99e0b3ef602eb96918ca453b14159d8b
-SHA512: afa7e3cc36801b6fbbec80fdb9010a3a328f4186073e0430a7dbcf5797b2af55ce6316ec92310729df8e127ecb78aa324f0a6b3a8be9a52cf9acfba9cc6ab774
+MD5sum: eee7a6a787cd0b74731c4eee59423229
+SHA1: 60711ef331ccf75ba65b195dc99c3bef00a73146
+SHA256: ea54bdaf7b85c3178bf6a0c4c398212c3b0f5d93964b10e43d58ad5e7722fdfe
+SHA512: 52b438391c03260f06a71e9aa490d60741df625a98baf1b2b950e974bf16d098c1a96a86dfb0f9ac99409553d7e7a43f79062eda917a09f9c48dd3e8c0d7892f
 Homepage: https://github.com/davetcoleman/rosparam_shortcuts
 Description: Quickly load variables from rosparam with good command line error checking.
+
+Package: ros-rolling-rviz-marker-tools-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2023.01.12.08.19
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-rolling-rviz-marker-tools
+Maintainer: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
+Installed-Size: 833
+Depends: ros-rolling-rviz-marker-tools (= 0-2023.01.12.08.19)
+Filename: ./ros-rolling-rviz-marker-tools-dbgsym_0-2023.01.12.08.19_amd64.ddeb
+Size: 829048
+MD5sum: 780307385ee508bf3a8687910ee8155a
+SHA1: 7b8e9d8e9916c7afe700cc3b259ad0d8646da8f7
+SHA256: c6ba8d8030a3f64340dc733a3f5ca04d1aac9b50cbefaa15c3afcd35fe307692
+SHA512: 89e50900c63784df45ef94dff77117a6ff8d9461d13517daa729ddb4b4a5ccb4769a656cea3a5b9b56bde5271cdfd56729857beb90e9b0b9ad12a39671e16a74
+Description: debug symbols for ros-rolling-rviz-marker-tools
+Build-Ids: c1e2dcaca1b395b6720618b3f443d2179690d31b
+
+Package: ros-rolling-rviz-marker-tools
+Architecture: amd64
+Version: 0-2023.01.12.08.19
+Priority: optional
+Section: misc
+Maintainer: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
+Installed-Size: 93
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-rolling-eigen3-cmake-module, ros-rolling-geometry-msgs, ros-rolling-moveit-common, ros-rolling-rclcpp, ros-rolling-rviz2, ros-rolling-tf2-eigen, ros-rolling-urdfdom-headers, ros-rolling-visualization-msgs
+Filename: ./ros-rolling-rviz-marker-tools_0-2023.01.12.08.19_amd64.deb
+Size: 18834
+MD5sum: 37aea9778f430f4de4f16e12736e5292
+SHA1: f4cde7da037d0d594ca155e83959a10a60403972
+SHA256: 5293a498ed8a07fb07f6f2d9873fa9db9c414f9a3b2d0cd9b90e421d0645e646
+SHA512: f4a55cdb462ef3782bcf624db15357b0602b5dee0acf94151ff1e90e09ecb2980c19edaccafb3b0776b044c926436935122ca7d36a85b14c15ed01fbcf899a33
+Description: Tools for marker creation / handling
 
 Package: ros-rolling-rviz-visual-tools-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 4.1.4-2023.01.11.22.44
+Version: 4.1.4-2023.01.12.08.33
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-rviz-visual-tools
 Maintainer: Mike Lautman <mike@picknik.ai>
 Installed-Size: 11158
-Depends: ros-rolling-rviz-visual-tools (= 4.1.4-2023.01.11.22.44)
-Filename: ./ros-rolling-rviz-visual-tools-dbgsym_4.1.4-2023.01.11.22.44_amd64.ddeb
-Size: 10539134
-MD5sum: 2af6fd51b54f5d3400eac62478ff1a2a
-SHA1: 7cbaeea6ac0df675aff0f8febb298a44c61c7424
-SHA256: 0b2d9e7d0238d5662586502e58cd35348f74ae67e6f4e22f5003addffe078797
-SHA512: 4eea28ca2754d6421bbc93040eb0cf94091d9cc8cd5adbc92c1aa9fa7a6ad78dbd09e7fb84ec2cd690a08aa830247bd545cc9d569c5cabdfb28cc5bba945b6c9
+Depends: ros-rolling-rviz-visual-tools (= 4.1.4-2023.01.12.08.33)
+Filename: ./ros-rolling-rviz-visual-tools-dbgsym_4.1.4-2023.01.12.08.33_amd64.ddeb
+Size: 10541004
+MD5sum: 42c2f910f65db8b7db9176a0bf7af355
+SHA1: 816a4b8e9ed2278e73f09b7050966513e3fd712b
+SHA256: 72f391a6c35e342715d9ecdf4a5f35bbce6954f0420f5ced353209d2492f60f2
+SHA512: f61533086d8ab1699ed4c91a69df35a664e43bc09d1a8c2b606b64502c48f414eb0ac3b869c4651624cb8c0da3d062a5c0972ee43a49c450b73d77ab0b49f0ee
 Description: debug symbols for ros-rolling-rviz-visual-tools
-Build-Ids: 16b0133834b893b342df593e23a29c125931e235 42c0b8957bf9630ad2d6471e50a463a89cb328d9 45f99708ce3ee318b9f5e3954224aa317d0046e6 671d4a60580a5c20474c84eb15626c911563e4c9 699f9cd4fa63524b59de9c8dea08852ae6cde7db c10e60b7f986e1edc43cea712a1c3b41c8fb2b6d
+Build-Ids: 3cc20e3b3aba87f126fdba93f7d7355ebb09f361 a472bb009a300ebd72425aa92d3fa66643a68ebf a9ddb57bb167691b3fb1728af3f9d6b9a9919303 cb813d4a41d5970c4a121f7bd0dbe3dd157b7e21 e908da034fd31fffdd6a125026b55c141a672faa feab2de6a81e4dac69cda2f6a29c9d3d8021c33a
 
 Package: ros-rolling-rviz-visual-tools
 Architecture: amd64
-Version: 4.1.4-2023.01.11.22.44
+Version: 4.1.4-2023.01.12.08.33
 Priority: optional
 Section: misc
 Maintainer: Mike Lautman <mike@picknik.ai>
 Installed-Size: 1354
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 12), libeigen3-dev, ros-rolling-ament-index-python, ros-rolling-eigen-stl-containers, ros-rolling-eigen3-cmake-module, ros-rolling-geometry-msgs, ros-rolling-interactive-markers, ros-rolling-launch, ros-rolling-launch-ros, ros-rolling-pluginlib, ros-rolling-rclcpp, ros-rolling-rclcpp-components, ros-rolling-rviz-common, ros-rolling-rviz-default-plugins, ros-rolling-rviz-ogre-vendor, ros-rolling-rviz-rendering, ros-rolling-rviz2, ros-rolling-sensor-msgs, ros-rolling-shape-msgs, ros-rolling-std-msgs, ros-rolling-tf2, ros-rolling-tf2-eigen, ros-rolling-tf2-geometry-msgs, ros-rolling-trajectory-msgs, ros-rolling-visualization-msgs
-Filename: ./ros-rolling-rviz-visual-tools_4.1.4-2023.01.11.22.44_amd64.deb
-Size: 275148
-MD5sum: fad177acdf99c2ac63d0b6890698322a
-SHA1: 06ceb2806c1c4b067da9b1c4b812cb9c8e573b8f
-SHA256: 60f237c106ff4ead07abacb0229b32c00f9204da00008fe7eb38ba31e2600dc9
-SHA512: 288c712ee22e39e56909f899a10699352e7e5178a6b796d0eb46db56667a2302a2c3b6704b18deea7273821ab3b31f0701480855a3a4b2af760ad2bf6857e6ab
+Filename: ./ros-rolling-rviz-visual-tools_4.1.4-2023.01.12.08.33_amd64.deb
+Size: 275140
+MD5sum: a8fae6aae139751fa9516f2527e15361
+SHA1: 9ba5854515134f2a20a146e0043ad7aac84e57cc
+SHA256: 6161f0fe6ed384915ab6ce335e04aed68f60f34c45242ef634989c1cbc189350
+SHA512: 40cba891f5b291d52c9ad56ba98000450e53c1cf38225d581a3e6d5b625459341a34a484d12dfe80f016bc6a271a99066d7eb378017d6119f57bc5fc4804f4be
 Homepage: https://github.com/PickNikRobotics/rviz_visual_tools
 Description: Utility functions for displaying and debugging data in Rviz via published markers
 
 Package: ros-rolling-transmission-interface-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.13.0-2023.01.11.22.48
+Version: 2.13.0-2023.01.12.08.38
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-transmission-interface
 Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
 Installed-Size: 882
-Depends: ros-rolling-transmission-interface (= 2.13.0-2023.01.11.22.48)
-Filename: ./ros-rolling-transmission-interface-dbgsym_2.13.0-2023.01.11.22.48_amd64.ddeb
+Depends: ros-rolling-transmission-interface (= 2.13.0-2023.01.12.08.38)
+Filename: ./ros-rolling-transmission-interface-dbgsym_2.13.0-2023.01.12.08.38_amd64.ddeb
 Size: 842696
-MD5sum: 95bd72041bfd206f45a5eafb6931597c
-SHA1: 3b3bedc716ea6737276aad5ba70167e0c4e39a0f
-SHA256: 9a325c5fa90ce3a6603405df0ee4a4d6e3116baaf006be1bcac260f17e764d4e
-SHA512: 9b8e588253c0fbc99b96e1b864028237b6f536545279158917bf28fad850329d2520cc8d15f3e3a6a585c4f28499c44ea48ae5559a4f0bc504ae5bb114fdfc25
+MD5sum: d5eb0ce1ebb3b5aa0ac8fc9b684b6e03
+SHA1: b0f72dd57e77ee0a367ee7a175bbe47ad95d3439
+SHA256: 1adb54da037421c451295649d92e583718aa8ea233aee7ddeb8f0a240055e77e
+SHA512: 7467056167ae655c91538c2b76dc913f8daaddc4c023f7fd23a387f288840dfd7aa440edf978ba92fb3e8b59b8b04396ba4548f111b667488a743e8aeccb8fd0
 Description: debug symbols for ros-rolling-transmission-interface
-Build-Ids: 99015a381fbe6869233d5d33362dbb5ef1b26e47
+Build-Ids: 13cefe7954e71eb7cb37b484383db5fa30b24e1b
 
 Package: ros-rolling-transmission-interface
 Architecture: amd64
-Version: 2.13.0-2023.01.11.22.48
+Version: 2.13.0-2023.01.12.08.38
 Priority: optional
 Section: misc
 Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
 Installed-Size: 236
 Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-rolling-hardware-interface, ros-rolling-pluginlib
-Filename: ./ros-rolling-transmission-interface_2.13.0-2023.01.11.22.48_amd64.deb
-Size: 49076
-MD5sum: d763193773cf6aadce51800a17ef712b
-SHA1: e90f9545d47e78a3a78859115366bf3388d85552
-SHA256: 76649059412b2c9cbda22b3b72ce32872e73fd34b5ad8da96c51232f7784b31b
-SHA512: 6b64f19201184716a3641c93b8a1aaeb3a37b63cf4a883d3b6a72b702efde4016eb3275de019571ff6e3e01ab0e6d85273ed9b40eeaef48198093f6bc0e50403
+Filename: ./ros-rolling-transmission-interface_2.13.0-2023.01.12.08.38_amd64.deb
+Size: 49078
+MD5sum: c083229e41315b55bbc38d41c89dfd55
+SHA1: f7bed49f9b4d637e7ada09175ed45387a89fdb8c
+SHA256: d1b3a654a51c51cdd9d0d1c0de17e55e2c0a9c76ca0e6f8245655793341fd54a
+SHA512: 9989de6684893ed78ed46fc1f54d3205b28bb11b918698499a603c49a7a449b7e43811c13d658aa8e03d3be8ae8f74a0ef412372b7d0ef2a694692b8068a36b5
 Description: transmission_interface contains data structures for representing mechanical transmissions, methods for propagating values between actuator and joint spaces and tooling to support this.
 

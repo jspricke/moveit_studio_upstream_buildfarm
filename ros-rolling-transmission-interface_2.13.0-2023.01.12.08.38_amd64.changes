@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 03 Aug 2022 00:00:00 -0000
+Source: ros-rolling-transmission-interface
+Binary: ros-rolling-transmission-interface
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.13.0-2023.01.12.08.38
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-rolling-transmission-interface - transmission_interface contains data structures for representing
+Changes:
+ ros-rolling-transmission-interface (2.13.0-2023.01.12.08.38) jammy; urgency=high
+Checksums-Sha1:
+ b0f72dd57e77ee0a367ee7a175bbe47ad95d3439 842696 ros-rolling-transmission-interface-dbgsym_2.13.0-2023.01.12.08.38_amd64.ddeb
+ d24299252298cdd7669753fa266c4a6c74bb67d3 15321 ros-rolling-transmission-interface_2.13.0-2023.01.12.08.38_amd64.buildinfo
+ f7bed49f9b4d637e7ada09175ed45387a89fdb8c 49078 ros-rolling-transmission-interface_2.13.0-2023.01.12.08.38_amd64.deb
+Checksums-Sha256:
+ 1adb54da037421c451295649d92e583718aa8ea233aee7ddeb8f0a240055e77e 842696 ros-rolling-transmission-interface-dbgsym_2.13.0-2023.01.12.08.38_amd64.ddeb
+ 189e5f0c1d357f5a9b5759fe5e23a9acd014cd97bde04da4aaeb14fc33242f82 15321 ros-rolling-transmission-interface_2.13.0-2023.01.12.08.38_amd64.buildinfo
+ d1b3a654a51c51cdd9d0d1c0de17e55e2c0a9c76ca0e6f8245655793341fd54a 49078 ros-rolling-transmission-interface_2.13.0-2023.01.12.08.38_amd64.deb
+Files:
+ d5eb0ce1ebb3b5aa0ac8fc9b684b6e03 842696 debug optional ros-rolling-transmission-interface-dbgsym_2.13.0-2023.01.12.08.38_amd64.ddeb
+ 71fbb5e421a2f6c34aad4274dc9b6f02 15321 misc optional ros-rolling-transmission-interface_2.13.0-2023.01.12.08.38_amd64.buildinfo
+ c083229e41315b55bbc38d41c89dfd55 49078 misc optional ros-rolling-transmission-interface_2.13.0-2023.01.12.08.38_amd64.deb

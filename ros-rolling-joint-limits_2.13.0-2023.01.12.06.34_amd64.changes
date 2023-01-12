@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Wed, 03 Aug 2022 00:00:00 -0000
+Source: ros-rolling-joint-limits
+Binary: ros-rolling-joint-limits
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.13.0-2023.01.12.06.34
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-rolling-joint-limits - Interfaces for handling of joint limits for controllers or hardwa
+Changes:
+ ros-rolling-joint-limits (2.13.0-2023.01.12.06.34) jammy; urgency=high
+ .
+   * Make output of joint limits nicer. (#788 <https://github.com/ros-controls/ros2_control/issues/788>)
+   * Contributors: Denis Štogl
+Checksums-Sha1:
+ 21cfad93d03656a72ae564480d8d9f60eae812e2 1473548 ros-rolling-joint-limits-dbgsym_2.13.0-2023.01.12.06.34_amd64.ddeb
+ ce2052b98aa7b9e2ff819b78ba19d58ce892a67f 14942 ros-rolling-joint-limits_2.13.0-2023.01.12.06.34_amd64.buildinfo
+ 84d9fa7622c11f66763685bdb8f49dc749193fa6 130234 ros-rolling-joint-limits_2.13.0-2023.01.12.06.34_amd64.deb
+Checksums-Sha256:
+ 591410617007a59129f4be0c0d250c3ff7354e4a8ab4e24a7218cb543d0ac9d9 1473548 ros-rolling-joint-limits-dbgsym_2.13.0-2023.01.12.06.34_amd64.ddeb
+ a885bea8f00db065f61fb9c95d515508fb414da49c979f93ff2892f536944d3d 14942 ros-rolling-joint-limits_2.13.0-2023.01.12.06.34_amd64.buildinfo
+ 65f1d064454baf307dd039ae82867fed19cbfe486ccf00a5ec0fe3f462b76a49 130234 ros-rolling-joint-limits_2.13.0-2023.01.12.06.34_amd64.deb
+Files:
+ 8e4697e28cd85c9f97df67cded5bcaeb 1473548 debug optional ros-rolling-joint-limits-dbgsym_2.13.0-2023.01.12.06.34_amd64.ddeb
+ 474f497aa7d906e32ca84c0b30b42070 14942 misc optional ros-rolling-joint-limits_2.13.0-2023.01.12.06.34_amd64.buildinfo
+ 44fb5b2cfa1df1e537a35dd76d022c56 130234 misc optional ros-rolling-joint-limits_2.13.0-2023.01.12.06.34_amd64.deb
