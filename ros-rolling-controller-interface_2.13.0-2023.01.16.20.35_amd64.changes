@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 03 Aug 2022 00:00:00 -0000
+Source: ros-rolling-controller-interface
+Binary: ros-rolling-controller-interface
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.13.0-2023.01.16.20.35
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-rolling-controller-interface - Description of controller_interface
+Changes:
+ ros-rolling-controller-interface (2.13.0-2023.01.16.20.35) jammy; urgency=high
+Checksums-Sha1:
+ 8ffb66f65fb6d255907e005d87a27f2284fa363a 479590 ros-rolling-controller-interface-dbgsym_2.13.0-2023.01.16.20.35_amd64.ddeb
+ ff44b0d69481803577d47c62484be1a7aeddf5f5 15303 ros-rolling-controller-interface_2.13.0-2023.01.16.20.35_amd64.buildinfo
+ 923f41967d12e43309657fef15d51bcfe39cef89 30796 ros-rolling-controller-interface_2.13.0-2023.01.16.20.35_amd64.deb
+Checksums-Sha256:
+ d87c8c09c163e3512dc69f34e991af3ed01e241576a0c4657ecd898a779d9673 479590 ros-rolling-controller-interface-dbgsym_2.13.0-2023.01.16.20.35_amd64.ddeb
+ 1bc83dc55ee54ef64a437db72bfb09219754d052c267b8df0713dfc1599a0204 15303 ros-rolling-controller-interface_2.13.0-2023.01.16.20.35_amd64.buildinfo
+ e08772f6ae057ea0e45bba545119d8bce5b1db6ed351c4857fa110a3452ef1ea 30796 ros-rolling-controller-interface_2.13.0-2023.01.16.20.35_amd64.deb
+Files:
+ 3050080d435115031d38b5868f94de91 479590 debug optional ros-rolling-controller-interface-dbgsym_2.13.0-2023.01.16.20.35_amd64.ddeb
+ 1880ffd2a74d971265910aa3ab655170 15303 misc optional ros-rolling-controller-interface_2.13.0-2023.01.16.20.35_amd64.buildinfo
+ 84b6476c666528858ea8dac030d750e8 30796 misc optional ros-rolling-controller-interface_2.13.0-2023.01.16.20.35_amd64.deb

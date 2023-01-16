@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 10 Nov 2022 00:00:00 -0000
+Source: ros-rolling-moveit-setup-assistant
+Binary: ros-rolling-moveit-setup-assistant
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.6.0-54-g6711436d3-2023.01.16.20.21
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit-setup-assistant - Generates a configuration package that makes it easy to use MoveI
+Changes:
+ ros-rolling-moveit-setup-assistant (2.6.0-54-g6711436d3-2023.01.16.20.21) jammy; urgency=high
+ .
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>)
+   * Contributors: Sebastian Jahr
+Checksums-Sha1:
+ a5735a2b549f64a223343b4f308dd82a4ffc4f5c 7319474 ros-rolling-moveit-setup-assistant-dbgsym_2.6.0-54-g6711436d3-2023.01.16.20.21_amd64.ddeb
+ 88cbe615827c6a6ba3c1899602aa651d9b0e4b15 34514 ros-rolling-moveit-setup-assistant_2.6.0-54-g6711436d3-2023.01.16.20.21_amd64.buildinfo
+ 9e67df744d4a3e6cb12452c8b943b92d58fe250e 291428 ros-rolling-moveit-setup-assistant_2.6.0-54-g6711436d3-2023.01.16.20.21_amd64.deb
+Checksums-Sha256:
+ 8ccce126ec9c29b7529fa7aedbb5b78fd721cf1966b07c738ea8518a1deb0bf8 7319474 ros-rolling-moveit-setup-assistant-dbgsym_2.6.0-54-g6711436d3-2023.01.16.20.21_amd64.ddeb
+ ee5faa8fef0577d13dd2e8e3d834935705e5cafc56bf142f1f9dbc4977e07575 34514 ros-rolling-moveit-setup-assistant_2.6.0-54-g6711436d3-2023.01.16.20.21_amd64.buildinfo
+ 0a47bcf2e58e419fdf2ae80367d774319f1f29fb65977a53bcbd5d5505551539 291428 ros-rolling-moveit-setup-assistant_2.6.0-54-g6711436d3-2023.01.16.20.21_amd64.deb
+Files:
+ 01c1eb8dcdbb422f3fb411a96948ed05 7319474 debug optional ros-rolling-moveit-setup-assistant-dbgsym_2.6.0-54-g6711436d3-2023.01.16.20.21_amd64.ddeb
+ 5f2f16f581f4c93a95649516f13c6970 34514 misc optional ros-rolling-moveit-setup-assistant_2.6.0-54-g6711436d3-2023.01.16.20.21_amd64.buildinfo
+ 888d5da65cd53ed47674f746c3e5e8fa 291428 misc optional ros-rolling-moveit-setup-assistant_2.6.0-54-g6711436d3-2023.01.16.20.21_amd64.deb

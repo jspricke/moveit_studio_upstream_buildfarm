@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Thu, 10 Nov 2022 00:00:00 -0000
+Source: ros-rolling-pilz-industrial-motion-planner
+Binary: ros-rolling-pilz-industrial-motion-planner
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.6.0-54-g6711436d3-2023.01.16.20.26
+Distribution: jammy
+Urgency: high
+Maintainer: Christian Henkel <c.henkel@pilz.de>
+Changed-By: Christian Henkel <c.henkel@pilz.de>
+Description:
+ ros-rolling-pilz-industrial-motion-planner - MoveIt plugin to generate industrial trajectories PTP, LIN, CIRC
+Changes:
+ ros-rolling-pilz-industrial-motion-planner (2.6.0-54-g6711436d3-2023.01.16.20.26) jammy; urgency=high
+ .
+   * Use generate_parameter_library to load pilz cartesian limit parameters (#1577 <https://github.com/ros-planning/moveit2/issues/1577>)
+   * Add joint acceleration validator methods to Pilz limits container (#1638 <https://github.com/ros-planning/moveit2/issues/1638>)
+   * Use MoveItConfigsBuilder in Pilz test launch file (#1571 <https://github.com/ros-planning/moveit2/issues/1571>)
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>)
+   * Add planner configurations to CHOMP and PILZ (#1522 <https://github.com/ros-planning/moveit2/issues/1522>)
+   * Use pragma once as header include guard (#1525 <https://github.com/ros-planning/moveit2/issues/1525>)
+   * Removed plan_with_sensing (#1142 <https://github.com/ros-planning/moveit2/issues/1142>)
+   * Remove __has_include statements (#1481 <https://github.com/ros-planning/moveit2/issues/1481>)
+   * Merge https://github.com/ros-planning/moveit/commit/a63580edd05b01d9480c333645036e5b2b222da9
+   * Add missing header for std::unique_ptr (#3180 <https://github.com/ros-planning/moveit2/issues/3180>)
+   * Contributors: Abishalini Sivaraman, J. Javan, Jochen Sprickerhof, Sebastian Castro, Sebastian Jahr, Stephanie Eng, Vatan Aksoy Tezer, abishalini
+Checksums-Sha1:
+ 034b11c983f3a28c84ad658b206c7e8b90a085d0 87593802 ros-rolling-pilz-industrial-motion-planner-dbgsym_2.6.0-54-g6711436d3-2023.01.16.20.26_amd64.ddeb
+ 399ac2b0fbe2eecb25372d8945c7bfa86615092b 36721 ros-rolling-pilz-industrial-motion-planner_2.6.0-54-g6711436d3-2023.01.16.20.26_amd64.buildinfo
+ 10824a7dd194b7190c82296a3d7fc3166b5026cf 1712332 ros-rolling-pilz-industrial-motion-planner_2.6.0-54-g6711436d3-2023.01.16.20.26_amd64.deb
+Checksums-Sha256:
+ 8ce9de82fc4f77c0063c7acd040bb47c30e7b9837b48f8731c2bfe42791551a0 87593802 ros-rolling-pilz-industrial-motion-planner-dbgsym_2.6.0-54-g6711436d3-2023.01.16.20.26_amd64.ddeb
+ e19775e2cbe52dffd6741fa1fe1b2c60e159dc17cc4561e17480bd83b9106eb1 36721 ros-rolling-pilz-industrial-motion-planner_2.6.0-54-g6711436d3-2023.01.16.20.26_amd64.buildinfo
+ c1d5f3b841207a514d27cb4b54d81bd941ec7527ef42556eb00b9cbb1ea09c83 1712332 ros-rolling-pilz-industrial-motion-planner_2.6.0-54-g6711436d3-2023.01.16.20.26_amd64.deb
+Files:
+ 38028c43f097b8c2f37ea12c780a09ca 87593802 debug optional ros-rolling-pilz-industrial-motion-planner-dbgsym_2.6.0-54-g6711436d3-2023.01.16.20.26_amd64.ddeb
+ 524c7f4f6ab49c4612a84ca5c08ea3bd 36721 misc optional ros-rolling-pilz-industrial-motion-planner_2.6.0-54-g6711436d3-2023.01.16.20.26_amd64.buildinfo
+ 3190f585150440503d90354b1f978b3a 1712332 misc optional ros-rolling-pilz-industrial-motion-planner_2.6.0-54-g6711436d3-2023.01.16.20.26_amd64.deb

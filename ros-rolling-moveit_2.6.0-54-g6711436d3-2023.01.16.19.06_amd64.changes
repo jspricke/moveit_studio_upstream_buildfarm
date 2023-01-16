@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 10 Nov 2022 00:00:00 -0000
+Source: ros-rolling-moveit
+Binary: ros-rolling-moveit
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.6.0-54-g6711436d3-2023.01.16.19.06
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit - Meta package that contains all essential packages of MoveIt 2
+Changes:
+ ros-rolling-moveit (2.6.0-54-g6711436d3-2023.01.16.19.06) jammy; urgency=high
+ .
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>)
+   * Contributors: Sebastian Jahr
+Checksums-Sha1:
+ 5fb64bf5cc970c579d55fc202c48bd04c1dc77e7 10761 ros-rolling-moveit_2.6.0-54-g6711436d3-2023.01.16.19.06_amd64.buildinfo
+ 90dd4a9a676a0980e5da09f30c00881e000efbbb 12942 ros-rolling-moveit_2.6.0-54-g6711436d3-2023.01.16.19.06_amd64.deb
+Checksums-Sha256:
+ 9cb0b76976d9d1cdbc25dc8478826893cc2377fd7f9ceea3da8a49fbf1d55a70 10761 ros-rolling-moveit_2.6.0-54-g6711436d3-2023.01.16.19.06_amd64.buildinfo
+ acd59f6d26cc8990d25f8b9271434eb6346194b7ec933e0a204178e6fd489210 12942 ros-rolling-moveit_2.6.0-54-g6711436d3-2023.01.16.19.06_amd64.deb
+Files:
+ 43494cb68dd7cc62b93669848f1c66a6 10761 misc optional ros-rolling-moveit_2.6.0-54-g6711436d3-2023.01.16.19.06_amd64.buildinfo
+ da1ec7da12d663d49207873fad106ba5 12942 misc optional ros-rolling-moveit_2.6.0-54-g6711436d3-2023.01.16.19.06_amd64.deb
