@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Thu, 10 Nov 2022 00:00:00 -0000
+Source: ros-rolling-moveit-setup-core-plugins
+Binary: ros-rolling-moveit-setup-core-plugins
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.6.0-54-g6711436d3-2023.01.17.12.27
+Distribution: jammy
+Urgency: high
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Changed-By: David V. Lu!! <davidvlu@gmail.com>
+Description:
+ ros-rolling-moveit-setup-core-plugins - Core (meta) plugins for MoveIt Setup Assistant
+Changes:
+ ros-rolling-moveit-setup-core-plugins (2.6.0-54-g6711436d3-2023.01.17.12.27) jammy; urgency=high
+ .
+   * Merge PR #1553 <https://github.com/ros-planning/moveit2/issues/1553>: Improve cmake files
+   * Cleanup cmake files
+     - Replace ament_export_libraries() -> ament_export_targets(HAS_LIBRARY_TARGET)
+     - Replace ament_export_include_directories() -> INCLUDES DESTINATION include
+     See https://docs.ros.org/en/foxy/How-To-Guides/Ament-CMake-Documentation.html#building-a-library
+   * Use standard exported targets: export_${PROJECT_NAME} -> ${PROJECT_NAME}Targets
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>)
+   * Contributors: Robert Haschke, Sebastian Jahr
+Checksums-Sha1:
+ 7296130957b4d08447625b57c28d76b32177cc37 5221456 ros-rolling-moveit-setup-core-plugins-dbgsym_2.6.0-54-g6711436d3-2023.01.17.12.27_amd64.ddeb
+ 5a26b3ec34455af8b3814e799b07fda9dfd7cdb4 33153 ros-rolling-moveit-setup-core-plugins_2.6.0-54-g6711436d3-2023.01.17.12.27_amd64.buildinfo
+ 00bf6627e2406d10598a02ba10a4701cb47715f9 60920 ros-rolling-moveit-setup-core-plugins_2.6.0-54-g6711436d3-2023.01.17.12.27_amd64.deb
+Checksums-Sha256:
+ dcb7eaa11114558fde13bde56447e59ed07fe937600b33cad9c3dde9d88234cc 5221456 ros-rolling-moveit-setup-core-plugins-dbgsym_2.6.0-54-g6711436d3-2023.01.17.12.27_amd64.ddeb
+ 6fd61703c133735fe6bf3b3d690be971057850ba563796b3788613b4f43b38a2 33153 ros-rolling-moveit-setup-core-plugins_2.6.0-54-g6711436d3-2023.01.17.12.27_amd64.buildinfo
+ de27df44a7d87db1bf6ddc13513a7e7cf0b61a47f65369ccc197527f4047ae54 60920 ros-rolling-moveit-setup-core-plugins_2.6.0-54-g6711436d3-2023.01.17.12.27_amd64.deb
+Files:
+ 6481dd7fb748ebe4adf8fa96187e38bb 5221456 debug optional ros-rolling-moveit-setup-core-plugins-dbgsym_2.6.0-54-g6711436d3-2023.01.17.12.27_amd64.ddeb
+ 70a0ff2712c20f721eea29f3ac76d9dd 33153 misc optional ros-rolling-moveit-setup-core-plugins_2.6.0-54-g6711436d3-2023.01.17.12.27_amd64.buildinfo
+ 6e22abe3387d42e7ad189e889b07adbb 60920 misc optional ros-rolling-moveit-setup-core-plugins_2.6.0-54-g6711436d3-2023.01.17.12.27_amd64.deb

@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Mon, 18 Jul 2022 00:00:00 -0000
+Source: ros-rolling-moveit-resources-fanuc-description
+Binary: ros-rolling-moveit-resources-fanuc-description
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.0.6-6-gedd4d05-2023.01.17.11.26
+Distribution: jammy
+Urgency: high
+Maintainer: Dave Coleman <dave@dav.ee>
+Changed-By: Dave Coleman <dave@dav.ee>
+Description:
+ ros-rolling-moveit-resources-fanuc-description - Fanuc Resources used for MoveIt testing
+Changes:
+ ros-rolling-moveit-resources-fanuc-description (2.0.6-6-gedd4d05-2023.01.17.11.26) jammy; urgency=high
+Checksums-Sha1:
+ f961dcb09c3959ae63b71cadd297fac6e7c08494 9170 ros-rolling-moveit-resources-fanuc-description_2.0.6-6-gedd4d05-2023.01.17.11.26_amd64.buildinfo
+ e95d02d693d9d4923e58189430c6bca6752a8ae0 127842 ros-rolling-moveit-resources-fanuc-description_2.0.6-6-gedd4d05-2023.01.17.11.26_amd64.deb
+Checksums-Sha256:
+ 26412087c247fb2e8315d5d46054b25c0fc305bbcd993e28c0250a3425572b8f 9170 ros-rolling-moveit-resources-fanuc-description_2.0.6-6-gedd4d05-2023.01.17.11.26_amd64.buildinfo
+ 5bb4ebe4f9322bc2a66232b9caf0ca1f6a787ea4a471df1107a4a5f991fd8977 127842 ros-rolling-moveit-resources-fanuc-description_2.0.6-6-gedd4d05-2023.01.17.11.26_amd64.deb
+Files:
+ 55088c928c3c289c2d075c33eadcba45 9170 misc optional ros-rolling-moveit-resources-fanuc-description_2.0.6-6-gedd4d05-2023.01.17.11.26_amd64.buildinfo
+ a197bae3522823dd26a539cd847899d9 127842 misc optional ros-rolling-moveit-resources-fanuc-description_2.0.6-6-gedd4d05-2023.01.17.11.26_amd64.deb

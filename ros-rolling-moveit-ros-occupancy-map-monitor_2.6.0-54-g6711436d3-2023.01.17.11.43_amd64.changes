@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 10 Nov 2022 00:00:00 -0000
+Source: ros-rolling-moveit-ros-occupancy-map-monitor
+Binary: ros-rolling-moveit-ros-occupancy-map-monitor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.6.0-54-g6711436d3-2023.01.17.11.43
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit-ros-occupancy-map-monitor - Components of MoveIt connecting to occupancy map
+Changes:
+ ros-rolling-moveit-ros-occupancy-map-monitor (2.6.0-54-g6711436d3-2023.01.17.11.43) jammy; urgency=high
+ .
+   * Merge PR #1553 <https://github.com/ros-planning/moveit2/issues/1553>: Improve cmake files
+   * Use standard exported targets: export_${PROJECT_NAME} -> ${PROJECT_NAME}Targets
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>)
+   * Contributors: Robert Haschke, Sebastian Jahr
+Checksums-Sha1:
+ 45f057b8feef9d25ee58d77b3582a4f64f530eef 4257126 ros-rolling-moveit-ros-occupancy-map-monitor-dbgsym_2.6.0-54-g6711436d3-2023.01.17.11.43_amd64.ddeb
+ 11c1396de80b03fd0a3d2524ee86ab2210bfd04a 27249 ros-rolling-moveit-ros-occupancy-map-monitor_2.6.0-54-g6711436d3-2023.01.17.11.43_amd64.buildinfo
+ 1d62dc40b41250a3393086d3eabc7261e37410c5 226320 ros-rolling-moveit-ros-occupancy-map-monitor_2.6.0-54-g6711436d3-2023.01.17.11.43_amd64.deb
+Checksums-Sha256:
+ 132f4ad34190c975712cfb545ea5439520ed0abf2eb68485b794bdf99cbfd1db 4257126 ros-rolling-moveit-ros-occupancy-map-monitor-dbgsym_2.6.0-54-g6711436d3-2023.01.17.11.43_amd64.ddeb
+ ad8b440a5dab83e69c32c5b45e0b052e2f94a070499960f8ce5612ad6f0397cc 27249 ros-rolling-moveit-ros-occupancy-map-monitor_2.6.0-54-g6711436d3-2023.01.17.11.43_amd64.buildinfo
+ 5eab41b51dbf2473c790afe76d824697862d21882c6c0fd64b63a47dd924a315 226320 ros-rolling-moveit-ros-occupancy-map-monitor_2.6.0-54-g6711436d3-2023.01.17.11.43_amd64.deb
+Files:
+ 63e2bedaa586653fdc4ecae5963055c2 4257126 debug optional ros-rolling-moveit-ros-occupancy-map-monitor-dbgsym_2.6.0-54-g6711436d3-2023.01.17.11.43_amd64.ddeb
+ d065b5b911964d09c8934c14e63614e2 27249 misc optional ros-rolling-moveit-ros-occupancy-map-monitor_2.6.0-54-g6711436d3-2023.01.17.11.43_amd64.buildinfo
+ 3dd9525e73a79dee14751680b0364cde 226320 misc optional ros-rolling-moveit-ros-occupancy-map-monitor_2.6.0-54-g6711436d3-2023.01.17.11.43_amd64.deb

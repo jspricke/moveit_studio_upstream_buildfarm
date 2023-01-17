@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Thu, 10 Nov 2022 00:00:00 -0000
+Source: ros-rolling-moveit-ros-visualization
+Binary: ros-rolling-moveit-ros-visualization
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.6.0-54-g6711436d3-2023.01.17.12.15
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit-ros-visualization - Components of MoveIt that offer visualization
+Changes:
+ ros-rolling-moveit-ros-visualization (2.6.0-54-g6711436d3-2023.01.17.12.15) jammy; urgency=high
+ .
+   * Check valid interactive marker pointer before trying to update pose (#1581 <https://github.com/ros-planning/moveit2/issues/1581>)
+   * Merge PR #1553 <https://github.com/ros-planning/moveit2/issues/1553>: Improve cmake files
+   * Use standard exported targets: export_${PROJECT_NAME} -> ${PROJECT_NAME}Targets
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>)
+   * Use pragma once as header include guard (#1525 <https://github.com/ros-planning/moveit2/issues/1525>)
+   * Remove __has_include statements (#1481 <https://github.com/ros-planning/moveit2/issues/1481>)
+   * Contributors: J. Javan, Robert Haschke, Sebastian Castro, Sebastian Jahr, Vatan Aksoy Tezer
+Checksums-Sha1:
+ 3fe486939b9b7a150abf442cd797eb6b2ea8cf45 40117292 ros-rolling-moveit-ros-visualization-dbgsym_2.6.0-54-g6711436d3-2023.01.17.12.15_amd64.ddeb
+ f2374592b9cc89028dca7e8a99f970a613338632 34082 ros-rolling-moveit-ros-visualization_2.6.0-54-g6711436d3-2023.01.17.12.15_amd64.buildinfo
+ af3468e42bbf326ae8f9d2af27fd58d409487d0b 680944 ros-rolling-moveit-ros-visualization_2.6.0-54-g6711436d3-2023.01.17.12.15_amd64.deb
+Checksums-Sha256:
+ 9b21822130d070c2e89179414280c0490c2306e700e18053a5f21f18c79e1647 40117292 ros-rolling-moveit-ros-visualization-dbgsym_2.6.0-54-g6711436d3-2023.01.17.12.15_amd64.ddeb
+ ad676bbbd4dc5ba2d05c3b3707d89fed280431e7c35d0fbb0bc9acee36074e67 34082 ros-rolling-moveit-ros-visualization_2.6.0-54-g6711436d3-2023.01.17.12.15_amd64.buildinfo
+ e74aa017cd96d117f20c42f94100365dfc5fc4f76fa31c53c710a07ba2b8563b 680944 ros-rolling-moveit-ros-visualization_2.6.0-54-g6711436d3-2023.01.17.12.15_amd64.deb
+Files:
+ 90929627982fd1f364e30ba5a84068e9 40117292 debug optional ros-rolling-moveit-ros-visualization-dbgsym_2.6.0-54-g6711436d3-2023.01.17.12.15_amd64.ddeb
+ 62a69947b53393702b8e3b1b75e4c121 34082 misc optional ros-rolling-moveit-ros-visualization_2.6.0-54-g6711436d3-2023.01.17.12.15_amd64.buildinfo
+ 9bf78b5e2f9b54d3ecabcb242e5fc7c2 680944 misc optional ros-rolling-moveit-ros-visualization_2.6.0-54-g6711436d3-2023.01.17.12.15_amd64.deb

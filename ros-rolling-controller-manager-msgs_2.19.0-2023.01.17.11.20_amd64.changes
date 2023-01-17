@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 06 Jan 2023 00:00:00 -0000
+Source: ros-rolling-controller-manager-msgs
+Binary: ros-rolling-controller-manager-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.19.0-2023.01.17.11.20
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-rolling-controller-manager-msgs - Messages and services for the controller manager.
+Changes:
+ ros-rolling-controller-manager-msgs (2.19.0-2023.01.17.11.20) jammy; urgency=high
+Checksums-Sha1:
+ df9d86d213c50a1d05fe7cfcf6cf593ea71d3bf1 1532248 ros-rolling-controller-manager-msgs-dbgsym_2.19.0-2023.01.17.11.20_amd64.ddeb
+ af77f3011ae748467ba1e469fb433a4842fb3270 14722 ros-rolling-controller-manager-msgs_2.19.0-2023.01.17.11.20_amd64.buildinfo
+ 63be327fe7faea4ef815adffc3bfe7b3063f19eb 199630 ros-rolling-controller-manager-msgs_2.19.0-2023.01.17.11.20_amd64.deb
+Checksums-Sha256:
+ e09e574c6459aa63d887e13574819c0d6a943db70840163991efa57f32319723 1532248 ros-rolling-controller-manager-msgs-dbgsym_2.19.0-2023.01.17.11.20_amd64.ddeb
+ 9ad93d5865954b2475c5a99012560a7ba264f329dc37da68465c432c8a87e682 14722 ros-rolling-controller-manager-msgs_2.19.0-2023.01.17.11.20_amd64.buildinfo
+ 064621d1e536041686d6ea5f331ed0f043a7566281a97c17a9323d3d926b3613 199630 ros-rolling-controller-manager-msgs_2.19.0-2023.01.17.11.20_amd64.deb
+Files:
+ 0569c85bcdc2ef0dfbf3706a31ad25bd 1532248 debug optional ros-rolling-controller-manager-msgs-dbgsym_2.19.0-2023.01.17.11.20_amd64.ddeb
+ 8a9fc5c20ec63f2489f95a62e58311ed 14722 misc optional ros-rolling-controller-manager-msgs_2.19.0-2023.01.17.11.20_amd64.buildinfo
+ 9acf1c10f33751aa12edf6081173302e 199630 misc optional ros-rolling-controller-manager-msgs_2.19.0-2023.01.17.11.20_amd64.deb

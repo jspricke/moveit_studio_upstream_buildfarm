@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Thu, 10 Nov 2022 00:00:00 -0000
+Source: ros-rolling-chomp-motion-planner
+Binary: ros-rolling-chomp-motion-planner
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.6.0-54-g6711436d3-2023.01.17.11.35
+Distribution: jammy
+Urgency: high
+Maintainer: Chittaranjan Srinivas Swaminathan <chitt@live.in>
+Changed-By: Chittaranjan Srinivas Swaminathan <chitt@live.in>
+Description:
+ ros-rolling-chomp-motion-planner - chomp_motion_planner
+Changes:
+ ros-rolling-chomp-motion-planner (2.6.0-54-g6711436d3-2023.01.17.11.35) jammy; urgency=high
+ .
+   * Replace C array with std::array in std::vector template argument to improve compatibility with clang compiler and libc++ (#1612 <https://github.com/ros-planning/moveit2/issues/1612>)
+     Co-authored-by: Tyler Weaver <mailto:tyler@picknik.ai>
+   * updated comment formatting for correct doxygen generation (#1582 <https://github.com/ros-planning/moveit2/issues/1582>)
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>)
+   * Remove __has_include statements (#1481 <https://github.com/ros-planning/moveit2/issues/1481>)
+   * Contributors: Michael Wrock, Sebastian Jahr, Vatan Aksoy Tezer, light-tech
+Checksums-Sha1:
+ e4dda0cd7c543d8e86fd9ac12a8ff531fb8bc46a 6928752 ros-rolling-chomp-motion-planner-dbgsym_2.6.0-54-g6711436d3-2023.01.17.11.35_amd64.ddeb
+ 19ed2f6795ea70aa7d7647e0a08a5a4b7b152c6d 27304 ros-rolling-chomp-motion-planner_2.6.0-54-g6711436d3-2023.01.17.11.35_amd64.buildinfo
+ 715f30acb1d41d3fd4fe65b98597fc05913749cd 99416 ros-rolling-chomp-motion-planner_2.6.0-54-g6711436d3-2023.01.17.11.35_amd64.deb
+Checksums-Sha256:
+ c0afeb4f73fba2e1e1a72787b1d9377a29911a4110873b4781dd34ce8364d308 6928752 ros-rolling-chomp-motion-planner-dbgsym_2.6.0-54-g6711436d3-2023.01.17.11.35_amd64.ddeb
+ 54230c398ae5eef5537f06a8f4d83098ffc2743c85d57c1461a81dbc31f7e07a 27304 ros-rolling-chomp-motion-planner_2.6.0-54-g6711436d3-2023.01.17.11.35_amd64.buildinfo
+ e4331e7c0b4b96ab09bb5074ef12c3645c9c9cd1977d5fa873b95b3aa97342fc 99416 ros-rolling-chomp-motion-planner_2.6.0-54-g6711436d3-2023.01.17.11.35_amd64.deb
+Files:
+ 8e758011c77a1a3f6aeed60fa59e48fd 6928752 debug optional ros-rolling-chomp-motion-planner-dbgsym_2.6.0-54-g6711436d3-2023.01.17.11.35_amd64.ddeb
+ 53ddc3970272146f2ec8b68cbe5633a7 27304 misc optional ros-rolling-chomp-motion-planner_2.6.0-54-g6711436d3-2023.01.17.11.35_amd64.buildinfo
+ dc8c8ec66cdc458b1e440564942b3f51 99416 misc optional ros-rolling-chomp-motion-planner_2.6.0-54-g6711436d3-2023.01.17.11.35_amd64.deb

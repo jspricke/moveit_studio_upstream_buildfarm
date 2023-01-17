@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 06 Jan 2023 00:00:00 -0000
+Source: ros-rolling-ros2controlcli
+Binary: ros-rolling-ros2controlcli
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.19.0-2023.01.17.12.48
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-rolling-ros2controlcli - The ROS 2 command line tools for ROS2 Control.
+Changes:
+ ros-rolling-ros2controlcli (2.19.0-2023.01.17.12.48) jammy; urgency=high
+Checksums-Sha1:
+ ddcbcf637a1e837e1e94cc5f0df1250eb01bed88 16847 ros-rolling-ros2controlcli_2.19.0-2023.01.17.12.48_amd64.buildinfo
+ 2a95a7315f3e55bf3e1eaba2346eb7bc36154e77 18478 ros-rolling-ros2controlcli_2.19.0-2023.01.17.12.48_amd64.deb
+Checksums-Sha256:
+ c3c24125b85896edf3d4061df504261e28e56cc508eae99c1b8872cdf885a6fa 16847 ros-rolling-ros2controlcli_2.19.0-2023.01.17.12.48_amd64.buildinfo
+ 4015fccdb9f324476e1d1ebbc3a3a8263ac254dbdcce27a4ddc2e205d7cbe6b4 18478 ros-rolling-ros2controlcli_2.19.0-2023.01.17.12.48_amd64.deb
+Files:
+ d9267bdabbc8d463af9ffe7eb9dd686b 16847 misc optional ros-rolling-ros2controlcli_2.19.0-2023.01.17.12.48_amd64.buildinfo
+ 8ddcda6ea2943f7079b916fb0a4426ad 18478 misc optional ros-rolling-ros2controlcli_2.19.0-2023.01.17.12.48_amd64.deb

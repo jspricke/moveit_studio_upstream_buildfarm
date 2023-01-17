@@ -160,6 +160,9 @@ ros2controlcli:
 rosparam_shortcuts:
   ubuntu:
   - ros-rolling-rosparam-shortcuts
+rqt_controller_manager:
+  ubuntu:
+  - ros-rolling-rqt-controller-manager
 rviz_marker_tools:
   ubuntu:
   - ros-rolling-rviz-marker-tools

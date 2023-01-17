@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Thu, 10 Nov 2022 00:00:00 -0000
+Source: ros-rolling-moveit-runtime
+Binary: ros-rolling-moveit-runtime
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.6.0-54-g6711436d3-2023.01.17.12.07
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit-runtime - moveit_runtime meta package contains MoveIt packages that are ess
+Changes:
+ ros-rolling-moveit-runtime (2.6.0-54-g6711436d3-2023.01.17.12.07) jammy; urgency=high
+ .
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>)
+   * Uncomment moveit_ros_perception dependency (#1463 <https://github.com/ros-planning/moveit2/issues/1463>)
+   * Contributors: AndyZe, Sebastian Jahr
+Checksums-Sha1:
+ 35e276406ed4fc61c99301ea2df860649f6e1ca1 10798 ros-rolling-moveit-runtime_2.6.0-54-g6711436d3-2023.01.17.12.07_amd64.buildinfo
+ 7ba0931ca4a5adca18adbe8e00ebbf4e80675826 6208 ros-rolling-moveit-runtime_2.6.0-54-g6711436d3-2023.01.17.12.07_amd64.deb
+Checksums-Sha256:
+ 54ff5a1ba9304a378dc4f95d70bb30505d4c932e0bdee4c23bb98cde22bc0dc1 10798 ros-rolling-moveit-runtime_2.6.0-54-g6711436d3-2023.01.17.12.07_amd64.buildinfo
+ 60a6d27b5087ab8d5e635fcd27b41c1ee5802cf42f86a9b2557748e58cb7afa4 6208 ros-rolling-moveit-runtime_2.6.0-54-g6711436d3-2023.01.17.12.07_amd64.deb
+Files:
+ f925e7bcebacee8cd2c314fd71752552 10798 misc optional ros-rolling-moveit-runtime_2.6.0-54-g6711436d3-2023.01.17.12.07_amd64.buildinfo
+ 0993c3df119bc57c6a0b04fc6348effe 6208 misc optional ros-rolling-moveit-runtime_2.6.0-54-g6711436d3-2023.01.17.12.07_amd64.deb

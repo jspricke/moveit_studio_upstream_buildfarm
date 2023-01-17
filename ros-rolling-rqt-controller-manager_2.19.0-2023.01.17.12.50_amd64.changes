@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 06 Jan 2023 00:00:00 -0000
+Source: ros-rolling-rqt-controller-manager
+Binary: ros-rolling-rqt-controller-manager
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.19.0-2023.01.17.12.50
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-rolling-rqt-controller-manager - Graphical frontend for interacting with the controller manager.
+Changes:
+ ros-rolling-rqt-controller-manager (2.19.0-2023.01.17.12.50) jammy; urgency=high
+Checksums-Sha1:
+ f5a6b8431434e5b3e7ad26a4fa3531aec589deff 6529 ros-rolling-rqt-controller-manager_2.19.0-2023.01.17.12.50_amd64.buildinfo
+ d50dd914b5e8a761949ec0b8b1cf28433ee9b047 32100 ros-rolling-rqt-controller-manager_2.19.0-2023.01.17.12.50_amd64.deb
+Checksums-Sha256:
+ ed4f590f072212f894c569e3ce956c4ea29a6d2a18a9562faf745cd92df27602 6529 ros-rolling-rqt-controller-manager_2.19.0-2023.01.17.12.50_amd64.buildinfo
+ 5716f9f614a75e6f926ad94bf8e20fbec576550d3482b6c455fedd587c8e1698 32100 ros-rolling-rqt-controller-manager_2.19.0-2023.01.17.12.50_amd64.deb
+Files:
+ e800f5e098f0b78bae999e5a58aa6a85 6529 misc optional ros-rolling-rqt-controller-manager_2.19.0-2023.01.17.12.50_amd64.buildinfo
+ 14f145e71a1d179c40e8f35116c4f3b9 32100 misc optional ros-rolling-rqt-controller-manager_2.19.0-2023.01.17.12.50_amd64.deb
