@@ -7,18 +7,6 @@ repositories:
     type: git
     url: https://github.com/ros-controls/control_toolbox.git
     version: melodic-devel
-  moveit:
-    type: git
-    url: https://github.com/jspricke/moveit.git
-    version: debian_unstable
-  moveit_msgs:
-    type: git
-    url: https://github.com/ros-planning/moveit_msgs.git
-    version: master
-  moveit_resources:
-    type: git
-    url: https://github.com/jspricke/moveit_resources.git
-    version: debian_unstable
   object_recognition_msgs:
     type: git
     url: https://github.com/wg-perception/object_recognition_msgs.git
