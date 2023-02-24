@@ -1,17 +1,17 @@
 Package: ros-control-msgs
 Architecture: amd64
-Version: 1.5.2-6-g36e2e30-2023.02.17.16.05
+Version: 1.5.2-6-g36e2e30-2023.02.24.15.26
 Priority: optional
 Section: misc
 Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
 Installed-Size: 2626
 Depends: libactionlib-msgs-dev, libgeometry-msgs-dev, libstd-msgs-dev, libtrajectory-msgs-dev, python3-actionlib-msgs, python3-geometry-msgs, python3-std-msgs, python3-trajectory-msgs, ros-actionlib-msgs, ros-geometry-msgs, ros-message-runtime, ros-std-msgs, ros-trajectory-msgs
-Filename: ./ros-control-msgs_1.5.2-6-g36e2e30-2023.02.17.16.05_amd64.deb
-Size: 112256
-MD5sum: 44d509d00cfd4619a38a40c00a5216e6
-SHA1: f57e1d16570bb08738696d8b32455c288e5c1703
-SHA256: 595b9f9e07bd18485148c8be69caa9ff6e26d9a84d07dfaa1515c629259755f4
-SHA512: 889d07e3853edb7062f4c702745db0402f2eeaa2057b40ef684a3372512fec1dfe3a9c2c513f7061beb143fc00e7fc33c7485a8ad2036bfe76650c0d1b04e790
+Filename: ./ros-control-msgs_1.5.2-6-g36e2e30-2023.02.24.15.26_amd64.deb
+Size: 112260
+MD5sum: d94f37768e2308832bd8d7fb1193a376
+SHA1: 2d09d2e8cbf2135cc4c993de4dbf3e122393d7db
+SHA256: 4bd871ff22a6432410e17799d1bd6a3bb5f8453b9bffcea1763f65d96db8408e
+SHA512: 1e6ba819456f8b1a7c8a90927d182ab537e081c0c57975b86dc8fbd75ef9c50fd532f0bd017274fabbbdf2c46bd02f23dd8a8f0f07e20b98aa17fd18f6be65a7
 Homepage: http://ros.org/wiki/control_msgs
 Description: control_msgs contains base messages and actions useful for controlling robots.
  It provides representations for controller setpoints and joint and cartesian trajectories.
