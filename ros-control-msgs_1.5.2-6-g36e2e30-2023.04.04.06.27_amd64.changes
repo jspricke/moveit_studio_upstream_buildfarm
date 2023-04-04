@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Wed, 11 Mar 2020 00:00:00 -0000
+Source: ros-control-msgs
+Binary: ros-control-msgs
+Architecture: amd64
+Version: 1.5.2-6-g36e2e30-2023.04.04.06.27
+Distribution: sid
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-control-msgs - control_msgs contains base messages and actions useful for contro
+Changes:
+ ros-control-msgs (1.5.2-6-g36e2e30-2023.04.04.06.27) sid; urgency=high
+ .
+   * Bump CMake version to avoid CMP0048 (#40 <https://github.com/ros-controls/control_msgs/issues/40>)
+   * Contributors: Shane Loretz
+Checksums-Sha1:
+ b79e641843bffe4e37a1c98c967aef302c0f0d6b 7667 ros-control-msgs_1.5.2-6-g36e2e30-2023.04.04.06.27_amd64.buildinfo
+ 4ffb2790d7f9d1fb7cb58e4fa088f1a3887bd947 112256 ros-control-msgs_1.5.2-6-g36e2e30-2023.04.04.06.27_amd64.deb
+Checksums-Sha256:
+ 6a83e8abb0060343fd5d78cd653957424120049a752be68fb05500814240e299 7667 ros-control-msgs_1.5.2-6-g36e2e30-2023.04.04.06.27_amd64.buildinfo
+ 66f9afb35ef971cc2945b1674963b564bb68d1be376198e0f35c0add1eca690d 112256 ros-control-msgs_1.5.2-6-g36e2e30-2023.04.04.06.27_amd64.deb
+Files:
+ 08aea2765590d662749afc89efa0d40e 7667 misc optional ros-control-msgs_1.5.2-6-g36e2e30-2023.04.04.06.27_amd64.buildinfo
+ 9063861dd814a71cb3fbdf6b09308154 112256 misc optional ros-control-msgs_1.5.2-6-g36e2e30-2023.04.04.06.27_amd64.deb
